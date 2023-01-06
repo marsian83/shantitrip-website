@@ -1,0 +1,23 @@
+/* scrollbar width  */
+* {
+  font-family: Poppins, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  background: rgb(var(--background));
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--text-primary));
+}
+
+/* Scrollbar hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--primary));
+}

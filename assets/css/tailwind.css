@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply my-3 p-3 rounded-lg w-max bg-primary text-secondary border border-[rgb(var(--primary))] hover:bg-background hover:color-primary transition;
+  }
+  .btn-secondary {
+    @apply my-3 p-3 rounded-lg w-max bg-background color-primary hover:bg-primary hover:text-secondary transition;
+  }
+}
+
+@layer utilities {
+  .p-page {
+    @apply px-[8vw];
+  }
+  /* bg */
+  .bg-background {
+    background-color: rgb(var(--background));
+  }
+  .bg-foreground {
+    background-color: rgb(var(--foreground));
+  }
+  .bg-primary {
+    background-color: rgb(var(--primary));
+  }
+  /* text color */
+  .text-primary {
+    color: rgb(var(--text-primary));
+  }
+  .text-secondary {
+    color: rgb(var(--text-secondary));
+  }
+  .color-primary {
+    color: rgb(var(--primary));
+  }
+}

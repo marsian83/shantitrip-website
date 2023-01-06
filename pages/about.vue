@@ -1,0 +1,133 @@
+<template>
+  <div class="body">
+    <section
+      class="hero h-screen bg-cover p-page flex flex-col justify-center text-secondary"
+    >
+      <h4 class="text-4xl">OUR AIM</h4>
+      <h2 class="text-8xl">Is to simplify travel</h2>
+    </section>
+    <section class="p-page">
+      <h5 class="pt-16 pb-6 text-4xl font-black text-center">Our Story</h5>
+      <p class="px-10 text-center text-xl">
+        We founded ShantiTrip Holidays on one clear premise: use our local
+        expertise and smarts to curate unique, stress-free travel experiences
+        that travelers do not get from conventional tour operators.
+      </p>
+    </section>
+    <section class="p-page mt-20">
+      <div class="flex flex-row items-center justify-center py-24">
+        <img
+          src="/images/product-of-himachal.png"
+          class="h-full w-1/2 basis-1/2"
+          alt="product-of-himachal"
+        />
+        <div class="basis-1/2 flex flex-col justify-center px-10">
+          <h5 class="pb-6 text-2xl font-black color-primary">
+            A product of Himachal
+          </h5>
+          <p class="text-lg">
+            Our story goes 3 years back when Pankaj, the Co-founder, started
+            Destination Of Peace Homestays (DOP) in Kasol — a place where
+            travelers could feel relaxed, peaceful, and free, just like at home.
+            Travelling to new and uncharted places usually brings with it its
+            own set of anxieties and stresses — something Pankaj aimed at
+            alleviating with DOP.
+            <br />
+            <br />
+            Also, being a Himachali, Pankaj could help travelers plan their
+            itineraries and book their transport, accomodation, food
+            arrangements — basically everything related to travel. DOP soon
+            became a mandatory destination for our guests whenever they were in
+            Himachal, it soon became their Home in Himachal.
+          </p>
+        </div>
+      </div>
+      <div class="flex flex-row-reverse items-center justify-center py-24">
+        <img
+          src="/images/wholesome-travel.png"
+          class="h-full w-1/2 basis-1/2"
+          alt="product-of-himachal"
+        />
+        <div class="basis-1/2 flex flex-col justify-center px-10">
+          <h5 class="pb-6 text-2xl font-black color-primary">
+            Wholesome travel, only!
+          </h5>
+          <p class="text-lg">
+            With 3+ years of closely interacting with guests and understanding
+            their needs, we started ShantiTrip Holidays to replicate the
+            experience we were providing our guests at DOP to travelers across
+            India. This meant removing the small stresses, hassles, and
+            inconveniences that usually go unattended when you travel with
+            conventional tour operators.
+            <br /><br />
+            For us, travel is not just about beautiful destinations and hotel
+            rooms; it is also about the parts that connect these experiences
+            together. We look at travel as a whole, and pay attention to all and
+            everything that makes up for a fulfilling trip. ShantiTrip Holidays
+            is our attempt at providing travelers with a wholesome, end-to-end
+            travel experience.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="p-page">
+      <h5 class="pt-16 pb-6 text-4xl font-black text-center">Our Team</h5>
+      <div class="team mt-12 flex flex-row justify-evenly">
+        <div class="team-card">
+          <img src="/images/pankaj.png" alt="pankaj-founder" />
+          <h3>Pankaj</h3>
+          <h4>Founder</h4>
+        </div>
+        <div class="team-card">
+          <img src="/images/lakshay.png" alt="lakshay-cofounder" />
+          <h3>Lakshay</h3>
+          <h4>Co Founder</h4>
+        </div>
+        <div class="team-card">
+          <img src="/images/mustafa.png" alt="mustafa-director" />
+          <h3>Mustafa</h3>
+          <h4>Director</h4>
+        </div>
+        <div class="team-card">
+          <img src="/images/nitish.png" alt="nitish-planner" />
+          <h3>Nitish</h3>
+          <h4>Trip Planner</h4>
+        </div>
+      </div>
+    </section>
+  </div>
+</template>
+
+<script setup></script>
+
+<style scoped>
+.hero {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(var(--text-primary), 0.49),
+      transparent,
+      rgba(var(--text-primary), 0.49)
+    ),
+    linear-gradient(
+      to right,
+      rgba(var(--text-primary), 0.83),
+      transparent,
+      rgba(var(--text-primary), 0.83)
+    ),
+    url("https://cdn.pixabay.com/photo/2020/03/03/20/31/boat-4899802_1280.jpg");
+  text-shadow: 0px 0px 8px rgba(var(--text-primary), 0.83);
+}
+.team-card {
+  @apply flex flex-col justify-between items-center gap-4 basis-[18%];
+}
+.team-card img {
+  @apply aspect-square w-[80%];
+  border-radius: 50%;
+}
+.team-card h3 {
+  @apply text-xl font-black;
+}
+.team-card h4 {
+  @apply text-lg font-black opacity-60;
+}
+</style>
