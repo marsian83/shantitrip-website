@@ -3,7 +3,7 @@
     <nav class="navbar flex flex-row justify-between p-page py-4 w-screen">
       <div class="navbar-branding left">
         <img
-          src="header.png"
+          src="/header.png"
           class="h-12"
           id="header-logo"
           alt="ShantiTrip Holidays logo"
