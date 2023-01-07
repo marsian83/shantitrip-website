@@ -59,13 +59,61 @@
             </p>
           </div>
         </div>
-        <div class="basis-1/2 aspect-square flex flex-row justify-evenly">
-          <div class="basis-1/3 flex flex-col justify-evenly">
-            <div class="basis-2/3 flex justify-center items-center"></div>
-            <div class="basis-1/3 flex justify-center items-center"></div>
+        <div
+          class="seasonal-trending-trips basis-1/2 aspect-square h-[95%] w-[95%] flex justify-center items-center"
+        >
+          <div class="w-[95%] h-[95%] flex flex-row justify-evenly">
+            <div class="basis-1/3 flex flex-col justify-between items-center">
+              <div class="seasonal-trending-card h-[64%]">
+                <img
+                  :src="seasonalTrips[0].thumbnailUrl"
+                  :alt="`${seasonalTrips[0].name} - trending this season`"
+                />
+                <h2>{{ seasonalTrips[0].name }}</h2>
+              </div>
+              <div class="seasonal-trending-card h-[32%]">
+                <img
+                  :src="seasonalTrips[1].thumbnailUrl"
+                  :alt="`${seasonalTrips[1].name} - trending this season`"
+                />
+                <h2>{{ seasonalTrips[1].name }}</h2>
+              </div>
+            </div>
+            <div class="basis-1/3 flex flex-col justify-between items-center">
+              <div class="seasonal-trending-card h-[32%]">
+                <img
+                  :src="seasonalTrips[2].thumbnailUrl"
+                  :alt="`${seasonalTrips[2].name} - trending this season`"
+                />
+                <h2>{{ seasonalTrips[2].name }}</h2>
+              </div>
+              <div class="seasonal-trending-card h-[64%]">
+                <img
+                  :src="seasonalTrips[3].thumbnailUrl"
+                  :alt="`${seasonalTrips[3].name} - trending this season`"
+                />
+                <h2>{{ seasonalTrips[3].name }}</h2>
+              </div>
+            </div>
+            <div class="basis-1/3 flex flex-col justify-between items-center">
+              <div class="seasonal-trending-card h-[64%]">
+                <img
+                  :src="seasonalTrips[4].thumbnailUrl"
+                  :alt="`${seasonalTrips[4].name} - trending this season`"
+                />
+                <h2>{{ seasonalTrips[4].name }}</h2>
+              </div>
+              <div
+                class="text-primary h-[32%] flex justify-center items-center"
+              >
+                <h2
+                  class="cursor-pointer text-3xl hover:color-primary hover:scale-105 transition"
+                >
+                  <NuxtLink to="/trips"> View All </NuxtLink>
+                </h2>
+              </div>
+            </div>
           </div>
-          <div class="basis-1/3 flex flex-col justify-evenly"></div>
-          <div class="basis-1/3 flex flex-col justify-evenly"></div>
         </div>
       </div>
     </section>
@@ -135,6 +183,9 @@ const destinations = [
       "https://images.pexels.com/photos/2132126/pexels-photo-2132126.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
 ];
+const { data } = await useFetch("/trips.json");
+const trending = [0, 1, 2, 3, 4];
+const seasonalTrips = data._rawValue.filter((t) => t.id in trending);
 </script>
 
 <style scoped>
@@ -154,6 +205,26 @@ const destinations = [
 }
 .heading {
   @apply pb-10 pt-20 text-3xl font-bold;
+}
+.seasonal-trending-trips:has(.seasonal-trending-card:hover) .seasonal-trending-card{
+  @apply opacity-75;
+}
+.seasonal-trending-trips:hover .seasonal-trending-card:hover {
+  @apply opacity-100 blur-none;
+  transform: scale(1.03) translateY(-1%);
+}
+.seasonal-trending-card {
+  @apply w-[90%] relative cursor-pointer rounded-3xl overflow-hidden flex justify-center items-center;
+  transition: 800ms;
+}
+.seasonal-trending-card img {
+  @apply w-full h-full object-cover brightness-[69%];
+  transition: 500ms;
+}
+.seasonal-trending-card h2 {
+  @apply absolute text-center text-lg leading-5 px-2 font-semibold  text-secondary;
+  letter-spacing: 0.84px;
+  text-shadow: 0px 0px 5px rgba(var(--text-primary), 0.83);
 }
 .why-us-card {
   box-shadow: 0px 0px 25px rgba(var(--text-primary), 0.15);
