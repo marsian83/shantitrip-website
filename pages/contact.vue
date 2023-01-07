@@ -3,7 +3,7 @@
     <section
       class="hero p-page h-screen bg-cover bg-fixed flex flex-col justify-center items-center"
     >
-      <h1 class="text-secondary text-7xl">Let's Get in Touch</h1>
+      <h1 class="text-secondary text-7xl font-semibold">Let's Get in Touch</h1>
       <p class="text-secondary text-2xl my-4 text-center">
         Being travellers and explorers ourselves, we are always excited to talk
         to new people and share perspectives. Call, email, or say hello

@@ -1,7 +1,7 @@
 <template>
   <footer class="p-page pb-5 bg-foreground mt-60">
     <div class="CTA-block bg-background w-max p-8 mx-auto rounded-md">
-      <h2 class="text-3xl font-black text-center">
+      <h2 class="text-3xl font-bold text-center">
         Feeling <span class="color-primary">Left</span> Out?
       </h2>
       <p class="my-5 italic opacity-80">

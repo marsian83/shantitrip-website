@@ -153,7 +153,7 @@ const destinations = [
   text-shadow: 0px 0px 10px rgba(var(--text-primary), 0.38);
 }
 .heading {
-  @apply pb-10 pt-20 text-3xl font-black;
+  @apply pb-10 pt-20 text-3xl font-bold;
 }
 .why-us-card {
   box-shadow: 0px 0px 25px rgba(var(--text-primary), 0.15);
@@ -174,9 +174,9 @@ const destinations = [
   @apply aspect-square text-6xl color-primary;
 }
 .why-us-card h6 {
-  @apply font-semibold;
+  @apply font-bold;
 }
 .why-us-card p {
-  @apply text-center font-thin text-sm opacity-90;
+  @apply text-center font-medium text-sm opacity-80;
 }
 </style>

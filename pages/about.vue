@@ -3,11 +3,11 @@
     <section
       class="hero h-screen bg-cover p-page flex flex-col justify-center text-secondary"
     >
-      <h4 class="text-4xl">OUR AIM</h4>
-      <h2 class="text-8xl">Is to simplify travel</h2>
+      <h4 class="text-3xl font-light">OUR AIM</h4>
+      <h2 class="text-8xl font-semibold">Is to simplify travel</h2>
     </section>
     <section class="p-page">
-      <h5 class="pt-16 pb-6 text-4xl font-black text-center">Our Story</h5>
+      <h5 class="pt-16 pb-6 text-4xl font-bold text-center">Our Story</h5>
       <p class="px-10 text-center text-xl">
         We founded ShantiTrip Holidays on one clear premise: use our local
         expertise and smarts to curate unique, stress-free travel experiences
@@ -71,7 +71,7 @@
       </div>
     </section>
     <section class="p-page">
-      <h5 class="pt-16 pb-6 text-4xl font-black text-center">Our Team</h5>
+      <h5 class="pt-16 pb-6 text-4xl font-bold text-center">Our Team</h5>
       <div class="team mt-12 flex flex-row justify-evenly">
         <div class="team-card">
           <img src="/images/pankaj.png" alt="pankaj-founder" />
@@ -125,9 +125,9 @@
   border-radius: 50%;
 }
 .team-card h3 {
-  @apply text-xl font-black;
+  @apply text-xl font-bold;
 }
 .team-card h4 {
-  @apply text-lg font-black opacity-60;
+  @apply text-lg font-semibold opacity-60;
 }
 </style>

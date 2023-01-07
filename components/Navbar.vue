@@ -2,15 +2,17 @@
   <header class="fixed z-50">
     <nav class="navbar flex flex-row justify-between p-page py-4 w-screen">
       <div class="navbar-branding left">
-        <img
-          src="/header.png"
-          class="h-12"
-          id="header-logo"
-          alt="ShantiTrip Holidays logo"
-        />
+        <NuxtLink to="/">
+          <img
+            src="/header.png"
+            class="h-12"
+            id="header-logo"
+            alt="ShantiTrip Holidays logo"
+          />
+        </NuxtLink>
       </div>
       <div class="right">
-        <ul class="navbar-items flex flex-row items-center h-full">
+        <ul class="navbar-items flex flex-row items-center h-full gap-12">
           <li class="navbar-item">
             <NuxtLink to="/">Home</NuxtLink>
           </li>
@@ -19,6 +21,9 @@
           </li>
           <li class="navbar-item">
             <NuxtLink to="/trips">Trips</NuxtLink>
+          </li>
+          <li class="navbar-item">
+            <NuxtLink to="/destinations">Destinations</NuxtLink>
           </li>
           <li class="navbar-item">
             <NuxtLink to="/contact">Contact</NuxtLink>
@@ -60,7 +65,6 @@ onMounted(() => {
   box-shadow: 0px -2px 6px rgb(var(--text-primary));
 }
 .navbar-item {
-  padding-left: 3rem;
   font-size: 1.2rem;
 }
 .navbar:not(.nav-fix) .navbar-branding {
@@ -78,5 +82,8 @@ onMounted(() => {
 .navbar .navbar-item a:hover {
   color: rgb(var(--primary));
   transition: 300ms;
+}
+.navbar-item:has(.router-link-exact-active) {
+  display: none;
 }
 </style>
