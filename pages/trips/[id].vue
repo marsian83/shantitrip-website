@@ -71,6 +71,49 @@
         </ul>
       </div>
     </div>
+    <hr class="my-14" />
+    <h2 class="text-center text-3xl text-primary font-bold mb-8">
+      Spoil yourself with <span class="color-primary">Choices</span>
+    </h2>
+    <p class="text-center text-primary text-lg opacity-80">
+      We make sure you get a choice in almost everything, here are some common
+      concerns travellers have and the choices we provide as answers to them
+    </p>
+    <div class="flex flex-row justify-between mt-16">
+      <div class="basis-[30%]">
+        <h2 class="text-2xl font-semibold mb-4">
+          Where will I <span class="color-primary">Stay</span> ?
+        </h2>
+        <ul v-for="s in trip.stay" class="flex px-6 text-lg flex-col list-disc">
+          <li class="my-1">{{ s }}</li>
+        </ul>
+      </div>
+      <div class="basis-[30%]">
+        <h2 class="text-2xl font-semibold mb-4">
+          How will I <span class="color-primary">Travel</span> ?
+        </h2>
+        <ul
+          v-for="t in trip.travel"
+          class="flex px-6 text-lg flex-col list-disc"
+        >
+          <li class="my-1">{{ t }}</li>
+        </ul>
+      </div>
+      <div class="basis-[30%]">
+        <h2 class="text-2xl font-semibold mb-4">
+          What about <span class="color-primary">Food</span> ?
+        </h2>
+        <ul v-for="f in trip.food" class="flex px-6 text-lg flex-col list-disc">
+          <li class="my-1">{{ f }}</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="features">
+    <hr class="my-14" />
+    <h2 class="text-center text-3xl text-primary font-bold mb-8">
+      Key <span class="color-primary">Features</span> of this trip
+    </h2>
   </section>
   <div>
     <p>{{ trip }}</p>
@@ -79,12 +122,8 @@
 
 <script setup>
 const { id } = useRoute().params;
-const { data } = await useFetch("/trips.json");
-if (!data.value) {
-  throw createError({ statusCode: 404, statusMessage: "trip not found" });
-}
-const trip = data._rawValue.filter((t) => t.id == id)[0];
-if (!trip) {
+const { data: trip } = await useFetch(`/api/trips/${id}`);
+if (!trip.value) {
   throw createError({ statusCode: 404, statusMessage: "trip not found" });
 }
 </script>

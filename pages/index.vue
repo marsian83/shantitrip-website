@@ -183,9 +183,11 @@ const destinations = [
       "https://images.pexels.com/photos/2132126/pexels-photo-2132126.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
 ];
-const { data } = await useFetch("/trips.json");
 const trending = [0, 1, 2, 3, 4];
-const seasonalTrips = data._rawValue.filter((t) => t.id in trending);
+let seasonalTrips = [];
+for (const trend of trending) {
+  seasonalTrips.push((await useFetch(`/api/trips/${trend}`)).data._rawValue);
+}
 </script>
 
 <style scoped>
@@ -206,7 +208,8 @@ const seasonalTrips = data._rawValue.filter((t) => t.id in trending);
 .heading {
   @apply pb-10 pt-20 text-3xl font-bold;
 }
-.seasonal-trending-trips:has(.seasonal-trending-card:hover) .seasonal-trending-card{
+.seasonal-trending-trips:has(.seasonal-trending-card:hover)
+  .seasonal-trending-card {
   @apply opacity-75;
 }
 .seasonal-trending-trips:hover .seasonal-trending-card:hover {
