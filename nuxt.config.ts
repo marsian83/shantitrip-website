@@ -4,6 +4,9 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: "ShantiTrip Holidays",
+      htmlAttrs: {
+        lang: 'en'
+      },
       meta: [
         {
           name: "description",

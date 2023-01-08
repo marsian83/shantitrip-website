@@ -64,45 +64,60 @@
         >
           <div class="w-[95%] h-[95%] flex flex-row justify-evenly">
             <div class="basis-1/3 flex flex-col justify-between items-center">
-              <div class="seasonal-trending-card h-[64%]">
+              <NuxtLink
+                :to="`/trips/${seasonalTrips[0].id}`"
+                class="seasonal-trending-card h-[64%]"
+              >
                 <img
                   :src="seasonalTrips[0].thumbnailUrl"
                   :alt="`${seasonalTrips[0].name} - trending this season`"
                 />
                 <h2>{{ seasonalTrips[0].name }}</h2>
-              </div>
-              <div class="seasonal-trending-card h-[32%]">
+              </NuxtLink>
+              <NuxtLink
+                :to="`/trips/${seasonalTrips[1].id}`"
+                class="seasonal-trending-card h-[32%]"
+              >
                 <img
                   :src="seasonalTrips[1].thumbnailUrl"
                   :alt="`${seasonalTrips[1].name} - trending this season`"
                 />
                 <h2>{{ seasonalTrips[1].name }}</h2>
-              </div>
+              </NuxtLink>
             </div>
             <div class="basis-1/3 flex flex-col justify-between items-center">
-              <div class="seasonal-trending-card h-[32%]">
+              <NuxtLink
+                :to="`/trips/${seasonalTrips[2].id}`"
+                class="seasonal-trending-card h-[32%]"
+              >
                 <img
                   :src="seasonalTrips[2].thumbnailUrl"
                   :alt="`${seasonalTrips[2].name} - trending this season`"
                 />
                 <h2>{{ seasonalTrips[2].name }}</h2>
-              </div>
-              <div class="seasonal-trending-card h-[64%]">
+              </NuxtLink>
+              <NuxtLink
+                :to="`/trips/${seasonalTrips[3].id}`"
+                class="seasonal-trending-card h-[64%]"
+              >
                 <img
                   :src="seasonalTrips[3].thumbnailUrl"
                   :alt="`${seasonalTrips[3].name} - trending this season`"
                 />
                 <h2>{{ seasonalTrips[3].name }}</h2>
-              </div>
+              </NuxtLink>
             </div>
             <div class="basis-1/3 flex flex-col justify-between items-center">
-              <div class="seasonal-trending-card h-[64%]">
+              <NuxtLink
+                :to="`/trips/${seasonalTrips[4].id}`"
+                class="seasonal-trending-card h-[64%]"
+              >
                 <img
                   :src="seasonalTrips[4].thumbnailUrl"
                   :alt="`${seasonalTrips[4].name} - trending this season`"
                 />
                 <h2>{{ seasonalTrips[4].name }}</h2>
-              </div>
+              </NuxtLink>
               <div
                 class="text-primary h-[32%] flex justify-center items-center"
               >

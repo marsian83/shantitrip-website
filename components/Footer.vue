@@ -32,7 +32,7 @@
       </NuxtLink>
     </div>
     <div class="content flex flex-col text-secondary">
-      <h6 class="text-3xl opacity-60 mt-2 self-center">Useful Links</h6>
+      <p class="text-3xl opacity-60 mt-2 self-center">Useful Links</p>
       <div class="links flex flex-row justify-evenly mt-8">
         <div class="flex flex-col">
           <NuxtLink to="terms-and-conditions">Terms & Conditions</NuxtLink>
@@ -44,14 +44,14 @@
           <NuxtLink to="trips">Trips</NuxtLink>
         </div>
         <div class="flex flex-col">
-          <NuxtLink to="privacy-policy">Home</NuxtLink>
-          <NuxtLink to="terms-and-conditions">About Us</NuxtLink>
-          <NuxtLink to="terms-and-conditions">Help</NuxtLink>
+          <NuxtLink to="/">Home</NuxtLink>
+          <NuxtLink to="/about">About Us</NuxtLink>
+          <NuxtLink to="/help">Help</NuxtLink>
         </div>
         <div class="flex flex-col">
-          <NuxtLink to="terms-and-conditions">Contact Us</NuxtLink>
-          <NuxtLink to="privacy-policy">Partner with us</NuxtLink>
-          <NuxtLink to="privacy-policy">Support</NuxtLink>
+          <NuxtLink to="/contact">Contact Us</NuxtLink>
+          <NuxtLink to="/agents">Partner with us</NuxtLink>
+          <NuxtLink to="/contact">Support</NuxtLink>
         </div>
       </div>
       <hr class="my-5" />
