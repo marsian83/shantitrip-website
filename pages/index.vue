@@ -27,9 +27,13 @@
         <NuxtLink
           class="basis-[18%] aspect-[12/17]"
           v-for="destination in destinations"
+          :key="destination.id"
           :to="`/destinations/${destination.name}`"
         >
-          <Card1 :text="destination.name" :imageUrl="destination.imageUrl" />
+          <Card1
+            :text="destination.name"
+            :imageUrl="destination.thumbnailUrl"
+          />
         </NuxtLink>
         <NuxtLink class="basis-[18%]" to="/destinations">
           <div class="view-more-card flex items-center justify-center h-full">
@@ -176,28 +180,7 @@
 </template>
 
 <script setup>
-const destinations = [
-  {
-    name: "Manali",
-    imageUrl:
-      "https://images.pexels.com/photos/9605458/pexels-photo-9605458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-  },
-  {
-    name: "Kasol",
-    imageUrl:
-      "https://images.pexels.com/photos/7846558/pexels-photo-7846558.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2s",
-  },
-  {
-    name: "Spiti",
-    imageUrl:
-      "https://images.pexels.com/photos/13979460/pexels-photo-13979460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-  },
-  {
-    name: "Jibhi",
-    imageUrl:
-      "https://images.pexels.com/photos/2132126/pexels-photo-2132126.jpeg?auto=compress&cs=tinysrgb&w=600",
-  },
-];
+const { data: destinations } = useFetch("/api/destinations");
 const trending = [0, 1, 2, 3, 4];
 let seasonalTrips = [];
 for (const trend of trending) {

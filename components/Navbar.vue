@@ -38,11 +38,16 @@
 </template>
 
 <script setup>
+const noFixPages = ["destinations"];
+
 onMounted(() => {
   const navbar = document.querySelector(".navbar");
   const fixNavbar = () => {
     if (window.scrollY > 49) {
-      navbar.classList.add("nav-fix");
+      let { name: routeName } = useRoute();
+      if (!noFixPages.includes(routeName)) {
+        navbar.classList.add("nav-fix");
+      }
     } else {
       navbar.classList.remove("nav-fix");
     }

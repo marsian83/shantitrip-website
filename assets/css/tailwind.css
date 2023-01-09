@@ -15,6 +15,9 @@
   .p-page {
     @apply px-[8vw];
   }
+  .pl-page {
+    @apply pl-[8vw];
+  }
   /* bg */
   .bg-background {
     background-color: rgb(var(--background));
@@ -34,5 +37,9 @@
   }
   .color-primary {
     color: rgb(var(--primary));
+  }
+  /* transition */
+  .transition-300 {
+    transition: 300ms;
   }
 }
