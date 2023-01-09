@@ -14,12 +14,17 @@
       know-how.
     </p>
   </section>
-  <div class="search p-page flex flex-row gap-6 py-16 justify-center items-center">
+  <div
+    class="search p-page flex flex-row gap-6 py-16 justify-center items-center"
+  >
     <input
+      id="searchbar"
       type="text"
-      placeholder="Start typing to Search..."
+      placeholder="Search by name, theme, destination, accomodation etc..."
       class="basis-2/3"
-    /><span class="material-icons font-black text-3xl ml-[-4rem] opacity-70">&#xe8b6;</span>
+    /><span class="material-icons font-black text-3xl ml-[-4rem] opacity-70"
+      >&#xe8b6;</span
+    >
   </div>
   <section class="trips p-page py-10">
     <div class="trip-cards flex flex-row flex-wrap justify-evenly gap-y-10 p-0">
@@ -31,7 +36,37 @@
 </template>
 
 <script setup>
-const { data: trips } = await useFetch("/trips.json");
+const { data: tripsData } = await useFetch("/api/trips");
+let trips = ref(tripsData._rawValue);
+async function renderSearchResults(query) {
+  trips.value = tripsData._rawValue;
+  if (query && query != "") {
+    trips.value = trips.value.filter(
+      (t) =>
+        t.themes.join(",").toLowerCase().includes(query) ||
+        t.stay.join(",").toLowerCase().includes(query) ||
+        t.places.join(",").toLowerCase().includes(query) ||
+        t.tags.toLowerCase().includes(query) ||
+        t.name.toLowerCase().includes(query) ||
+        t.description.toLowerCase().includes(query)
+    );
+  }
+}
+
+onMounted(() => {
+  var searchbar = document.getElementById("searchbar");
+
+  var searchTimer = setTimeout(function () {
+    renderSearchResults(searchbar.value);
+  }, 800);
+
+  searchbar.addEventListener("input", function () {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(function () {
+      renderSearchResults(searchbar.value);
+    }, 800);
+  });
+});
 </script>
 
 <style scoped>

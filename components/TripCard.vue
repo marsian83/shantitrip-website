@@ -1,6 +1,6 @@
 <template>
   <div class="card flex flex-row h-full w-full rounded-lg overflow-hidden">
-    <div class="basis-5/12">
+    <div class="basis-[40%]">
       <img
         :src="trip.thumbnailUrl"
         class="object-cover w-full h-full"
@@ -8,7 +8,7 @@
         loading="lazy"
       />
     </div>
-    <div class="flex flex-col basis-7/12 gap-2 justify-between">
+    <div class="flex flex-col basis-[60%] gap-2 justify-between">
       <div class="p-3">
         <h2 class="trip-name font-semibold text-xl opacity-75">
           {{ trip.name }}
@@ -20,12 +20,12 @@
             {{ `${trip.days}D / ${trip.days - 1}N` }}
           </span>
         </h3>
-        <div class="">
-          <p class="opacity-80 my-1">Travel Themes :<br /></p>
-          <span
+        <p class="opacity-80 my-1">Travel Themes :</p>
+        <div class="flex flex-row flex-wrap">
+          <p
             v-for="theme in trip.themes"
-            class="mx-1 py-1 px-2 rounded-full text-secondary bg-[rgba(var(--foreground),0.69)]"
-            >{{ theme }}</span
+            class="m-1 py-1 px-2 rounded-full text-secondary bg-[rgba(var(--foreground),0.69)]"
+            >{{ theme }}</p
           >
         </div>
       </div>

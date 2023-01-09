@@ -40,7 +40,7 @@
         </div>
       </div>
     </div>
-    <button class="btn-secondary mb-[-3rem] text-xl">Customize Trip</button>
+    <!-- <button class="btn-secondary mb-[-3rem] text-xl">Customize Trip</button> -->
   </section>
   <section class="info p-page py-10">
     <div class="catchphrase">
@@ -108,7 +108,7 @@
       Key <span class="color-primary">Features</span> of this trip
     </h2>
     <div class="feature-cards flex flex-row flex-wrap justify-between my-20">
-      <div v-for="feature in trip.features" class="basis-[45%]">
+      <div v-for="feature in trip.features" class="basis-[45%] my-8">
         <h2 class="text-2xl font-semibold mb-4">
           <!-- <span
             class="material-icons text-3xl aspect-square rounded-full text-primary bg-background p-2"

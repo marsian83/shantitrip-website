@@ -3,6 +3,9 @@ export default defineEventHandler(async (event: any): Promise<any> => {
     let { query }: { query: string } = getQuery(event);
     query = query && query.toLowerCase().split(" ");
     const trips = await $fetch("/api/trips");
+    if (!query || query == "") {
+      return trips;
+    }
     let response: any[] = [];
     for (const q of query) {
       response = trips.filter(

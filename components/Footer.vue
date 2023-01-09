@@ -35,13 +35,13 @@
       <p class="text-3xl opacity-60 mt-2 self-center">Useful Links</p>
       <div class="links flex flex-row justify-evenly mt-8">
         <div class="flex flex-col">
-          <NuxtLink to="terms-and-conditions">Terms & Conditions</NuxtLink>
-          <NuxtLink to="privacy-policy">Privacy Policy</NuxtLink>
-          <NuxtLink to="cookie-policy">Cookie Policy</NuxtLink>
+          <NuxtLink to="/terms-and-conditions">Terms & Conditions</NuxtLink>
+          <NuxtLink to="/privacy-policy">Privacy Policy</NuxtLink>
+          <NuxtLink to="/cookie-policy">Cookie Policy</NuxtLink>
         </div>
         <div class="flex flex-col">
-          <NuxtLink to="destinations">Destinations</NuxtLink>
-          <NuxtLink to="trips">Trips</NuxtLink>
+          <NuxtLink to="/destinations">Destinations</NuxtLink>
+          <NuxtLink to="/trips">Trips</NuxtLink>
         </div>
         <div class="flex flex-col">
           <NuxtLink to="/">Home</NuxtLink>
