@@ -27,14 +27,14 @@
       </div>
       <div class="absolute bottom-[10vh]">
         <button
-          class="rounded-full aspect-square w-14 mx-4 text-xl text-secondary transition-300 bg-[rgba(var(--background),0.2)] hover:bg-[rgba(var(--background),0.8)]"
+          class="rounded-full aspect-square w-14 mx-4 text-xl text-secondary backdrop-blur-sm transition-300 bg-[rgba(var(--background),0.2)] hover:bg-[rgba(var(--background),0.8)] hover:text-primary active:scale-50"
           :id="destination.id"
           onclick="document.getElementById(`trips-${this.id}`).scrollBy({left:-200, behavior: 'smooth'})"
         >
           {{ "<" }}
         </button>
         <button
-          class="rounded-full aspect-square w-14 mx-4 text-xl text-secondary transition-300 bg-[rgba(var(--background),0.2)] hover:bg-[rgba(var(--background),0.8)]"
+          class="rounded-full aspect-square w-14 mx-4 text-xl text-secondary backdrop-blur-sm transition-300 bg-[rgba(var(--background),0.2)] hover:bg-[rgba(var(--background),0.8)] hover:text-primary active:scale-50"
           :id="destination.id"
           onclick="document.getElementById(`trips-${this.id}`).scrollBy({left:+200, behavior: 'smooth'})"
         >
