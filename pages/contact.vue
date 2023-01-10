@@ -30,7 +30,7 @@
           </h4>
         </div>
       </div>
-      <p class="absolute bottom-8 text-secondary text-xl">scroll down</p>
+      <ScrollHint class="absolute bottom-4"/>
     </section>
     <section class="contact-form-section p-page flex flex-row mt-20">
       <div class="basis-1/2 flex flex-col gap-4 justify-center">

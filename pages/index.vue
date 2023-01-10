@@ -10,9 +10,12 @@
           <div class="hero-text-item" id="bl">Travel</div>
           <div class="hero-text-item" id="br">More</div>
         </div>
-        <button class="btn-secondary self-center hover:scale-105">
+        <NuxtLink
+          to="/contact"
+          class="btn-secondary self-center hover:scale-105"
+        >
           Let's plan something
-        </button>
+        </NuxtLink>
       </div>
       <div class="text-secondary self-center mb-5 opacity-80 text-lg">
         With curated and seamless travel experiences, we are taking the task out
@@ -176,6 +179,45 @@
         </div>
       </div>
     </section>
+    <hr class="mt-20" />
+    <section class="nature-trips p-page">
+      <h5 class="heading">
+        Be one with <span class="color-primary">Nature</span>
+      </h5>
+      <p class="mt-[-1.5rem] mb-[1rem] text-lg opacity-80">
+        Explore trips related to nature
+      </p>
+      <div
+        class="carousel relative grid grid-flow-col overflow-x-auto overflow-y-hidden gap-6"
+      >
+        <NuxtLink
+          class="carousel-card aspect-[9/12]"
+          v-for="trip in natureTrips"
+          :to="`/trips/${trip.id}`"
+        >
+          <Card1 :text="trip.name" :imageUrl="trip.thumbnailUrl" cover="true" />
+        </NuxtLink>
+      </div>
+    </section>
+    <section class="spirituality-trips p-page">
+      <h5 class="heading">
+        Experience the <span class="color-primary">Adventure</span>
+      </h5>
+      <p class="mt-[-1.5rem] mb-[1rem] text-lg opacity-80">
+        Explore trips related to adventure
+      </p>
+      <div
+        class="carousel relative grid grid-flow-col overflow-x-auto overflow-y-hidden gap-6"
+      >
+        <NuxtLink
+          class="carousel-card aspect-[9/12]"
+          v-for="trip in adventureTrips"
+          :to="`/trips/${trip.id}`"
+        >
+          <Card1 :text="trip.name" :imageUrl="trip.thumbnailUrl" cover="true" />
+        </NuxtLink>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -186,6 +228,12 @@ let seasonalTrips = [];
 for (const trend of trending) {
   seasonalTrips.push((await useFetch(`/api/trips/${trend}`)).data._rawValue);
 }
+const { data: natureTrips } = useFetch("/api/trips/search", {
+  query: { query: "nature" },
+});
+const { data: adventureTrips } = useFetch("/api/trips/search", {
+  query: { query: "adventure" },
+});
 </script>
 
 <style scoped>
@@ -250,5 +298,19 @@ for (const trend of trending) {
 }
 .why-us-card p {
   @apply text-center font-medium text-sm opacity-80;
+}
+.carousel {
+  grid-auto-columns: 20%;
+  overscroll-behavior-inline: contain;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.carousel-card {
+  scroll-snap-align: start;
 }
 </style>

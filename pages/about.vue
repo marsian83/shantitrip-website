@@ -13,6 +13,7 @@
         expertise and smarts to curate unique, stress-free travel experiences
         that travelers do not get from conventional tour operators.
       </p>
+      <ScrollHint class="absolute bottom-4 left-[45%]" />
     </section>
     <section class="p-page mt-20">
       <div class="flex flex-row items-center justify-center py-24">

@@ -19,7 +19,7 @@
           :id="`trips-${destination.id}`"
           class="destination-trips relative grid grid-flow-col overflow-x-auto overflow-y-hidden gap-6"
         >
-          <NuxtLink v-for="trip in destination.trips" :to="`/trips/${trip.id}`">
+          <NuxtLink class="destination-trip-card transition-300" v-for="trip in destination.trips" :to="`/trips/${trip.id}`">
             <Card2 :text="trip.name" :imageUrl="trip.thumbnailUrl" />
           </NuxtLink>
           <div class="w-[200%]"></div>
@@ -85,5 +85,12 @@ for await (const destination of destinations.value) {
 }
 .destination-trips::-webkit-scrollbar {
   display: none;
+}
+.destination-trips:has(.destination-trip-card:hover)
+  .destination-trip-card {
+  @apply opacity-75 blur-sm scale-95 ;
+}
+.destination-trips:hover .destination-trip-card:hover {
+  @apply opacity-100 blur-none scale-100;
 }
 </style>

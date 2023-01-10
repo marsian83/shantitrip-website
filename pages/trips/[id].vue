@@ -1,6 +1,6 @@
 <template>
   <section
-    class="hero h-screen p-page bg-cover flex flex-col justify-center items-center bg-fixed"
+    class="hero h-screen p-page bg-cover bg-center flex flex-col justify-center items-center bg-fixed"
     :style="`background-image: linear-gradient(to bottom,rgba(var(--text-primary), 0.49),rgba(var(--text-primary), 0.08),rgba(var(--text-primary), 0.49)), linear-gradient(to right,rgba(var(--text-primary), 0.38),transparent,rgba(var(--text-primary), 0.38)),url('${trip.gallery[0]}');`"
   >
     <div class="hero-title flex flex-col text-secondary text-center gap-4">
@@ -41,6 +41,7 @@
       </div>
     </div>
     <!-- <button class="btn-secondary mb-[-3rem] text-xl">Customize Trip</button> -->
+    <ScrollHint class="absolute bottom-4 text-shadow-xl"/>
   </section>
   <section class="info p-page py-10">
     <div class="catchphrase">

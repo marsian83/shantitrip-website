@@ -42,4 +42,18 @@
   .transition-300 {
     transition: 300ms;
   }
+  /* text-shadown */
+  .text-shadow-sm{
+    text-shadow: 0px 0px 5px rgb(var(--text-primary));
+  }
+  .text-shadow-md{
+    text-shadow: 0px 0px 8px rgb(var(--text-primary));
+  }
+  .text-shadow-lg{
+    text-shadow: 0px 0px 13px rgb(var(--text-primary));
+  }
+  .text-shadow-xl{
+    text-shadow: 0px 0px 20px rgb(var(--text-primary));
+  }
+  /**/
 }

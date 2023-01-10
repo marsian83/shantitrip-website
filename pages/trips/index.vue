@@ -31,6 +31,9 @@
       <div class="basis-[45%] trip-card" v-for="trip in trips">
         <TripCard :trip="trip" />
       </div>
+      <p v-if="!trips || trips.length == 0" class="text-lg opacity-80">
+        No <span class="color-primary"> Results</span> Found
+      </p>
     </div>
   </section>
 </template>
