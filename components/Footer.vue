@@ -25,7 +25,7 @@
     <div class="w-max">
       <NuxtLink to="/">
         <img
-          src="/header.png"
+          src="/header.webp"
           class="footer-branding h-20 invert brightness-0"
           alt="shantitrip-flat-logo"
         />

@@ -9,8 +9,8 @@ const trips = [
     days: 9,
     cost: 19800,
     themes: ["nature", "art", "culture", "spirituality"],
-    thumbnailUrl: "/images/trips/0.jpg",
-    gallery: ["/images/trips/0.jpg"],
+    thumbnailUrl: "/images/trips/0.webp",
+    gallery: ["/images/trips/0.webp"],
     description:
       "Spiti is one of the most bizarre and gorgeous places to see. At an altitude of 4,000+ meters, the Spitian landscape is so distinct from other valleys in Himachal, you'll think you're in some another country and another time.",
     places: ["Shimla", "Sarahan", "Nako", "Sangla", "Kaza"],
@@ -100,8 +100,8 @@ const trips = [
     days: 6,
     cost: 13200,
     themes: ["nature", "trekking", "culture", "leisure"],
-    thumbnailUrl: "/images/trips/1.jpg",
-    gallery: ["/images/trips/1.jpg"],
+    thumbnailUrl: "/images/trips/1.webp",
+    gallery: ["/images/trips/1.webp"],
     description:
       "Astonishing, beautiful, colorful, delightful, energizing\u2026 we can find words starting with all letters of the alphabet and still fail to put the essence of Himachal in words. With this curated itinerary, along with the sights, the experiences, and the food, we hope to give you a taste of all that Himachal has to offer.",
     places: ["Kasol ", "Malana ", "Kutla ", "Tosh ", "Jibhi"],
@@ -193,8 +193,8 @@ const trips = [
     days: 7,
     cost: 15400,
     themes: ["culture", "adventure", "sightseeing"],
-    thumbnailUrl: "/images/trips/2.jpg",
-    gallery: ["/images/trips/2.jpg"],
+    thumbnailUrl: "/images/trips/2.webp",
+    gallery: ["/images/trips/2.webp"],
 
     description:
       "A trip for those who want a perfect mix of cultural sightseeing and adventure in Himachal Pradesh, with a little spice and a whole lot of magic!",
@@ -287,8 +287,8 @@ const trips = [
     days: 8,
     cost: 17600,
     themes: ["adventure", "sightseeing", "culture"],
-    thumbnailUrl: "/images/trips/3.jpg",
-    gallery: ["/images/trips/3.jpg"],
+    thumbnailUrl: "/images/trips/3.webp",
+    gallery: ["/images/trips/3.webp"],
     description:
       "A trip that offers you your very own tour of the paradise that is Himachal Pradesh. Explore all the places Himachal has earned its fame for \u2014 Shimla, Kullu, and Manali.",
     places: ["Shimla ", "Kasol ", "Old manali ", "Solang valley ", "Tosh"],
@@ -377,8 +377,8 @@ const trips = [
     days: 7,
     cost: 15400,
     themes: ["adventure", "hippie", "culture", "nature"],
-    thumbnailUrl: "/images/trips/4.jpg",
-    gallery: ["/images/trips/4.jpg"],
+    thumbnailUrl: "/images/trips/4.webp",
+    gallery: ["/images/trips/4.webp"],
 
     description:
       "Witness Himachal in all its springtime glory. Traverse the green, blooming landscapes of Kasol, Malana, Manali, and Jibhi. Explore previously uncharted places, food, and cultural experiences that this season of abundance has to offer.",
@@ -475,8 +475,8 @@ const trips = [
     days: 6,
     cost: 13200,
     themes: ["hippie", "adventure", "culture", "nature"],
-    thumbnailUrl: "/images/trips/5.jpg",
-    gallery: ["/images/trips/5.jpg"],
+    thumbnailUrl: "/images/trips/5.webp",
+    gallery: ["/images/trips/5.webp"],
     description:
       "Calling all stoners! If getting high and partying is what\u2019s on your mind, this is the perfect trip for you. Spend 6 glorious days vibing in Himachal \u2014 surrounded by the natural beauty and serenity of the mountains, its valleys, its springs, and its waterfalls.",
     places: [
@@ -578,8 +578,8 @@ const trips = [
     days: 7,
     cost: 15400,
     themes: ["offseason", "relaxation", "snow"],
-    thumbnailUrl: "/images/trips/6.jpg",
-    gallery: ["/images/trips/6.jpg"],
+    thumbnailUrl: "/images/trips/6.webp",
+    gallery: ["/images/trips/6.webp"],
     description:
       "Start 2021 on a chill note with a visit to the snowclad landscapes of Kasol, Tosh, and Kutla. Witness the majesty of the magnificent Himalayas as you go on snow-treks amidst gushing waterfalls, pine trees, and a serene and relatively tourist-free landscape.",
     places: ["Kasol ", "Tosh ", "Kutla ", "Budhaban"],
@@ -676,8 +676,8 @@ const trips = [
     days: 6,
     cost: 13200,
     themes: ["offseason", "adventure", "relaxation", "snow"],
-    thumbnailUrl: "/images/trips/7.jpg",
-    gallery: ["/images/trips/7.jpg"],
+    thumbnailUrl: "/images/trips/7.webp",
+    gallery: ["/images/trips/7.webp"],
     description:
       "A trip for those who want to enjoy complete leisure and relaxation with little activity, while enjoying all the beauty and serenity Himachal has to offer.",
     places: ["Parashar lake ", "Tosh ", "Kasol"],
@@ -767,8 +767,8 @@ const trips = [
     days: 5,
     cost: 11000,
     themes: ["backpackers", "solo", "trekking", "adventure"],
-    thumbnailUrl: "/images/trips/8.jpg",
-    gallery: ["/images/trips/8.jpg"],
+    thumbnailUrl: "/images/trips/8.webp",
+    gallery: ["/images/trips/8.webp"],
     description:
       "A perfect escape for those long, extended weekends where you just want to get together with your friends, spouse or family along with a change of air and scenery.",
     places: ["Manali ", "Solang valley ", "Rohtang pass"],

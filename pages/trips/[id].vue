@@ -148,7 +148,7 @@
     <div class="flex flex-row my-16">
       <div class="basis-1/2">
         <img
-          src="/images/confused.png"
+          src="/images/confused.webp"
           class="w-full h-full obejct-cover"
           alt="confused? let's discuss"
         />

@@ -18,7 +18,7 @@
     <section class="p-page mt-20">
       <div class="flex flex-row items-center justify-center py-24">
         <img
-          src="/images/product-of-himachal.png"
+          src="/images/product-of-himachal.webp"
           class="h-full w-1/2 basis-1/2"
           alt="product-of-himachal"
         />
@@ -45,7 +45,7 @@
       </div>
       <div class="flex flex-row-reverse items-center justify-center py-24">
         <img
-          src="/images/wholesome-travel.png"
+          src="/images/wholesome-travel.webp"
           class="h-full w-1/2 basis-1/2"
           alt="product-of-himachal"
         />
@@ -75,22 +75,22 @@
       <h5 class="pt-16 pb-6 text-4xl font-bold text-center">Our Team</h5>
       <div class="team mt-12 flex flex-row justify-evenly">
         <div class="team-card">
-          <img src="/images/pankaj.png" alt="pankaj-founder" />
+          <img src="/images/pankaj.webp" alt="pankaj-founder" />
           <h3>Pankaj</h3>
           <h4>Founder</h4>
         </div>
         <div class="team-card">
-          <img src="/images/lakshay.png" alt="lakshay-cofounder" />
+          <img src="/images/lakshay.webp" alt="lakshay-cofounder" />
           <h3>Lakshay</h3>
           <h4>Co Founder</h4>
         </div>
         <div class="team-card">
-          <img src="/images/mustafa.png" alt="mustafa-director" />
+          <img src="/images/mustafa.webp" alt="mustafa-director" />
           <h3>Mustafa</h3>
           <h4>Director</h4>
         </div>
         <div class="team-card">
-          <img src="/images/nitish.png" alt="nitish-planner" />
+          <img src="/images/nitish.webp" alt="nitish-planner" />
           <h3>Nitish</h3>
           <h4>Trip Planner</h4>
         </div>

@@ -4,7 +4,7 @@
       <div class="navbar-branding left">
         <NuxtLink to="/">
           <img
-            src="/header.png"
+            src="/header.webp"
             class="h-12"
             id="header-logo"
             alt="ShantiTrip Holidays logo"
