@@ -1,5 +1,5 @@
 <template>
-  <NuxtLoadingIndicator />
+  <Preloader />
   <Navbar />
   <slot />
 </template>
