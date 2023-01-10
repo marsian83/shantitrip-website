@@ -9,7 +9,7 @@
     <span class="material-icons head-scroll-down" id="head-scroll-down3">
       &#xe5cf;
     </span>
-    <h5 class="text-secondary text-xl font-extralight tracking-widest">
+    <h5 class="text-secondary text-base font-extralight tracking-widest">
       SCROLL DOWN
     </h5>
   </div>
@@ -19,7 +19,7 @@
 
 <style scoped>
 .head-scroll-down {
-  @apply absolute bottom-20 text-secondary text-3xl;
+  @apply absolute bottom-16 text-secondary text-xl;
 }
 
 #head-scroll-down1 {
