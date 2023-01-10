@@ -19,7 +19,11 @@
           :id="`trips-${destination.id}`"
           class="destination-trips relative grid grid-flow-col overflow-x-auto overflow-y-hidden gap-6"
         >
-          <NuxtLink class="destination-trip-card transition-300" v-for="trip in destination.trips" :to="`/trips/${trip.id}`">
+          <NuxtLink
+            class="destination-trip-card transition-300"
+            v-for="trip in destination.trips"
+            :to="`/trips/${trip.id}`"
+          >
             <Card2 :text="trip.name" :imageUrl="trip.thumbnailUrl" />
           </NuxtLink>
           <div class="w-[200%]"></div>
@@ -53,6 +57,25 @@ for await (const destination of destinations.value) {
     `/api/destinations/trips/${destination.id}`
   );
 }
+
+const {
+  query: { destination },
+} = useRoute();
+
+if (destination && Number(destination) > destinations.value.length - 1) {
+  throw createError({
+    statusCode: 404,
+    statusMessage: "destination not found",
+  });
+}
+
+onMounted(() => {
+  if (destination) {
+    document
+      .querySelector(".all-destinations")
+      .scrollTo({ top: Number(destination) * 1000, behavior: "auto" });
+  }
+});
 </script>
 
 <style scoped>
@@ -86,9 +109,8 @@ for await (const destination of destinations.value) {
 .destination-trips::-webkit-scrollbar {
   display: none;
 }
-.destination-trips:has(.destination-trip-card:hover)
-  .destination-trip-card {
-  @apply opacity-75 blur-sm scale-95 ;
+.destination-trips:has(.destination-trip-card:hover) .destination-trip-card {
+  @apply opacity-75 blur-sm scale-95;
 }
 .destination-trips:hover .destination-trip-card:hover {
   @apply opacity-100 blur-none scale-100;

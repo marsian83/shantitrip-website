@@ -31,7 +31,7 @@
           class="basis-[18%] aspect-[12/17]"
           v-for="destination in destinations"
           :key="destination.id"
-          :to="`/destinations/${destination.name}`"
+          :to="`/destinations?destination=${destination.id}`"
         >
           <Card1
             :text="destination.name"
