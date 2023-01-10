@@ -53,9 +53,10 @@
 definePageMeta({ layout: "immersive-no-footer" });
 const { data: destinations } = await useFetch("/api/destinations");
 for await (const destination of destinations.value) {
-  destination["trips"] = await $fetch(
+  const { data: destinationTrips } = await useFetch(
     `/api/destinations/trips/${destination.id}`
   );
+  destination["trips"] = destinationTrips.value;
 }
 
 const {
