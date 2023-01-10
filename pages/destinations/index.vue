@@ -3,7 +3,7 @@
     <section
       v-for="destination in destinations"
       :class="`${destination.name}-destination`"
-      class="destination relative pl-page h-screen bg-cover bg-fixed bg-center flex flex-row justify-center items-center"
+      class="destination relative pl-page h-screen bg-cover bg-fixed bg-center flex flex-row justify-center items-center bg-foreground"
       :style="`background-image: linear-gradient(to bottom, rgba(var(--foreground),1),rgba(var(--foreground),0.38),rgba(var(--foreground),1)) , url('${destination.thumbnailUrl}');`"
     >
       <div class="destination-info basis-1/2">
