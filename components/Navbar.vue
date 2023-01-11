@@ -1,6 +1,6 @@
 <template>
-  <header class="fixed z-50">
-    <nav class="navbar flex flex-row justify-between p-page py-4 w-screen">
+  <header class="fixed z-50 mobile:bottom-0">
+    <nav class="navbar flex flex-row justify-between p-page py-4 w-screen widescreen-only">
       <div class="navbar-branding left">
         <NuxtLink to="/">
           <img
