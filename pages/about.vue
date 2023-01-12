@@ -80,8 +80,8 @@
           <h4>Founder</h4>
         </div>
         <div class="team-card">
-          <img src="/images/lakshay.webp" alt="lakshay-cofounder" />
-          <h3>Lakshay</h3>
+          <img src="/images/keshav.webp" alt="lakshay-cofounder" />
+          <h3>Keshav</h3>
           <h4>Co Founder</h4>
         </div>
         <div class="team-card">

@@ -8,19 +8,26 @@
         Every once in a while, we send out a newsletter featuring the latest and
         best in travel. Subscribe to never miss out.
       </p>
-      <div class="flex flex-row justify-evenly h-10">
+      <form
+        class="flex flex-row justify-evenly h-10"
+        action="https://formspree.io/f/mjvdvqwr"
+        method="POST"
+      >
         <input
+          name="email"
           type="email"
           class="border-2 border-solid border-[rgb(var(--foreground))] rounded-md px-2 basis-[73%]"
           placeholder="Enter your email"
           autocomplete="email"
+          required
         />
         <button
+          type="submit"
           class="btn-secondary m-0 px-2 py-0 border-2 border-solid border-[rgb(var(--primary))] basis-[20%]"
         >
           Subscribe
         </button>
-      </div>
+      </form>
     </div>
     <div class="w-max">
       <NuxtLink to="/">

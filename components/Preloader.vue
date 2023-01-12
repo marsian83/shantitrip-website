@@ -3,9 +3,10 @@
     class="fixed top-0 left-0 h-screen w-screen z-[999] flex flex-col gap-6 justify-center items-center backdrop-blur-lg bg-[#0a0a0a69]"
     v-if="loading"
   >
-    <div class="spinner">
+    <!-- <div class="spinner">
       <div class="spinner-in"></div>
-    </div>
+    </div> -->
+    <img class="spinner" src="/images/loader.webp" alt="shantitrip-loader" />
     <p class="loading-text">Loading</p>
   </div>
 </template>
@@ -23,11 +24,11 @@ nuxtApp.hook("page:finish", () => {
 
 <style scoped>
 .spinner {
-  border: 0.5rem dotted #ffffff;
-  border-radius: 50%;
+  /* border: 0.5rem dotted #ffffff; */
+  /* border-radius: 50%; */
   width: 20vh;
   height: 20vh;
-  padding: 2rem;
+  /* padding: 2rem; */
   animation: spinner-anim 1500ms infinite;
 }
 .spinner-in {

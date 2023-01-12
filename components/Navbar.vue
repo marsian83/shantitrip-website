@@ -34,6 +34,7 @@
         </ul>
       </div>
     </nav>
+    <nav class="mobile-only mobile-navbar"></nav>
   </header>
 </template>
 

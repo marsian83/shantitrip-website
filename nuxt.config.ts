@@ -5,10 +5,11 @@ export default defineNuxtConfig({
     head: {
       title: "ShantiTrip Holidays",
       htmlAttrs: {
-        lang: 'en'
+        lang: "en",
       },
       meta: [
         {
+          hid: "description",
           name: "description",
           content:
             "We are a young startup based in Himachal Pradesh, passionate about designing personalized trips and curating niche experiences",
@@ -23,7 +24,7 @@ export default defineNuxtConfig({
         {
           rel: "preconnect",
           href: "https://fonts.gstatic.com",
-          crossorigin: "anonymous"
+          crossorigin: "anonymous",
         },
         {
           rel: "stylesheet",
