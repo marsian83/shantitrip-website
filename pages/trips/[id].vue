@@ -15,7 +15,7 @@
           class="material-icons text-3xl aspect-square rounded-full text-primary bg-background p-2"
           >&#xef63;</span
         >
-        <h3 class="text-3xl font-medium">${{ trip.cost }}</h3>
+        <h3 class="text-3xl font-medium">₹{{ trip.cost }}</h3>
       </div>
       <div class="flex flex-row items-center gap-2">
         <span
