@@ -33,8 +33,8 @@
         class="bottom-0 w-full bg-[rgba(var(--foreground),0.18)] flex flex-row justify-between px-6 py-3"
       >
         <div class="flex flex-col gap-1">
-          <h2 class="opacity-85 text-xl">${{ trip.cost }}</h2>
-          <p class="text-xs opacity-80">${{ trip.cost / trip.days }} / day</p>
+          <h2 class="opacity-85 text-xl">₹{{ trip.cost }}</h2>
+          <p class="text-xs opacity-80">₹{{ trip.cost / trip.days }} / day</p>
         </div>
         <NuxtLink :to="`/trips/${trip.id}`">
           <button class="btn-primary py-2 m-0">View Trip</button>
