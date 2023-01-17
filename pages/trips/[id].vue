@@ -5,7 +5,9 @@
   >
     <div class="hero-title flex flex-col text-secondary text-center gap-4">
       <h2 class="text-6xl font-bold mobile:text-4xl">{{ trip.name }}</h2>
-      <p class="text-xl font-medium mobile:mt-8 mobile:text-sm">{{ trip.description }}</p>
+      <p class="text-xl font-medium mobile:mt-8 mobile:text-sm">
+        {{ trip.description }}
+      </p>
     </div>
     <div
       class="p-4 rounded-3xl flex flex-row justify-evenly w-full backdrop-blur-sm my-10 text-secondary bg-[rgba(var(--foreground),0.64)] mobile:flex-col-reverse mobile:gap-y-12"
@@ -41,14 +43,29 @@
       </div>
     </div>
     <!-- <button class="btn-secondary mb-[-3rem] text-xl">Customize Trip</button> -->
-    <ScrollHint class="absolute bottom-4 text-shadow-xl"/>
+    <ScrollHint class="absolute bottom-4 text-shadow-xl" />
   </section>
   <section class="info p-page py-10">
     <div class="catchphrase">
-      <h2 class="text-3xl font-semibold mobile:text-center mobile:pb-5">{{ trip.punchline }}</h2>
-      <p class="my-4 text-lg font-light mobile:text-justify">{{ trip.summary }}</p>
+      <h2 class="text-3xl font-semibold mobile:text-center mobile:pb-5">
+        {{ trip.punchline }}
+      </h2>
+      <p class="my-4 text-lg font-light mobile:text-justify">
+        {{ trip.summary }}
+      </p>
     </div>
-    <div class="flex flex-row justify-between mt-16 mobile:flex-col mobile:gap-y-10">
+    <div id="gallery-carousel" class="flex flex-row overflow-x-scroll gap-x-8">
+      <img
+        class="h-[30vh] object-cover rounded-xl cursor-pointer transition-300 hover:scale-[98%] hover:shadow-2xl mobile:h-[20vh]"
+        v-for="image in trip.gallery"
+        :src="image"
+        :alt="`${trip.name}_gallery-${trip.gallery.indexOf(image)}`"
+        @click="showImage(image)"
+      />
+    </div>
+    <div
+      class="flex flex-row justify-between mt-16 mobile:flex-col mobile:gap-y-10"
+    >
       <div class="basis-[45%] mobile:basis-auto">
         <h2 class="text-3xl font-semibold mb-4">
           This Trip is <span class="color-primary">Perfect</span> for
@@ -76,7 +93,9 @@
       We make sure you get a choice in almost everything, here are some common
       concerns travellers have and the choices we provide as answers to them
     </p>
-    <div class="flex flex-row justify-between mt-16 mobile:flex-col mobile:gap-y-8">
+    <div
+      class="flex flex-row justify-between mt-16 mobile:flex-col mobile:gap-y-8"
+    >
       <div class="basis-[30%] mobile:basis-full">
         <h2 class="text-2xl font-semibold mb-4 mobile:text-center">
           Where will I <span class="color-primary">Stay</span> ?
@@ -108,7 +127,9 @@
     <h2 class="text-center text-3xl text-primary font-bold mb-8">
       Key <span class="color-primary">Features</span> of this trip
     </h2>
-    <div class="feature-cards flex flex-row flex-wrap justify-between my-20 mobile:flex-col">
+    <div
+      class="feature-cards flex flex-row flex-wrap justify-between my-20 mobile:flex-col"
+    >
       <div v-for="feature in trip.features" class="basis-[45%] my-8">
         <h2 class="text-2xl font-semibold mb-4">
           <!-- <span
@@ -142,7 +163,9 @@
   <section class="faq p-page">
     <hr class="my-14" />
     <h2 class="text-center text-3xl text-primary font-bold mb-8">
-      Still <span class="color-primary">Confused?</span> <br class="mobile-only" /> Let's
+      Still <span class="color-primary">Confused?</span>
+      <br class="mobile-only" />
+      Let's
       <span class="color-primary">Discuss</span>
     </h2>
     <div class="flex flex-row my-16 mobile:flex-col">
@@ -154,7 +177,9 @@
         />
       </div>
       <div class="basis-1/2 flex flex-col justify-center items-center">
-        <p class="px-8 text-lg opacity-70 text-center mobile:text-justify mobile:my-5">
+        <p
+          class="px-8 text-lg opacity-70 text-center mobile:text-justify mobile:my-5"
+        >
           Too many options to choose from? Not finding what you're looking for?
           Tell us! We've helped our traveller friends out with the most offbeat
           travel requests.
@@ -170,6 +195,12 @@
       <span class="color-primary">Love</span>
     </h2>
   </section>
+  <section
+    class="modal cursor-pointer fixed z-[999] top-0 left-0 h-screen w-full hidden justify-center items-center bg-[rgba(var(--foreground),0.8)]"
+    @click="hideImage()"
+  >
+    <img :src="modalImage" class="rounded-2xl max-h-[80vh] max-w-[80vw]" :alt="modalImage" />
+  </section>
 </template>
 
 <script setup>
@@ -179,7 +210,12 @@ if (!trip.value) {
   throw createError({ statusCode: 404, statusMessage: "trip not found" });
 }
 
+let modalImage = ref(trip._rawValue.gallery[0]);
+let showImage = () => {},
+  hideImage = () => {};
+
 onMounted(() => {
+  const imageModal = document.querySelector(".modal");
   var faqs = document.getElementsByClassName("faq-accordion");
   var i;
 
@@ -194,6 +230,39 @@ onMounted(() => {
       }
     });
   }
+
+  const galleryCarousel = document.getElementById("gallery-carousel");
+  let galleryAutoScroll,
+    galleryAutoScrolled = false;
+
+  function startGalleryAutoScroll() {
+    galleryAutoScroll = setInterval(() => {
+      galleryAutoScrolled = true;
+      galleryCarousel.scrollBy({ left: 1 }); // behavior: "smooth" });
+      galleryAutoScrolled = false;
+    }, 40);
+
+    showImage = (image) => {
+      modalImage.value = image;
+      imageModal.classList.remove("hidden");
+      imageModal.classList.add("flex");
+    };
+
+    hideImage = () => {
+      imageModal.classList.remove("flex");
+      imageModal.classList.add("hidden");
+    };
+  }
+  startGalleryAutoScroll();
+
+  galleryCarousel.addEventListener("scroll", (event) => {
+    if (false && !galleryAutoScrolled) {
+      clearInterval(galleryAutoScroll);
+      setTimeout(() => {
+        startGalleryAutoScroll();
+      }, 10000);
+    }
+  });
 });
 </script>
 
@@ -222,5 +291,8 @@ onMounted(() => {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+}
+.modal img {
+  box-shadow: 0px 0px 1rem rgba(var(--text-secondary), 0.3);
 }
 </style>
