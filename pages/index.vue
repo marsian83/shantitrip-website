@@ -261,7 +261,7 @@ const { data: adventureTrips } = useFetch("/api/trips/search", {
   @apply flex flex-row w-full justify-center py-0.5;
 }
 .hero-text-item {
-  @apply font-extrabold px-2 text-8xl text-secondary mobile:text-6xl;
+  @apply font-extrabold px-2 text-8xl text-secondary mobile:text-5xl;
   text-shadow: 0px 0px 10px rgba(var(--text-primary), 0.38);
 }
 .heading {

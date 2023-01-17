@@ -1,5 +1,5 @@
 <template>
-  <section class="hero h-screen bg-cover p-page mobile:h-max mobile:bg-left-bottom">
+  <section class="hero h-screen bg-cover p-page mobile:h-max mobile:bg-left-bottom mobile:overflow-hidden">
     <div class="flex flex-row h-full items-center mobile:flex-col">
       <div class="left basis-1/2 text-secondary flex flex-col gap-4 mobile:flex-row mobile:flex-wrap mobile:justify-center mobile:mt-4">
         <h1 class="text-9xl font-black mobile:text-3xl mobile:font-semibold">Work</h1>

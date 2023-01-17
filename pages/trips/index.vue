@@ -15,13 +15,13 @@
     </p>
   </section>
   <div
-    class="search p-page flex flex-row gap-6 py-16 justify-center items-center mobile:py-8"
+    class="search p-page flex flex-row gap-6 py-16 justify-center items-center mobile:py-8 mobile:w-full mobile:overflow-hidden mobile:mx-auto"
   >
     <input
       id="searchbar"
       type="text"
       placeholder="Search by name, theme, destination, accomodation etc..."
-      class="basis-2/3"
+      class="basis-2/3 mobile:placeholder-transparent mobile:w-full"
     /><span class="material-icons font-black text-3xl ml-[-4rem] opacity-70"
       >&#xe8b6;</span
     >
