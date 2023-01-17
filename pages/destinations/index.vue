@@ -71,6 +71,12 @@ if (destination && Number(destination) > destinations.value.length - 1) {
 }
 
 onMounted(() => {
+  const { matches: isMobile } = window.matchMedia("(max-width: 768px)");
+
+  if (isMobile) {
+    navigateTo("/trips");
+  }
+
   if (destination) {
     document
       .querySelector(".all-destinations")

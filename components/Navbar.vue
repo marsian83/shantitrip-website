@@ -29,7 +29,7 @@
             <NuxtLink to="/contact">Contact</NuxtLink>
           </li>
           <li class="navbar-item">
-            <NuxtLink to="/agents">For Agents</NuxtLink>
+            <NuxtLink to="/agents">Collaborate</NuxtLink>
           </li>
         </ul>
       </div>

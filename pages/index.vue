@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="top h-screen bg-cover flex flex-col">
+    <section class="top h-screen bg-cover flex flex-col mobile:h-[30vh]">
       <div class="hero flex flex-col m-auto">
         <div class="hero-text-top">
           <div class="hero-text-item" id="tl">Plan</div>
@@ -17,7 +17,9 @@
           Let's plan something
         </NuxtLink>
       </div>
-      <div class="text-secondary self-center mb-5 opacity-80 text-lg">
+      <div
+        class="text-secondary self-center mb-5 opacity-80 text-lg mobile:hidden"
+      >
         With curated and seamless travel experiences, we are taking the task out
         of travel — one booking at a time.
       </div>
@@ -26,9 +28,11 @@
       <h2 class="heading">
         <span class="color-primary">Destinations</span> to Explore
       </h2>
-      <div class="destinations flex flex-row justify-between">
+      <div
+        class="destinations flex flex-row flex-wrap justify-between mobile:gap-y-8"
+      >
         <NuxtLink
-          class="basis-[18%] aspect-[12/17]"
+          class="basis-[18%] aspect-[12/17] mobile:basis-[45%] mobile:aspect-[12/11]"
           v-for="destination in destinations"
           :key="destination.id"
           :to="`/destinations?destination=${destination.id}`"
@@ -38,7 +42,7 @@
             :imageUrl="destination.thumbnailUrl"
           />
         </NuxtLink>
-        <NuxtLink class="basis-[18%]" to="/destinations">
+        <NuxtLink class="basis-[18%] widescreen-only" to="/destinations">
           <div class="view-more-card flex items-center justify-center h-full">
             <h4
               class="text-3xl text-primary hover:color-primary transition hover:scale-105"
@@ -54,7 +58,9 @@
         <span class="color-primary">Trending</span> this Season
       </h2>
       <div class="trending-trips flex flex-row text-secondary">
-        <div class="basis-1/2 aspect-square flex justify-center items-center">
+        <div
+          class="basis-1/2 aspect-square flex justify-center items-center widescreen-only"
+        >
           <div
             class="h-[95%] w-[95%] object-cover bg-cover rounded-3xl flex flex-col justify-center items-center"
             :style="`background-image:linear-gradient(to bottom, rgb(var(--text-primary),0.21), transparent, rgb(var(--text-primary),0.21)),url('https://images.pexels.com/photos/45987/pexels-photo-45987.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`"
@@ -67,9 +73,11 @@
           </div>
         </div>
         <div
-          class="seasonal-trending-trips basis-1/2 aspect-square h-[95%] w-[95%] flex justify-center items-center"
+          class="seasonal-trending-trips basis-1/2 aspect-square flex justify-center items-center mobile:basis-full"
         >
-          <div class="w-[95%] h-[95%] flex flex-row justify-evenly">
+          <div
+            class="w-[95%] h-[95%] flex flex-row justify-evenly mobile:w-full mobile:h-full"
+          >
             <div class="basis-1/3 flex flex-col justify-between items-center">
               <NuxtLink
                 :to="`/trips/${seasonalTrips[0].id}`"
@@ -143,39 +151,46 @@
       <h5 class="heading text-center">
         Why <span class="color-primary">Choose</span> Us
       </h5>
-      <div class="flex flex-row flex-wrap justify-evenly">
+      <div class="flex flex-row flex-wrap justify-evenly mobile:gap-y-7">
         <div class="why-us-card">
           <div class="why-us-card-icon bg-[#f7260533]">
             <span class="material-icons">&#xf8d7;</span>
           </div>
-          <h6>Powered by locals</h6>
-          <p>
-            With our expert's street-smarts and local know-how, you get to
-            escape the middleman and experience the best places at the best
-            prices.
-          </p>
+          <div class="why-us-card-details">
+            <h6>Powered by locals</h6>
+            <p>
+              With our expert's street-smarts and local know-how, you get to
+              escape the middleman and experience the best places at the best
+              prices.
+            </p>
+          </div>
         </div>
         <div class="why-us-card">
           <div class="why-us-card-icon bg-[#00942626]">
             <span class="material-icons">&#xef50;</span>
           </div>
-          <h6>Everything goes</h6>
-          <p>
-            We've helped our friends out with the most offbeat travel requests.
-            We never say no and believe that with the right expertise and
-            street-smarts, almost anything under the sun can be arranged.
-          </p>
+          <div class="why-us-card-details">
+            <h6>Everything goes</h6>
+            <p>
+              We've helped our friends out with the most offbeat travel
+              requests. We never say no and believe that with the right
+              expertise and street-smarts, almost anything under the sun can be
+              arranged.
+            </p>
+          </div>
         </div>
         <div class="why-us-card">
           <div class="why-us-card-icon bg-[#0026f726]">
             <span class="material-icons">&#xf0e2;</span>
           </div>
-          <h6>With you, at every step</h6>
-          <p>
-            Facilitating great travel experiences is all we care about. We go
-            out of our way to make sure you travel your way, and with zero
-            anxiety.
-          </p>
+          <div class="why-us-card-details">
+            <h6>With you, at every step</h6>
+            <p>
+              Facilitating great travel experiences is all we care about. We go
+              out of our way to make sure you travel your way, and with zero
+              anxiety.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -184,14 +199,14 @@
       <h5 class="heading">
         Be one with <span class="color-primary">Nature</span>
       </h5>
-      <p class="mt-[-1.5rem] mb-[1rem] text-lg opacity-80">
+      <p class="mt-[-1.5rem] mb-[1rem] text-lg opacity-80 mobile:text-center">
         Explore trips related to nature
       </p>
       <div
         class="carousel relative grid grid-flow-col overflow-x-auto overflow-y-hidden gap-6"
       >
         <NuxtLink
-          class="carousel-card aspect-[9/12]"
+          class="carousel-card aspect-[9/12] mobile:aspect-[12/9]"
           v-for="trip in natureTrips"
           :to="`/trips/${trip.id}`"
         >
@@ -203,14 +218,14 @@
       <h5 class="heading">
         Experience the <span class="color-primary">Adventure</span>
       </h5>
-      <p class="mt-[-1.5rem] mb-[1rem] text-lg opacity-80">
+      <p class="mt-[-1.5rem] mb-[1rem] text-lg opacity-80 w-full mobile:text-center">
         Explore trips related to adventure
       </p>
       <div
         class="carousel relative grid grid-flow-col overflow-x-auto overflow-y-hidden gap-6"
       >
         <NuxtLink
-          class="carousel-card aspect-[9/12]"
+          class="carousel-card aspect-[9/12] mobile:aspect-[12/9]"
           v-for="trip in adventureTrips"
           :to="`/trips/${trip.id}`"
         >
@@ -246,13 +261,11 @@ const { data: adventureTrips } = useFetch("/api/trips/search", {
   @apply flex flex-row w-full justify-center py-0.5;
 }
 .hero-text-item {
-  color: rgb(var(--text-secondary));
-  font-weight: 800;
-  @apply font-extrabold px-2 text-8xl;
+  @apply font-extrabold px-2 text-8xl text-secondary mobile:text-6xl;
   text-shadow: 0px 0px 10px rgba(var(--text-primary), 0.38);
 }
 .heading {
-  @apply pb-10 pt-20 text-3xl font-bold;
+  @apply pb-10 pt-20 text-3xl font-bold mobile:text-2xl mobile:font-semibold mobile:py-7 mobile:text-center;
 }
 .seasonal-trending-trips:has(.seasonal-trending-card:hover)
   .seasonal-trending-card {
@@ -277,7 +290,7 @@ const { data: adventureTrips } = useFetch("/api/trips/search", {
 }
 .why-us-card {
   box-shadow: 0px 0px 25px rgba(var(--text-primary), 0.15);
-  @apply basis-[28%] text-primary flex flex-col justify-between items-center rounded-xl py-6 px-4 gap-4 hover:bg-primary hover:text-secondary;
+  @apply basis-[28%] text-primary flex flex-col justify-between items-center rounded-xl py-6 px-4 gap-4 hover:bg-primary hover:text-secondary mobile:basis-[100%] mobile:flex-row;
   transition: 300ms ease;
 }
 .why-us-card-icon {
@@ -285,6 +298,9 @@ const { data: adventureTrips } = useFetch("/api/trips/search", {
   border-radius: 50%;
   transition: 400ms ease;
   transition-delay: 50ms;
+}
+.why-us-card-details {
+  @apply flex flex-col items-center justify-between h-full;
 }
 .why-us-card:hover .why-us-card-icon {
   @apply bg-background;
@@ -294,16 +310,13 @@ const { data: adventureTrips } = useFetch("/api/trips/search", {
   @apply aspect-square text-6xl color-primary;
 }
 .why-us-card h6 {
-  @apply font-bold;
+  @apply font-bold my-2;
 }
 .why-us-card p {
   @apply text-center font-medium text-sm opacity-80;
 }
 .carousel {
-  grid-auto-columns: 20%;
-  overscroll-behavior-inline: contain;
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
+  @apply auto-cols-[20%] mobile:auto-cols-[70%] overscroll-contain scroll-smooth snap-x snap-mandatory;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }

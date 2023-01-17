@@ -1,14 +1,14 @@
 <template>
   <section
-    class="hero h-screen p-page bg-cover bg-center flex flex-col justify-center items-center bg-fixed"
+    class="hero h-screen p-page bg-cover bg-center flex flex-col justify-center items-center bg-fixed mobile:justify-between mobile:py-8 mobile:h-max"
     :style="`background-image: linear-gradient(to bottom,rgba(var(--text-primary), 0.49),rgba(var(--text-primary), 0.08),rgba(var(--text-primary), 0.49)), linear-gradient(to right,rgba(var(--text-primary), 0.38),transparent,rgba(var(--text-primary), 0.38)),url('${trip.gallery[0]}');`"
   >
     <div class="hero-title flex flex-col text-secondary text-center gap-4">
-      <h2 class="text-6xl font-bold">{{ trip.name }}</h2>
-      <p class="text-xl font-medium">{{ trip.description }}</p>
+      <h2 class="text-6xl font-bold mobile:text-4xl">{{ trip.name }}</h2>
+      <p class="text-xl font-medium mobile:mt-8 mobile:text-sm">{{ trip.description }}</p>
     </div>
     <div
-      class="p-4 rounded-3xl flex flex-row justify-evenly w-full backdrop-blur-sm my-10 text-secondary bg-[rgba(var(--foreground),0.64)]"
+      class="p-4 rounded-3xl flex flex-row justify-evenly w-full backdrop-blur-sm my-10 text-secondary bg-[rgba(var(--foreground),0.64)] mobile:flex-col-reverse mobile:gap-y-12"
     >
       <div class="flex flex-row items-center gap-2">
         <span
@@ -45,11 +45,11 @@
   </section>
   <section class="info p-page py-10">
     <div class="catchphrase">
-      <h2 class="text-3xl font-semibold">{{ trip.punchline }}</h2>
-      <p class="my-4 text-lg font-light">{{ trip.summary }}</p>
+      <h2 class="text-3xl font-semibold mobile:text-center mobile:pb-5">{{ trip.punchline }}</h2>
+      <p class="my-4 text-lg font-light mobile:text-justify">{{ trip.summary }}</p>
     </div>
-    <div class="flex flex-row justify-between mt-16">
-      <div class="basis-[45%]">
+    <div class="flex flex-row justify-between mt-16 mobile:flex-col mobile:gap-y-10">
+      <div class="basis-[45%] mobile:basis-auto">
         <h2 class="text-3xl font-semibold mb-4">
           This Trip is <span class="color-primary">Perfect</span> for
         </h2>
@@ -72,32 +72,32 @@
     <h2 class="text-center text-3xl text-primary font-bold mb-8">
       Spoil yourself with <span class="color-primary">Choices</span>
     </h2>
-    <p class="text-center text-primary text-lg opacity-80">
+    <p class="text-center text-primary text-lg opacity-80 mobile:text-justify">
       We make sure you get a choice in almost everything, here are some common
       concerns travellers have and the choices we provide as answers to them
     </p>
-    <div class="flex flex-row justify-between mt-16">
-      <div class="basis-[30%]">
-        <h2 class="text-2xl font-semibold mb-4">
+    <div class="flex flex-row justify-between mt-16 mobile:flex-col mobile:gap-y-8">
+      <div class="basis-[30%] mobile:basis-full">
+        <h2 class="text-2xl font-semibold mb-4 mobile:text-center">
           Where will I <span class="color-primary">Stay</span> ?
         </h2>
-        <ul class="flex px-6 text-lg flex-col list-disc">
+        <ul class="flex px-6 text-lg flex-col list-disc mobile:text-justify">
           <li v-for="s in trip.stay" class="my-1">{{ s }}</li>
         </ul>
       </div>
       <div class="basis-[30%]">
-        <h2 class="text-2xl font-semibold mb-4">
+        <h2 class="text-2xl font-semibold mb-4 mobile:text-center">
           How will I <span class="color-primary">Travel</span> ?
         </h2>
-        <ul class="flex px-6 text-lg flex-col list-disc">
+        <ul class="flex px-6 text-lg flex-col list-disc mobile:text-justify">
           <li v-for="t in trip.travel" class="my-1">{{ t }}</li>
         </ul>
       </div>
-      <div class="basis-[30%]">
+      <div class="basis-[30%] mobile:text-center">
         <h2 class="text-2xl font-semibold mb-4">
           What about <span class="color-primary">Food</span> ?
         </h2>
-        <ul class="flex px-6 text-lg flex-col list-disc">
+        <ul class="flex px-6 text-lg flex-col list-disc mobile:text-justify">
           <li v-for="f in trip.food" class="my-1">{{ f }}</li>
         </ul>
       </div>
@@ -108,7 +108,7 @@
     <h2 class="text-center text-3xl text-primary font-bold mb-8">
       Key <span class="color-primary">Features</span> of this trip
     </h2>
-    <div class="feature-cards flex flex-row flex-wrap justify-between my-20">
+    <div class="feature-cards flex flex-row flex-wrap justify-between my-20 mobile:flex-col">
       <div v-for="feature in trip.features" class="basis-[45%] my-8">
         <h2 class="text-2xl font-semibold mb-4">
           <!-- <span
@@ -134,7 +134,7 @@
           {{ faq.question }}
         </button>
         <div class="faq-panel">
-          <p class="py-4 pr-48">{{ faq.answer }}</p>
+          <p class="py-4 pr-48 mobile:px-0">{{ faq.answer }}</p>
         </div>
       </div>
     </div>
@@ -142,10 +142,10 @@
   <section class="faq p-page">
     <hr class="my-14" />
     <h2 class="text-center text-3xl text-primary font-bold mb-8">
-      Still <span class="color-primary">Confused?</span> Let's
+      Still <span class="color-primary">Confused?</span> <br class="mobile-only" /> Let's
       <span class="color-primary">Discuss</span>
     </h2>
-    <div class="flex flex-row my-16">
+    <div class="flex flex-row my-16 mobile:flex-col">
       <div class="basis-1/2">
         <img
           src="/images/confused.webp"
@@ -154,7 +154,7 @@
         />
       </div>
       <div class="basis-1/2 flex flex-col justify-center items-center">
-        <p class="px-8 text-lg opacity-70 text-center">
+        <p class="px-8 text-lg opacity-70 text-center mobile:text-justify mobile:my-5">
           Too many options to choose from? Not finding what you're looking for?
           Tell us! We've helped our traveller friends out with the most offbeat
           travel requests.

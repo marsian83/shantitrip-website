@@ -13,7 +13,7 @@
 
 @layer utilities {
   .p-page {
-    @apply px-[8vw];
+    @apply px-[8vw] mobile:px-[3vw];
   }
   .pl-page {
     @apply pl-[8vw];
@@ -57,7 +57,7 @@
   }
   /* screen specificity */
   .mobile-only {
-    @apply widescreeen:hidden;
+    @apply widescreen:hidden;
   }
   .widescreen-only {
     @apply mobile:hidden;

@@ -1,5 +1,5 @@
 <template>
-  <div class="h-40 bg-foreground"></div>
+  <div class="h-40 bg-foreground widescreen-only"></div>
   <div class="p-page flex flex-col gap-6">
     <h1 class="font-bold text-6xl text-center">Cookies Policy</h1>
     <p>Last updated: January 08, 2023</p>

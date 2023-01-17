@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center">
+  <div class="flex flex-col items-center widescreen-only">
     <span class="material-icons head-scroll-down" id="head-scroll-down1">
       &#xe5cf;
     </span>

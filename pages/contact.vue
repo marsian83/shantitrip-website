@@ -1,15 +1,15 @@
 <template>
   <div class="body">
     <section
-      class="hero p-page h-screen bg-cover bg-fixed flex flex-col justify-center items-center"
+      class="hero p-page h-screen bg-cover bg-fixed flex flex-col justify-center items-center mobile:justify-evenly mobile:h-max mobile:py-20"
     >
-      <h1 class="text-secondary text-7xl font-semibold">Let's Get in Touch</h1>
-      <p class="text-secondary text-2xl my-4 text-center">
+      <h1 class="text-secondary text-7xl font-semibold mobile:text-4xl mobile:text-center">Let's Get in Touch</h1>
+      <p class="text-secondary text-2xl my-4 text-center mobile:text-justify mobile:px-3 mobile:text-lg mobile:font-light">
         Being travellers and explorers ourselves, we are always excited to talk
         to new people and share perspectives. Call, email, or say hello
       </p>
       <div
-        class="bg-[rgba(var(--background),0.21)] backdrop-blur-md rounded-xl h-1/6 w-5/6 flex flex-row items-center justify-evenly"
+        class="bg-[rgba(var(--background),0.21)] backdrop-blur-md rounded-xl h-1/6 w-5/6 flex flex-row items-center justify-evenly mobile:flex-col mobile:gap-y-8 mobile:h-auto mobile:py-8 mobile:items-start"
       >
         <div class="basis-[25%] text-secondary flex flex-row items-center">
           <span class="material-icons px-2">&#xe0b0;</span>
@@ -32,7 +32,7 @@
       </div>
       <ScrollHint class="absolute bottom-4"/>
     </section>
-    <section class="contact-form-section p-page flex flex-row mt-20">
+    <section class="contact-form-section p-page flex flex-row mt-20 mobile:flex-col" >
       <div class="basis-1/2 flex flex-col gap-4 justify-center">
         <h2 class="text-4xl font-black text-primary">Contact Us</h2>
         <h5 class="text-2xl font-black text-primary opacity-90">

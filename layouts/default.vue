@@ -1,6 +1,6 @@
 <template>
   <Preloader />
-  <MobileComingSoon />
+  <!-- <MobileComingSoon /> -->
   <Navbar />
   <slot />
   <Footer />

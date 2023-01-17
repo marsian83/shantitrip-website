@@ -1,21 +1,21 @@
 <template>
   <section
-    class="hero p-page h-screen bg-cover bg-center flex flex-col justify-center items-center"
+    class="hero p-page h-screen bg-cover bg-center flex flex-col justify-center items-center mobile:h-[30vh]"
   >
     <div
-      class="text-secondary text-7xl self-start font-bold flex flex-col gap-5"
+      class="text-secondary text-7xl self-start font-bold flex flex-col gap-5 mobile:text-3xl mobile:text-center mobile:w-full"
     >
       <h2>Not your standardized,</h2>
       <h2>stifling tour package.</h2>
     </div>
-    <p class="text-secondary text-xl self-start py-6 pr-[50%] font-medium">
+    <p class="text-secondary text-xl self-start py-6 pr-[50%] font-medium widescreen-only">
       Even with our pre-made trips, there's plenty of space to play around. We
       try to accommodate all your wishes to the best of our capacity and
       know-how.
     </p>
   </section>
   <div
-    class="search p-page flex flex-row gap-6 py-16 justify-center items-center"
+    class="search p-page flex flex-row gap-6 py-16 justify-center items-center mobile:py-8"
   >
     <input
       id="searchbar"
@@ -28,7 +28,7 @@
   </div>
   <section class="trips p-page py-10">
     <div class="trip-cards flex flex-row flex-wrap justify-evenly gap-y-10 p-0">
-      <div class="basis-[45%] trip-card" v-for="trip in trips">
+      <div class="basis-[45%] trip-card mobile:basis-full" v-for="trip in trips">
         <TripCard :trip="trip" />
       </div>
       <p v-if="!trips || trips.length == 0" class="text-lg opacity-80">

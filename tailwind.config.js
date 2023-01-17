@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     screens: {
       mobile: { max: "780px" },
-      widescreeen: { min: "780px" },
+      widescreen: { min: "780px" },
     },
     extend: {},
   },

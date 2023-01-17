@@ -1,5 +1,5 @@
 <template>
-  <div class="h-40 bg-foreground"></div>
+  <div class="h-40 bg-foreground widescreen-only"></div>
   <div class="p-page flex flex-col gap-4">
     <h1 class="font-bold text-6xl text-center">TERMS AND CONDITIONS</h1>
     <h2 class="font-medium text-3xl">Introduction​</h2>

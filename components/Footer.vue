@@ -1,15 +1,15 @@
 <template>
   <footer class="p-page pb-5 bg-foreground mt-60">
-    <div class="CTA-block bg-background w-max p-8 mx-auto rounded-md">
+    <div class="CTA-block bg-background p-8 mx-auto rounded-md">
       <h2 class="text-3xl font-bold text-center">
         Feeling <span class="color-primary">Left</span> Out?
       </h2>
-      <p class="my-5 italic opacity-80">
+      <p class="my-5 italic opacity-80 text-center widescreen:whitespace-nowrap">
         Every once in a while, we send out a newsletter featuring the latest and
         best in travel. Subscribe to never miss out.
       </p>
       <form
-        class="flex flex-row justify-evenly h-10"
+        class="flex flex-row justify-evenly h-10 mobile:flex-col mobile:items-center"
         action="https://formspree.io/f/mjvdvqwr"
         method="POST"
       >
@@ -29,7 +29,7 @@
         </button>
       </form>
     </div>
-    <div class="w-max">
+    <div class="w-max mobile:mx-auto">
       <NuxtLink to="/">
         <img
           src="/header.webp"
