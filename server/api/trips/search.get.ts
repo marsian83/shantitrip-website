@@ -1,3 +1,8 @@
+function removeDuplicates(arr:any[]) {
+  return arr.filter((item, 
+      index) => arr.indexOf(item) === index);
+}
+
 export default defineEventHandler(async (event: any): Promise<any> => {
   try {
     let { query }: { query: string } = getQuery(event);
@@ -8,16 +13,18 @@ export default defineEventHandler(async (event: any): Promise<any> => {
     }
     let response: any[] = [];
     for (const q of query) {
-      response = trips.filter(
-        (t: any) =>
-          t.tags.toLowerCase().includes(q) ||
-          t.themes.join(",").toLowerCase().includes(q) ||
-          t.places.join(",").toLowerCase().includes(q) ||
-          t.name.toLowerCase().includes(q) ||
-          t.description.toLowerCase().includes(q)
+      response = response.concat(
+        trips.filter(
+          (t: any) =>
+            t.tags.toLowerCase().includes(q) ||
+            t.themes.join(",").toLowerCase().includes(q) ||
+            t.places.join(",").toLowerCase().includes(q) ||
+            t.name.toLowerCase().includes(q) ||
+            t.description.toLowerCase().includes(q)
+        )
       );
     }
-    return response;
+    return removeDuplicates(response);
   } catch (err) {
     console.log(err);
     return { code: 1, message: "Something went wrong", error: err };

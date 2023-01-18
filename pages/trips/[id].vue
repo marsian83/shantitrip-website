@@ -57,6 +57,7 @@
     <div id="gallery-carousel" class="flex flex-row overflow-x-scroll gap-x-8">
       <img
         class="h-[30vh] object-cover rounded-xl cursor-pointer transition-300 hover:scale-[98%] hover:shadow-2xl mobile:h-[20vh]"
+        loading="lazy"
         v-for="image in trip.gallery"
         :src="image"
         :alt="`${trip.name}_gallery-${trip.gallery.indexOf(image)}`"
@@ -188,24 +189,49 @@
       </div>
     </div>
   </section>
-  <section class="faq p-page">
+  <section
+    v-if="similarTrips && similarTrips.length"
+    class="similar-trips p-page"
+  >
     <hr class="my-14" />
     <h2 class="text-center text-3xl text-primary font-bold mb-8">
       <span class="color-primary">Similar</span> Trips You'll
       <span class="color-primary">Love</span>
     </h2>
+    <div
+      class="similar-trips-carousel auto-cols-[20%] mobile:auto-cols-[70%] overscroll-contain scroll-smooth snap-x snap-mandatory relative grid grid-flow-col overflow-x-auto overflow-y-hidden gap-6"
+    >
+      <NuxtLink
+        class="basis-[18%] aspect-[12/17] mobile:basis-[45%] mobile:aspect-[12/11] my-4"
+        v-for="trip in similarTrips"
+        :key="trip.id"
+        :to="`/trips/${trip.id}`"
+      >
+        <Card1 :text="trip.name" :imageUrl="trip.thumbnailUrl" cover="true" />
+      </NuxtLink>
+    </div>
   </section>
   <section
     class="modal cursor-pointer fixed z-[999] top-0 left-0 h-screen w-full hidden justify-center items-center bg-[rgba(var(--foreground),0.8)]"
     @click="hideImage()"
   >
-    <img :src="modalImage" class="rounded-2xl max-h-[80vh] max-w-[80vw]" :alt="modalImage" />
+    <img
+      :src="modalImage"
+      class="rounded-2xl max-h-[80vh] max-w-[80vw]"
+      :alt="modalImage"
+    />
   </section>
 </template>
 
 <script setup>
 const { id } = useRoute().params;
 const { data: trip } = await useFetch(`/api/trips/${id}`);
+const { data: similarTrips } = await useFetch(
+  `/api/trips/search?query=${
+    trip._rawValue.places.join(" ") + trip._rawValue.themes.join(" ")
+  }`
+);
+
 if (!trip.value) {
   throw createError({ statusCode: 404, statusMessage: "trip not found" });
 }
@@ -232,14 +258,10 @@ onMounted(() => {
   }
 
   const galleryCarousel = document.getElementById("gallery-carousel");
-  let galleryAutoScroll,
-    galleryAutoScrolled = false;
 
   function startGalleryAutoScroll() {
-    galleryAutoScroll = setInterval(() => {
-      galleryAutoScrolled = true;
+    setInterval(() => {
       galleryCarousel.scrollBy({ left: 1 }); // behavior: "smooth" });
-      galleryAutoScrolled = false;
     }, 40);
 
     showImage = (image) => {
@@ -254,15 +276,6 @@ onMounted(() => {
     };
   }
   startGalleryAutoScroll();
-
-  galleryCarousel.addEventListener("scroll", (event) => {
-    if (false && !galleryAutoScrolled) {
-      clearInterval(galleryAutoScroll);
-      setTimeout(() => {
-        startGalleryAutoScroll();
-      }, 10000);
-    }
-  });
 });
 </script>
 

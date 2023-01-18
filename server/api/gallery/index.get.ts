@@ -87,7 +87,6 @@ const gallery = [
       "/images/manali/stay/7.webp",
       "/images/manali/stay/8.webp",
       "/images/manali/stay/9.webp",
-      "/images/manali/stay/rename.py",
     ],
   },
   {
