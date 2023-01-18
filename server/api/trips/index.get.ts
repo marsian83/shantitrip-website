@@ -1,8 +1,19 @@
-export default defineEventHandler(() => {
+export default defineEventHandler(async () => {
+  for (let trip of trips) {
+    const index = trips.indexOf(trip);
+    for (let place of trip.places) {
+      let placeGallery = await $fetch(`/api/gallery/search?query=${place}`);
+      for (let { images } of placeGallery) {
+        let newGallery = trips[index].gallery.concat(images);
+        trips[index].gallery = newGallery
+      }
+    }
+  }
+
   return trips;
 });
 
-const trips = [
+let trips = [
   {
     id: 0,
     name: "Splendid Spiti",
@@ -194,61 +205,7 @@ const trips = [
     cost: 15400,
     themes: ["culture", "adventure", "sightseeing"],
     thumbnailUrl: "/images/trips/2.webp",
-    gallery: [
-      "/images/kasol/stay/6.webp",
-      "/images/trips/2.webp",
-      "/images/kasol/stay/1.webp",
-      "/images/kasol/stay/2.webp",
-      "/images/kasol/stay/3.webp",
-      "/images/kasol/stay/4.webp",
-      "/images/kasol/stay/5.webp",
-      "/images/kasol/stay/7.webp",
-      "/images/kasol/stay/8.webp",
-      "/images/kasol/stay/9.webp",
-      "/images/kasol/stay/10.webp",
-      "/images/kasol/stay/11.webp",
-      "/images/kasol/stay/12.webp",
-      "/images/kasol/stay/13.webp",
-      "/images/kasol/stay/14.webp",
-      "/images/kasol/stay/15.webp",
-      "/images/kasol/stay/16.webp",
-      "/images/kasol/stay/17.webp",
-      "/images/kasol/stay/18.webp",
-      "/images/kasol/stay/19.webp",
-      "/images/kasol/stay/20.webp",
-      "/images/kasol/stay/21.webp",
-      "/images/kasol/stay/22.webp",
-      "/images/kasol/stay/23.webp",
-      "/images/kasol/stay/24.webp",
-      "/images/kasol/stay/25.webp",
-      "/images/kasol/stay/26.webp",
-      "/images/kasol/stay/27.webp",
-      "/images/kasol/stay/28.webp",
-      "/images/kasol/stay/29.webp",
-      "/images/kasol/stay/30.webp",
-      "/images/kasol/stay/31.webp",
-      "/images/kasol/stay/32.webp",
-      "/images/kasol/stay/33.webp",
-      "/images/kasol/stay/34.webp",
-      "/images/kasol/stay/35.webp",
-      "/images/kasol/stay/36.webp",
-      "/images/kasol/stay/37.webp",
-      "/images/kasol/stay/38.webp",
-      "/images/kasol/stay/39.webp",
-      "/images/kasol/stay/40.webp",
-      "/images/kasol/stay/41.webp",
-      "/images/kasol/stay/42.webp",
-      "/images/kasol/stay/43.webp",
-      "/images/kasol/stay/44.webp",
-      "/images/kasol/stay/45.webp",
-      "/images/kasol/stay/46.webp",
-      "/images/kasol/stay/47.webp",
-      "/images/kasol/stay/48.webp",
-      "/images/kasol/stay/49.webp",
-      "/images/kasol/stay/50.webp",
-      "/images/kasol/stay/51.webp",
-    ],
-
+    gallery: ["/images/trips/2.webp"],
     description:
       "A trip for those who want a perfect mix of cultural sightseeing and adventure in Himachal Pradesh, with a little spice and a whole lot of magic!",
     places: ["Kasol ", "Malana ", "Solang valley ", "Kullu"],
