@@ -13,7 +13,7 @@
         <h2 class="trip-name font-semibold text-xl opacity-75">
           {{ trip.name }}
         </h2>
-        <p class="opacity-60">by <span class="font-medium">ShantiTrip</span></p>
+        <!-- <p class="opacity-60">by <span class="font-medium">ShantiTrip</span></p> -->
         <h3 class="opacity-75 text-xl py-3">
           Duration :
           <span class="font-medium text-2xl">
