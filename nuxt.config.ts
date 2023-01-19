@@ -38,5 +38,10 @@ export default defineNuxtConfig({
     },
   },
   css: ["@/assets/css/index.css", "@/assets/css/globals.css"],
-  runtimeConfig: {},
+  runtimeConfig: {
+    adminCredentials: {
+      username: process.env.ADMIN_USERNAME,
+      password: process.env.ADMIN_PASSWORD,
+    },
+  },
 });

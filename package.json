@@ -12,6 +12,7 @@
     "nuxt": "3.0.0"
   },
   "dependencies": {
+    "@prisma/client": "^4.9.0",
     "firebase-admin": "^11.4.1"
   }
 }
