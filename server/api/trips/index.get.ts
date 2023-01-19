@@ -2136,46 +2136,46 @@ let trips = [
   },
 ];
 
-const template = {
-  id: -1,
-  name: "ShantiTrip Special",
-  days: 6,
-  cost: 13200,
-  themes: ["offseason", "adventure", "relaxation", "snow"],
-  thumbnailUrl: "/images/trips/7.webp",
-  gallery: ["/images/trips/7.webp"],
-  description:
-    "A trip for those who want to enjoy complete leisure and relaxation with little activity, while enjoying all the beauty and serenity Himachal has to offer.",
-  places: ["Parashar lake ", "Tosh ", "Kasol"],
-  punchline: "Rest and reboot.",
-  summary:
-    "Spend 5 nights and 6 days in utter peace and quiet. Relax and laze around in Kasol, get a birds-eye view of Parvati Valley in Tosh, and experience a meditative stillness and silence along with a 360\u00b0 view of the Himalayan mountain range at Parashar Lake.",
-  schedule: [],
-  tripFor: [""],
-  highlights: [""],
-  stay: [""],
-  travel: [""],
-  food: [""],
-  features: [
-    {
-      title: "Rest and Relaxation",
-      items: [""],
-    },
-    {
-      title: "Shopping",
-      items: [""],
-    },
-    {
-      title: "Adventure",
-      items: [""],
-    },
-  ],
-  seasonalHighlights: [""],
-  faqs: [
-    {
-      question: "",
-      answer: "",
-    },
-  ],
-  tags: "",
-};
+// const template = {
+//   id: -1,
+//   name: "ShantiTrip Special",
+//   days: 6,
+//   cost: 13200,
+//   themes: ["offseason", "adventure", "relaxation", "snow"],
+//   thumbnailUrl: "/images/trips/7.webp",
+//   gallery: ["/images/trips/7.webp"],
+//   description:
+//     "A trip for those who want to enjoy complete leisure and relaxation with little activity, while enjoying all the beauty and serenity Himachal has to offer.",
+//   places: ["Parashar lake ", "Tosh ", "Kasol"],
+//   punchline: "Rest and reboot.",
+//   summary:
+//     "Spend 5 nights and 6 days in utter peace and quiet. Relax and laze around in Kasol, get a birds-eye view of Parvati Valley in Tosh, and experience a meditative stillness and silence along with a 360\u00b0 view of the Himalayan mountain range at Parashar Lake.",
+//   schedule: [],
+//   tripFor: [""],
+//   highlights: [""],
+//   stay: [""],
+//   travel: [""],
+//   food: [""],
+//   features: [
+//     {
+//       title: "Rest and Relaxation",
+//       items: [""],
+//     },
+//     {
+//       title: "Shopping",
+//       items: [""],
+//     },
+//     {
+//       title: "Adventure",
+//       items: [""],
+//     },
+//   ],
+//   seasonalHighlights: [""],
+//   faqs: [
+//     {
+//       question: "",
+//       answer: "",
+//     },
+//   ],
+//   tags: "",
+// };
