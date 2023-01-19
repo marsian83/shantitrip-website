@@ -1,7 +1,9 @@
 <template>
   <header class="fixed z-50 mobile:bottom-0">
-    <nav class="navbar flex flex-row justify-between p-page py-4 w-screen widescreen-only">
-      <div class="navbar-branding left">
+    <nav
+      class="navbar flex flex-row justify-between p-page py-4 w-screen mobile:px-6 mobile:py-2"
+    >
+      <div class="navbar-branding left widescreen-only">
         <NuxtLink to="/">
           <img
             src="/header.webp"
@@ -11,7 +13,7 @@
           />
         </NuxtLink>
       </div>
-      <div class="right">
+      <div class="right widescreen-only">
         <ul class="navbar-items flex flex-row items-center h-full gap-12">
           <li class="navbar-item">
             <NuxtLink to="/">Home</NuxtLink>
@@ -30,6 +32,36 @@
           </li>
           <li class="navbar-item">
             <NuxtLink to="/agents">Collaborate</NuxtLink>
+          </li>
+        </ul>
+      </div>
+      <div class="mobile-navbar mobile-only w-full">
+        <ul class="navbar-items flex flex-row items-center justify-between">
+          <li class="navbar-item">
+            <NuxtLink to="/trips">
+              <span class="material-icons">&#xe539;</span>
+              Trips</NuxtLink
+            >
+          </li>
+          <li class="navbar-item">
+            <NuxtLink to="/contact">
+              <span class="material-icons">&#xe61d;</span>Contact</NuxtLink
+            >
+          </li>
+          <li class="navbar-item relative">
+            <NuxtLink to="/" class="mobile-nav-logo">
+              <img src="/logo.webp" alt="shantitrip-logo" class=""
+            /></NuxtLink>
+          </li>
+          <li class="navbar-item">
+            <NuxtLink to="/agents">
+              <span class="material-icons">&#xebcb;</span>Collab</NuxtLink
+            >
+          </li>
+          <li class="navbar-item">
+            <NuxtLink to="/about">
+              <span class="material-icons">&#xe887;</span>About</NuxtLink
+            >
           </li>
         </ul>
       </div>
@@ -62,16 +94,20 @@ onMounted(() => {
   transition: 300ms ease;
 }
 .navbar:not(.nav-fix) {
-  background-color: transparent;
-  padding-bottom: 8vh;
-  margin-bottom: -6vh;
+  @apply bg-transparent pb-[8vh] mb-[-6vh] mobile:hidden;
 }
 .navbar.nav-fix {
-  background-color: rgba(var(--background));
+  @apply bg-background;
   box-shadow: 0px -2px 6px rgb(var(--text-primary));
 }
 .navbar-item {
-  font-size: 1.2rem;
+  @apply text-[1.2rem] mobile:text-base mobile:font-semibold;
+}
+.navbar-item a {
+  @apply flex flex-col items-center gap-y-1;
+}
+.navbar-item span {
+  @apply mobile:p-1;
 }
 .navbar:not(.nav-fix) .navbar-branding {
   filter: brightness(0) invert(1);
@@ -90,6 +126,16 @@ onMounted(() => {
   transition: 300ms;
 }
 .navbar-item:has(.router-link-exact-active) {
-  display: none;
+  @apply widescreen:hidden;
+}
+.navbar-item:has(.router-link-exact-active) span {
+  @apply mobile:bg-red-400 bg-opacity-30 w-full text-center mobile:rounded-full;
+}
+.mobile-nav-logo {
+  @apply bg-background rounded-full aspect-square border-t border-black;
+  transform: translateY(-2rem) scale(3.4);
+}
+.mobile-nav-logo img {
+  @apply w-5 aspect-square object-contain;
 }
 </style>

@@ -14,10 +14,10 @@
           {{ destination.description }}
         </p>
       </div>
-      <div class="relative basis-1/2 flex flex-col justify-center items-center">
+      <div class="relative basis-1/2 ">
         <div
           :id="`trips-${destination.id}`"
-          class="destination-trips relative grid grid-flow-col overflow-x-auto overflow-y-hidden gap-6"
+          class="destination-trips gap-6"
         >
           <NuxtLink
             class="destination-trip-card transition-300"
@@ -106,12 +106,14 @@ onMounted(() => {
   text-shadow: 0px 0px 13px rgba(var(--text-primary), 0.83);
 }
 .destination-trips {
-  grid-auto-columns: 38%;
+  @apply flex flex-row items-center scroll-smooth w-[50vw] overflow-x-scroll overflow-y-hidden; 
   overscroll-behavior-inline: contain;
-  scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+.destination-trip-card{
+  @apply basis-2/3;
 }
 .destination-trips::-webkit-scrollbar {
   display: none;

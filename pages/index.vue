@@ -42,7 +42,7 @@
             :imageUrl="destination.thumbnailUrl"
           />
         </NuxtLink>
-        <NuxtLink class="basis-[18%] widescreen-only" to="/destinations">
+        <NuxtLink class="basis-[18%] mobile:basis-1/2" to="/destinations">
           <div class="view-more-card flex items-center justify-center h-full">
             <h4
               class="text-3xl text-primary hover:color-primary transition hover:scale-105"
@@ -147,6 +147,23 @@
         </div>
       </div>
     </section>
+    <section class="partners p-page">
+      <h2 class="heading text-center">
+        Our <span class="color-primary">Partners</span>
+      </h2>
+      <div class="flex flex-row flex-wrap justify-evenly">
+        <img
+          src="/images/partners/gmun.webp"
+          alt="gmun travel partner"
+          class="partner-icon"
+        />
+        <img
+          src="/images/partners/communique.webp"
+          alt="communique"
+          class="partner-icon"
+        />
+      </div>
+    </section>
     <section class="why-us p-page">
       <h5 class="heading text-center">
         Why <span class="color-primary">Choose</span> Us
@@ -218,7 +235,9 @@
       <h5 class="heading">
         Experience the <span class="color-primary">Adventure</span>
       </h5>
-      <p class="mt-[-1.5rem] mb-[1rem] text-lg opacity-80 w-full mobile:text-center">
+      <p
+        class="mt-[-1.5rem] mb-[1rem] text-lg opacity-80 w-full mobile:text-center"
+      >
         Explore trips related to adventure
       </p>
       <div
@@ -287,6 +306,9 @@ const { data: adventureTrips } = useFetch("/api/trips/search", {
   @apply absolute text-center text-lg leading-5 px-2 font-semibold  text-secondary;
   letter-spacing: 0.84px;
   text-shadow: 0px 0px 5px rgba(var(--text-primary), 0.83);
+}
+.partner-icon{
+  @apply basis-[8%] aspect-square saturate-0 brightness-0 opacity-40 mobile:w-[30vw];
 }
 .why-us-card {
   box-shadow: 0px 0px 25px rgba(var(--text-primary), 0.15);

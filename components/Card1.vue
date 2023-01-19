@@ -4,7 +4,7 @@
     :class="cover ? 'bg-cover' : ''"
     :style="`background-image:linear-gradient(to bottom, transparent, transparent, rgba(var(--text-primary),var(--gradient-opacity))), url('${imageUrl}')`"
   >
-    <h5 class="text-secondary text-xl font-medium">
+    <h5 class="text-secondary text-xl font-medium text-center">
       {{ text }}
     </h5>
   </div>
