@@ -5,7 +5,7 @@ export default defineEventHandler(async () => {
       let placeGallery = await $fetch(`/api/gallery/search?query=${place}`);
       for (let { images } of placeGallery) {
         let newGallery = trips[index].gallery.concat(images);
-        trips[index].gallery = newGallery
+        trips[index].gallery = newGallery;
       }
     }
   }
@@ -28,6 +28,7 @@ let trips = [
     punchline: "Prepare for a jaw-dropping experience.",
     summary:
       "Spiti's gorgeous vistas will leave you spellbound and stunned. With clear blue skies, snow-capped mountains, and stark barren landscapes with not a person insight, you will stand there in awe as you watch the magic of nature unfold in this isolated place, away from the noise of civilization.",
+    schedule: [],
     tripFor: [
       "Nature and trek-lovers",
       "Those interested in spirituality, buddhism, and Tibetan art and culture",
@@ -119,6 +120,7 @@ let trips = [
     punchline: "An unforgettable trip awaits.",
     summary:
       "6 days and 5 nights of experiencing the inner peace and joy that nature offers (along with a few edibles, of course!). Get acquainted with Parvati Valley in Kasol, trek to Kutla for a starry night around the bonfire, wind down in Tosh while enjoying a panoramic view of the mountains, and finish your trip on a beautiful note with Jibhi.",
+    schedule: [],
     tripFor: [
       "Nature and trek-lovers",
       "Foodies",
@@ -212,6 +214,7 @@ let trips = [
     punchline: "Get charged up",
     summary:
       "These 7 days are going to be one hell of a ride. You\u2019ll start with Kasol and explore all that it\u2019s famous for (wink wink!) You\u2019ll follow it up with your trek to Magic Valley, paragliding or river-rafting in Kullu, exploring Solang Valley aka the mini-Switzerland of India, and finally, touring Manali \u2014 a paradise for romantics.",
+    schedule: [],
     tripFor: [
       "A group of 4+ people",
       "Those who want a perfect balance of nature culture and adventure",
@@ -305,6 +308,7 @@ let trips = [
     punchline: "Prepare to be delighted.",
     summary:
       "These 8 days will see you embark on a special journey across Himachal. Starting off with the rich cultural heritage of Shimla, you will experience the freedom and relaxation of Kasol, the serenity of Tosh, and the beautiful vistas of Manali, all within an action-packed 8 days of adventure and fun. ",
+    schedule: [],
     tripFor: [
       "A group of 6 people",
       "Those who want a perfect balance of nature culture and adventure",
@@ -405,6 +409,7 @@ let trips = [
     punchline: "The grass is greener on this side. Literally!",
     summary:
       "Spend 7 days and 6 nights exploring the vibrant and colorful spring landscapes of Himachal Pradesh. Take a breather from the claustrophobia and home-boundedness of 2020 and welcome 2021 with the fresh mountain air of Kasol, the magical air of Malana, the gorgeous mountain views of Manali, and the solitude of Jibhi.",
+    schedule: [],
     tripFor: [
       "Youngsters hippies and nature lovers",
       "Those who like mediterranean weather",
@@ -501,6 +506,7 @@ let trips = [
     punchline: "Let\u2019s get this party started, shall we?",
     summary:
       "Spend 6 days and 5 nights exploring the higher realms of consciousness as you tour the vibrant and colorful spring landscapes of Himachal Pradesh. Vibe in the fresh mountain air of Kasol, the magical air of Malana, the mountains and waterfalls of Tosh, and the solitude of Jibhi.",
+    schedule: [],
     tripFor: [
       "Hippies and stoners",
       "Nature lovers",
@@ -596,6 +602,7 @@ let trips = [
     punchline: "Snow Treks and Solitude.",
     summary:
       "Spend 6 nights and 7 days exploring the pristine white, snowclad landscapes of Himachal Pradesh. Take a breather from the claustrophobia and home-boundedness of 2020 and welcome 2021 with the fresh mountain air of Kasol, the gorgeous views of Tosh and the rustic village life of Kutla and Buddhaban.",
+    schedule: [],
     tripFor: [
       "Youngsters and snow-trek lovers",
       "Those who like fewer tourists",
@@ -694,6 +701,7 @@ let trips = [
     punchline: "Rest and reboot.",
     summary:
       "Spend 5 nights and 6 days in utter peace and quiet. Relax and laze around in Kasol, get a birds-eye view of Parvati Valley in Tosh, and experience a meditative stillness and silence along with a 360\u00b0 view of the Himalayan mountain range at Parashar Lake.",
+    schedule: [],
     tripFor: [
       "#420gang",
       "Those who want to chill and relax with friends more than sightseeing",
@@ -785,6 +793,7 @@ let trips = [
     punchline: "Rest and reboot.",
     summary:
       "Spend 3 nights and 4 days exploring Manali \u2014 one of India\u2019s favorite travel destinations. Take a breather from your hectic work life to revel in the fresh mountain air of Old Manali, gorgeous landscapes of Solang, and the chilly weather and snows of Rohtang.",
+    schedule: [],
     tripFor: [
       "Long weekends",
       "Group size of 2-6 people",
@@ -854,3 +863,47 @@ let trips = [
     tags: "",
   },
 ];
+
+const template = {
+  id: -1,
+  name: "ShantiTrip Special",
+  days: 6,
+  cost: 13200,
+  themes: ["offseason", "adventure", "relaxation", "snow"],
+  thumbnailUrl: "/images/trips/7.webp",
+  gallery: ["/images/trips/7.webp"],
+  description:
+    "A trip for those who want to enjoy complete leisure and relaxation with little activity, while enjoying all the beauty and serenity Himachal has to offer.",
+  places: ["Parashar lake ", "Tosh ", "Kasol"],
+  punchline: "Rest and reboot.",
+  summary:
+    "Spend 5 nights and 6 days in utter peace and quiet. Relax and laze around in Kasol, get a birds-eye view of Parvati Valley in Tosh, and experience a meditative stillness and silence along with a 360\u00b0 view of the Himalayan mountain range at Parashar Lake.",
+  schedule: [],
+  tripFor: [""],
+  highlights: [""],
+  stay: [""],
+  travel: [""],
+  food: [""],
+  features: [
+    {
+      title: "Rest and Relaxation",
+      items: [""],
+    },
+    {
+      title: "Shopping",
+      items: [""],
+    },
+    {
+      title: "Adventure",
+      items: [""],
+    },
+  ],
+  seasonalHighlights: [""],
+  faqs: [
+    {
+      question: "",
+      answer: "",
+    },
+  ],
+  tags: "",
+};
