@@ -868,7 +868,7 @@ let trips = [
     days: 8,
     cost: 13200,
     themes: [],
-    thumbnailUrl:"/images/trips/2.webp",
+    thumbnailUrl: "/images/trips/2.webp",
     gallery: [""],
     description: "",
     places: [
@@ -988,7 +988,7 @@ let trips = [
     days: 7,
     cost: 7999,
     themes: [],
-    thumbnailUrl:"/images/trips/2.webp",
+    thumbnailUrl: "/images/trips/2.webp",
     gallery: [""],
     description: "",
     places: [
@@ -1086,7 +1086,7 @@ let trips = [
     days: 7,
     cost: 8500,
     themes: [],
-    thumbnailUrl:"/images/trips/2.webp",
+    thumbnailUrl: "/images/trips/2.webp",
     gallery: [""],
     description: "",
     places: [
@@ -1205,7 +1205,7 @@ let trips = [
     days: 6,
     cost: 7999,
     themes: [],
-    thumbnailUrl:"/images/trips/2.webp",
+    thumbnailUrl: "/images/trips/2.webp",
     gallery: [""],
     description: "",
     places: [
@@ -1298,14 +1298,13 @@ let trips = [
     ],
     tags: "",
   },
-
   {
     id: 10,
     name: "Kasol Manali ",
     days: 6,
     cost: 6999,
     themes: [""],
-    thumbnailUrl:"/images/trips/2.webp",
+    thumbnailUrl: "/images/trips/2.webp",
     gallery: [""],
     description: "",
     places: [
@@ -1401,14 +1400,13 @@ let trips = [
     ],
     tags: "",
   },
-
   {
     id: 14,
     name: "Kasol,rasol, Tosh",
     days: 6,
     cost: 6500,
     themes: [],
-    thumbnailUrl:"/images/trips/2.webp",
+    thumbnailUrl: "/images/trips/2.webp",
     gallery: [""],
     description: "",
     places: [
@@ -1493,14 +1491,13 @@ let trips = [
     ],
     tags: "",
   },
-
   {
     id: 16,
     name: "delhi -kasol - tosh-kutla -manali - delhi ",
     days: 7,
     cost: 13200,
     themes: [],
-    thumbnailUrl:"/images/trips/2.webp",
+    thumbnailUrl: "/images/trips/2.webp",
     gallery: [""],
     description: "",
     places: [
@@ -1588,14 +1585,13 @@ let trips = [
     ],
     tags: "",
   },
-
   {
     id: 9,
     name: "Magic Manali",
     days: 7,
     cost: 7999,
     themes: ["", "", "", ""],
-    thumbnailUrl:"/images/trips/2.webp",
+    thumbnailUrl: "/images/trips/2.webp",
     gallery: [""],
     description: "",
     schedule: [
@@ -1703,14 +1699,13 @@ let trips = [
     ],
     tags: "",
   },
-
   {
     id: 17,
     name: "Manali solang sissu kasol",
     days: 6,
     cost: 6999,
     themes: [],
-    thumbnailUrl:"/images/trips/2.webp",
+    thumbnailUrl: "/images/trips/2.webp",
     gallery: [""],
     description: "",
     places: [
@@ -1814,14 +1809,13 @@ let trips = [
     ],
     tags: "",
   },
-
   {
     id: 19,
     name: "Merry Christmas",
     days: 6,
     cost: 16500,
     themes: [],
-    thumbnailUrl:"/images/trips/2.webp",
+    thumbnailUrl: "/images/trips/2.webp",
     gallery: [""],
     description: "",
     places: ["Kasol", "Manikaran", "Tosh", "Kutla", "Budhaban"],
@@ -1898,14 +1892,13 @@ let trips = [
     ],
     tags: "",
   },
-
   {
     id: 18,
     name: "Shimla Kasol Manali ",
     days: 8,
     cost: 0,
     themes: [],
-    thumbnailUrl:"/images/trips/2.webp",
+    thumbnailUrl: "/images/trips/2.webp",
     gallery: [""],
     description: "",
     places: [
@@ -2027,14 +2020,13 @@ let trips = [
     ],
     tags: "",
   },
-
   {
     id: 13,
     name: "Kasol, Tosh, Prashar ",
     days: 6,
     cost: 6999,
     themes: [],
-    thumbnailUrl:"/images/trips/2.webp",
+    thumbnailUrl: "/images/trips/2.webp",
     gallery: [""],
     description: "",
     places: ["Kasol", "Manikaran", "Barsheni", "Tosh", "Kutla", "Prashar lake"],

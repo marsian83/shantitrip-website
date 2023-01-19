@@ -18,7 +18,7 @@
         <div class="basis-[25%] text-secondary flex flex-row items-center">
           <span class="material-icons px-2">&#xe158;</span>
           <h4>
-            hello@shantitrip.com <br />
+            travel@shantitrip.in <br />
             shantitrip28@gmail.com
           </h4>
         </div>
