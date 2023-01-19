@@ -34,7 +34,7 @@
       >
         <div class="flex flex-col gap-1">
           <h2 class="opacity-85 text-xl">₹{{ trip.cost }}</h2>
-          <p class="text-xs opacity-80">₹{{ trip.cost / trip.days }} / day</p>
+          <p class="text-xs opacity-80">₹{{ Math.ceil(trip.cost / trip.days) }} / day</p>
         </div>
         <NuxtLink :to="`/trips/${trip.id}`">
           <button class="btn-primary py-2 m-0">View Trip</button>
