@@ -252,9 +252,7 @@
         </NuxtLink>
       </div>
     </section>
-    <section class="instagram-feed p-page">
-      <InstagramFeed />
-    </section>
+    <section class="instagram-feed p-page"></section>
   </div>
 </template>
 
