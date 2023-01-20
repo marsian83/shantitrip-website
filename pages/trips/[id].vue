@@ -19,7 +19,7 @@
         >
         <h3 class="text-3xl font-medium">₹{{ trip.cost }}</h3>
       </div>
-      <div class="flex flex-row items-center gap-2 max-w-[33%]">
+      <div class="flex flex-row items-center gap-2 widescreen:max-w-[33%]">
         <span
           class="material-icons text-3xl aspect-square rounded-full text-primary bg-background p-2"
           >&#xe0c8;</span
