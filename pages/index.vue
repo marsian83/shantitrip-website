@@ -39,7 +39,7 @@
             <div class="hero-text-item">Himachal</div>
           </div>
           <NuxtLink
-            to="/contact"
+            to="/trips/healing-touch"
             class="btn-primary self-center hover:scale-105"
           >
             Gift Now!
@@ -52,15 +52,6 @@
         </div>
       </div>
     </section>
-    <!-- <section
-      class="top hero-2 h-screen bg-cover flex-col mobile:h-[30vh] hidden"
-    ></section> -->
-
-    <div class="w-full flex flex-row justify-between p-4">
-      <button></button>
-      <button></button>
-    </div>
-
     <section class="destinations p-page hidden">
       <h2 class="heading">
         Find your <span class="color-primary">Perfect</span> Trip
