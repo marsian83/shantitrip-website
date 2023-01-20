@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="top h-screen bg-cover flex flex-col mobile:h-[30vh]">
+    <section class="top hero-1 h-screen bg-cover flex flex-col mobile:h-[30vh]">
       <div class="hero flex flex-col m-auto">
         <div class="hero-text-top">
           <div class="hero-text-item" id="tl">Plan</div>
@@ -24,6 +24,27 @@
         of travel — one booking at a time.
       </div>
     </section>
+    <section
+      class="top hero-2 h-screen bg-cover flex-col mobile:h-[30vh] hidden"
+    >
+      <div class="hero flex flex-col m-auto">
+        <p class="text-secondary text-center text-2xl font-medium">
+          This summer <span class="text-yellow-300"> gift your parents </span> an Unforgettable trip to
+        </p>
+        <div class="hero-text-top">
+          <div class="hero-text-item">Himachal</div>
+        </div>
+        <NuxtLink to="/contact" class="btn-primary self-center hover:scale-105">
+          Gift Now!
+        </NuxtLink>
+      </div>
+      <div
+        class="text-secondary self-center mb-16 opacity-80 text-lg font-semibold bg-[#00000088] p-4 rounded-2xl mobile:hidden"
+      >
+        Starting at just Rs.8499/- per person
+      </div>
+    </section>
+
     <section class="destinations p-page hidden">
       <h2 class="heading">
         Find your <span class="color-primary">Perfect</span> Trip
@@ -31,7 +52,7 @@
       <div
         class="handpicked flex flex-row flex-wrap justify-between mobile:gap-y-8"
       >
-        <NuxtLink
+        <!-- <NuxtLink
           class="basis-[18%] aspect-[12/17] mobile:basis-[45%] mobile:aspect-[12/11]"
           v-for="destination in destinations"
           :key="destination.id"
@@ -41,7 +62,7 @@
             :text="destination.name"
             :imageUrl="destination.thumbnailUrl"
           />
-        </NuxtLink>
+        </NuxtLink> -->
         <NuxtLink class="basis-[18%] mobile:basis-1/2" to="/destinations">
           <div class="view-more-card flex items-center justify-center h-full">
             <h4
@@ -269,13 +290,33 @@ const { data: natureTrips } = useFetch("/api/trips/search", {
 const { data: adventureTrips } = useFetch("/api/trips/search", {
   query: { query: "adventure" },
 });
+
+let heroShowing = 1;
+
+onMounted(() => {
+  setInterval(() => {
+    document
+      .querySelector(`.top.hero-${heroShowing}`)
+      .classList.replace("flex", "hidden");
+    heroShowing == 1 ? (heroShowing = 2) : (heroShowing = 1);
+    document
+      .querySelector(`.top.hero-${heroShowing}`)
+      .classList.replace("hidden", "flex");
+  }, 5000);
+});
 </script>
 
 <style scoped>
-.top {
+.top.hero-1 {
   background-position: center;
   background-image: linear-gradient(to bottom, #0a0a0abc, #0a0a0a55, #0a0a0abc),
     url("/images/gallery/hero.webp");
+}
+.top.hero-2 {
+  background-position:  left;
+  background-size: 100%;
+  background-image: linear-gradient(to bottom, #0a0a0abc, #0a0a0a55, #0a0a0abc),
+    url("/promotional.jpg");
 }
 .hero-text-top,
 .hero-text-bottom {
