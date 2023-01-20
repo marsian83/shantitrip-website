@@ -20,6 +20,7 @@
         :src="image"
         :alt="image"
         class="w-full"
+        loading="lazy"
       />
     </div>
     <div class="basis-1/3 px-1 flex flex-col gap-y-2 widescreen-only">
@@ -29,6 +30,7 @@
         :src="image"
         :alt="image"
         class="w-full"
+        loading="lazy"
       />
     </div>
     <div class="basis-1/3 px-1 flex flex-col gap-y-2 widescreen-only">
@@ -38,6 +40,7 @@
         :src="image"
         :alt="image"
         class="w-full"
+        loading="lazy"
       />
     </div>
     <div class="basis-1/2 px-1 flex flex-col gap-y-2 mobile-only">
@@ -47,6 +50,7 @@
         :src="image"
         :alt="image"
         class="w-full"
+        loading="lazy"
       />
     </div>
     <div class="basis-1/2 px-1 flex flex-col gap-y-2 mobile-only">
@@ -56,6 +60,7 @@
         :src="image"
         :alt="image"
         class="w-full"
+        loading="lazy"
       />
     </div>
   </section>
