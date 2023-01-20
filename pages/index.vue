@@ -273,6 +273,7 @@ const { data: adventureTrips } = useFetch("/api/trips/search", {
 
 <style scoped>
 .top {
+  background-position: center;
   background-image: linear-gradient(to bottom, #0a0a0abc, #0a0a0a55, #0a0a0abc),
     url("/images/gallery/hero.webp");
 }
