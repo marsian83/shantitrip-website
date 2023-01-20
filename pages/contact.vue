@@ -100,7 +100,7 @@
       transparent,
       rgba(var(--text-primary), 0.83)
     ),
-    url("/images/trips.webp");
+    url("/images/gallery/contact.webp");
     text-shadow: 0px 0px 8px rgba(var(--text-primary), 0.69);
 }
 input,
