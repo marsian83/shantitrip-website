@@ -24,12 +24,12 @@
         of travel — one booking at a time.
       </div>
     </section>
-    <section class="destinations p-page">
+    <section class="destinations p-page hidden">
       <h2 class="heading">
         Find your <span class="color-primary">Perfect</span> Trip
       </h2>
       <div
-        class="destinations flex flex-row flex-wrap justify-between mobile:gap-y-8"
+        class="handpicked flex flex-row flex-wrap justify-between mobile:gap-y-8"
       >
         <NuxtLink
           class="basis-[18%] aspect-[12/17] mobile:basis-[45%] mobile:aspect-[12/11]"
