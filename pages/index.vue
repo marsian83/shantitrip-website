@@ -26,7 +26,7 @@
     </section>
     <section class="destinations p-page">
       <h2 class="heading">
-        <span class="color-primary">Destinations</span> to Explore
+        Find your <span class="color-primary">Perfect</span> Trip
       </h2>
       <div
         class="destinations flex flex-row flex-wrap justify-between mobile:gap-y-8"
@@ -257,7 +257,7 @@
 </template>
 
 <script setup>
-const { data: destinations } = useFetch("/api/destinations");
+// const { data: destinations } = useFetch("/api/destinations");
 const trending = [0, 1, 2, 3, 4];
 let seasonalTrips = [];
 for (const trend of trending) {

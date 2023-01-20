@@ -4,7 +4,9 @@
   >
     <h4 class="text-4xl font-medium mobile:text-2xl">OUR</h4>
     <h2 class="text-8xl font-semibold mobile:text-4xl">IMAGE GALLERY</h2>
-    <p class="absolute bottom-8 p-page text-center text-lg font-light widescreen-only">
+    <p
+      class="absolute bottom-8 p-page text-center text-lg font-light widescreen-only"
+    >
       Explore the beauty of India with Shantitrip! Our image gallery takes you
       on a journey through the vibrant culture, majestic monuments, and stunning
       landscapes of India. From the snow-covered Himalayas to the golden beaches
@@ -21,6 +23,7 @@
         :alt="image"
         class="w-full"
         loading="lazy"
+        onerror="this.style.dispaly='none'"
       />
     </div>
     <div class="basis-1/3 px-1 flex flex-col gap-y-2 widescreen-only">
@@ -31,6 +34,7 @@
         :alt="image"
         class="w-full"
         loading="lazy"
+        onerror="this.style.dispaly='none'"
       />
     </div>
     <div class="basis-1/3 px-1 flex flex-col gap-y-2 widescreen-only">
@@ -41,6 +45,7 @@
         :alt="image"
         class="w-full"
         loading="lazy"
+        onerror="this.style.dispaly='none'"
       />
     </div>
     <div class="basis-1/2 px-1 flex flex-col gap-y-2 mobile-only">
@@ -51,6 +56,7 @@
         :alt="image"
         class="w-full"
         loading="lazy"
+        onerror="this.style.dispaly='none'"
       />
     </div>
     <div class="basis-1/2 px-1 flex flex-col gap-y-2 mobile-only">
@@ -61,6 +67,7 @@
         :alt="image"
         class="w-full"
         loading="lazy"
+        onerror="this.style.dispaly='none'"
       />
     </div>
   </section>
@@ -74,8 +81,8 @@ const images1 = images.slice(thirdImages * 0, thirdImages * 1);
 const images2 = images.slice(thirdImages * 1, thirdImages * 2);
 const images3 = images.slice(thirdImages * 2, thirdImages * 3);
 const secondImages = images.length / 2;
-const mobileImages1 = images.slice(secondImages * 0, secondImages * 1)
-const mobileImages2 = images.slice(secondImages * 1, secondImages * 2)
+const mobileImages1 = images.slice(secondImages * 0, secondImages * 1);
+const mobileImages2 = images.slice(secondImages * 1, secondImages * 2);
 </script>
 
 <style scoped>
@@ -86,7 +93,7 @@ const mobileImages2 = images.slice(secondImages * 1, secondImages * 2)
     url("/images/gallery/gallery.webp");
   text-shadow: 0px 8px 1rem black;
 }
-.gallery img{
+.gallery img {
   @apply rounded-xl shadow-lg;
 }
 </style>
