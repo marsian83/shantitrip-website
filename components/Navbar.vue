@@ -25,7 +25,7 @@
             <NuxtLink to="/trips">Trips</NuxtLink>
           </li>
           <li class="navbar-item">
-            <NuxtLink to="/destinations">Destinations</NuxtLink>
+            <NuxtLink to="/gallery">Gallery</NuxtLink>
           </li>
           <li class="navbar-item">
             <NuxtLink to="/contact">Contact</NuxtLink>
@@ -40,13 +40,14 @@
           <li class="navbar-item">
             <NuxtLink to="/trips">
               <span class="material-icons">&#xe539;</span>
-              Trips</NuxtLink
-            >
+              <p>Trips</p>
+            </NuxtLink>
           </li>
           <li class="navbar-item">
             <NuxtLink to="/contact">
-              <span class="material-icons">&#xe61d;</span>Contact</NuxtLink
-            >
+              <span class="material-icons">&#xe61d;</span>
+              <p>Contact</p>
+            </NuxtLink>
           </li>
           <li class="navbar-item relative">
             <NuxtLink to="/" class="mobile-nav-logo">
@@ -54,14 +55,16 @@
             /></NuxtLink>
           </li>
           <li class="navbar-item">
-            <NuxtLink to="/agents">
-              <span class="material-icons">&#xebcb;</span>Collab</NuxtLink
+            <NuxtLink to="/gallery">
+              <span class="material-icons">&#xe413;</span>
+              <p>Gallery</p></NuxtLink
             >
           </li>
           <li class="navbar-item">
-            <NuxtLink to="/gallery">
-              <span class="material-icons">&#xe413;</span>Gallery</NuxtLink
-            >
+            <NuxtLink to="/agents">
+              <span class="material-icons">&#xebcb;</span>
+              <p>Collab</p>
+            </NuxtLink>
           </li>
         </ul>
       </div>
@@ -121,15 +124,18 @@ onMounted(() => {
 .navbar.nav-fix .navbar-item a {
   color: rgb(var(--text-primary));
 }
-.navbar .navbar-item a:hover {
-  color: rgb(var(--primary));
-  transition: 300ms;
+.navbar .navbar-item a {
+  @apply widescreen:hover:color-primary transition-300;
 }
 .navbar-item:has(.router-link-exact-active) {
   @apply widescreen:hidden;
 }
-.navbar-item:has(.router-link-exact-active) span {
-  @apply bg-opacity-30 w-full text-center mobile:color-primary;
+.navbar-item:has(.router-link-exact-active) span,
+.navbar-item:has(.router-link-exact-active) p {
+  @apply mobile:color-primary;
+}
+.router-link-exact-active {
+  @apply mobile:color-primary;
 }
 .mobile-nav-logo {
   @apply bg-background rounded-full aspect-square border-t border-black;
