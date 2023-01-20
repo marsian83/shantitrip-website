@@ -1519,7 +1519,6 @@ let trips = [
   },
 
   //Himalayan Escape
-
   {
     id: 15,
     name: "Himalayan Escape",
@@ -2179,6 +2178,7 @@ let trips = [
     tags: "",
   },
 
+  //High in Himalayas
   {
     id: 21,
     name: "High in Himalayas",
@@ -2262,6 +2262,63 @@ let trips = [
         question: "Do I need to carry any special equipment?",
         answer:
           "As you'll be travelling in the winter, thick woolen jackets and trekking gear will be a must. Also carry a rain-jacket or umbrella along as rains are expected this time around. Other than that, carry a flashlight, long socks for hiking and to stay warm, binoculars, a good camera for capturing the view, and most importantly — a power bank",
+      },
+      {
+        question: "Who do you need to call in emergency",
+        answer:
+          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102",
+      },
+    ],
+    tags: "",
+  },
+
+  //Healing Touch
+  {
+    id: "healing-touch",
+    name: "Healing Touch",
+    days: 7,
+    cost: 35000,
+    themes: [
+      "nature",
+      "relaxation",
+      "spritual",
+      "culture",
+      "adventure",
+      "leisure",
+    ],
+    thumbnailUrl: "/promotional.jpg",
+    gallery: ["/images/trips/7.webp"],
+    description:
+      "A trip for those who want to enjoy complete leisure and relaxation with little activity, while enjoying all the beauty and serenity Himachal has to offer.",
+    places: ["Parashar lake ", "Tosh ", "Kasol"],
+    punchline: "Rest and reboot.",
+    summary:
+      "Spend 5 nights and 6 days in utter peace and quiet. Relax and laze around in Kasol, get a birds-eye view of Parvati Valley in Tosh, and experience a meditative stillness and silence along with a 360\u00b0 view of the Himalayan mountain range at Parashar Lake.",
+    schedule: [],
+    tripFor: [""],
+    highlights: [""],
+    stay: [""],
+    travel: [""],
+    food: [""],
+    features: [
+      {
+        title: "Rest and Relaxation",
+        items: [""],
+      },
+      {
+        title: "Shopping",
+        items: [""],
+      },
+      {
+        title: "Adventure",
+        items: [""],
+      },
+    ],
+    seasonalHighlights: [""],
+    faqs: [
+      {
+        question: "",
+        answer: "",
       },
       {
         question: "Who do you need to call in emergency",

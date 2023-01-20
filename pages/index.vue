@@ -30,7 +30,7 @@
       </div>
       <div class="hero-2 w-screen h-full flex flex-col m-auto bg-cover">
         <div class="hero flex flex-col m-auto">
-          <p class="text-secondary text-center text-2xl font-medium">
+          <p class="text-secondary text-center text-2xl font-medium mobile:text-lg">
             This summer
             <span class="text-yellow-300"> gift your parents </span> an
             Unforgettable trip to
