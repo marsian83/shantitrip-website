@@ -103,6 +103,7 @@
 
 <style scoped>
 .hero {
+  background-position: center;
   background-image: linear-gradient(
       to bottom,
       rgba(var(--text-primary), 0.49),
