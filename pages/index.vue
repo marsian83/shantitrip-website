@@ -2,10 +2,10 @@
   <div>
     <section
       class="top h-screen bg-cover flex flex-col mobile:h-[30vh]"
-      data-flickity='{ "wrapAround": true  }'
+      data-flickity='{ "wrapAround": true , "autoPlay": true }'
     >
       <div
-        class="hero-1 relative w-screen h-screen flex flex-col justify-center m-auto bg-cover"
+        class="hero-1 relative w-screen h-full flex flex-col justify-center m-auto bg-cover"
       >
         <div class="hero-text-top">
           <div class="hero-text-item" id="tl">Plan</div>
@@ -28,7 +28,7 @@
           out of travel — one booking at a time.
         </div>
       </div>
-      <div class="hero-2 w-screen h-screen flex flex-col m-auto bg-cover">
+      <div class="hero-2 w-screen h-full flex flex-col m-auto bg-cover">
         <div class="hero flex flex-col m-auto">
           <p class="text-secondary text-center text-2xl font-medium">
             This summer
