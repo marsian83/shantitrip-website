@@ -2,12 +2,12 @@
   <section
     class="hero h-screen p-page text-secondary bg-cover bg-fixed bg-[linear-gradient(#000000aa,#00000066,#000000aa),url('/images/trips/healing-touch/image2.webp')] flex flex-col justify-center items-center gap-y-10"
   >
-    <h1 class="text-8xl font-bold">Healing Touch</h1>
-    <h2 class="text-xl font-medium">
+    <h1 class="text-8xl font-bold mobile:text-6xl text-center">Healing Touch</h1>
+    <h2 class="text-xl font-medium text-justify">
       ultra luxury family tour package and plan (shimla tirthan manali)
     </h2>
     <div
-      class="info bg-[#00000066] flex flex-row gap-x-16 items-center rounded-xl p-4 backdrop-blur-sm"
+      class="info bg-[#00000066] flex flex-row gap-x-16 items-center rounded-xl p-4 backdrop-blur-sm mobile:flex-col mobile:gap-y-10"
     >
       <div class="">7D/6N</div>
       <div class="">35,000 / person (group of 4)</div>
@@ -233,5 +233,14 @@
 }
 .stay-images img {
     @apply max-h-[40vh] min-w-[33%] object-cover
+}
+.day div.flex-row{
+    @apply mobile:flex-col;
+}
+.day div.flex-row-reverse{
+    @apply mobile:flex-col;
+}
+.day .absolute{
+    @apply static
 }
 </style>
