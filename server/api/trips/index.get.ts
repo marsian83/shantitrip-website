@@ -101,7 +101,7 @@ let trips = [
       {
         question: "Who do I call in an emergency?",
         answer:
-          "Our travel buddies will always be a call away in case you need any help or guidance. For in-person support, here’s a list of locals who’ll be at your service in case of emergencies: Pankaj Sharma: 9459668084 Shantitrip Holidays Help Desk: 8219235768 Himachal Police : 01902265412 or 100",
+          "Our travel buddies will always be a call away in case you need any help or guidance. For in-person support, here's a list of locals who'll be at your service in case of emergencies: Pankaj Sharma: 9459668084 Shantitrip Holidays Help Desk: 8219235768 Himachal Police : 01902265412 or 100",
       },
     ],
     tags: "",
@@ -697,7 +697,7 @@ let trips = [
   {
     id: 7,
     name: "ShantiTrip Special",
-    days: 6,
+    days: 5,
     cost: 13200,
     themes: ["offseason", "adventure", "relaxation", "snow"],
     thumbnailUrl: "/images/trips/7.webp",
@@ -984,7 +984,7 @@ let trips = [
       {
         question: "Who do you need to call in emergency",
         answer:
-          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102"
+          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102",
       },
     ],
     tags: "",
@@ -1013,8 +1013,7 @@ let trips = [
       "Rohtang tunnel",
       "Naggar castle",
     ],
-    punchline:
-      "Discover the hidden gems of the Himalayas",
+    punchline: "Discover the hidden gems of the Himalayas",
     summary:
       "As you move on to Manali, you will get to experience a small trek to the powerful Electric Mahadev Temple and take a stroll through the lush Vanbihar forest, perfect for photography. In Manali, you can indulge in adventure activities like snow trekking and paragliding, visit popular places like Solang Valley, Rohtang Tunnel, and Naggar Castle. Additionally, you can explore the local market, try traditional foods and even enjoy the night parties and bonfire at the old Manali cafes.",
     schedule: [
@@ -1025,7 +1024,7 @@ let trips = [
       "Visit solang valley ,rohtang tunnel,siisu and visit naggar castlelocal manali market ,pizzas at italian pizzeria in nagger and then in evening start overnight journey toyourplaces.",
       "In the morning at your starting point.",
     ],
-    tripFor: ["Group of 5","Adventure lovers", "Group of 6"],
+    tripFor: ["Group of 5", "Adventure lovers", "Group of 6"],
     highlights: [
       "Visit hippie market of kasol",
       "To have relaxing hours by sitting along the bank of parvati river ",
@@ -1092,7 +1091,7 @@ let trips = [
       {
         question: "Who do you need to call in emergency",
         answer:
-          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102"
+          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102",
       },
     ],
     tags: "",
@@ -1120,8 +1119,7 @@ let trips = [
       "Kheerganga",
       "Tosh",
     ],
-    punchline:
-      "The Himalayas and the thrill of adventure",
+    punchline: "The Himalayas and the thrill of adventure",
     summary:
       "You will also have the opportunity to visit the cultural market of Manikaran and do some shopping for traditional Himachali products. The trip includes stays at a homestay, guest house, and camps, and you will have the chance to enjoy music and bonfire nights, as well as smoke up sessions.",
     schedule: [
@@ -1197,7 +1195,7 @@ let trips = [
       {
         question: "Who do you need to call in emergency",
         answer:
-          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102"
+          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102",
       },
     ],
     tags: "",
@@ -1210,7 +1208,7 @@ let trips = [
     days: 8,
     cost: 13200,
     themes: ["backpackers", "trekking", "adventure", "culture"],
-    
+
     thumbnailUrl: "/images/trips/12.webp",
     gallery: ["/images/trips/12.webp"],
     description:
@@ -1234,8 +1232,7 @@ let trips = [
       "Naddi",
       "Dalai lama temple",
     ],
-    punchline:
-      "From trekking in the mountains to paragliding",
+    punchline: "From trekking in the mountains to paragliding",
     summary:
       "This is an 8-day trip to Himachal Pradesh, India, visiting places such as Kasol, Prashar, Tosh, Manikaran, and other places. The trip includes activities such as local market visits, trekking, paragliding, and experiencing local culture and food. Suitable for a group of 6 people, the trip includes overnight stays in a homestay, camps, guest houses, and hotels, and transportation by Innova and Force Traveller vehicles. Trip highlights include the hippie market of Kasol, trekking to Prashar Lake, paragliding at Bir Billing and Tibetan culture in Dharamshala and McLeod Ganj.",
     schedule: [
@@ -1324,12 +1321,11 @@ let trips = [
       {
         question: "Who do you need to call in emergency",
         answer:
-          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102"
+          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102",
       },
     ],
     tags: "",
   },
-
 
   //Himalayan Adventure
   {
@@ -1338,14 +1334,13 @@ let trips = [
     days: 6,
     cost: 6999,
     themes: ["adventure", "nature", "culture", "history"],
-    
+
     thumbnailUrl: "/images/trips/13.webp",
     gallery: ["/images/trips/13.webp"],
     description:
       "The trip includes visits to Kasol, known for its hippie market, Manikaran, famous for its hot springs, and the picturesque Tosh valley. The trip also includes a 7.5km snow trek to Prashar lake, where you can enjoy the breathtaking views of the surrounding mountains and the tranquility of the lake.",
     places: ["Kasol", "Manikaran", "Barsheni", "Tosh", "Kutla", "Prashar lake"],
-    punchline:
-      "The snow-capped mountains and scenic beauty of Kasol",
+    punchline: "The snow-capped mountains and scenic beauty of Kasol",
     summary:
       "Along the way, you can also indulge in traditional Himachali food, shopping for woolen stuff and local handicrafts, and participate in activities such as river-side sunbathing, smokeup hours and party in the indoor psy café.",
     schedule: [],
@@ -1449,8 +1444,7 @@ let trips = [
       "Kalga",
       "Tulga",
     ],
-    punchline:
-      "With breathtaking views, hot springs, and cultural immersion.",
+    punchline: "With breathtaking views, hot springs, and cultural immersion.",
     summary:
       "After trekking back to Kasol, you will take a ride to Tosh to enjoy the sunset and star-gazing at night. On the last day, you will visit Manikaran, the local market of Kasol and then head back to your starting point. You will also have the opportunity to enjoy hot baths at Manikaran, explore the hippie market of Kasol, and taste traditional food.",
     schedule: [
@@ -1518,12 +1512,12 @@ let trips = [
       {
         question: "Who do you need to call in emergency",
         answer:
-          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102"
+          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102",
       },
     ],
     tags: "",
   },
-  
+
   //Himalayan Escape
 
   {
@@ -1547,8 +1541,7 @@ let trips = [
       "Budhaban",
       "Tosh waterfall",
     ],
-    punchline:
-      "Get away from the city and immerse yourself in the beauty",
+    punchline: "Get away from the city and immerse yourself in the beauty",
     summary:
       "This is a 7-day trip from Delhi to Kasol, Tosh, Kutla, and other places in Himachal Pradesh, India. The trip includes visits to various places such as local markets, cafes, villages, and trekking to Kutla. The trip also includes activities such as river-side walk, shopping at local markets, and experiencing local culture and food",
     schedule: [
@@ -1623,12 +1616,11 @@ let trips = [
       {
         question: "Who do you need to call in emergency",
         answer:
-          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102"
+          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102",
       },
     ],
     tags: "",
   },
-
 
   //work from mounatins
   {
@@ -1650,8 +1642,7 @@ let trips = [
       "Solang valley",
       "Rohtang tunnel",
     ],
-    punchline:
-      "In the serene beauty of Kasol, Tosh, and Manali.",
+    punchline: "In the serene beauty of Kasol, Tosh, and Manali.",
     summary:
       "Some of the highlights include relaxing by the river in Kasol, trekking to Kutla for a night of star-gazing, and exploring the traditional wooden houses in Kutla. Food will be provided at all locations and activities include trekking and smoking up.",
     schedule: [],
@@ -1838,12 +1829,12 @@ let trips = [
       {
         question: "Who do you need to call in emergency",
         answer:
-          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102"
+          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102",
       },
     ],
     tags: "",
   },
-  
+
   //himalayan retreat
   {
     id: 18,
@@ -1971,7 +1962,7 @@ let trips = [
       {
         question: "Who do you need to call in emergency",
         answer:
-          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102"
+          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102",
       },
     ],
     tags: "",
@@ -2064,7 +2055,7 @@ let trips = [
     tags: "",
   },
 
-//Himalayan odessey
+  //Himalayan odessey
   {
     id: 20,
     name: "Himalayan Odyssey",
@@ -2092,8 +2083,7 @@ let trips = [
       "Tirthan ghnpnatural park",
       "Jalodi pass.",
     ],
-    punchline:
-      "Experience the best of Himachal Pradesh's culture",
+    punchline: "Experience the best of Himachal Pradesh's culture",
     summary:
       "The trip is suitable for groups of 100 members and includes overnight stays in camps and hotels. The trip includes transportation by Tempo Traveller. The trip highlights include visiting the old Manali market, Solang Valley, Tirthan River, and Kasol, experiencing local culture and food, and night parties",
     schedule: [
@@ -2183,12 +2173,104 @@ let trips = [
       {
         question: "Who do you need to call in emergency",
         answer:
-          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102"
+          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102",
       },
     ],
     tags: "",
   },
 
+  {
+    id: 21,
+    name: "High in Himalayas",
+    days: 7,
+    cost: 7999,
+    themes: ["adventure", "offseason", "snow", "relaxation"],
+    thumbnailUrl: "/images/trips/1.webp",
+    gallery: ["/images/trips/1.webp"],
+    description:
+      "Start 2021 on a chill note with a visit to the snowclad landscapes of Kasol, Tosh, and Kutla. Witness the majesty of the magnificent Himalayas as you go on snow-treks amidst gushing waterfalls, pine trees, and a serene and relatively tourist-free landscape.",
+    places: [["Kasol", "Tosh", "Kutla", "Budhaban"]],
+    punchline: "Rest and reboot.",
+    summary:
+      "Spend 6 nights and 7 days exploring the pristine white, snowclad landscapes of Himachal Pradesh. Take a breather from the claustrophobia and home-boundedness of 2020 and welcome 2021 with the fresh mountain air of Kasol, the gorgeous views of Tosh and the rustic village life of Kutla and Buddhaban.",
+    schedule: [],
+    tripFor: [
+      "Youngsters and snow-trek lovers",
+      "Those who like fewer tourists",
+      "Those who seek the perfect balance of leisure and adventure",
+      "Groups of 8-9 friends on a long-pending trip",
+    ],
+    highlights: [
+      "Take long walks along the parvati river bank and chill at cafes in kasol",
+      "Enjoy a healing hot-water bath in manikaran and shop for souvenirs",
+      "Explore tosh village and get a birds-eye view of parvati valley",
+      "Trek your way in the snow to kutla amidst beautiful waterfalls",
+      "Bask in the solitude and silence of the peaceful buddhaban",
+    ],
+    stay: [
+      "Homestay in Kasol",
+      "Guesthouse in Tosh",
+      "Camps in Kutla and Buddhaban",
+    ],
+    travel: ["Force Traveller", "Toyota Etios", "Swift Dzire"],
+    food: [
+      "Traditional Veg. Village Cuisine",
+      "Non-veg. Pahadi Cuisine",
+      "Local delicacies native to Himachal Pradesh",
+    ],
+    features: [
+      {
+        title: "Rest and Relaxation",
+        items: [
+          "Spend lazy afternoons sitting by the Parvati River bank in Kasol",
+          "Chill in cafes in Kasol and Bir. Enjoy Israeli and Tibetan cuisine or local Himachali delicacies like Siddu and Makke Di Roti and Sarso Da Saag",
+          "Enjoy a hot water bath at Manikaran — along with some leisurely shopping for handicrafts, paintings, and other artwork",
+          "Spend a quiet winter night around the bonfire in Kutla",
+        ],
+      },
+      {
+        title: "Shopping",
+        items: [
+          "Buy handicrafts and souvenirs like Kullvi Shawls, caps, and home decor items in Kasol and Manikaran",
+          "Buy trekking equipment in Tosh",
+        ],
+      },
+      {
+        title: "Adventure",
+        items: [
+          "Relish a snow and music-filled gypsy ride from Kasol to Tosh, with plenty of photoshoot opportunities along the way",
+          "Trek 3 km to Kutla from Tosh, amidst spectacular views of the Himalayan mountain ranges and gushing waterfalls",
+          "Test your ice-skating skills in Buddhaban",
+        ],
+      },
+    ],
+    seasonalHighlights: [
+      "This trip is specially made for experiencing Himachali winters starting from mid-December to late-February.You'll likely experience sub-zero temperatures with light to heavy snowfall, cloudy skies, and lots of wintry silence and quiet as locals are huddled up around the fireplace in the warmth and comfort of their homes.",
+    ],
+    faqs: [
+      {
+        question: "Will there be ATMs around?",
+        answer:
+          "There is an ATM in Kasol market but it rarely works so we wouldn't suggest you rely on it. Then there's one in Manikaran market and one in Jari. But we suggest you carry cash with you before entering Parvati Valley, ideally from Bhuntar (you'll avoid extra commision for cash transactions). The higher up you go in the snow, the lesser the chances of finding an ATM. Especially as it's the winter and roads tend to be blocked.",
+      },
+      {
+        question: "Will I be able to communicate well with the locals?",
+        answer:
+          "Yes, the locals know basic English and are fluent in Hindi. So if you know any of these languages, communicating the basics won't be an issue.",
+      },
+      {
+        question: "Do I need to carry any special equipment?",
+        answer:
+          "As you'll be travelling in the winter, thick woolen jackets and trekking gear will be a must. Also carry a rain-jacket or umbrella along as rains are expected this time around. Other than that, carry a flashlight, long socks for hiking and to stay warm, binoculars, a good camera for capturing the view, and most importantly — a power bank",
+      },
+      {
+        question: "Who do you need to call in emergency",
+        answer:
+          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102",
+      },
+    ],
+    tags: "",
+  },
 ];
 
 // const template = {
