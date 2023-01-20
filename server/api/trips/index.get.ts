@@ -871,6 +871,335 @@ let trips = [
     tags: "",
   },
 
+  //Magic Manali
+  {
+    id: 9,
+    name: "Magic Manali",
+    days: 7,
+    cost: 7999,
+    themes: ["religious", "hippie", "heritage", "group"],
+    thumbnailUrl: "/images/trips/2.webp",
+    gallery: [""],
+    description:
+      "You will move on to Manali, doing activities such as rafting and paragliding in Kullu, and relaxing at your stay. You will also get to visit Solang Valley, Rohtang Tunnel, Sissu, Hadimba Temple, Vashisht hot spring, Manu temple, Mall road, Old manali streets and Club house.",
+    schedule: [
+      "Start from chd/delhi overnight journey to kasol.",
+      "Local kasol market, chalal,manikaran and cafes in kasol",
+      "Trek to malana and then come back by evening to homestay .bonfire and smoke up hours",
+      "Move to manali  doing rafting and paragliding at kullu ,rest and relax at staying place",
+      "Visit solang valley ,rohtang tunnel,siisu and thencome back by evening to manali and visit localmarket for its famouscafes and night parties.",
+      "Visit naggar castlelocal manali market ,pizzas at italian pizzeria in nagger and then in evening start overnight journey toyourplaces",
+      "At your starting point",
+    ],
+    places: [
+      "Kasol Chalal",
+      "Manikaran",
+      "Tosh",
+      "Malana",
+      "kullu",
+      "Naggar",
+      "Manali",
+      "Solang valley",
+      "Rohtang tunnel",
+      "Sissu",
+      "Hadimba Temple",
+      "Vashisht hot spring",
+      "Manu temple",
+      "Mall road",
+      "Old manali streets",
+      "Club house",
+    ],
+    punchline: "Experience the magic of the mountains in Manali",
+    summary:
+      "The Magic Manali trip is a 7-day adventure filled with rest and relaxation, shopping, and adventure. The trip starts with an overnight journey from Delhi/Chandigarh to Kasol where you will be able to visit the local market, Chalal, Manikaran and enjoy the cafes. The next day you will trek to Malana and come back by evening to your homestay for a bonfire and smoke up session",
+    tripFor: ["4 Group Members", "6 Group Members", "8 Group Members"],
+    highlights: [
+      "Visit hippie market of kasol",
+      "To have relaxing hours by sitting along the bank of parvati river ",
+      "Bonfire and musical nights with smoke up sessions",
+      "Hot spring bath at manikaran or vashisht temple in manali",
+      "Snow activities in solang valley",
+      "Heritage visit to castle",
+      "Evening walk at manali mall road",
+      "Visit to rohtang tunnel,Paragliding or rafting at kullu",
+    ],
+    stay: [
+      "Homestay in Kasol(DOP) - 2Nights",
+      "Guest house or hotel in manali (DOP) - 2Nights",
+    ],
+    travel: ["Innova", "Traveller"],
+    food: [
+      "Siddu the most famous local food is available at differentplaces around the valley",
+      "Non veg momosin kasol and kullu market",
+      "Thupka at jari and kullu and manali",
+      "Trout fish in kasol and manali",
+      "Rest all of food is available at respected places where stay is provided",
+    ],
+    features: [
+      {
+        title: "Rest and Relaxation",
+        items: [
+          "Parvati river bank with its magical sound is best place to relax",
+          "Rooftop cafes of your staying places",
+          "Cafes in old manali hippie market",
+          "Kasol nature park",
+        ],
+      },
+      {
+        title: "Shopping",
+        items: [
+          "Kasol market for hippie stuff",
+          "Bhuntar for shopping complex which is having general stores of all daily needs",
+          "Manikaran market",
+          "kullu market kullvi shawls and caps and handmade wooden material for decor and kitchen",
+        ],
+      },
+      {
+        title: "Adventure",
+        items: [
+          "Snowtrek to malana",
+          "Zypsy ride from kasol to nirang",
+          "Paragliding at kullu",
+          "River rafting at kullu",
+          "Zypsy safari to solang valley",
+        ],
+      },
+      {
+        title: "Art and Culture",
+        items: [
+          "heritage jamdagni rishi ji temple in malan and old traditional houses and living styleof peoples who presumes that they belongs to a different territory or country",
+          "Kasol nature park representing the cultural view of mountains and their life style",
+          "Manikaran gurudwara saheb and view of its historical facts",
+          "To buy traditional stuff for decor and also woolens from the manikaran market",
+          "Van bihar in manali,manali mall road for its different cultural outlooks",
+          "Naggar castle for its historical beauty",
+          "Raurik museum",
+          "Monestry in manali",
+          "Woolen shawls showrrom in kullu and manali",
+        ],
+      },
+    ],
+    seasonalHighlights: [""],
+    faqs: [
+      {
+        question: "",
+        answer: "",
+      },
+    ],
+    tags: "",
+  },
+
+  
+  {
+    id: 10,
+    name: "Paradise in the Hills",
+    days: 6,
+    cost: 6999,
+    themes: ["nature", "relaxation", "hippie", "religious"],
+    thumbnailUrl: "/images/trips/2.webp",
+    gallery: [""],
+    description:
+      "This 6 day trip takes you to the picturesque valleys of Kasol and Manali, where you can experience the beauty of nature and culture. The journey begins with an overnight trip from Delhi/Chandigarh to Kasol, where you can explore the local market, visit the charming village of Chalal, and enjoy the relaxing atmosphere of cafes along the banks of the Parvati River",
+    places: [
+      "Kasol",
+      "Chalal",
+      "Manikaran",
+      "Tosh",
+      "Kullu",
+      "Electric mahadev temple",
+      "Manali",
+      "Solangvalley",
+      "Rohtang tunnel",
+      "Naggar castle",
+    ],
+    punchline:
+      "Discover the hidden gems of the Himalayas with our Kasol-Manali adventure tour, where you'll experience the best of nature, culture, and relaxation!",
+    summary:
+      "As you move on to Manali, you will get to experience a small trek to the powerful Electric Mahadev Temple and take a stroll through the lush Vanbihar forest, perfect for photography. In Manali, you can indulge in adventure activities like snow trekking and paragliding, visit popular places like Solang Valley, Rohtang Tunnel, and Naggar Castle. Additionally, you can explore the local market, try traditional foods and even enjoy the night parties and bonfire at the old Manali cafes.",
+    schedule: [
+      "Start from chd/delhi overnight journey to kasol.",
+      "Local kasol market, chalal, and cafes in kasol",
+      "Visit manikaran and then   tosh for a day trip ,come back by evening to homestay .bonfire and smoke up hours",
+      "Move to manali by doing a small trek to most spritual and powerfull shiva temple that is electric mahadev temple on the way to manali ,evening walk to mall road through vanbihar which is covered with thick forest and best place for photography, and then thencome back by evening to manali and visit localmarket for its famouscafes and night parties.",
+      "Visit solang valley ,rohtang tunnel,siisu and visit naggar castlelocal manali market ,pizzas at italian pizzeria in nagger and then in evening start overnight journey toyourplaces.",
+      "In the morning at your starting point.",
+    ],
+    tripFor: ["Group of 5", "Group of 6"],
+    highlights: [
+      "Visit hippie market of kasol",
+      "To have relaxing hours by sitting along the bank of parvati river ",
+      "bonfire and musical nights with smoke up sessions ",
+      "hot spring bath at manikaran or vashisht temple inmanali",
+      "snow activities in solang valley",
+      "heritage visit to castle",
+      "evening walk at manalimall road",
+      "visit to rohtang tunnel",
+      "trek toelectric mahadev temple",
+    ],
+    stay: [
+      "Homestay in kasol (DOP) -2Nights",
+      "Guest house in old manali (DOP)-1Night",
+    ],
+    travel: ["Innova", "Marazzo"],
+    food: [
+      "Siddu the most famous local food is available at differentplaces around the valley",
+      "Non veg momosin kasol and kullu market",
+      "Thupka at jari and kullu and manali",
+      "Trout fish in kasol and manali",
+      "Rest all of food is available at respected places where stay is provided",
+    ],
+    features: [
+      {
+        title: "Rest and Relaxation",
+        items: [
+          "Parvati river bank with its magical sound is best place to relax",
+          "Rooftop cafes of your staying places",
+          "Cafes in old manali hippie markt",
+        ],
+      },
+      {
+        title: "Shopping",
+        items: [
+          "Kasol market for hippie stuff",
+          "Bhuntar for shopping complex which is having general stores of all daily needs ",
+          "Manikaran market",
+          "Kullu market  kullvi shawls and caps and handmade wooden material for decor and kitchen",
+        ],
+      },
+      {
+        title: "Adventure",
+        items: [
+          "Snowtrek to malana",
+          "Zypsy ride from kasol to nirang",
+          "Paragliding at kullu",
+          "River rafting at kullu",
+          "Zypsy safari to solang valley",
+        ],
+      },
+      {
+        title: "Art and Culture",
+        items: [
+          "Kasol nature park representing the cultural view of mountains and their life style.",
+          "Manikaran gurudwara saheb and view of its historical facts",
+          "To buy traditional stuff for decor and also woolens from the manikaran market,Van bihar in manali,manali mall road for its different cultural outlooks,naggar castle for its historical beauty,raurik museum,monestry in manali.",
+          "Woolen shawls showrrom in kullu and manali",
+        ],
+      },
+    ],
+    seasonalHighlights: [""],
+    faqs: [
+      {
+        question: "",
+        answer: "",
+      },
+    ],
+    tags: "",
+  },
+
+  {
+    id: 11,
+    name: "Parvati Paradise",
+    days: 6,
+    cost: 7999,
+    themes: ["culture", "hippie", "trekking", "adventure"],
+    thumbnailUrl: "/images/trips/2.webp",
+    gallery: [""],
+    description:
+      "This trip takes you on an adventure through the beautiful landscapes of Himachal Pradesh, starting with an overnight journey from Delhi or Chandigarh to Kasol. You will have the opportunity to relax and explore the hippie market of Kasol, take a hot spring bath at Manikaran or Kheerganga, go on a snow trek to Kheerganga, and enjoy a 360 view of the Sar Pass mountains from Tosh",
+    places: [
+      "Kasol",
+      "Chalal",
+      "Manikaran",
+      "Barshaini",
+      "Kalga",
+      "Rudranag",
+      "Nakthan",
+      "Kheerganga",
+      "Tosh",
+    ],
+    punchline:
+      "Experience the beauty of the Himalayas and the thrill of adventure",
+    summary:
+      "You will also have the opportunity to visit the cultural market of Manikaran and do some shopping for traditional Himachali products. The trip includes stays at a homestay, guest house, and camps, and you will have the chance to enjoy music and bonfire nights, as well as smoke up sessions.",
+    schedule: [
+      "Starting overnight  journey from delhi /chandigarh to kasol",
+      "Arrival at kasol rest and relax on parvati river side garden. Visit ktagla ,chalalandkasol market in the evening, bonfire and msucialparty in the night with smoke up hours in the night.",
+      "Start towards barshaini from where trek to kheerganga starts,by evening arriving in the camps at kheerganga,hot spring shower at kheergnga(either evening or morning),bonfire and star gazing nights at kheerganga.",
+      "Trek down back to barshaini covering rudranag and nakthan village or covering kalga pulga.and then go to tosh by evening to havve sun set viewfrom the guest house and rest with 360 mountain view and have inhouse nusical party with indoor heating system followed by smoke up hours.",
+      "Come back to kasol by covering manikaran and do shopping in the cultural market of manikaran and hippie market of kasol. Leave to delhi/chandiagrh by evening followed by overnight journey",
+      "Back to yourplaces,safe and sound.",
+    ],
+    tripFor: ["Atleast 6 members"],
+    highlights: [
+      "Visit hippie market of kasol",
+      "To have relaxing hours by sitting along the bank of parvati river",
+      "Bonfire and musical nights with smoke up sessions ",
+      "Hot spring bath at manikaran or kheerganga",
+      "Snow trek to kheeerganga",
+      "360* view of sar pass mountains from tosh",
+      "Freezed tosh water fall",
+      "Zypsy snow ride from barshaini to tosh",
+    ],
+    stay: [
+      "Homestay in kasol(DOP) -1Night",
+      "Camps in kheerganga (freedom camps)-1Night",
+      "Guest house in tosh (DOP)-1Night",
+    ],
+    travel: ["Force traveller", "Innova"],
+    food: [
+      "Street food in kasol market or cafes",
+      "Local dishes in manikaran and barshaini",
+      "Veg/non veg food at your stays will be available",
+      "Though while trekking you can carry energy bars and other necessary things",
+    ],
+    features: [
+      {
+        title: "Rest and Relaxation",
+        items: [
+          "Rest at homestay, and then enjoy the scenic view of parvati river",
+          "Having smokeup hours in the jungle along river side",
+          "Relax in thick pine forests of kutla and having sunbath  all the day",
+          "Relax at the top of tosh mountains with a 360 view and to do star gazing in the night",
+        ],
+      },
+      {
+        title: "Shopping",
+        items: [
+          "Kasol market for hippie stuff",
+          "Bhuntar for shopping complex which is having general stores of all daily needs",
+          "Manikaran market for  kullvi shawls and caps and handmade wooden material for decor and kitchen",
+          "Also you can rent shoes for treks at kasol and manikaran or also at barshaini ",
+          "Also you can get wooden sticks for trek at barshaini",
+        ],
+      },
+      {
+        title: "Adventure",
+        items: [
+          "11km snow trek to kheerganga ",
+          "Zypsy snow ride from kasol to barshaini",
+        ],
+      },
+      {
+        title: "Art and Culture",
+        items: [
+          "Kasol nature park representing the cultural view of mountains and their life style",
+          "Manikaran gurudwara saheb and view of its historical facts",
+          "To buy traditional stuff for decor and also woolens from the manikaran market",
+          "To visit kutla  village for its old traditional houses and to know about the cultural aspects of the historical village and their daily life",
+        ],
+      },
+    ],
+    seasonalHighlights: [""],
+    faqs: [
+      {
+        question: "",
+        answer: "",
+      },
+    ],
+    tags: "",
+  },
+
+  
   {
     id: 12,
     name: "Kasol Prashar Trip",
@@ -996,434 +1325,94 @@ let trips = [
   },
 
   {
-    id: 15,
-    name: "Himalayan Escape: A 7-day adventure",
-    days: 7,
-    cost: 7999,
-    themes: ["backpacking", "trekking", "adventure", "culture"],
+    id: 13,
+    name: "Himalayan Adventure",
+    days: 6,
+    cost: 6999,
+    themes: ["adventure", "nature", "culture", "history"],
     thumbnailUrl: "/images/trips/2.webp",
     gallery: [""],
     description:
-      "The trip is suitable for a group of 8 or 9 people and includes overnight stays in a homestay, guest house, and camps. The trip includes transportation by tempo traveller. The trip highlights include the hippie market of Kasol, trekking to Kutla, star-gazing nights, and experiencing local culture and food.",
-    places: [
-      "Kasol",
-      "Chalal",
-      "Manikaran",
-      "Tosh",
-      "Kalga",
-      "Pulga",
-      "Kutla",
-      "Budhaban",
-      "Tosh waterfall",
-    ],
+      "The trip includes visits to Kasol, known for its hippie market, Manikaran, famous for its hot springs, and the picturesque Tosh valley. The trip also includes a 7.5km snow trek to Prashar lake, where you can enjoy the breathtaking views of the surrounding mountains and the tranquility of the lake.",
+    places: ["Kasol", "Manikaran", "Barsheni", "Tosh", "Kutla", "Prashar lake"],
     punchline:
-      "Get away from the city and immerse yourself in the beauty of the Himalayas on this 7-day trip from Delhi to Kasol, Tosh, Kutla and other places in Himachal Pradesh",
+      "Explore the snow-capped mountains and scenic beauty of Kasol, Tosh, and Prashar Lake.",
     summary:
-      "This is a 7-day trip from Delhi to Kasol, Tosh, Kutla, and other places in Himachal Pradesh, India. The trip includes visits to various places such as local markets, cafes, villages, and trekking to Kutla. The trip also includes activities such as river-side walk, shopping at local markets, and experiencing local culture and food",
-    schedule: [
-      "Departure from Delhi by tempo traveler",
-      "Check-in at hotel in Kasol. Fun day - relax in the trippy house and then in the evening river-side walk and then photo shoots along with river and forest area in the backyard of the house, osy music party till late night without an interruption",
-      "After move to other destination via covering Kasol market and then Manikaran and then Barshaini till Tosh, check-in to the guest house and relax with 360* view of white-capped mountains in open-air cafe of the house, in the evening enjoy the indoor heating arrangements in the indoor cafe and so as music party. (destination of peace Tosh)",
-      "Trek to Kutla for Christmas party in the snow, full-night party with music and bonfire and few Christmas gifts to get high deep into the sky with stars(singing woods)",
-      "Come back to Tosh in the evening and rest in the house. (DOP Tosh)",
-      "Check-out in the afternoon and then take a halt in Kasol market and then in the evening leave for Delhi",
-      "Arrival at Delhi.",
-    ],
-    tripFor: ["Group of 8", "Group of 9"],
+      "Along the way, you can also indulge in traditional Himachali food, shopping for woolen stuff and local handicrafts, and participate in activities such as river-side sunbathing, smokeup hours and party in the indoor psy café.",
+    schedule: [],
+    tripFor: [""],
     highlights: [
-      "Hippie market of kasol and trippy cafes",
-      "Hotsprings in manikaran",
-      "360 view of snow capped mountains in tosh",
-      "Local life style in pulga",
-      "Snow trek to kutla and skating point in budhaban",
-      "Star gazing nights at all places and best photography mode to capture the shooting stars at budhaban or kutla",
+      [
+        "Snow trek to prashar lake (7.5km)hippie market of kasol for woolen stuff and for   hangouts in cafe",
+        "Smokeup hours",
+        "Hot bath at manikaran",
+        "Scenic view of snow caped mountains from tosh. to visit manikaran saheb gurudwara for worship",
+        "For lunger(free food)",
+        "And also manikaran  market which is famous for its wooden products like wooden grocery gifts and paintings. to visit prashar rishi temple to feel sound of silence",
+      ],
     ],
     stay: [
-      "Homestay in Kasol - 1Night",
-      "Guest house in tosh -2Night",
-      "Camps in kutla or budhanban",
+      "Homestay in kasol (DOP) -1night",
+      "Guest house in tosh (DOP)- 1Night",
+      "Snow camps in prashar - 1Night",
     ],
-    travel: ["Traveller"],
+    travel: ["Innova ", "Force traveller"],
     food: [
       "Food will be available at all places which will be booked for you guys",
       "Rest if you want to taste traditional food of himachal at different locations then  you will have maki ki roti and sarsoon ka saag in bilaspur while coming from chandigarh to kasol",
-      "Mandiyali dham(traditional food of mandi disttrict served as 7 different dishes with rice and chappati and sweets also made in special brass metal utensiles",
-      "Dry fruits and best snacks near aut tunnel30km bwfore bhuntar and also same things at pandoh near pandoh dam 70km before kasol",
-      "And then in kullu at different place you can have siddu which is local dish of kullu served with ghee or chutney .or we can plan a visit to local house of my friends around and then have food in local style with traditional taste and in traditional wooden houses",
+      "Mandyali dham(local food of mandi distt.with 7 dishes served in traditional functions)at mandi bus stand and at sundarnagar and then in kullu at different place you can have siddu which is local dish of kullu served with ghee or chutney .or we can plan a visit to local house of my friends around and then have food in local style with traditional taste and in traditional wooden houses",
     ],
     features: [
       {
         title: "Rest and Relaxation",
         items: [
-          "River side sun bath in backyard of dop and smokeup hours of relaxing",
-          "Open air cafe of tosh dop and indoor psy cafe for night party.sar pass view from kutla top and then relax under a nigt fullog wishing stars",
-        ],
-      },
-      {
-        title: "Shopping",
-        items: [
-          "Liquor can be buy from either kasol or barshaini or manikaran bus stand",
-          "There is no oher option as only 3 store saround. kasol market for hippie stuff and daily need corners",
-          "Bhuntar for shopping complex which is having general stores of all daily needs",
-          "Manikaran market for  traditional kullvi shawls and caps and also its famous for home decor products mostly made of wooden and so as wooden utensils for kitchen and also frames for interior decor .also you can buy trekking stuff either from kasol",
-          "Orfrom manikaran or barshaini",
-          "And there is one shop in tosh as well for trekking equipments",
-        ],
-      },
-      {
-        title: "Adventure",
-        items: [
-          "Zypsy ride to tosh",
-          "Snow trek to kutla(4km)",
-          "Ice skating at budhaban.",
-        ],
-      },
-      {
-        title: "Art and Culture",
-        items: [
-          "Kasol nature park .manikaran hot springs and cooking process of food in natural hot water of hot springs",
-          "Oldest shiva temple near the gurudwara saheb",
-          "Old style houses in kutla",
-        ],
-      },
-    ],
-    seasonalHighlights: [""],
-    faqs: [
-      {
-        question: "",
-        answer: "",
-      },
-    ],
-    tags: "",
-  },
-
-  {
-    id: 20,
-    name: "Himalayan Odyssey",
-    days: 7,
-    cost: 8500,
-    themes: ["culture", "group", "trekking", "sightseeing"],
-    thumbnailUrl: "/images/trips/2.webp",
-    gallery: [],
-    description:
-      "This is a 7-day trip to the Himachal Pradesh, India that takes you to various places such as Manali, Solang Valley, Sissu, Kasol, Tirthan, Jibhi, and other places. The trip includes a variety of activities such as trekking, sightseeing, snow activities, visiting temples and local markets, bird-watching and more. ",
-    places: [
-      "Manali",
-      "Old manali market",
-      "Solang valley for snow activities",
-      "Rohtang tunnel",
-      "Sissu frozen lake",
-      "Naggar castle",
-      "Kullu akhada bazzar",
-      "Electric mahadev temple",
-      "Kasol",
-      "Manikaran gurudwara saheb",
-      "Chalal",
-      "Manikaran traditional market",
-      "Jibhi warefalls",
-      "Tirthan ghnpnatural park",
-      "Jalodi pass.",
-    ],
-    punchline:
-      "Experience the best of Himachal Pradesh's culture, adventure and beauty on this 7-day trip to Manali, Solang Valley, Sissu, Kasol, Tirthan, Jibhi and beyond",
-    summary:
-      "The trip is suitable for groups of 100 members and includes overnight stays in camps and hotels. The trip includes transportation by Tempo Traveller. The trip highlights include visiting the old Manali market, Solang Valley, Tirthan River, and Kasol, experiencing local culture and food, and night parties",
-    schedule: [
-      "Over night journey from delhi/chandigarh  till Tirthan/Jibhi, arrival at camps and then relax and freshen up and then move for Sojha and Jalodi pass for sightseeing and mountain top view, can go for a small trek to Sirloaskar lake, a mystic place through jungles.",
-      "Move to Tirthan valley from GHNP and see trout fish farms and do birdwatching in Tirthan river, best for photography and making reels.",
-      "Visit kasol by Sainj valley and Shangarh village for a lush green ground to walk and view the mountains capped with snow under the green pine forests, in the afternoon arrival at kasol, visit local market in the evening and cafes around, night party and bonfire at staying place.",
-      "Visit manikaran shaheb gurudwara and manikaran hot springs or may be tosh valley just for a day trip and have riverside evening snack time with music and some relaxing hours.",
-      "Arrival in Manali,rest and relax at your stay, in evening visit Hadimba temple, mall road and old Manali hippie market.",
-      "Visit manu temple, solang valley for snow activities, rohtang tunnel, sissu, old manali cafes in the evening after coming back from solang.",
-      "Start our journey back to departure places.",
-    ],
-    tripFor: ["100 Members"],
-    highlights: [
-      "Manali mall road",
-      "Old manali hippie market",
-      "Manu temple visit",
-      "Hadimba temple visit",
-      "Rishi vashisht temple and hot springs",
-      "Jogni  frozen water fall",
-      "Solang adventure points",
-      "Night parties in old manali cafes and kasol.bonfire and msucial nights.river rafting in kullu",
-      "Photoshoot at ghnp park and birdwatching along side tirthan river",
-    ],
-    stay: [
-      "Tirthan valley -camp stay in tirthan & jibhi valley (river side stay)on quard sharing",
-      "kasol:- hotel or camp stay quard sharing",
-      "manali :-hotel stay(clif or mountain top ) quard sharing",
-    ],
-    travel: ["By Traveller"],
-    food: [
-      "Food will be available at all places which will be booked for you guys",
-      "Rest if you want to taste traditional food of himachal at different locations then  you will have maki ki roti and sarsoon ka saag in bilaspur while coming from chandigarh to manali",
-      "Mandiyali dham(traditional food of mandi disttrict served as 7 different dishes with rice and chappati and sweets also made in special brass metal utensiles",
-      "Dry fruits and best snacks near aut tunnel 65km before manali and also same things at pandoh near pandoh dam 90km before manali",
-      "Meat rice on the way to jibhi at larjijunction bridge point",
-      "And then in kullu at different place you can have siddu which is local dish of kullu served with ghee or chutney",
-    ],
-    features: [
-      {
-        title: "Rest and Relaxation",
-        items: [
-          "River side sun bath at banvihar  near old manali bridge  and also at tirthan vallry river and also birdwatching and trout fishing in tirthan valley",
-          "Open air cafe of old manali and indoor psy cafe for night party.parvati river side walk with meditative sound of flowing water",
-          "To heal yourself and feel the vibes around",
-        ],
-      },
-      {
-        title: "Shopping",
-        items: [
-          "Liquor can be buy from either mall road manali",
-          "Old manali bridge store or from solangvalley from naggar and kullu and main market of kasol near  bus stand",
-          "Kasol  and old manali market for hippie stuff and daily need corners",
-          "Kullu  for shopping complex which is having general stores of all daily needs and local wood  furniture manufacturing  stores",
-          "Manikaran  and akhada bazaar market in kullu for  traditional kullvi shawls and caps and also its famous for home decor products mostly made of wooden and so as wooden utensils for kitchen and also frames for interior decor .also you can buy trekking stuff either from mall road manali",
-          "Street market of old manali",
-          "Kasol",
-          "Or from kullu  main bazaar",
-        ],
-      },
-      {
-        title: "Adventure",
-        items: [
-          "Snow scooter ride in solang valley",
-          "Ice skating in solang",
-          "Paragliding at dobhi kullu",
-          "River crossing at old manali",
-          "Yak ride at hadimba temple.river rafting and paragliding at dobhi in kullu.",
-        ],
-      },
-      {
-        title: "Art and Culture",
-        items: [
-          "Shangarh ground",
-          "Sirloskar lake",
-          "Naggar castle in manali",
-          "Manali mall road",
-          "Raurik mueseum",
-          "Himalayan nyinmapa tibetan buddhist monasterytuesday market at patlikul for warm cloth shopping at cheatest prices",
-          "Kasol nature park",
-          "Manikaran traditional market",
-          "Dhalpur maidan kullu forcultural appearance",
-        ],
-      },
-    ],
-    seasonalHighlights: [""],
-    faqs: [
-      {
-        question: "",
-        answer: "",
-      },
-    ],
-    tags: "",
-  },
-
-  {
-    id: 11,
-    name: "Parvati Paradise",
-    days: 6,
-    cost: 7999,
-    themes: ["culture", "hippie", "trekking", "adventure"],
-    thumbnailUrl: "/images/trips/2.webp",
-    gallery: [""],
-    description:
-      "This trip takes you on an adventure through the beautiful landscapes of Himachal Pradesh, starting with an overnight journey from Delhi or Chandigarh to Kasol. You will have the opportunity to relax and explore the hippie market of Kasol, take a hot spring bath at Manikaran or Kheerganga, go on a snow trek to Kheerganga, and enjoy a 360 view of the Sar Pass mountains from Tosh",
-    places: [
-      "Kasol",
-      "Chalal",
-      "Manikaran",
-      "Barshaini",
-      "Kalga",
-      "Rudranag",
-      "Nakthan",
-      "Kheerganga",
-      "Tosh",
-    ],
-    punchline:
-      "Experience the beauty of the Himalayas and the thrill of adventure",
-    summary:
-      "You will also have the opportunity to visit the cultural market of Manikaran and do some shopping for traditional Himachali products. The trip includes stays at a homestay, guest house, and camps, and you will have the chance to enjoy music and bonfire nights, as well as smoke up sessions.",
-    schedule: [
-      "Starting overnight  journey from delhi /chandigarh to kasol",
-      "Arrival at kasol rest and relax on parvati river side garden. Visit ktagla ,chalalandkasol market in the evening, bonfire and msucialparty in the night with smoke up hours in the night.",
-      "Start towards barshaini from where trek to kheerganga starts,by evening arriving in the camps at kheerganga,hot spring shower at kheergnga(either evening or morning),bonfire and star gazing nights at kheerganga.",
-      "Trek down back to barshaini covering rudranag and nakthan village or covering kalga pulga.and then go to tosh by evening to havve sun set viewfrom the guest house and rest with 360 mountain view and have inhouse nusical party with indoor heating system followed by smoke up hours.",
-      "Come back to kasol by covering manikaran and do shopping in the cultural market of manikaran and hippie market of kasol. Leave to delhi/chandiagrh by evening followed by overnight journey",
-      "Back to yourplaces,safe and sound.",
-    ],
-    tripFor: ["Atleast 6 members"],
-    highlights: [
-      "Visit hippie market of kasol",
-      "To have relaxing hours by sitting along the bank of parvati river",
-      "Bonfire and musical nights with smoke up sessions ",
-      "Hot spring bath at manikaran or kheerganga",
-      "Snow trek to kheeerganga",
-      "360* view of sar pass mountains from tosh",
-      "Freezed tosh water fall",
-      "Zypsy snow ride from barshaini to tosh",
-    ],
-    stay: [
-      "Homestay in kasol(DOP) -1Night",
-      "Camps in kheerganga (freedom camps)-1Night",
-      "Guest house in tosh (DOP)-1Night",
-    ],
-    travel: ["Force traveller", "Innova"],
-    food: [
-      "Street food in kasol market or cafes",
-      "Local dishes in manikaran and barshaini",
-      "Veg/non veg food at your stays will be available",
-      "Though while trekking you can carry energy bars and other necessary things",
-    ],
-    features: [
-      {
-        title: "Rest and Relaxation",
-        items: [
-          "Rest at homestay, and then enjoy the scenic view of parvati river",
-          "Having smokeup hours in the jungle along river side",
-          "Relax in thick pine forests of kutla and having sunbath  all the day",
-          "Relax at the top of tosh mountains with a 360 view and to do star gazing in the night",
+          "River side sun bath in backyard of dop kasol and smokeup hours of relaxing",
+          "Open air cafe of dop and indoor psy cafe for night party",
+          "Sunset in prashar lake .",
         ],
       },
       {
         title: "Shopping",
         items: [
           "Kasol market for hippie stuff",
-          "Bhuntar for shopping complex which is having general stores of all daily needs",
-          "Manikaran market for  kullvi shawls and caps and handmade wooden material for decor and kitchen",
-          "Also you can rent shoes for treks at kasol and manikaran or also at barshaini ",
-          "Also you can get wooden sticks for trek at barshaini",
+          "Bhuntar for shopping complex which is having general stores of all daily needs .manikaran market for  traditional kullvi shawls and caps",
+          "Hand made woodenframes",
+          "Structure and all wooden kitchen accessories",
         ],
       },
       {
         title: "Adventure",
         items: [
-          "11km snow trek to kheerganga ",
-          "Zypsy snow ride from kasol to barshaini",
+          "Snow ride to tosh",
+          "And then snow trek to prashar lake (7.5km).",
         ],
       },
       {
         title: "Art and Culture",
         items: [
-          "Kasol nature park representing the cultural view of mountains and their life style",
-          "Manikaran gurudwara saheb and view of its historical facts",
-          "To buy traditional stuff for decor and also woolens from the manikaran market",
-          "To visit kutla  village for its old traditional houses and to know about the cultural aspects of the historical village and their daily life",
+          "Kasol nature park .manikaran hot springs and cooking process of food in natural hot water",
+          "Creative art work on prashar rishi temple",
+          "The mistry lake in prashar",
+          "Oldest shiva temple near gurudwara manikaran saheb",
         ],
       },
     ],
     seasonalHighlights: [""],
     faqs: [
       {
-        question: "",
-        answer: "",
-      },
-    ],
-    tags: "",
-  },
-
-  {
-    id: 10,
-    name: "Paradise in the Hills",
-    days: 6,
-    cost: 6999,
-    themes: ["nature", "relaxation", "hippie", "religious"],
-    thumbnailUrl: "/images/trips/2.webp",
-    gallery: [""],
-    description:
-      "This 6 day trip takes you to the picturesque valleys of Kasol and Manali, where you can experience the beauty of nature and culture. The journey begins with an overnight trip from Delhi/Chandigarh to Kasol, where you can explore the local market, visit the charming village of Chalal, and enjoy the relaxing atmosphere of cafes along the banks of the Parvati River",
-    places: [
-      "Kasol",
-      "Chalal",
-      "Manikaran",
-      "Tosh",
-      "Kullu",
-      "Electric mahadev temple",
-      "Manali",
-      "Solangvalley",
-      "Rohtang tunnel",
-      "Naggar castle",
-    ],
-    punchline:
-      "Discover the hidden gems of the Himalayas with our Kasol-Manali adventure tour, where you'll experience the best of nature, culture, and relaxation!",
-    summary:
-      "As you move on to Manali, you will get to experience a small trek to the powerful Electric Mahadev Temple and take a stroll through the lush Vanbihar forest, perfect for photography. In Manali, you can indulge in adventure activities like snow trekking and paragliding, visit popular places like Solang Valley, Rohtang Tunnel, and Naggar Castle. Additionally, you can explore the local market, try traditional foods and even enjoy the night parties and bonfire at the old Manali cafes.",
-    schedule: [
-      "Start from chd/delhi overnight journey to kasol.",
-      "Local kasol market, chalal, and cafes in kasol",
-      "Visit manikaran and then   tosh for a day trip ,come back by evening to homestay .bonfire and smoke up hours",
-      "Move to manali by doing a small trek to most spritual and powerfull shiva temple that is electric mahadev temple on the way to manali ,evening walk to mall road through vanbihar which is covered with thick forest and best place for photography, and then thencome back by evening to manali and visit localmarket for its famouscafes and night parties.",
-      "Visit solang valley ,rohtang tunnel,siisu and visit naggar castlelocal manali market ,pizzas at italian pizzeria in nagger and then in evening start overnight journey toyourplaces.",
-      "In the morning at your starting point.",
-    ],
-    tripFor: ["Group of 5", "Group of 6"],
-    highlights: [
-      "Visit hippie market of kasol",
-      "To have relaxing hours by sitting along the bank of parvati river ",
-      "bonfire and musical nights with smoke up sessions ",
-      "hot spring bath at manikaran or vashisht temple inmanali",
-      "snow activities in solang valley",
-      "heritage visit to castle",
-      "evening walk at manalimall road",
-      "visit to rohtang tunnel",
-      "trek toelectric mahadev temple",
-    ],
-    stay: [
-      "Homestay in kasol (DOP) -2Nights",
-      "Guest house in old manali (DOP)-1Night",
-    ],
-    travel: ["Innova", "Marazzo"],
-    food: [
-      "Siddu the most famous local food is available at differentplaces around the valley",
-      "Non veg momosin kasol and kullu market",
-      "Thupka at jari and kullu and manali",
-      "Trout fish in kasol and manali",
-      "Rest all of food is available at respected places where stay is provided",
-    ],
-    features: [
-      {
-        title: "Rest and Relaxation",
-        items: [
-          "Parvati river bank with its magical sound is best place to relax",
-          "Rooftop cafes of your staying places",
-          "Cafes in old manali hippie markt",
-        ],
+        question: "Will there be atms ",
+        answer:
+          "In kasol market(rarely works ) manikaran market(works well)  jari market(half of chances of  working)  (Suggesion is to carry cash before entering to parvati valley,so to have cash before bhuntar is great option to avoid extra commision for cash transactions )  around parvati valley has atms ,rest all others are connected cities so have atm facilties around so not gonna be an issue regarding atm at other visiting places",
       },
       {
-        title: "Shopping",
-        items: [
-          "Kasol market for hippie stuff",
-          "Bhuntar for shopping complex which is having general stores of all daily needs ",
-          "Manikaran market",
-          "Kullu market  kullvi shawls and caps and handmade wooden material for decor and kitchen",
-        ],
+        question: "Will I get good network connectivity",
+        answer:
+          "After varshaini till tosh there is network issue for all network users , and there is poor networks for vodafone and idea in kasol and tosh ,also in prashar there will be networkat few places only. rest at all places which we will cover have good networks.",
       },
       {
-        title: "Adventure",
-        items: [
-          "Snowtrek to malana",
-          "Zypsy ride from kasol to nirang",
-          "Paragliding at kullu",
-          "River rafting at kullu",
-          "Zypsy safari to solang valley",
-        ],
-      },
-      {
-        title: "Art and Culture",
-        items: [
-          "Kasol nature park representing the cultural view of mountains and their life style.",
-          "Manikaran gurudwara saheb and view of its historical facts",
-          "To buy traditional stuff for decor and also woolens from the manikaran market,Van bihar in manali,manali mall road for its different cultural outlooks,naggar castle for its historical beauty,raurik museum,monestry in manali.",
-          "Woolen shawls showrrom in kullu and manali",
-        ],
-      },
-    ],
-    seasonalHighlights: [""],
-    faqs: [
-      {
-        question: "",
-        answer: "",
+        question: "Who do you need to call in emergency",
+        answer:
+          "Related to your travel issues you can all  anytime to DOP desk  9459668084.shantitrip holidays @ 8219235768 ,local authorties like police 01902 265412 /s 100,fire brigade 102, hospital  jari  1902-276257, local taxi stand 9816727619",
       },
     ],
     tags: "",
@@ -1511,6 +1500,110 @@ let trips = [
           "Kasol nature park",
           "Manikaran hot springs and cooking process of food in natural hot water",
           "Old style wooden houses in rasol",
+        ],
+      },
+    ],
+    seasonalHighlights: [""],
+    faqs: [
+      {
+        question: "",
+        answer: "",
+      },
+    ],
+    tags: "",
+  },
+  
+  //Himalayan Escape
+
+  {
+    id: 15,
+    name: "Himalayan Escape",
+    days: 7,
+    cost: 7999,
+    themes: ["backpacking", "trekking", "adventure", "culture"],
+    thumbnailUrl: "/images/trips/2.webp",
+    gallery: [""],
+    description:
+      "The trip is suitable for a group of 8 or 9 people and includes overnight stays in a homestay, guest house, and camps. The trip includes transportation by tempo traveller. The trip highlights include the hippie market of Kasol, trekking to Kutla, star-gazing nights, and experiencing local culture and food.",
+    places: [
+      "Kasol",
+      "Chalal",
+      "Manikaran",
+      "Tosh",
+      "Kalga",
+      "Pulga",
+      "Kutla",
+      "Budhaban",
+      "Tosh waterfall",
+    ],
+    punchline:
+      "Get away from the city and immerse yourself in the beauty of the Himalayas on this 7-day trip from Delhi to Kasol, Tosh, Kutla and other places in Himachal Pradesh",
+    summary:
+      "This is a 7-day trip from Delhi to Kasol, Tosh, Kutla, and other places in Himachal Pradesh, India. The trip includes visits to various places such as local markets, cafes, villages, and trekking to Kutla. The trip also includes activities such as river-side walk, shopping at local markets, and experiencing local culture and food",
+    schedule: [
+      "Departure from Delhi by tempo traveler",
+      "Check-in at hotel in Kasol. Fun day - relax in the trippy house and then in the evening river-side walk and then photo shoots along with river and forest area in the backyard of the house, osy music party till late night without an interruption",
+      "After move to other destination via covering Kasol market and then Manikaran and then Barshaini till Tosh, check-in to the guest house and relax with 360* view of white-capped mountains in open-air cafe of the house, in the evening enjoy the indoor heating arrangements in the indoor cafe and so as music party. (destination of peace Tosh)",
+      "Trek to Kutla for Christmas party in the snow, full-night party with music and bonfire and few Christmas gifts to get high deep into the sky with stars(singing woods)",
+      "Come back to Tosh in the evening and rest in the house. (DOP Tosh)",
+      "Check-out in the afternoon and then take a halt in Kasol market and then in the evening leave for Delhi",
+      "Arrival at Delhi.",
+    ],
+    tripFor: ["Group of 8", "Group of 9"],
+    highlights: [
+      "Hippie market of kasol and trippy cafes",
+      "Hotsprings in manikaran",
+      "360 view of snow capped mountains in tosh",
+      "Local life style in pulga",
+      "Snow trek to kutla and skating point in budhaban",
+      "Star gazing nights at all places and best photography mode to capture the shooting stars at budhaban or kutla",
+    ],
+    stay: [
+      "Homestay in Kasol - 1Night",
+      "Guest house in tosh -2Night",
+      "Camps in kutla or budhanban",
+    ],
+    travel: ["Traveller"],
+    food: [
+      "Food will be available at all places which will be booked for you guys",
+      "Rest if you want to taste traditional food of himachal at different locations then  you will have maki ki roti and sarsoon ka saag in bilaspur while coming from chandigarh to kasol",
+      "Mandiyali dham(traditional food of mandi disttrict served as 7 different dishes with rice and chappati and sweets also made in special brass metal utensiles",
+      "Dry fruits and best snacks near aut tunnel30km bwfore bhuntar and also same things at pandoh near pandoh dam 70km before kasol",
+      "And then in kullu at different place you can have siddu which is local dish of kullu served with ghee or chutney .or we can plan a visit to local house of my friends around and then have food in local style with traditional taste and in traditional wooden houses",
+    ],
+    features: [
+      {
+        title: "Rest and Relaxation",
+        items: [
+          "River side sun bath in backyard of dop and smokeup hours of relaxing",
+          "Open air cafe of tosh dop and indoor psy cafe for night party.sar pass view from kutla top and then relax under a nigt fullog wishing stars",
+        ],
+      },
+      {
+        title: "Shopping",
+        items: [
+          "Liquor can be buy from either kasol or barshaini or manikaran bus stand",
+          "There is no oher option as only 3 store saround. kasol market for hippie stuff and daily need corners",
+          "Bhuntar for shopping complex which is having general stores of all daily needs",
+          "Manikaran market for  traditional kullvi shawls and caps and also its famous for home decor products mostly made of wooden and so as wooden utensils for kitchen and also frames for interior decor .also you can buy trekking stuff either from kasol",
+          "Orfrom manikaran or barshaini",
+          "And there is one shop in tosh as well for trekking equipments",
+        ],
+      },
+      {
+        title: "Adventure",
+        items: [
+          "Zypsy ride to tosh",
+          "Snow trek to kutla(4km)",
+          "Ice skating at budhaban.",
+        ],
+      },
+      {
+        title: "Art and Culture",
+        items: [
+          "Kasol nature park .manikaran hot springs and cooking process of food in natural hot water of hot springs",
+          "Oldest shiva temple near the gurudwara saheb",
+          "Old style houses in kutla",
         ],
       },
     ],
@@ -1622,123 +1715,7 @@ let trips = [
     tags: "",
   },
 
-  {
-    id: 9,
-    name: "Magic Manali",
-    days: 7,
-    cost: 7999,
-    themes: ["religious", "hippie", "heritage", "group"],
-    thumbnailUrl: "/images/trips/2.webp",
-    gallery: [""],
-    description:
-      "You will move on to Manali, doing activities such as rafting and paragliding in Kullu, and relaxing at your stay. You will also get to visit Solang Valley, Rohtang Tunnel, Sissu, Hadimba Temple, Vashisht hot spring, Manu temple, Mall road, Old manali streets and Club house.",
-    schedule: [
-      "Start from chd/delhi overnight journey to kasol.",
-      "Local kasol market, chalal,manikaran and cafes in kasol",
-      "Trek to malana and then come back by evening to homestay .bonfire and smoke up hours",
-      "Move to manali  doing rafting and paragliding at kullu ,rest and relax at staying place",
-      "Visit solang valley ,rohtang tunnel,siisu and thencome back by evening to manali and visit localmarket for its famouscafes and night parties.",
-      "Visit naggar castlelocal manali market ,pizzas at italian pizzeria in nagger and then in evening start overnight journey toyourplaces",
-      "At your starting point",
-    ],
-    places: [
-      "Kasol Chalal",
-      "Manikaran",
-      "Tosh",
-      "Malana",
-      "kullu",
-      "Naggar",
-      "Manali",
-      "Solang valley",
-      "Rohtang tunnel",
-      "Sissu",
-      "Hadimba Temple",
-      "Vashisht hot spring",
-      "Manu temple",
-      "Mall road",
-      "Old manali streets",
-      "Club house",
-    ],
-    punchline: "Experience the magic of the mountains in Manali",
-    summary:
-      "The Magic Manali trip is a 7-day adventure filled with rest and relaxation, shopping, and adventure. The trip starts with an overnight journey from Delhi/Chandigarh to Kasol where you will be able to visit the local market, Chalal, Manikaran and enjoy the cafes. The next day you will trek to Malana and come back by evening to your homestay for a bonfire and smoke up session",
-    tripFor: ["4 Group Members", "6 Group Members", "8 Group Members"],
-    highlights: [
-      "Visit hippie market of kasol",
-      "To have relaxing hours by sitting along the bank of parvati river ",
-      "Bonfire and musical nights with smoke up sessions",
-      "Hot spring bath at manikaran or vashisht temple in manali",
-      "Snow activities in solang valley",
-      "Heritage visit to castle",
-      "Evening walk at manali mall road",
-      "Visit to rohtang tunnel,Paragliding or rafting at kullu",
-    ],
-    stay: [
-      "Homestay in Kasol(DOP) - 2Nights",
-      "Guest house or hotel in manali (DOP) - 2Nights",
-    ],
-    travel: ["Innova", "Traveller"],
-    food: [
-      "Siddu the most famous local food is available at differentplaces around the valley",
-      "Non veg momosin kasol and kullu market",
-      "Thupka at jari and kullu and manali",
-      "Trout fish in kasol and manali",
-      "Rest all of food is available at respected places where stay is provided",
-    ],
-    features: [
-      {
-        title: "Rest and Relaxation",
-        items: [
-          "Parvati river bank with its magical sound is best place to relax",
-          "Rooftop cafes of your staying places",
-          "Cafes in old manali hippie market",
-          "Kasol nature park",
-        ],
-      },
-      {
-        title: "Shopping",
-        items: [
-          "Kasol market for hippie stuff",
-          "Bhuntar for shopping complex which is having general stores of all daily needs",
-          "Manikaran market",
-          "kullu market kullvi shawls and caps and handmade wooden material for decor and kitchen",
-        ],
-      },
-      {
-        title: "Adventure",
-        items: [
-          "Snowtrek to malana",
-          "Zypsy ride from kasol to nirang",
-          "Paragliding at kullu",
-          "River rafting at kullu",
-          "Zypsy safari to solang valley",
-        ],
-      },
-      {
-        title: "Art and Culture",
-        items: [
-          "heritage jamdagni rishi ji temple in malan and old traditional houses and living styleof peoples who presumes that they belongs to a different territory or country",
-          "Kasol nature park representing the cultural view of mountains and their life style",
-          "Manikaran gurudwara saheb and view of its historical facts",
-          "To buy traditional stuff for decor and also woolens from the manikaran market",
-          "Van bihar in manali,manali mall road for its different cultural outlooks",
-          "Naggar castle for its historical beauty",
-          "Raurik museum",
-          "Monestry in manali",
-          "Woolen shawls showrrom in kullu and manali",
-        ],
-      },
-    ],
-    seasonalHighlights: [""],
-    faqs: [
-      {
-        question: "",
-        answer: "",
-      },
-    ],
-    tags: "",
-  },
-
+  
   {
     id: 17,
     name: "The Snowy Cultural Escape",
@@ -1851,93 +1828,8 @@ let trips = [
     ],
     tags: "",
   },
-
-  {
-    id: 19,
-    name: "Merry Christmas",
-    days: 6,
-    cost: 16500,
-    themes: ["seasonal", "festive", "party", "relaxation"],
-    thumbnailUrl: "/images/trips/2.webp",
-    gallery: [""],
-    description:
-      "This is a six-day Christmas-themed trip package that takes you to various destinations in the Parvati Valley, such as Kasol, Manikaran, Tosh, Kutla, and Budhaban. The trip includes a Christmas party in Tosh, trekking to Kutla for night galaxy viewing and a snow camp stay, as well as relaxation in the scenic village of Tosh.",
-    places: ["Kasol", "Manikaran", "Tosh", "Kutla", "Budhaban"],
-    punchline: "Celebrate Christmas in the lap of nature",
-    summary:
-      "The trip is designed for a group of 8 adults, and includes accommodation in guest houses, camps, and homestays. Food is included in the package, and transportation is provided in a 10-seater tempo traveller.",
-    schedule: [],
-    tripFor: ["Group of 8 Adults"],
-    highlights: [
-      "Merry christmas party in tosh in snow  and adding more adventure by visting kasol for more peace and hippie life",
-      "Trek to kutla  for night galaxy view and snow camp stay",
-      "Relax in tosh village and scenic view of snow caped  mountains",
-    ],
-    stay: [
-      "Guest house  in  tosh (Destination Of Peace)",
-      "Camps  in kutla (singing woods)",
-      "Guest house in tosh (Destination Of Peace)",
-    ],
-    travel: ["By tempo traveller 10 seater"],
-    food: [
-      "Food will be available at all places which will be booked for you guys and its included in your tour package",
-      "In kullu at different place you can have siddu which is local dish of kullu served with ghee or chutney .can also visit jana water fall for herbal food of mountain and makki ki roti and saag as well",
-      "Can have special dessert like flying brownies",
-    ],
-    features: [
-      {
-        title: "Rest and Relaxation",
-        items: [
-          "Rest at homestay",
-          "And then enjoy the scenic view of parvati river",
-          "Having smokeup hours in the jungle along river side.relax in thick pine forests of kutla and having sunbath  all the day.relax at the top of tosh mountains with a 360 view and to do star gazing in the night.",
-        ],
-      },
-      {
-        title: "Shopping",
-        items: [
-          "Kasol market for hippie stuff",
-          "Bhuntar for shopping complex which is having general stores of all daily needs",
-          "Manikaran market for  kullvi shawls and caps and handmade wooden material for decor and kitchen",
-        ],
-      },
-      {
-        title: "Adventure",
-        items: [
-          "Snow trek to kutla (4km).all the way we will be having snow  and we will have stay in snow camps as well",
-        ],
-      },
-      {
-        title: "Art and Culture",
-        items: [
-          "Kasol nature park representing the cultural view of mountains and their life style",
-          "Manikaran gurudwara saheb and view of its historical facts",
-          "To buy traditional stuff for decor and also woolens from the manikaran market",
-          "To visit kutla village for its old traditional houses and to know about the cultural aspects of the historical village and their daily life",
-        ],
-      },
-    ],
-    seasonalHighlights: [""],
-    faqs: [
-      {
-        question: "Will there be atms ",
-        answer:
-          "In kasol market(rarely works ) manikaran market(works well)  jari market(half of chances of  working)  (Suggesion is to carry cash before entering to parvati valley,so to have cash before bhuntar is great option to avoid extra commision for cash transactions )  around parvati valley has atms ,rest all others are connected cities so have atm facilties around so not gonna be an issue regarding atm at other visiting places.",
-      },
-      {
-        question: "Will I get good network connectivity",
-        answer:
-          "After varshaini till tosh there is network issue for all network users , and there is poor networks for vodafone and idea in kasol and tosh , in kutla  there will be  no network at all. rest at all places which we will cover have good networks",
-      },
-      {
-        question: "Who do you need to call in emergency",
-        answer:
-          "Related to your travel issues you can all  anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,local authorties like police 01902 265412 /s 100,fire brigade 102, hospital  jari  1902-276257, local taxi stand 9816727619",
-      },
-    ],
-    tags: "",
-  },
-
+  
+  
   {
     id: 18,
     name: "Himalayan Retreat",
@@ -2070,75 +1962,67 @@ let trips = [
   },
 
   {
-    id: 13,
-    name: "Himalayan Adventure",
+    id: 19,
+    name: "Merry Christmas",
     days: 6,
-    cost: 6999,
-    themes: ["adventure", "nature", "culture", "history"],
+    cost: 16500,
+    themes: ["seasonal", "festive", "party", "relaxation"],
     thumbnailUrl: "/images/trips/2.webp",
     gallery: [""],
     description:
-      "The trip includes visits to Kasol, known for its hippie market, Manikaran, famous for its hot springs, and the picturesque Tosh valley. The trip also includes a 7.5km snow trek to Prashar lake, where you can enjoy the breathtaking views of the surrounding mountains and the tranquility of the lake.",
-    places: ["Kasol", "Manikaran", "Barsheni", "Tosh", "Kutla", "Prashar lake"],
-    punchline:
-      "Explore the snow-capped mountains and scenic beauty of Kasol, Tosh, and Prashar Lake.",
+      "This is a six-day Christmas-themed trip package that takes you to various destinations in the Parvati Valley, such as Kasol, Manikaran, Tosh, Kutla, and Budhaban. The trip includes a Christmas party in Tosh, trekking to Kutla for night galaxy viewing and a snow camp stay, as well as relaxation in the scenic village of Tosh.",
+    places: ["Kasol", "Manikaran", "Tosh", "Kutla", "Budhaban"],
+    punchline: "Celebrate Christmas in the lap of nature",
     summary:
-      "Along the way, you can also indulge in traditional Himachali food, shopping for woolen stuff and local handicrafts, and participate in activities such as river-side sunbathing, smokeup hours and party in the indoor psy café.",
+      "The trip is designed for a group of 8 adults, and includes accommodation in guest houses, camps, and homestays. Food is included in the package, and transportation is provided in a 10-seater tempo traveller.",
     schedule: [],
-    tripFor: [""],
+    tripFor: ["Group of 8 Adults"],
     highlights: [
-      [
-        "Snow trek to prashar lake (7.5km)hippie market of kasol for woolen stuff and for   hangouts in cafe",
-        "Smokeup hours",
-        "Hot bath at manikaran",
-        "Scenic view of snow caped mountains from tosh. to visit manikaran saheb gurudwara for worship",
-        "For lunger(free food)",
-        "And also manikaran  market which is famous for its wooden products like wooden grocery gifts and paintings. to visit prashar rishi temple to feel sound of silence",
-      ],
+      "Merry christmas party in tosh in snow  and adding more adventure by visting kasol for more peace and hippie life",
+      "Trek to kutla  for night galaxy view and snow camp stay",
+      "Relax in tosh village and scenic view of snow caped  mountains",
     ],
     stay: [
-      "Homestay in kasol (DOP) -1night",
-      "Guest house in tosh (DOP)- 1Night",
-      "Snow camps in prashar - 1Night",
+      "Guest house  in  tosh (Destination Of Peace)",
+      "Camps  in kutla (singing woods)",
+      "Guest house in tosh (Destination Of Peace)",
     ],
-    travel: ["Innova ", "Force traveller"],
+    travel: ["By tempo traveller 10 seater"],
     food: [
-      "Food will be available at all places which will be booked for you guys",
-      "Rest if you want to taste traditional food of himachal at different locations then  you will have maki ki roti and sarsoon ka saag in bilaspur while coming from chandigarh to kasol",
-      "Mandyali dham(local food of mandi distt.with 7 dishes served in traditional functions)at mandi bus stand and at sundarnagar and then in kullu at different place you can have siddu which is local dish of kullu served with ghee or chutney .or we can plan a visit to local house of my friends around and then have food in local style with traditional taste and in traditional wooden houses",
+      "Food will be available at all places which will be booked for you guys and its included in your tour package",
+      "In kullu at different place you can have siddu which is local dish of kullu served with ghee or chutney .can also visit jana water fall for herbal food of mountain and makki ki roti and saag as well",
+      "Can have special dessert like flying brownies",
     ],
     features: [
       {
         title: "Rest and Relaxation",
         items: [
-          "River side sun bath in backyard of dop kasol and smokeup hours of relaxing",
-          "Open air cafe of dop and indoor psy cafe for night party",
-          "Sunset in prashar lake .",
+          "Rest at homestay",
+          "And then enjoy the scenic view of parvati river",
+          "Having smokeup hours in the jungle along river side.relax in thick pine forests of kutla and having sunbath  all the day.relax at the top of tosh mountains with a 360 view and to do star gazing in the night.",
         ],
       },
       {
         title: "Shopping",
         items: [
           "Kasol market for hippie stuff",
-          "Bhuntar for shopping complex which is having general stores of all daily needs .manikaran market for  traditional kullvi shawls and caps",
-          "Hand made woodenframes",
-          "Structure and all wooden kitchen accessories",
+          "Bhuntar for shopping complex which is having general stores of all daily needs",
+          "Manikaran market for  kullvi shawls and caps and handmade wooden material for decor and kitchen",
         ],
       },
       {
         title: "Adventure",
         items: [
-          "Snow ride to tosh",
-          "And then snow trek to prashar lake (7.5km).",
+          "Snow trek to kutla (4km).all the way we will be having snow  and we will have stay in snow camps as well",
         ],
       },
       {
         title: "Art and Culture",
         items: [
-          "Kasol nature park .manikaran hot springs and cooking process of food in natural hot water",
-          "Creative art work on prashar rishi temple",
-          "The mistry lake in prashar",
-          "Oldest shiva temple near gurudwara manikaran saheb",
+          "Kasol nature park representing the cultural view of mountains and their life style",
+          "Manikaran gurudwara saheb and view of its historical facts",
+          "To buy traditional stuff for decor and also woolens from the manikaran market",
+          "To visit kutla village for its old traditional houses and to know about the cultural aspects of the historical village and their daily life",
         ],
       },
     ],
@@ -2147,21 +2031,153 @@ let trips = [
       {
         question: "Will there be atms ",
         answer:
-          "In kasol market(rarely works ) manikaran market(works well)  jari market(half of chances of  working)  (Suggesion is to carry cash before entering to parvati valley,so to have cash before bhuntar is great option to avoid extra commision for cash transactions )  around parvati valley has atms ,rest all others are connected cities so have atm facilties around so not gonna be an issue regarding atm at other visiting places",
+          "In kasol market(rarely works ) manikaran market(works well)  jari market(half of chances of  working)  (Suggesion is to carry cash before entering to parvati valley,so to have cash before bhuntar is great option to avoid extra commision for cash transactions )  around parvati valley has atms ,rest all others are connected cities so have atm facilties around so not gonna be an issue regarding atm at other visiting places.",
       },
       {
         question: "Will I get good network connectivity",
         answer:
-          "After varshaini till tosh there is network issue for all network users , and there is poor networks for vodafone and idea in kasol and tosh ,also in prashar there will be networkat few places only. rest at all places which we will cover have good networks.",
+          "After varshaini till tosh there is network issue for all network users , and there is poor networks for vodafone and idea in kasol and tosh , in kutla  there will be  no network at all. rest at all places which we will cover have good networks",
       },
       {
         question: "Who do you need to call in emergency",
         answer:
-          "Related to your travel issues you can all  anytime to DOP desk  9459668084.shantitrip holidays @ 8219235768 ,local authorties like police 01902 265412 /s 100,fire brigade 102, hospital  jari  1902-276257, local taxi stand 9816727619",
+          "Related to your travel issues you can all  anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,local authorties like police 01902 265412 /s 100,fire brigade 102, hospital  jari  1902-276257, local taxi stand 9816727619",
       },
     ],
     tags: "",
   },
+
+
+  {
+    id: 20,
+    name: "Himalayan Odyssey",
+    days: 7,
+    cost: 8500,
+    themes: ["culture", "group", "trekking", "sightseeing"],
+    thumbnailUrl: "/images/trips/2.webp",
+    gallery: [],
+    description:
+      "This is a 7-day trip to the Himachal Pradesh, India that takes you to various places such as Manali, Solang Valley, Sissu, Kasol, Tirthan, Jibhi, and other places. The trip includes a variety of activities such as trekking, sightseeing, snow activities, visiting temples and local markets, bird-watching and more. ",
+    places: [
+      "Manali",
+      "Old manali market",
+      "Solang valley for snow activities",
+      "Rohtang tunnel",
+      "Sissu frozen lake",
+      "Naggar castle",
+      "Kullu akhada bazzar",
+      "Electric mahadev temple",
+      "Kasol",
+      "Manikaran gurudwara saheb",
+      "Chalal",
+      "Manikaran traditional market",
+      "Jibhi warefalls",
+      "Tirthan ghnpnatural park",
+      "Jalodi pass.",
+    ],
+    punchline:
+      "Experience the best of Himachal Pradesh's culture, adventure and beauty on this 7-day trip to Manali, Solang Valley, Sissu, Kasol, Tirthan, Jibhi and beyond",
+    summary:
+      "The trip is suitable for groups of 100 members and includes overnight stays in camps and hotels. The trip includes transportation by Tempo Traveller. The trip highlights include visiting the old Manali market, Solang Valley, Tirthan River, and Kasol, experiencing local culture and food, and night parties",
+    schedule: [
+      "Over night journey from delhi/chandigarh  till Tirthan/Jibhi, arrival at camps and then relax and freshen up and then move for Sojha and Jalodi pass for sightseeing and mountain top view, can go for a small trek to Sirloaskar lake, a mystic place through jungles.",
+      "Move to Tirthan valley from GHNP and see trout fish farms and do birdwatching in Tirthan river, best for photography and making reels.",
+      "Visit kasol by Sainj valley and Shangarh village for a lush green ground to walk and view the mountains capped with snow under the green pine forests, in the afternoon arrival at kasol, visit local market in the evening and cafes around, night party and bonfire at staying place.",
+      "Visit manikaran shaheb gurudwara and manikaran hot springs or may be tosh valley just for a day trip and have riverside evening snack time with music and some relaxing hours.",
+      "Arrival in Manali,rest and relax at your stay, in evening visit Hadimba temple, mall road and old Manali hippie market.",
+      "Visit manu temple, solang valley for snow activities, rohtang tunnel, sissu, old manali cafes in the evening after coming back from solang.",
+      "Start our journey back to departure places.",
+    ],
+    tripFor: ["100 Members"],
+    highlights: [
+      "Manali mall road",
+      "Old manali hippie market",
+      "Manu temple visit",
+      "Hadimba temple visit",
+      "Rishi vashisht temple and hot springs",
+      "Jogni  frozen water fall",
+      "Solang adventure points",
+      "Night parties in old manali cafes and kasol.bonfire and msucial nights.river rafting in kullu",
+      "Photoshoot at ghnp park and birdwatching along side tirthan river",
+    ],
+    stay: [
+      "Tirthan valley -camp stay in tirthan & jibhi valley (river side stay)on quard sharing",
+      "kasol:- hotel or camp stay quard sharing",
+      "manali :-hotel stay(clif or mountain top ) quard sharing",
+    ],
+    travel: ["By Traveller"],
+    food: [
+      "Food will be available at all places which will be booked for you guys",
+      "Rest if you want to taste traditional food of himachal at different locations then  you will have maki ki roti and sarsoon ka saag in bilaspur while coming from chandigarh to manali",
+      "Mandiyali dham(traditional food of mandi disttrict served as 7 different dishes with rice and chappati and sweets also made in special brass metal utensiles",
+      "Dry fruits and best snacks near aut tunnel 65km before manali and also same things at pandoh near pandoh dam 90km before manali",
+      "Meat rice on the way to jibhi at larjijunction bridge point",
+      "And then in kullu at different place you can have siddu which is local dish of kullu served with ghee or chutney",
+    ],
+    features: [
+      {
+        title: "Rest and Relaxation",
+        items: [
+          "River side sun bath at banvihar  near old manali bridge  and also at tirthan vallry river and also birdwatching and trout fishing in tirthan valley",
+          "Open air cafe of old manali and indoor psy cafe for night party.parvati river side walk with meditative sound of flowing water",
+          "To heal yourself and feel the vibes around",
+        ],
+      },
+      {
+        title: "Shopping",
+        items: [
+          "Liquor can be buy from either mall road manali",
+          "Old manali bridge store or from solangvalley from naggar and kullu and main market of kasol near  bus stand",
+          "Kasol  and old manali market for hippie stuff and daily need corners",
+          "Kullu  for shopping complex which is having general stores of all daily needs and local wood  furniture manufacturing  stores",
+          "Manikaran  and akhada bazaar market in kullu for  traditional kullvi shawls and caps and also its famous for home decor products mostly made of wooden and so as wooden utensils for kitchen and also frames for interior decor .also you can buy trekking stuff either from mall road manali",
+          "Street market of old manali",
+          "Kasol",
+          "Or from kullu  main bazaar",
+        ],
+      },
+      {
+        title: "Adventure",
+        items: [
+          "Snow scooter ride in solang valley",
+          "Ice skating in solang",
+          "Paragliding at dobhi kullu",
+          "River crossing at old manali",
+          "Yak ride at hadimba temple.river rafting and paragliding at dobhi in kullu.",
+        ],
+      },
+      {
+        title: "Art and Culture",
+        items: [
+          "Shangarh ground",
+          "Sirloskar lake",
+          "Naggar castle in manali",
+          "Manali mall road",
+          "Raurik mueseum",
+          "Himalayan nyinmapa tibetan buddhist monasterytuesday market at patlikul for warm cloth shopping at cheatest prices",
+          "Kasol nature park",
+          "Manikaran traditional market",
+          "Dhalpur maidan kullu forcultural appearance",
+        ],
+      },
+    ],
+    seasonalHighlights: [""],
+    faqs: [
+      {
+        question: "",
+        answer: "",
+      },
+    ],
+    tags: "",
+  },
+
+  
+  
+
+  
+
+  
+
 ];
 
 // const template = {
