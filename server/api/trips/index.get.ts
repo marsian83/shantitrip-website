@@ -2189,13 +2189,6 @@ let trips = [
     tags: "",
   },
 
-  
-  
-
-  
-
-  
-
 ];
 
 // const template = {

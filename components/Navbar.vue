@@ -59,8 +59,8 @@
             >
           </li>
           <li class="navbar-item">
-            <NuxtLink to="/about">
-              <span class="material-icons">&#xe887;</span>About</NuxtLink
+            <NuxtLink to="/gallery">
+              <span class="material-icons">&#xe413;</span>Gallery</NuxtLink
             >
           </li>
         </ul>
@@ -129,7 +129,7 @@ onMounted(() => {
   @apply widescreen:hidden;
 }
 .navbar-item:has(.router-link-exact-active) span {
-  @apply mobile:bg-red-400 bg-opacity-30 w-full text-center mobile:rounded-full;
+  @apply bg-opacity-30 w-full text-center mobile:color-primary;
 }
 .mobile-nav-logo {
   @apply bg-background rounded-full aspect-square border-t border-black;

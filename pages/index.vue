@@ -252,6 +252,9 @@
         </NuxtLink>
       </div>
     </section>
+    <section class="instagram-feed p-page">
+      <InstagramFeed />
+    </section>
   </div>
 </template>
 
@@ -307,7 +310,7 @@ const { data: adventureTrips } = useFetch("/api/trips/search", {
   letter-spacing: 0.84px;
   text-shadow: 0px 0px 5px rgba(var(--text-primary), 0.83);
 }
-.partner-icon{
+.partner-icon {
   @apply basis-[8%] aspect-square saturate-0 brightness-0 opacity-40 mobile:w-[30vw];
 }
 .why-us-card {
