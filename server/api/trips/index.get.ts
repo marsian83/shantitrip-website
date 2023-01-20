@@ -982,8 +982,9 @@ let trips = [
     seasonalHighlights: [""],
     faqs: [
       {
-        question: "",
-        answer: "",
+        question: "Who do you need to call in emergency",
+        answer:
+          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102"
       },
     ],
     tags: "",
@@ -1089,8 +1090,9 @@ let trips = [
     seasonalHighlights: [""],
     faqs: [
       {
-        question: "",
-        answer: "",
+        question: "Who do you need to call in emergency",
+        answer:
+          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102"
       },
     ],
     tags: "",
@@ -1193,8 +1195,9 @@ let trips = [
     seasonalHighlights: [""],
     faqs: [
       {
-        question: "",
-        answer: "",
+        question: "Who do you need to call in emergency",
+        answer:
+          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102"
       },
     ],
     tags: "",
@@ -1319,8 +1322,9 @@ let trips = [
     seasonalHighlights: [""],
     faqs: [
       {
-        question: "",
-        answer: "",
+        question: "Who do you need to call in emergency",
+        answer:
+          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102"
       },
     ],
     tags: "",
@@ -1512,8 +1516,9 @@ let trips = [
     seasonalHighlights: [""],
     faqs: [
       {
-        question: "",
-        answer: "",
+        question: "Who do you need to call in emergency",
+        answer:
+          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102"
       },
     ],
     tags: "",
@@ -1616,8 +1621,9 @@ let trips = [
     seasonalHighlights: [""],
     faqs: [
       {
-        question: "",
-        answer: "",
+        question: "Who do you need to call in emergency",
+        answer:
+          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102"
       },
     ],
     tags: "",
@@ -1830,8 +1836,9 @@ let trips = [
     seasonalHighlights: [""],
     faqs: [
       {
-        question: "",
-        answer: "",
+        question: "Who do you need to call in emergency",
+        answer:
+          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102"
       },
     ],
     tags: "",
@@ -1962,8 +1969,9 @@ let trips = [
     seasonalHighlights: [""],
     faqs: [
       {
-        question: "",
-        answer: "",
+        question: "Who do you need to call in emergency",
+        answer:
+          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102"
       },
     ],
     tags: "",
@@ -2173,8 +2181,9 @@ let trips = [
     seasonalHighlights: [""],
     faqs: [
       {
-        question: "",
-        answer: "",
+        question: "Who do you need to call in emergency",
+        answer:
+          "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102"
       },
     ],
     tags: "",
@@ -2229,6 +2238,11 @@ let trips = [
 //       question: "",
 //       answer: "",
 //     },
-//   ],
+// {
+//   question: "Who do you need to call in emergency",
+//   answer:
+//     "Related to your travel issues you can all anytime to DOP desk  9459668084. shantitrip holidays @ 8219235768 ,Police 100, fire brigade 102, Ambulance 102"
+// },
+// //   ],
 //   tags: "",
 // };
