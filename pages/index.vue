@@ -274,7 +274,7 @@ const { data: adventureTrips } = useFetch("/api/trips/search", {
 <style scoped>
 .top {
   background-image: linear-gradient(to bottom, #0a0a0abc, #0a0a0a55, #0a0a0abc),
-    url("https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    url("/images/gallery/hero.webp");
 }
 .hero-text-top,
 .hero-text-bottom {
