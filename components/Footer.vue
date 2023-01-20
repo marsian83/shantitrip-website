@@ -4,13 +4,15 @@
       <h2 class="text-3xl font-bold text-center">
         Feeling <span class="color-primary">Left</span> Out?
       </h2>
-      <p class="my-5 italic opacity-80 text-center widescreen:whitespace-nowrap">
+      <p
+        class="my-5 italic opacity-80 text-center widescreen:whitespace-nowrap"
+      >
         Every once in a while, we send out a newsletter featuring the latest and
         best in travel. Subscribe to never miss out.
       </p>
       <form
         class="flex flex-row justify-evenly h-10 mobile:flex-col mobile:items-center"
-        action="https://formspree.io/f/mjvdvqwr"
+        action="https://formspree.io/f/xdovkyko"
         method="POST"
       >
         <input

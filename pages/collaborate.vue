@@ -14,7 +14,9 @@
         <div
           class="agent-form-container w-[80%] py-8 px-4 rounded-xl bg-[rgba(var(--background),0.21)] shadow-lg backdrop-blur-sm mobile:w-full mobile:mb-10"
         >
-          <form class="flex flex-col gap-6">
+          <form class="flex flex-col gap-6" 
+  action="https://formspree.io/f/mqkoawae"
+  method="POST">
             <div class="flex flex-row items-center">
               <label class="basis-2/12 text-secondary mobile:basis-4/12">You are a</label>
               <select class="basis-10/12 mobile:basis-8/12">

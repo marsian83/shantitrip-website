@@ -3,8 +3,14 @@
     <section
       class="hero p-page h-screen bg-cover bg-fixed flex flex-col justify-center items-center mobile:justify-evenly mobile:h-max mobile:py-20"
     >
-      <h1 class="text-secondary text-7xl font-semibold mobile:text-4xl mobile:text-center">Let's Get in Touch</h1>
-      <p class="text-secondary text-2xl my-4 text-center mobile:text-justify mobile:px-3 mobile:text-lg mobile:font-light">
+      <h1
+        class="text-secondary text-7xl font-semibold mobile:text-4xl mobile:text-center"
+      >
+        Let's Get in Touch
+      </h1>
+      <p
+        class="text-secondary text-2xl my-4 text-center mobile:text-justify mobile:px-3 mobile:text-lg mobile:font-light"
+      >
         Being travellers and explorers ourselves, we are always excited to talk
         to new people and share perspectives. Call, email, or say hello
       </p>
@@ -30,9 +36,11 @@
           </h4>
         </div>
       </div>
-      <ScrollHint class="absolute bottom-4"/>
+      <ScrollHint class="absolute bottom-4" />
     </section>
-    <section class="contact-form-section p-page flex flex-row mt-20 mobile:flex-col" >
+    <section
+      class="contact-form-section p-page flex flex-row mt-20 mobile:flex-col"
+    >
       <div class="basis-1/2 flex flex-col gap-4 justify-center">
         <h2 class="text-4xl font-black text-primary">Contact Us</h2>
         <h5 class="text-2xl font-black text-primary opacity-90">
@@ -45,7 +53,11 @@
         </p>
       </div>
       <div class="basis-1/2">
-        <form class="flex flex-col items-center gap-5">
+        <form
+          class="flex flex-col items-center gap-5"
+          action="https://formspree.io/f/xayznann"
+          method="POST"
+        >
           <input
             type="text"
             autocomplete="name"
@@ -101,15 +113,15 @@
       rgba(var(--text-primary), 0.83)
     ),
     url("/images/gallery/contact.webp");
-    text-shadow: 0px 0px 8px rgba(var(--text-primary), 0.69);
+  text-shadow: 0px 0px 8px rgba(var(--text-primary), 0.69);
 }
 input,
 textarea {
   border: 1px solid rgba(var(--foreground), 0.69);
   border-radius: 5px;
 }
-.map{
-    box-shadow: 0px 0px 15px rgba(var(--foreground),0.21);
-    border-radius: 1rem;
+.map {
+  box-shadow: 0px 0px 15px rgba(var(--foreground), 0.21);
+  border-radius: 1rem;
 }
 </style>
