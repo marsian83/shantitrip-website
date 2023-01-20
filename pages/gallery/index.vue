@@ -12,12 +12,28 @@
       show you why India is one of the most beautiful countries in the world.
     </p>
   </section>
+  <section class="gallery flex flex-row flex-wrap">
+    <img
+      v-for="image in images"
+      v-bind:key="image"
+      :src="image"
+      :alt="image"
+      class="basis-[30%]"
+    />
+  </section>
 </template>
+
+<script setup>
+const { data } = useFetch("/api/images");
+const images = data.value;
+</script>
 
 <style scoped>
 .hero {
   @apply bg-cover bg-center bg-fixed;
-  background-image: linear-gradient(to left, #00000066, transparent, #00000066), linear-gradient(to bottom, black, transparent, black), url('/images/trips/7.webp');
+  background-image: linear-gradient(to left, #00000066, transparent, #00000066),
+    linear-gradient(to bottom, black, transparent, black),
+    url("/images/trips/7.webp");
   text-shadow: 0px 8px 1rem black;
 }
 </style>
