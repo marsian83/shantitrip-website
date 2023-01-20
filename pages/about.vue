@@ -115,7 +115,7 @@
       transparent,
       rgba(var(--text-primary), 0.83)
     ),
-    url("https://cdn.pixabay.com/photo/2020/03/03/20/31/boat-4899802_1280.jpg");
+    url("/images/gallery/about.webp");
   text-shadow: 0px 0px 8px rgba(var(--text-primary), 0.83);
 }
 .team-card {

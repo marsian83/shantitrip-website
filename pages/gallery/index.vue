@@ -33,7 +33,7 @@ const images = data.value;
   @apply bg-cover bg-center bg-fixed;
   background-image: linear-gradient(to left, #00000066, transparent, #00000066),
     linear-gradient(to bottom, black, transparent, black),
-    url("/images/trips/7.webp");
+    url("/images/gallery/gallery.webp");
   text-shadow: 0px 8px 1rem black;
 }
 </style>

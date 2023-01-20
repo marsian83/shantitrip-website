@@ -100,7 +100,7 @@
       transparent,
       rgba(var(--text-primary), 0.83)
     ),
-    url("https://cdn.pixabay.com/photo/2017/10/23/05/56/summer-2880261_1280.jpg");
+    url("/images/gallery/contact.webp");
     text-shadow: 0px 0px 8px rgba(var(--text-primary), 0.69);
 }
 input,
