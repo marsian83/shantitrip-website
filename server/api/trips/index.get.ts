@@ -878,8 +878,8 @@ let trips = [
     days: 7,
     cost: 7999,
     themes: ["religious", "hippie", "heritage", "group"],
-    thumbnailUrl: "/images/trips/9.jpg",
-    gallery: ["/images/trips/9.jpg"],
+    thumbnailUrl: "/images/trips/9.webp",
+    gallery: ["/images/trips/9.webp"],
     description:
       "You will move on to Manali, doing activities such as rafting and paragliding in Kullu, and relaxing at your stay. You will also get to visit Solang Valley, Rohtang Tunnel, Sissu, Hadimba Temple, Vashisht hot spring, Manu temple, Mall road, Old manali streets and Club house.",
     schedule: [
@@ -997,8 +997,8 @@ let trips = [
     days: 6,
     cost: 6999,
     themes: ["nature", "relaxation", "hippie", "religious"],
-    thumbnailUrl: "/images/trips/10.jpg",
-    gallery: ["/images/trips/10.jpg"],
+    thumbnailUrl: "/images/trips/10.webp",
+    gallery: ["/images/trips/10.webp"],
     description:
       "This 6 day trip takes you to the picturesque valleys of Kasol and Manali, where you can experience the beauty of nature and culture. The journey begins with an overnight trip from Delhi/Chandigarh to Kasol, where you can explore the local market, visit the charming village of Chalal, and enjoy the relaxing atmosphere of cafes along the banks of the Parvati River",
     places: [
@@ -1105,8 +1105,8 @@ let trips = [
     days: 6,
     cost: 7999,
     themes: ["culture", "hippie", "trekking", "adventure"],
-    thumbnailUrl: "/images/trips/11.jpg",
-    gallery: ["/images/trips/11.jpg"],
+    thumbnailUrl: "/images/trips/11.webp",
+    gallery: ["/images/trips/11.webp"],
     description:
       "This trip takes you on an adventure through the beautiful landscapes of Himachal Pradesh, starting with an overnight journey from Delhi or Chandigarh to Kasol. You will have the opportunity to relax and explore the hippie market of Kasol, take a hot spring bath at Manikaran or Kheerganga, go on a snow trek to Kheerganga, and enjoy a 360 view of the Sar Pass mountains from Tosh",
     places: [
@@ -1211,8 +1211,8 @@ let trips = [
     cost: 13200,
     themes: ["backpackers", "trekking", "adventure", "culture"],
     
-    thumbnailUrl: "/images/trips/12.jpg",
-    gallery: ["/images/trips/12.jpg"],
+    thumbnailUrl: "/images/trips/12.webp",
+    gallery: ["/images/trips/12.webp"],
     description:
       "You will also get a chance to explore the local culture and traditional food in places like Mandi, Palampur, Dharamshala, McLeod Ganj and more. The trip also includes overnight stays in a homestay, camps, guest houses, and hotels, giving you a chance to experience a variety of accommodation options. The trip ends with an overnight journey back to your starting destination",
     places: [
@@ -1339,8 +1339,8 @@ let trips = [
     cost: 6999,
     themes: ["adventure", "nature", "culture", "history"],
     
-    thumbnailUrl: "/images/trips/13.jpg",
-    gallery: ["/images/trips/13.jpg"],
+    thumbnailUrl: "/images/trips/13.webp",
+    gallery: ["/images/trips/13.webp"],
     description:
       "The trip includes visits to Kasol, known for its hippie market, Manikaran, famous for its hot springs, and the picturesque Tosh valley. The trip also includes a 7.5km snow trek to Prashar lake, where you can enjoy the breathtaking views of the surrounding mountains and the tranquility of the lake.",
     places: ["Kasol", "Manikaran", "Barsheni", "Tosh", "Kutla", "Prashar lake"],
@@ -1434,8 +1434,8 @@ let trips = [
     days: 6,
     cost: 6500,
     themes: ["adventure", "trekking", "party", "sightseeing"],
-    thumbnailUrl: "/images/trips/14.jpg",
-    gallery: ["/images/trips/14.jpg"],
+    thumbnailUrl: "/images/trips/14.webp",
+    gallery: ["/images/trips/14.webp"],
     description:
       "This trip is a 6-day adventure to the beautiful towns of Kasol, Rasol, and Tosh in Himachal Pradesh. The tour starts with an overnight journey from Delhi or Chandigarh to Kasol where you will stay in a homestay and have the opportunity to relax, party and enjoy a bonfire. On the second day, you will go on a trek to Rasol and have the chance to enjoy the scenic views of the Parvati Valley and the sunrise. ",
     places: [
@@ -1532,8 +1532,8 @@ let trips = [
     days: 7,
     cost: 7999,
     themes: ["backpacking", "trekking", "adventure", "culture"],
-    thumbnailUrl: "/images/trips/15.jpg",
-    gallery: ["/images/trips/15.jpg"],
+    thumbnailUrl: "/images/trips/15.webp",
+    gallery: ["/images/trips/15.webp"],
     description:
       "The trip is suitable for a group of 8 or 9 people and includes overnight stays in a homestay, guest house, and camps. The trip includes transportation by tempo traveller. The trip highlights include the hippie market of Kasol, trekking to Kutla, star-gazing nights, and experiencing local culture and food.",
     places: [
@@ -1637,8 +1637,8 @@ let trips = [
     days: 7,
     cost: 13200,
     themes: ["culture", "trekking", "relaxation"],
-    thumbnailUrl: "/images/trips/16.jpg",
-    gallery: ["/images/trips/16.jpg"],
+    thumbnailUrl: "/images/trips/16.webp",
+    gallery: ["/images/trips/16.webp"],
     description:
       "This 7-day trip takes you to the beautiful mountain towns of Kasol, Manikaran, Tosh, Kutla, and Manali. You'll have the opportunity to relax and unwind in the mountains, while also getting to experience the unique culture and lifestyle of these towns. The trip includes visits to local markets, treks to scenic destinations, and staying in homestays, guest houses, and camps.",
     places: [
@@ -1736,8 +1736,8 @@ let trips = [
     days: 6,
     cost: 6999,
     themes: ["nature", "sightseeing", "Shopping", "snow"],
-    thumbnailUrl: "/images/trips/17.jpg",
-    gallery: ["/images/trips/17.jpg"],
+    thumbnailUrl: "/images/trips/17.webp",
+    gallery: ["/images/trips/17.webp"],
     description:
       "This is a six-day tour package that takes you to two of the most popular destinations in India - Manali and Kasol. The tour itinerary includes visits to a variety of places such as Manali, Solang Valley, Sissu, Naggar Castle, Kullu, and Kasol. The trip is designed to provide a mix of activities such as visiting temples, shopping at local markets, and experiencing snow activities.",
     places: [
@@ -1851,8 +1851,8 @@ let trips = [
     days: 8,
     cost: 10000,
     themes: ["adventure", "relaxation", "hippie"],
-    thumbnailUrl: "/images/trips/18.jpg",
-    gallery: ["/images/trips/18.jpg"],
+    thumbnailUrl: "/images/trips/18.webp",
+    gallery: ["/images/trips/18.webp"],
     description:
       "This is an 8-day tour package named Shimla Kasol Manali that takes you to various destinations in the Himachal Pradesh region. The itinerary includes visits to places such as Chandigarh, Solan, Shimla, Kufri, Mashobra, Naldehra, Kasol, Manikaran, Tosh, Kullu, Manali, Solang Valley, Sissu, and Old Manali.",
     places: [
@@ -1984,8 +1984,8 @@ let trips = [
     days: 6,
     cost: 16500,
     themes: ["seasonal", "festive", "party", "relaxation"],
-    thumbnailUrl: "/images/trips/19.jpg",
-    gallery: ["/images/trips/19.jpg"],
+    thumbnailUrl: "/images/trips/19.webp",
+    gallery: ["/images/trips/19.webp"],
     description:
       "This is a six-day Christmas-themed trip package, from 21st of Dec to 26th of Dec, that takes you to various destinations in the Parvati Valley, such as Kasol, Manikaran, Tosh, Kutla, and Budhaban. The trip includes a Christmas party in Tosh, trekking to Kutla for night galaxy viewing and a snow camp stay, as well as relaxation in the scenic village of Tosh.",
     places: ["Kasol", "Manikaran", "Tosh", "Kutla", "Budhaban"],
@@ -2071,8 +2071,8 @@ let trips = [
     days: 7,
     cost: 8500,
     themes: ["culture", "group", "trekking", "sightseeing"],
-    thumbnailUrl: "/images/trips/20.jpg",
-    gallery: ["/images/trips/20.jpg"],
+    thumbnailUrl: "/images/trips/20.webp",
+    gallery: ["/images/trips/20.webp"],
     description:
       "This is a 7-day trip to the Himachal Pradesh, India that takes you to various places such as Manali, Solang Valley, Sissu, Kasol, Tirthan, Jibhi, and other places. The trip includes a variety of activities such as trekking, sightseeing, snow activities, visiting temples and local markets, bird-watching and more. ",
     places: [
