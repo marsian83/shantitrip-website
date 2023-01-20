@@ -1,7 +1,12 @@
 <template>
   <div>
-    <section class="top hero-1 h-screen bg-cover flex flex-col mobile:h-[30vh]">
-      <div class="hero flex flex-col m-auto">
+    <section
+      class="top h-screen bg-cover flex flex-col mobile:h-[30vh]"
+      data-flickity='{ "wrapAround": true  }'
+    >
+      <div
+        class="hero-1 relative w-screen h-screen flex flex-col justify-center m-auto bg-cover"
+      >
         <div class="hero-text-top">
           <div class="hero-text-item" id="tl">Plan</div>
           <div class="hero-text-item" id="tr">Less</div>
@@ -16,34 +21,45 @@
         >
           Let's plan something
         </NuxtLink>
-      </div>
-      <div
-        class="text-secondary self-center mb-5 opacity-80 text-lg mobile:hidden"
-      >
-        With curated and seamless travel experiences, we are taking the task out
-        of travel — one booking at a time.
-      </div>
-    </section>
-    <section
-      class="top hero-2 h-screen bg-cover flex-col mobile:h-[30vh] hidden"
-    >
-      <div class="hero flex flex-col m-auto">
-        <p class="text-secondary text-center text-2xl font-medium">
-          This summer <span class="text-yellow-300"> gift your parents </span> an Unforgettable trip to
-        </p>
-        <div class="hero-text-top">
-          <div class="hero-text-item">Himachal</div>
+        <div
+          class="text-secondary absolute bottom-10 opacity-80 text-lg text-center w-full mobile:hidden"
+        >
+          With curated and seamless travel experiences, we are taking the task
+          out of travel — one booking at a time.
         </div>
-        <NuxtLink to="/contact" class="btn-primary self-center hover:scale-105">
-          Gift Now!
-        </NuxtLink>
       </div>
-      <div
-        class="text-secondary self-center mb-16 opacity-80 text-lg font-semibold bg-[#00000088] p-4 rounded-2xl mobile:hidden"
-      >
-        Starting at just Rs.8499/- per person
+      <div class="hero-2 w-screen h-screen flex flex-col m-auto bg-cover">
+        <div class="hero flex flex-col m-auto">
+          <p class="text-secondary text-center text-2xl font-medium">
+            This summer
+            <span class="text-yellow-300"> gift your parents </span> an
+            Unforgettable trip to
+          </p>
+          <div class="hero-text-top">
+            <div class="hero-text-item">Himachal</div>
+          </div>
+          <NuxtLink
+            to="/contact"
+            class="btn-primary self-center hover:scale-105"
+          >
+            Gift Now!
+          </NuxtLink>
+        </div>
+        <div
+          class="text-secondary self-center mb-16 opacity-80 text-lg font-semibold bg-[#00000088] p-4 rounded-2xl mobile:hidden"
+        >
+          Starting at just Rs.8499/- per person
+        </div>
       </div>
     </section>
+    <!-- <section
+      class="top hero-2 h-screen bg-cover flex-col mobile:h-[30vh] hidden"
+    ></section> -->
+
+    <div class="w-full flex flex-row justify-between p-4">
+      <button></button>
+      <button></button>
+    </div>
 
     <section class="destinations p-page hidden">
       <h2 class="heading">
@@ -278,42 +294,33 @@
 </template>
 
 <script setup>
-// const { data: destinations } = useFetch("/api/destinations");
 const trending = [0, 1, 2, 3, 4];
+
 let seasonalTrips = [];
+
 for (const trend of trending) {
   seasonalTrips.push((await useFetch(`/api/trips/${trend}`)).data._rawValue);
 }
+
 const { data: natureTrips } = useFetch("/api/trips/search", {
   query: { query: "nature" },
 });
+
 const { data: adventureTrips } = useFetch("/api/trips/search", {
   query: { query: "adventure" },
 });
 
-let heroShowing = 1;
-
-onMounted(() => {
-  setInterval(() => {
-    document
-      .querySelector(`.top.hero-${heroShowing}`)
-      .classList.replace("flex", "hidden");
-    heroShowing == 1 ? (heroShowing = 2) : (heroShowing = 1);
-    document
-      .querySelector(`.top.hero-${heroShowing}`)
-      .classList.replace("hidden", "flex");
-  }, 5000);
-});
+onMounted(() => {});
 </script>
 
 <style scoped>
-.top.hero-1 {
+.hero-1 {
   background-position: center;
   background-image: linear-gradient(to bottom, #0a0a0abc, #0a0a0a55, #0a0a0abc),
     url("/images/gallery/hero.webp");
 }
-.top.hero-2 {
-  background-position:  left;
+.hero-2 {
+  background-position: left;
   background-size: 100%;
   background-image: linear-gradient(to bottom, #0a0a0abc, #0a0a0a55, #0a0a0abc),
     url("/promotional.jpg");
