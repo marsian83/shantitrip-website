@@ -23,7 +23,7 @@
         :alt="image"
         class="w-full"
         loading="lazy"
-        onerror="this.style.dispaly='none'"
+        onerror="this.style.display='none'"
       />
     </div>
     <div class="basis-1/3 px-1 flex flex-col gap-y-2 widescreen-only">
@@ -34,7 +34,7 @@
         :alt="image"
         class="w-full"
         loading="lazy"
-        onerror="this.style.dispaly='none'"
+        onerror="this.style.display='none'"
       />
     </div>
     <div class="basis-1/3 px-1 flex flex-col gap-y-2 widescreen-only">
@@ -45,7 +45,7 @@
         :alt="image"
         class="w-full"
         loading="lazy"
-        onerror="this.style.dispaly='none'"
+        onerror="this.style.display='none'"
       />
     </div>
     <div class="basis-1/2 px-1 flex flex-col gap-y-2 mobile-only">
@@ -56,7 +56,7 @@
         :alt="image"
         class="w-full"
         loading="lazy"
-        onerror="this.style.dispaly='none'"
+        onerror="this.style.display='none'"
       />
     </div>
     <div class="basis-1/2 px-1 flex flex-col gap-y-2 mobile-only">
@@ -67,7 +67,7 @@
         :alt="image"
         class="w-full"
         loading="lazy"
-        onerror="this.style.dispaly='none'"
+        onerror="this.style.display='none'"
       />
     </div>
   </section>
