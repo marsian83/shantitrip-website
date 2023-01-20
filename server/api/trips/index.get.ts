@@ -878,8 +878,8 @@ let trips = [
     days: 7,
     cost: 7999,
     themes: ["religious", "hippie", "heritage", "group"],
-    thumbnailUrl: "/images/trips/2.webp",
-    gallery: [""],
+    thumbnailUrl: "/images/trips/9.jpg",
+    gallery: ["/images/trips/9.jpg"],
     description:
       "You will move on to Manali, doing activities such as rafting and paragliding in Kullu, and relaxing at your stay. You will also get to visit Solang Valley, Rohtang Tunnel, Sissu, Hadimba Temple, Vashisht hot spring, Manu temple, Mall road, Old manali streets and Club house.",
     schedule: [
@@ -989,15 +989,15 @@ let trips = [
     tags: "",
   },
 
-  
+  //Paradise in the hills
   {
     id: 10,
     name: "Paradise in the Hills",
     days: 6,
     cost: 6999,
     themes: ["nature", "relaxation", "hippie", "religious"],
-    thumbnailUrl: "/images/trips/2.webp",
-    gallery: [""],
+    thumbnailUrl: "/images/trips/10.jpg",
+    gallery: ["/images/trips/10.jpg"],
     description:
       "This 6 day trip takes you to the picturesque valleys of Kasol and Manali, where you can experience the beauty of nature and culture. The journey begins with an overnight trip from Delhi/Chandigarh to Kasol, where you can explore the local market, visit the charming village of Chalal, and enjoy the relaxing atmosphere of cafes along the banks of the Parvati River",
     places: [
@@ -1013,7 +1013,7 @@ let trips = [
       "Naggar castle",
     ],
     punchline:
-      "Discover the hidden gems of the Himalayas with our Kasol-Manali adventure tour, where you'll experience the best of nature, culture, and relaxation!",
+      "Discover the hidden gems of the Himalayas",
     summary:
       "As you move on to Manali, you will get to experience a small trek to the powerful Electric Mahadev Temple and take a stroll through the lush Vanbihar forest, perfect for photography. In Manali, you can indulge in adventure activities like snow trekking and paragliding, visit popular places like Solang Valley, Rohtang Tunnel, and Naggar Castle. Additionally, you can explore the local market, try traditional foods and even enjoy the night parties and bonfire at the old Manali cafes.",
     schedule: [
@@ -1024,7 +1024,7 @@ let trips = [
       "Visit solang valley ,rohtang tunnel,siisu and visit naggar castlelocal manali market ,pizzas at italian pizzeria in nagger and then in evening start overnight journey toyourplaces.",
       "In the morning at your starting point.",
     ],
-    tripFor: ["Group of 5", "Group of 6"],
+    tripFor: ["Group of 5","Adventure lovers", "Group of 6"],
     highlights: [
       "Visit hippie market of kasol",
       "To have relaxing hours by sitting along the bank of parvati river ",
@@ -1096,14 +1096,15 @@ let trips = [
     tags: "",
   },
 
+  //Parvati Paradise
   {
     id: 11,
     name: "Parvati Paradise",
     days: 6,
     cost: 7999,
     themes: ["culture", "hippie", "trekking", "adventure"],
-    thumbnailUrl: "/images/trips/2.webp",
-    gallery: [""],
+    thumbnailUrl: "/images/trips/11.jpg",
+    gallery: ["/images/trips/11.jpg"],
     description:
       "This trip takes you on an adventure through the beautiful landscapes of Himachal Pradesh, starting with an overnight journey from Delhi or Chandigarh to Kasol. You will have the opportunity to relax and explore the hippie market of Kasol, take a hot spring bath at Manikaran or Kheerganga, go on a snow trek to Kheerganga, and enjoy a 360 view of the Sar Pass mountains from Tosh",
     places: [
@@ -1118,7 +1119,7 @@ let trips = [
       "Tosh",
     ],
     punchline:
-      "Experience the beauty of the Himalayas and the thrill of adventure",
+      "The Himalayas and the thrill of adventure",
     summary:
       "You will also have the opportunity to visit the cultural market of Manikaran and do some shopping for traditional Himachali products. The trip includes stays at a homestay, guest house, and camps, and you will have the chance to enjoy music and bonfire nights, as well as smoke up sessions.",
     schedule: [
@@ -1199,15 +1200,16 @@ let trips = [
     tags: "",
   },
 
-  
+  //Kasol Prashar Trip
   {
     id: 12,
-    name: "Kasol Prashar Trip",
+    name: "Kasol-Prashar Trip",
     days: 8,
     cost: 13200,
     themes: ["backpackers", "trekking", "adventure", "culture"],
-    thumbnailUrl: "/images/trips/2.webp",
-    gallery: [""],
+    
+    thumbnailUrl: "/images/trips/12.jpg",
+    gallery: ["/images/trips/12.jpg"],
     description:
       "You will also get a chance to explore the local culture and traditional food in places like Mandi, Palampur, Dharamshala, McLeod Ganj and more. The trip also includes overnight stays in a homestay, camps, guest houses, and hotels, giving you a chance to experience a variety of accommodation options. The trip ends with an overnight journey back to your starting destination",
     places: [
@@ -1230,7 +1232,7 @@ let trips = [
       "Dalai lama temple",
     ],
     punchline:
-      "Experience the best of Himachal Pradesh: from trekking in the mountains to paragliding and exploring local markets, on this 8-day adventure",
+      "From trekking in the mountains to paragliding",
     summary:
       "This is an 8-day trip to Himachal Pradesh, India, visiting places such as Kasol, Prashar, Tosh, Manikaran, and other places. The trip includes activities such as local market visits, trekking, paragliding, and experiencing local culture and food. Suitable for a group of 6 people, the trip includes overnight stays in a homestay, camps, guest houses, and hotels, and transportation by Innova and Force Traveller vehicles. Trip highlights include the hippie market of Kasol, trekking to Prashar Lake, paragliding at Bir Billing and Tibetan culture in Dharamshala and McLeod Ganj.",
     schedule: [
@@ -1324,19 +1326,22 @@ let trips = [
     tags: "",
   },
 
+
+  //Himalayan Adventure
   {
     id: 13,
     name: "Himalayan Adventure",
     days: 6,
     cost: 6999,
     themes: ["adventure", "nature", "culture", "history"],
-    thumbnailUrl: "/images/trips/2.webp",
-    gallery: [""],
+    
+    thumbnailUrl: "/images/trips/13.jpg",
+    gallery: ["/images/trips/13.jpg"],
     description:
       "The trip includes visits to Kasol, known for its hippie market, Manikaran, famous for its hot springs, and the picturesque Tosh valley. The trip also includes a 7.5km snow trek to Prashar lake, where you can enjoy the breathtaking views of the surrounding mountains and the tranquility of the lake.",
     places: ["Kasol", "Manikaran", "Barsheni", "Tosh", "Kutla", "Prashar lake"],
     punchline:
-      "Explore the snow-capped mountains and scenic beauty of Kasol, Tosh, and Prashar Lake.",
+      "The snow-capped mountains and scenic beauty of Kasol",
     summary:
       "Along the way, you can also indulge in traditional Himachali food, shopping for woolen stuff and local handicrafts, and participate in activities such as river-side sunbathing, smokeup hours and party in the indoor psy café.",
     schedule: [],
@@ -1418,14 +1423,15 @@ let trips = [
     tags: "",
   },
 
+  //PArvati valley bliss
   {
     id: 14,
     name: "Parvati Valley Bliss",
     days: 6,
     cost: 6500,
     themes: ["adventure", "trekking", "party", "sightseeing"],
-    thumbnailUrl: "/images/trips/2.webp",
-    gallery: [],
+    thumbnailUrl: "/images/trips/14.jpg",
+    gallery: ["/images/trips/14.jpg"],
     description:
       "This trip is a 6-day adventure to the beautiful towns of Kasol, Rasol, and Tosh in Himachal Pradesh. The tour starts with an overnight journey from Delhi or Chandigarh to Kasol where you will stay in a homestay and have the opportunity to relax, party and enjoy a bonfire. On the second day, you will go on a trek to Rasol and have the chance to enjoy the scenic views of the Parvati Valley and the sunrise. ",
     places: [
@@ -1440,7 +1446,7 @@ let trips = [
       "Tulga",
     ],
     punchline:
-      "Experience the beauty of the Himalayas in Kasol, Rasol, and Tosh, with breathtaking views, hot springs, and cultural immersion.",
+      "With breathtaking views, hot springs, and cultural immersion.",
     summary:
       "After trekking back to Kasol, you will take a ride to Tosh to enjoy the sunset and star-gazing at night. On the last day, you will visit Manikaran, the local market of Kasol and then head back to your starting point. You will also have the opportunity to enjoy hot baths at Manikaran, explore the hippie market of Kasol, and taste traditional food.",
     schedule: [
@@ -1521,8 +1527,8 @@ let trips = [
     days: 7,
     cost: 7999,
     themes: ["backpacking", "trekking", "adventure", "culture"],
-    thumbnailUrl: "/images/trips/2.webp",
-    gallery: [""],
+    thumbnailUrl: "/images/trips/15.jpg",
+    gallery: ["/images/trips/15.jpg"],
     description:
       "The trip is suitable for a group of 8 or 9 people and includes overnight stays in a homestay, guest house, and camps. The trip includes transportation by tempo traveller. The trip highlights include the hippie market of Kasol, trekking to Kutla, star-gazing nights, and experiencing local culture and food.",
     places: [
@@ -1537,7 +1543,7 @@ let trips = [
       "Tosh waterfall",
     ],
     punchline:
-      "Get away from the city and immerse yourself in the beauty of the Himalayas on this 7-day trip from Delhi to Kasol, Tosh, Kutla and other places in Himachal Pradesh",
+      "Get away from the city and immerse yourself in the beauty",
     summary:
       "This is a 7-day trip from Delhi to Kasol, Tosh, Kutla, and other places in Himachal Pradesh, India. The trip includes visits to various places such as local markets, cafes, villages, and trekking to Kutla. The trip also includes activities such as river-side walk, shopping at local markets, and experiencing local culture and food",
     schedule: [
@@ -1617,14 +1623,16 @@ let trips = [
     tags: "",
   },
 
+
+  //work from mounatins
   {
     id: 16,
     name: "Work from the Mountains",
     days: 7,
     cost: 13200,
     themes: ["culture", "trekking", "relaxation"],
-    thumbnailUrl: "/images/trips/2.webp",
-    gallery: [""],
+    thumbnailUrl: "/images/trips/16.jpg",
+    gallery: ["/images/trips/16.jpg"],
     description:
       "This 7-day trip takes you to the beautiful mountain towns of Kasol, Manikaran, Tosh, Kutla, and Manali. You'll have the opportunity to relax and unwind in the mountains, while also getting to experience the unique culture and lifestyle of these towns. The trip includes visits to local markets, treks to scenic destinations, and staying in homestays, guest houses, and camps.",
     places: [
@@ -1637,7 +1645,7 @@ let trips = [
       "Rohtang tunnel",
     ],
     punchline:
-      "Escape the city and work from the mountains in the serene beauty of Kasol, Tosh, and Manali.",
+      "In the serene beauty of Kasol, Tosh, and Manali.",
     summary:
       "Some of the highlights include relaxing by the river in Kasol, trekking to Kutla for a night of star-gazing, and exploring the traditional wooden houses in Kutla. Food will be provided at all locations and activities include trekking and smoking up.",
     schedule: [],
@@ -1715,15 +1723,15 @@ let trips = [
     tags: "",
   },
 
-  
+  // the snowy
   {
     id: 17,
     name: "The Snowy Cultural Escape",
     days: 6,
     cost: 6999,
     themes: ["nature", "sightseeing", "Shopping", "snow"],
-    thumbnailUrl: "/images/trips/2.webp",
-    gallery: [""],
+    thumbnailUrl: "/images/trips/17.jpg",
+    gallery: ["/images/trips/17.jpg"],
     description:
       "This is a six-day tour package that takes you to two of the most popular destinations in India - Manali and Kasol. The tour itinerary includes visits to a variety of places such as Manali, Solang Valley, Sissu, Naggar Castle, Kullu, and Kasol. The trip is designed to provide a mix of activities such as visiting temples, shopping at local markets, and experiencing snow activities.",
     places: [
@@ -1829,15 +1837,15 @@ let trips = [
     tags: "",
   },
   
-  
+  //himalayan retreat
   {
     id: 18,
     name: "Himalayan Retreat",
     days: 8,
     cost: 10000,
     themes: ["adventure", "relaxation", "hippie"],
-    thumbnailUrl: "/images/trips/2.webp",
-    gallery: [""],
+    thumbnailUrl: "/images/trips/18.jpg",
+    gallery: ["/images/trips/18.jpg"],
     description:
       "This is an 8-day tour package named Shimla Kasol Manali that takes you to various destinations in the Himachal Pradesh region. The itinerary includes visits to places such as Chandigarh, Solan, Shimla, Kufri, Mashobra, Naldehra, Kasol, Manikaran, Tosh, Kullu, Manali, Solang Valley, Sissu, and Old Manali.",
     places: [
@@ -1961,16 +1969,17 @@ let trips = [
     tags: "",
   },
 
+  //merry christman
   {
     id: 19,
     name: "Merry Christmas",
     days: 6,
     cost: 16500,
     themes: ["seasonal", "festive", "party", "relaxation"],
-    thumbnailUrl: "/images/trips/2.webp",
-    gallery: [""],
+    thumbnailUrl: "/images/trips/19.jpg",
+    gallery: ["/images/trips/19.jpg"],
     description:
-      "This is a six-day Christmas-themed trip package that takes you to various destinations in the Parvati Valley, such as Kasol, Manikaran, Tosh, Kutla, and Budhaban. The trip includes a Christmas party in Tosh, trekking to Kutla for night galaxy viewing and a snow camp stay, as well as relaxation in the scenic village of Tosh.",
+      "This is a six-day Christmas-themed trip package, from 21st of Dec to 26th of Dec, that takes you to various destinations in the Parvati Valley, such as Kasol, Manikaran, Tosh, Kutla, and Budhaban. The trip includes a Christmas party in Tosh, trekking to Kutla for night galaxy viewing and a snow camp stay, as well as relaxation in the scenic village of Tosh.",
     places: ["Kasol", "Manikaran", "Tosh", "Kutla", "Budhaban"],
     punchline: "Celebrate Christmas in the lap of nature",
     summary:
@@ -2047,15 +2056,15 @@ let trips = [
     tags: "",
   },
 
-
+//Himalayan odessey
   {
     id: 20,
     name: "Himalayan Odyssey",
     days: 7,
     cost: 8500,
     themes: ["culture", "group", "trekking", "sightseeing"],
-    thumbnailUrl: "/images/trips/2.webp",
-    gallery: [],
+    thumbnailUrl: "/images/trips/20.jpg",
+    gallery: ["/images/trips/20.jpg"],
     description:
       "This is a 7-day trip to the Himachal Pradesh, India that takes you to various places such as Manali, Solang Valley, Sissu, Kasol, Tirthan, Jibhi, and other places. The trip includes a variety of activities such as trekking, sightseeing, snow activities, visiting temples and local markets, bird-watching and more. ",
     places: [
@@ -2076,7 +2085,7 @@ let trips = [
       "Jalodi pass.",
     ],
     punchline:
-      "Experience the best of Himachal Pradesh's culture, adventure and beauty on this 7-day trip to Manali, Solang Valley, Sissu, Kasol, Tirthan, Jibhi and beyond",
+      "Experience the best of Himachal Pradesh's culture",
     summary:
       "The trip is suitable for groups of 100 members and includes overnight stays in camps and hotels. The trip includes transportation by Tempo Traveller. The trip highlights include visiting the old Manali market, Solang Valley, Tirthan River, and Kasol, experiencing local culture and food, and night parties",
     schedule: [
