@@ -11,6 +11,6 @@ export default defineEventHandler(async () => {
   const files = fs.readdirSync(
     path.join(__dirname, "..", "..", "public", "images", "gallery")
   );
-  const response = files.map((file) => "/images/" + file);
+  const response = files.map((file) => "/images/gallery/" + file);
   return response;
 });
