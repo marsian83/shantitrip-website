@@ -31,7 +31,7 @@
             <NuxtLink to="/contact">Contact</NuxtLink>
           </li>
           <li class="navbar-item">
-            <NuxtLink to="/agents">Collaborate</NuxtLink>
+            <NuxtLink to="/collaborate">Collaborate</NuxtLink>
           </li>
         </ul>
       </div>
@@ -61,7 +61,7 @@
             >
           </li>
           <li class="navbar-item">
-            <NuxtLink to="/agents">
+            <NuxtLink to="/collaborate">
               <span class="material-icons">&#xebcb;</span>
               <p>Collab</p>
             </NuxtLink>
