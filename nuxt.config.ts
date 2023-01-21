@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
-  plugins :[{ src: '@/plugins/vercel.ts', mode: 'client' }],
+  plugins: [{ src: "@/plugins/vercel.ts", mode: "client" }],
   app: {
     head: {
       title: "ShantiTrip Holidays",
@@ -14,6 +14,11 @@ export default defineNuxtConfig({
           name: "description",
           content:
             "We are a young startup based in Himachal Pradesh, passionate about designing personalized trips and curating niche experiences",
+        },
+        {
+          hid: "google-site-verification",
+          name: "google-site-verification",
+          content: "Hw5LE2K-QrpSDYoC2u6Hxnol2p5ycVxrKfYDFj1RFn0",
         },
       ],
       link: [
