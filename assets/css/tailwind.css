@@ -4,7 +4,7 @@
 
 @layer components {
   .btn-primary {
-    @apply my-3 p-3 rounded-lg w-max bg-primary text-secondary transition-300 border border-[rgb(var(--primary))] hover:bg-background hover:color-primary;
+    @apply my-3 p-3 rounded-lg w-max bg-primary text-secondary transition-300 border border-[rgb(var(--primary))] hover:bg-background hover:color-primary mobile:p-2 mobile:text-base;
   }
   .btn-secondary {
     @apply my-3 p-3 rounded-lg w-max bg-background color-primary hover:bg-primary hover:text-secondary transition;

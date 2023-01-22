@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero relative h-screen w-full mobile:h-[40vh]">
+    <section class="hero relative h-screen w-full mobile:h-[32vh]">
       <div class="img-slider">
         <div
           class="slide active bg-[linear-gradient(black,transparent,black),url('/images/gallery/hero.webp')] flex flex-col justify-center items-center text-center"
