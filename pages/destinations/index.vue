@@ -4,18 +4,18 @@
       v-for="destination in destinations"
       :class="`${destination.name}-destination`"
       v-bind:key="destination.id"
-      class="destination relative pl-page h-screen bg-cover bg-fixed bg-center flex flex-row justify-center items-center"
+      class="destination relative pl-page h-screen bg-cover bg-fixed bg-center flex flex-row justify-center items-center mobile:flex-col mobile:pl-0 mobile:justify-start"
       :style="`background-image: linear-gradient(to bottom, rgba(var(--foreground),1),rgba(var(--foreground),0.38),rgba(var(--foreground),1)) , url('${destination.thumbnailUrl}'), linear-gradient(to bottom, black, black);`"
     >
-      <div class="destination-info basis-1/2">
-        <h1 class="text-secondary text-8xl font-bold">
+      <div class="destination-info basis-1/2 mobile:flex mobile:flex-col mobile:p-4 mobile:basis-1">
+        <h1 class="text-secondary text-8xl font-bold mobile:text-5xl">
           {{ destination.name.toUpperCase() }}
         </h1>
-        <p class="text-secondary opacity-80 pr-10">
+        <p class="text-secondary opacity-80 pr-10 mobile:pr-0">
           {{ destination.description }}
         </p>
       </div>
-      <div class="relative basis-1/2 w-[50vw] h-full flex items-center">
+      <div class="relative basis-1/2 w-[50vw] h-full flex items-center mobile:w-screen mobile:basis-1 mobile:p-4">
         <div
           :id="`trips-${destination.id}`"
           class="destination-trips gap-6 h-full flex items-center"
@@ -38,7 +38,7 @@
           <div class="w-[200%]"></div>
         </div>
       </div>
-      <div class="absolute bottom-[10vh]">
+      <div class="absolute bottom-[10vh] mobile:bottom-[8vh]">
         <button
           class="rounded-full aspect-square w-14 mx-4 text-xl text-secondary backdrop-blur-sm transition-300 bg-[rgba(var(--background),0.2)] hover:bg-[rgba(var(--background),0.8)] hover:text-primary active:scale-50"
           :id="destination.id"
@@ -82,9 +82,9 @@ if (destination && Number(destination) > destinations.value.length - 1) {
 onMounted(() => {
   const { matches: isMobile } = window.matchMedia("(max-width: 768px)");
 
-  if (isMobile) {
-    navigateTo("/trips");
-  }
+  // if (isMobile) {
+  //   navigateTo("/trips");
+  // }
 
   if (destination) {
     document
@@ -115,7 +115,7 @@ onMounted(() => {
   text-shadow: 0px 0px 13px rgba(var(--text-primary), 0.83);
 }
 .destination-trips {
-  @apply auto-cols-[40%] mobile:auto-cols-[70%] overscroll-contain scroll-smooth snap-x snap-mandatory relative grid grid-flow-col overflow-x-auto gap-6;
+  @apply auto-cols-[40%] mobile:auto-cols-[100%] overscroll-contain scroll-smooth snap-x snap-mandatory relative grid grid-flow-col overflow-x-auto gap-6 ;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -123,7 +123,7 @@ onMounted(() => {
   display: none;
 }
 .destination-trip-card {
-  @apply aspect-[12/15];
+  @apply aspect-[12/15] mobile:aspect-square;
   scroll-snap-align: start;
 }
 .destination-trips::-webkit-scrollbar {
