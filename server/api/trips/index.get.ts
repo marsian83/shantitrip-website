@@ -2189,7 +2189,7 @@ let trips = [
     gallery: ["/images/trips/1.webp"],
     description:
       "Start 2021 on a chill note with a visit to the snowclad landscapes of Kasol, Tosh, and Kutla. Witness the majesty of the magnificent Himalayas as you go on snow-treks amidst gushing waterfalls, pine trees, and a serene and relatively tourist-free landscape.",
-    places: [["Kasol", "Tosh", "Kutla", "Budhaban"]],
+    places: ["Kasol", "Tosh", "Kutla", "Budhaban"],
     punchline: "Rest and reboot.",
     summary:
       "Spend 6 nights and 7 days exploring the pristine white, snowclad landscapes of Himachal Pradesh. Take a breather from the claustrophobia and home-boundedness of 2020 and welcome 2021 with the fresh mountain air of Kasol, the gorgeous views of Tosh and the rustic village life of Kutla and Buddhaban.",
@@ -2274,7 +2274,7 @@ let trips = [
 
   //Healing Touch
   {
-    id: "healing-touch",
+    id: 22,
     name: "Healing Touch",
     days: 7,
     cost: 35000,
@@ -2289,36 +2289,80 @@ let trips = [
     thumbnailUrl: "/promotional.jpg",
     gallery: ["/images/trips/7.webp"],
     description:
-      "A trip for those who want to enjoy complete leisure and relaxation with little activity, while enjoying all the beauty and serenity Himachal has to offer.",
-    places: ["Parashar lake ", "Tosh ", "Kasol"],
+      "Start 2021 on a chill note with a visit to the snowclad landscapes of Kasol, Tosh, and Kutla. Witness the majesty of the magnificent Himalayas as you go on snow-treks amidst gushing waterfalls, pine trees, and a serene and relatively tourist-free landscape.",
+    places: ["Kasol", "Tosh", "Kutla", "Budhaban"],
     punchline: "Rest and reboot.",
     summary:
-      "Spend 5 nights and 6 days in utter peace and quiet. Relax and laze around in Kasol, get a birds-eye view of Parvati Valley in Tosh, and experience a meditative stillness and silence along with a 360\u00b0 view of the Himalayan mountain range at Parashar Lake.",
-    schedule: [],
-    tripFor: [""],
-    highlights: [""],
-    stay: [""],
-    travel: [""],
-    food: [""],
+      "Spend 6 nights and 7 days exploring the pristine white, snowclad landscapes of Himachal Pradesh. Take a breather from the claustrophobia and home-boundedness of 2020 and welcome 2021 with the fresh mountain air of Kasol, the gorgeous views of Tosh and the rustic village life of Kutla and Buddhaban.",
+    schedule: [{}],
+    tripFor: [
+      "Youngsters and snow-trek lovers",
+      "Those who like fewer tourists",
+      "Those who seek the perfect balance of leisure and adventure",
+      "Groups of 8-9 friends on a long-pending trip",
+    ],
+    highlights: [
+      "Take long walks along the parvati river bank and chill at cafes in kasol",
+      "Enjoy a healing hot-water bath in manikaran and shop for souvenirs",
+      "Explore tosh village and get a birds-eye view of parvati valley",
+      "Trek your way in the snow to kutla amidst beautiful waterfalls",
+      "Bask in the solitude and silence of the peaceful buddhaban",
+    ],
+    stay: [
+      "Homestay in Kasol",
+      "Guesthouse in Tosh",
+      "Camps in Kutla and Buddhaban",
+    ],
+    travel: ["Force Traveller", "Toyota Etios", "Swift Dzire"],
+    food: [
+      "Traditional Veg. Village Cuisine",
+      "Non-veg. Pahadi Cuisine",
+      "Local delicacies native to Himachal Pradesh",
+    ],
     features: [
       {
         title: "Rest and Relaxation",
-        items: [""],
+        items: [
+          "Spend lazy afternoons sitting by the Parvati River bank in Kasol",
+          "Chill in cafes in Kasol and Bir. Enjoy Israeli and Tibetan cuisine or local Himachali delicacies like Siddu and Makke Di Roti and Sarso Da Saag",
+          "Enjoy a hot water bath at Manikaran — along with some leisurely shopping for handicrafts, paintings, and other artwork",
+          "Spend a quiet winter night around the bonfire in Kutla",
+        ],
       },
       {
         title: "Shopping",
-        items: [""],
+        items: [
+          "Buy handicrafts and souvenirs like Kullvi Shawls, caps, and home decor items in Kasol and Manikaran",
+          "Buy trekking equipment in Tosh",
+        ],
       },
       {
         title: "Adventure",
-        items: [""],
+        items: [
+          "Relish a snow and music-filled gypsy ride from Kasol to Tosh, with plenty of photoshoot opportunities along the way",
+          "Trek 3 km to Kutla from Tosh, amidst spectacular views of the Himalayan mountain ranges and gushing waterfalls",
+          "Test your ice-skating skills in Buddhaban",
+        ],
       },
     ],
-    seasonalHighlights: [""],
+    seasonalHighlights: [
+      "This trip is specially made for experiencing Himachali winters starting from mid-December to late-February.You'll likely experience sub-zero temperatures with light to heavy snowfall, cloudy skies, and lots of wintry silence and quiet as locals are huddled up around the fireplace in the warmth and comfort of their homes.",
+    ],
     faqs: [
       {
-        question: "",
-        answer: "",
+        question: "Will there be ATMs around?",
+        answer:
+          "There is an ATM in Kasol market but it rarely works so we wouldn't suggest you rely on it. Then there's one in Manikaran market and one in Jari. But we suggest you carry cash with you before entering Parvati Valley, ideally from Bhuntar (you'll avoid extra commision for cash transactions). The higher up you go in the snow, the lesser the chances of finding an ATM. Especially as it's the winter and roads tend to be blocked.",
+      },
+      {
+        question: "Will I be able to communicate well with the locals?",
+        answer:
+          "Yes, the locals know basic English and are fluent in Hindi. So if you know any of these languages, communicating the basics won't be an issue.",
+      },
+      {
+        question: "Do I need to carry any special equipment?",
+        answer:
+          "As you'll be travelling in the winter, thick woolen jackets and trekking gear will be a must. Also carry a rain-jacket or umbrella along as rains are expected this time around. Other than that, carry a flashlight, long socks for hiking and to stay warm, binoculars, a good camera for capturing the view, and most importantly — a power bank",
       },
       {
         question: "Who do you need to call in emergency",

@@ -20,8 +20,8 @@
           </p>
         </div>
         <div
-          class="slide cursor-pointer bg-[linear-gradient(#00000077,transparent,black),url('/promotional.webp')]"
-          v-on:click="navigateTo('/trips/healing-touch')"
+          class="slide cursor-pointer bg-[linear-gradient(#00000077,transparent,black),url('/images/promotional/parents-banner.webp')]"
+          v-on:click="navigateTo('/trips/healing-touch-deprecated')"
         ></div>
         <div class="navigation">
           <div class="btn active"></div>
@@ -303,7 +303,7 @@ onMounted(() => {
   });
 
   // image slider autoplay navigation
-  var repeat = function (activeClass) {
+  var repeat = function () {
     let active = document.getElementsByClassName("active");
     let i = 1;
 
