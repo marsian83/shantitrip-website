@@ -8,10 +8,10 @@
       :style="`background-image: linear-gradient(to bottom, rgba(var(--foreground),1),rgba(var(--foreground),0.38),rgba(var(--foreground),1)) , url('${destination.thumbnailUrl}'), linear-gradient(to bottom, black, black);`"
     >
       <div class="destination-info widescreen:basis-1/2 mobile:flex mobile:flex-col mobile:mt-4">
-        <h1 class="text-secondary text-8xl font-bold mobile:text-5xl pr-2 mobile:text-center">
+        <h1 class="text-secondary text-8xl font-bold mobile:text-5xl pr-2">
           {{ destination.name.toUpperCase() }}
         </h1>
-        <p class="text-secondary opacity-80 pr-10 mobile:pr-0 widescreen:mt-8">
+        <p class="text-secondary opacity-80 pr-10 mobile:pr-0 widescreen:mt-8 mobile:mb-4">
           {{ destination.description }}
         </p>
       </div>

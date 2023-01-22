@@ -1,20 +1,20 @@
 <template>
   <div>
-    <section class="hero relative h-screen w-full mobile:h-[32vh] bg-black">
-      <div
-        class="hero-slider-navigation fixed w-full flex flex-row justify-between top-1/2 -translate-y-1/2 text-secondary pointer-events-none"
+    <div
+      class="hero-slider-navigation absolute w-full flex flex-row justify-between top-1/2 -translate-y-1/2 mobile:top-[16vh] text-secondary pointer-events-none z-[1]"
+    >
+      <button
+        onclick="document.querySelector('.hero').scrollBy({left:-window.innerWidth,behavior:'smooth'})"
       >
-        <button
-          onclick="document.querySelector('.hero').scrollBy({left:-window.innerWidth,behavior:'smooth'})"
-        >
-          {{ "<" }}
-        </button>
-        <button
-          onclick="document.querySelector('.hero').scrollBy({left:window.innerWidth,behavior:'smooth'})"
-        >
-          {{ ">" }}
-        </button>
-      </div>
+        {{ "<" }}
+      </button>
+      <button
+        onclick="document.querySelector('.hero').scrollBy({left:window.innerWidth,behavior:'smooth'})"
+      >
+        {{ ">" }}
+      </button>
+    </div>
+    <section class="hero h-screen w-full mobile:h-[32vh] bg-black">
       <div
         class="hero-slide bg-[linear-gradient(black,transparent,black),url('/images/gallery/hero.webp')] flex flex-col justify-center items-center text-center"
       >
@@ -293,7 +293,7 @@ onMounted(() => {});
 
 <style scoped>
 .hero {
-  @apply auto-cols-[100%] h-screen w-full scroll-smooth snap-x snap-mandatory relative grid grid-flow-col overflow-x-auto gap-0;
+  @apply auto-cols-[100%] h-screen w-full mobile:h-[35vh] scroll-smooth snap-x snap-mandatory relative grid grid-flow-col overflow-x-auto gap-0;
 }
 .hero::-webkit-scrollbar {
   display: none;
@@ -306,7 +306,7 @@ onMounted(() => {});
   text-shadow: 0px 0px 1rem #000000;
 }
 .hero-slider-navigation button {
-  @apply p-4 text-3xl bg-[rgba(var(--foreground),0.69)] pointer-events-auto;
+  @apply p-4 mobile:p-2 text-3xl bg-[rgba(var(--foreground),0.69)] pointer-events-auto;
 }
 .heading {
   @apply pb-10 pt-20 text-3xl font-bold mobile:text-2xl mobile:font-semibold mobile:py-7 mobile:text-center;
