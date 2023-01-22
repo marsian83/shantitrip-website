@@ -2,6 +2,20 @@
   <div>
     <section class="hero relative h-screen w-full mobile:h-[32vh] bg-black">
       <div
+        class="hero-slider-navigation fixed w-full flex flex-row justify-between top-1/2 -translate-y-1/2 text-secondary pointer-events-none"
+      >
+        <button
+          onclick="document.querySelector('.hero').scrollBy({left:-window.innerWidth,behavior:'smooth'})"
+        >
+          {{ "<" }}
+        </button>
+        <button
+          onclick="document.querySelector('.hero').scrollBy({left:window.innerWidth,behavior:'smooth'})"
+        >
+          {{ ">" }}
+        </button>
+      </div>
+      <div
         class="hero-slide bg-[linear-gradient(black,transparent,black),url('/images/gallery/hero.webp')] flex flex-col justify-center items-center text-center"
       >
         <h1 class="text-8xl font-black text-secondary mobile:text-5xl">
@@ -274,9 +288,7 @@ const { data: adventureTrips } = useFetch("/api/trips/search", {
   query: { query: "adventure" },
 });
 
-onMounted(() => {
-
-});
+onMounted(() => {});
 </script>
 
 <style scoped>
@@ -293,13 +305,8 @@ onMounted(() => {
 .hero h1 {
   text-shadow: 0px 0px 1rem #000000;
 }
-.hero-text-top,
-.hero-text-bottom {
-  @apply flex flex-row w-full justify-center py-0.5;
-}
-.hero-text-item {
-  @apply font-extrabold px-2 text-8xl text-secondary mobile:text-5xl;
-  text-shadow: 0px 0px 10px rgba(var(--text-primary), 0.38);
+.hero-slider-navigation button {
+  @apply p-4 text-3xl bg-[rgba(var(--foreground),0.69)] pointer-events-auto;
 }
 .heading {
   @apply pb-10 pt-20 text-3xl font-bold mobile:text-2xl mobile:font-semibold mobile:py-7 mobile:text-center;
@@ -356,7 +363,7 @@ onMounted(() => {
   @apply text-center font-medium text-sm opacity-80;
 }
 .carousel {
-  @apply auto-cols-[20%] mobile:auto-cols-[70%] scroll-smooth snap-x snap-mandatory;
+  @apply auto-cols-[20%] mobile:auto-cols-[70%] scroll-smooth snap-x snap-mandatory overscroll-y-auto;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
