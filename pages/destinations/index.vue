@@ -3,6 +3,7 @@
     <section
       v-for="destination in destinations"
       :class="`${destination.name}-destination`"
+      v-bind:key="destination.id"
       class="destination relative pl-page h-screen bg-cover bg-fixed bg-center flex flex-row justify-center items-center"
       :style="`background-image: linear-gradient(to bottom, rgba(var(--foreground),1),rgba(var(--foreground),0.38),rgba(var(--foreground),1)) , url('${destination.thumbnailUrl}'), linear-gradient(to bottom, black, black);`"
     >
@@ -14,17 +15,25 @@
           {{ destination.description }}
         </p>
       </div>
-      <div class="relative basis-1/2 ">
+      <div class="relative basis-1/2 w-[50vw] h-full flex items-center">
         <div
           :id="`trips-${destination.id}`"
-          class="destination-trips gap-6"
+          class="destination-trips gap-6 h-full flex items-center"
         >
           <NuxtLink
             class="destination-trip-card transition-300"
-            v-for="trip in destination.trips"
-            :to="`/trips/${trip.id}`"
+            v-for="location in destination.locations"
+            v-bind:key="location.name"
+            :to="`/trips/${location.name}`"
           >
-            <Card2 :text="trip.name" :imageUrl="trip.thumbnailUrl" />
+            <Card2 :text="location.name" :imageUrl="location.imageUrl" />
+            <div
+              class="destination-description absolute bottom-0 left-0 h-max w-full opacity-0"
+            >
+              <p class="absolute text-secondary bottom-0 bg-[linear-gradient(transparent,#000000bb,transparent)] py-8 px-1 text-center">
+                {{ location.description }}
+              </p>
+            </div>
           </NuxtLink>
           <div class="w-[200%]"></div>
         </div>
@@ -33,14 +42,14 @@
         <button
           class="rounded-full aspect-square w-14 mx-4 text-xl text-secondary backdrop-blur-sm transition-300 bg-[rgba(var(--background),0.2)] hover:bg-[rgba(var(--background),0.8)] hover:text-primary active:scale-50"
           :id="destination.id"
-          onclick="document.getElementById(`trips-${this.id}`).scrollBy({left:-200, behavior: 'smooth'})"
+          onclick="document.getElementById(`trips-${this.id}`).scrollBy({left:-300, behavior: 'smooth'})"
         >
           {{ "<" }}
         </button>
         <button
           class="rounded-full aspect-square w-14 mx-4 text-xl text-secondary backdrop-blur-sm transition-300 bg-[rgba(var(--background),0.2)] hover:bg-[rgba(var(--background),0.8)] hover:text-primary active:scale-50"
           :id="destination.id"
-          onclick="document.getElementById(`trips-${this.id}`).scrollBy({left:+200, behavior: 'smooth'})"
+          onclick="document.getElementById(`trips-${this.id}`).scrollBy({left:+300, behavior: 'smooth'})"
         >
           {{ ">" }}
         </button>
@@ -106,14 +115,16 @@ onMounted(() => {
   text-shadow: 0px 0px 13px rgba(var(--text-primary), 0.83);
 }
 .destination-trips {
-  @apply flex flex-row items-center scroll-smooth w-[50vw] overflow-x-scroll overflow-y-hidden; 
-  overscroll-behavior-inline: contain;
-  scroll-snap-type: x mandatory;
+  @apply auto-cols-[40%] mobile:auto-cols-[70%] overscroll-contain scroll-smooth snap-x snap-mandatory relative grid grid-flow-col overflow-x-auto gap-6;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-.destination-trip-card{
-  @apply basis-2/3;
+.destination-trips::-webkit-scrollbar {
+  display: none;
+}
+.destination-trip-card {
+  @apply aspect-[12/15];
+  scroll-snap-align: start;
 }
 .destination-trips::-webkit-scrollbar {
   display: none;
@@ -123,5 +134,8 @@ onMounted(() => {
 }
 .destination-trips:hover .destination-trip-card:hover {
   @apply opacity-100 blur-none scale-100;
+}
+.destination-trips:hover .destination-trip-card:hover .destination-description {
+  @apply opacity-100;
 }
 </style>

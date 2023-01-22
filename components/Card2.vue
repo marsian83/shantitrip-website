@@ -3,7 +3,7 @@
     <h2 class="text-secondary my-2 text-lg">{{ text }}</h2>
     <img
       :src="imageUrl"
-      class="rounded-lg overflow-hidden shadow-2xl"
+      class="rounded-lg overflow-hidden shadow-2xl h-full object-cover"
       :alt="`trip - ${text}`"
     />
   </div>
