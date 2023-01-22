@@ -2291,17 +2291,27 @@ let trips = [
       "https://images.pexels.com/photos/7846476/pexels-photo-7846476.jpeg",
     ],
     description:
-      "Start 2021 on a chill note with a visit to the snowclad landscapes of Kasol, Tosh, and Kutla. Witness the majesty of the magnificent Himalayas as you go on snow-treks amidst gushing waterfalls, pine trees, and a serene and relatively tourist-free landscape.",
-    places: ["Kasol", "Tosh", "Kutla", "Budhaban"],
-    punchline: "Rest and reboot.",
+      "Explore the best of Himachal Pradesh on our 7-day luxury tour. Visit scenic areas, temples, indoor park activities, hot springs, national parks, heritage centers and bird watching. Experience the culture and spiritual side of the region. Enjoy the peacefulness of Kasol, Jibhi and Tirthan and take a walk on the parvati river bank. Don't miss out on this unique opportunity to discover the beauty of Shimla, Tirthan and Manali.",
+
+    places: [
+      "Shimla",
+      "Tirthan",
+      "Manali",
+      "Kasol",
+      "Naldehra",
+      "Mashobra",
+      "Koti Chail",
+      "Tattapani",
+      "Great Himalayan National Park",
+    ],
+    punchline: "Escape to the mountains.",
     summary:
-      "Spend 6 nights and 7 days exploring the pristine white, snowclad landscapes of Himachal Pradesh. Take a breather from the claustrophobia and home-boundedness of 2020 and welcome 2021 with the fresh mountain air of Kasol, the gorgeous views of Tosh and the rustic village life of Kutla and Buddhaban.",
+      "Embark on a journey to explore the stunning landscapes of Himachal Pradesh on our 7-day/6-night ultra luxury family tour. Take a break from the monotony of everyday life and immerse yourself in the natural beauty of the region as you visit places like Shimla, Tirthan, Manali, Kasol, Naldehra, Mashobra, Koti Chail, Tattapani, and the Great Himalayan National Park. Indulge in a mix of leisure and adventure activities such as visiting temples, horse riding, indoor park activities, hot springs, and bird watching. Experience the cultural heritage and spiritual side of the region at Advance Studies Old Heritage Study Center and Anadaile Army Museum. Welcome 2021 with the fresh mountain air and rustic village life of Kasol, Tosh, Kutla and Buddhaban.",
     schedule: [{}],
     tripFor: [
-      "Youngsters and snow-trek lovers",
-      "Those who like fewer tourists",
+      "Elders looking to escape their daily routines",
       "Those who seek the perfect balance of leisure and adventure",
-      "Groups of 8-9 friends on a long-pending trip",
+      "Couples looking for a long-pending romantic trip",
     ],
     highlights: [
       "Take long walks along the parvati river bank and chill at cafes in kasol",

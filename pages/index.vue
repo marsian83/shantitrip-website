@@ -34,7 +34,7 @@
       </div>
       <div
         class="hero-slide cursor-pointer bg-[linear-gradient(#00000077,transparent,black),url('/images/promotional/parents-banner.webp')]"
-        v-on:click="navigateTo('/trips/healing-touch-deprecated')"
+        v-on:click="navigateTo('/trips/22')"
       ></div>
     </section>
     <section class="destinations p-page">
