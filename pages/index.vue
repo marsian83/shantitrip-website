@@ -1,42 +1,36 @@
 <template>
   <div>
     <section class="hero relative h-screen w-full mobile:h-[32vh] bg-black">
-      <div class="img-slider">
-        <div
-          class="slide active bg-[linear-gradient(black,transparent,black),url('/images/gallery/hero.webp')] flex flex-col justify-center items-center text-center"
+      <div
+        class="hero-slide bg-[linear-gradient(black,transparent,black),url('/images/gallery/hero.webp')] flex flex-col justify-center items-center text-center"
+      >
+        <h1 class="text-8xl font-black text-secondary mobile:text-5xl">
+          Plan Less <br />
+          Travel More
+        </h1>
+        <NuxtLink class="btn-primary" to="/contact"
+          >Let's Plan Something</NuxtLink
         >
-          <h1 class="text-8xl font-black text-secondary mobile:text-5xl">
-            Plan Less <br />
-            Travel More
-          </h1>
-          <NuxtLink class="btn-primary" to="/contact"
-            >Let's Plan Something</NuxtLink
-          >
-          <p
-            class="text-secondary absolute bottom-20 font-light text-xl widescreen-only"
-          >
-            With curated and seamless travel experiences, we are taking the task
-            out of travel — one booking at a time.
-          </p>
-        </div>
-        <div
-          class="slide cursor-pointer bg-[linear-gradient(#00000077,transparent,black),url('/images/promotional/parents-banner.webp')]"
-          v-on:click="navigateTo('/trips/healing-touch-deprecated')"
-        ></div>
-        <div class="navigation">
-          <div class="btn active"></div>
-          <div class="btn"></div>
-        </div>
+        <p
+          class="text-secondary absolute bottom-8 font-light text-xl widescreen-only"
+        >
+          With curated and seamless travel experiences, we are taking the task
+          out of travel — one booking at a time.
+        </p>
       </div>
+      <div
+        class="hero-slide cursor-pointer bg-[linear-gradient(#00000077,transparent,black),url('/images/promotional/parents-banner.webp')]"
+        v-on:click="navigateTo('/trips/healing-touch-deprecated')"
+      ></div>
     </section>
-    <section class="destinations p-page hidden">
+    <section class="destinations p-page">
       <h2 class="heading">
-        Find your <span class="color-primary">Perfect</span> Trip
+        Destinations to <span class="color-primary">Explore</span>
       </h2>
       <div
         class="handpicked flex flex-row flex-wrap justify-between mobile:gap-y-8"
       >
-        <!-- <NuxtLink
+        <NuxtLink
           class="basis-[18%] aspect-[12/17] mobile:basis-[45%] mobile:aspect-[12/11]"
           v-for="destination in destinations"
           :key="destination.id"
@@ -46,7 +40,7 @@
             :text="destination.name"
             :imageUrl="destination.thumbnailUrl"
           />
-        </NuxtLink> -->
+        </NuxtLink>
         <NuxtLink class="basis-[18%] mobile:basis-1/2" to="/destinations">
           <div class="view-more-card flex items-center justify-center h-full">
             <h4
@@ -270,6 +264,8 @@ for (const trend of trending) {
   seasonalTrips.push((await useFetch(`/api/trips/${trend}`)).data._rawValue);
 }
 
+const { data: destinations } = useFetch("/api/destinations");
+
 const { data: natureTrips } = useFetch("/api/trips/search", {
   query: { query: "nature" },
 });
@@ -279,81 +275,23 @@ const { data: adventureTrips } = useFetch("/api/trips/search", {
 });
 
 onMounted(() => {
-  var slides = document.querySelectorAll(".slide");
-  var btns = document.querySelectorAll(".btn");
 
-  var manualNav = function (manual) {
-    slides.forEach((slide) => {
-      slide.classList.remove("active");
-
-      btns.forEach((btn) => {
-        btn.classList.remove("active");
-      });
-    });
-
-    slides[manual].classList.add("active");
-    btns[manual].classList.add("active");
-  };
-
-  btns.forEach((btn, i) => {
-    btn.addEventListener("click", () => {
-      manualNav(i);
-      currentSlide = i;
-    });
-  });
-
-  // image slider autoplay navigation
-  var repeat = function () {
-    let active = document.getElementsByClassName("active");
-    let i = 1;
-
-    var repeater = () => {
-      setTimeout(function () {
-        [...active].forEach((activeSlide) => {
-          activeSlide.classList.remove("active");
-        });
-
-        slides[i].classList.add("active");
-        btns[i].classList.add("active");
-        i++;
-
-        if (slides.length == i) {
-          i = 0;
-        }
-        if (i >= slides.length) {
-          return;
-        }
-        repeater();
-      }, 8000);
-    };
-    repeater();
-  };
-  repeat();
 });
 </script>
 
 <style scoped>
+.hero {
+  @apply auto-cols-[100%] h-screen w-full scroll-smooth snap-x snap-mandatory relative grid grid-flow-col overflow-x-auto gap-0;
+}
+.hero::-webkit-scrollbar {
+  display: none;
+}
+.hero-slide {
+  @apply bg-cover;
+  scroll-snap-align: start;
+}
 .hero h1 {
   text-shadow: 0px 0px 1rem #000000;
-}
-.img-slider .slide {
-  @apply absolute z-[1] w-full h-full bg-cover p-page;
-  clip-path: polygon(50% 0%, 50% 100%, 50% 100%, 50% 0%);
-  transition: clip-path 2000ms;
-}
-.img-slider .slide.active {
-  clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
-  transition: clip-path 2000ms;
-}
-.img-slider .navigation {
-  @apply absolute z-[2] flex flex-row bottom-8 left-1/2 -translate-x-1/2 gap-x-4;
-}
-.img-slider .navigation .btn {
-  @apply w-4 h-4 bg-[#ffffff55] rounded-full cursor-pointer;
-}
-.img-slider .navigation .btn.active {
-  background: #2696e9;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 .hero-text-top,
 .hero-text-bottom {
@@ -418,7 +356,7 @@ onMounted(() => {
   @apply text-center font-medium text-sm opacity-80;
 }
 .carousel {
-  @apply auto-cols-[20%] mobile:auto-cols-[70%] overscroll-contain scroll-smooth snap-x snap-mandatory;
+  @apply auto-cols-[20%] mobile:auto-cols-[70%] scroll-smooth snap-x snap-mandatory;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }

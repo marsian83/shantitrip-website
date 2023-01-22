@@ -1,27 +1,27 @@
 <template>
-  <div class="all-destinations m-0 p-0">
+  <div class="all-destinations m-0 p-0 ">
     <section
       v-for="destination in destinations"
       :class="`${destination.name}-destination`"
       v-bind:key="destination.id"
-      class="destination relative pl-page h-screen bg-cover bg-fixed bg-center flex flex-row justify-center items-center mobile:flex-col mobile:pl-0 mobile:justify-start"
+      class="destination relative pl-page h-screen bg-cover bg-fixed bg-center flex flex-row widescreen:justify-center items-center mobile:flex-col mobile:p-page"
       :style="`background-image: linear-gradient(to bottom, rgba(var(--foreground),1),rgba(var(--foreground),0.38),rgba(var(--foreground),1)) , url('${destination.thumbnailUrl}'), linear-gradient(to bottom, black, black);`"
     >
-      <div class="destination-info basis-1/2 mobile:flex mobile:flex-col mobile:p-4 mobile:basis-1">
-        <h1 class="text-secondary text-8xl font-bold mobile:text-5xl">
+      <div class="destination-info widescreen:basis-1/2 mobile:flex mobile:flex-col mobile:mt-4">
+        <h1 class="text-secondary text-8xl font-bold mobile:text-5xl pr-2 mobile:text-center">
           {{ destination.name.toUpperCase() }}
         </h1>
-        <p class="text-secondary opacity-80 pr-10 mobile:pr-0">
+        <p class="text-secondary opacity-80 pr-10 mobile:pr-0 widescreen:mt-8">
           {{ destination.description }}
         </p>
       </div>
-      <div class="relative basis-1/2 w-[50vw] h-full flex items-center mobile:w-screen mobile:basis-1 mobile:p-4">
+      <div class="relative widescreen:basis-1/2 widescreen:w-[50vw] h-full flex items-center mobile:w-full mobile:h-fit">
         <div
           :id="`trips-${destination.id}`"
           class="destination-trips gap-6 h-full flex items-center"
         >
           <NuxtLink
-            class="destination-trip-card transition-300"
+            class="destination-trip-card transition-300 widescreen-only"
             v-for="location in destination.locations"
             v-bind:key="location.name"
             :to="`/trips/${location.name}`"
@@ -35,6 +35,21 @@
               </p>
             </div>
           </NuxtLink>
+          <div
+            class="destination-trip-card transition-300 relative mobile-only"
+            v-for="location in destination.locations"
+            v-bind:key="location.name"
+            :to="`/trips/${location.name}`"
+          >
+            <Card2 :text="location.name" :imageUrl="location.imageUrl" />
+            <div
+              class="destination-description absolute bottom-0 left-0 h-max w-full widescreen:opacity-0"
+            >
+              <p class="absolute text-secondary bottom-0 bg-[linear-gradient(transparent,#000000bb,transparent)] py-8 px-1 text-center">
+                {{ location.description }}
+              </p>
+            </div>
+          </div>
           <div class="w-[200%]"></div>
         </div>
       </div>
@@ -80,12 +95,6 @@ if (destination && Number(destination) > destinations.value.length - 1) {
 }
 
 onMounted(() => {
-  const { matches: isMobile } = window.matchMedia("(max-width: 768px)");
-
-  // if (isMobile) {
-  //   navigateTo("/trips");
-  // }
-
   if (destination) {
     document
       .querySelector(".all-destinations")
@@ -115,7 +124,7 @@ onMounted(() => {
   text-shadow: 0px 0px 13px rgba(var(--text-primary), 0.83);
 }
 .destination-trips {
-  @apply auto-cols-[40%] mobile:auto-cols-[100%] overscroll-contain scroll-smooth snap-x snap-mandatory relative grid grid-flow-col overflow-x-auto gap-6 ;
+  @apply auto-cols-[40%] mobile:auto-cols-[100%] scroll-smooth snap-x snap-mandatory relative grid grid-flow-col overflow-x-auto gap-6 ;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -123,14 +132,14 @@ onMounted(() => {
   display: none;
 }
 .destination-trip-card {
-  @apply aspect-[12/15] mobile:aspect-square;
+  @apply aspect-[12/15] mobile:aspect-auto mobile:w-full mobile:h-fit;
   scroll-snap-align: start;
 }
 .destination-trips::-webkit-scrollbar {
   display: none;
 }
 .destination-trips:has(.destination-trip-card:hover) .destination-trip-card {
-  @apply opacity-75 blur-sm scale-95;
+  @apply widescreen:opacity-75 widescreen:blur-sm widescreen:scale-95;
 }
 .destination-trips:hover .destination-trip-card:hover {
   @apply opacity-100 blur-none scale-100;
