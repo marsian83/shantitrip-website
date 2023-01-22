@@ -2275,7 +2275,7 @@ let trips = [
   //Healing Touch
   {
     id: 22,
-    name: "Healing Touch",
+    name: "Himachal Escapade",
     days: 7,
     cost: 35000,
     themes: [
@@ -2286,8 +2286,10 @@ let trips = [
       "adventure",
       "leisure",
     ],
-    thumbnailUrl: "/promotional.jpg",
-    gallery: ["/images/trips/7.webp"],
+    thumbnailUrl: "/images/trips/22.webp",
+    gallery: [
+      "https://images.pexels.com/photos/7846476/pexels-photo-7846476.jpeg",
+    ],
     description:
       "Start 2021 on a chill note with a visit to the snowclad landscapes of Kasol, Tosh, and Kutla. Witness the majesty of the magnificent Himalayas as you go on snow-treks amidst gushing waterfalls, pine trees, and a serene and relatively tourist-free landscape.",
     places: ["Kasol", "Tosh", "Kutla", "Budhaban"],
