@@ -444,7 +444,7 @@
       <span class="color-primary">Love</span>
     </h2>
     <div
-      class="similar-trips-carousel auto-cols-[20%] mobile:auto-cols-[70%] overscroll-contain scroll-smooth snap-x snap-mandatory relative grid grid-flow-col overflow-x-auto overflow-y-hidden gap-6"
+      class="similar-trips-carousel auto-cols-[20%] mobile:auto-cols-[70%] overscroll-auto scroll-smooth snap-x snap-mandatory relative grid grid-flow-col overflow-x-auto overflow-y-hidden gap-6"
     >
       <NuxtLink
         class="basis-[18%] aspect-[12/17] mobile:basis-[45%] mobile:aspect-[12/11] my-4"
