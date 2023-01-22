@@ -1,11 +1,25 @@
 <template>
   <div>
-    <section class="hero relative h-screen w-full">
+    <section class="hero relative h-screen w-full mobile:h-[40vh]">
       <div class="img-slider">
-        <div class="slide active bg-[linear-gradient(black,transparent,black),url('/images/gallery/hero.webp')]">
+        <div
+          class="slide active bg-[linear-gradient(black,transparent,black),url('/images/gallery/hero.webp')] flex flex-col justify-center items-center text-center"
+        >
+          <h1 class="text-8xl font-black text-secondary">
+            Plan Less <br />
+            Travel More
+          </h1>
+          <NuxtLink class="btn-primary" to="/contact"
+            >Let's Plan Something</NuxtLink
+          >
+          <p class="text-secondary absolute bottom-20 font-light text-xl">
+            With curated and seamless travel experiences, we are taking the task
+            out of travel — one booking at a time.
+          </p>
         </div>
-        <div class="slide bg-[linear-gradient(black,transparent,black),url('/promotional.webp')]">
-        </div>
+        <div
+          class="slide bg-[linear-gradient(black,transparent,black),url('/promotional.webp')]"
+        ></div>
         <div class="navigation">
           <div class="btn active"></div>
           <div class="btn"></div>
@@ -264,9 +278,7 @@ const { data: adventureTrips } = useFetch("/api/trips/search", {
 onMounted(() => {
   var slides = document.querySelectorAll(".slide");
   var btns = document.querySelectorAll(".btn");
-  let currentSlide = 1;
 
-  // Javascript for image slider manual navigation
   var manualNav = function (manual) {
     slides.forEach((slide) => {
       slide.classList.remove("active");
@@ -287,7 +299,7 @@ onMounted(() => {
     });
   });
 
-  // Javascript for image slider autoplay navigation
+  // image slider autoplay navigation
   var repeat = function (activeClass) {
     let active = document.getElementsByClassName("active");
     let i = 1;
@@ -309,7 +321,7 @@ onMounted(() => {
           return;
         }
         repeater();
-      }, 10000);
+      }, 8000);
     };
     repeater();
   };
@@ -318,8 +330,11 @@ onMounted(() => {
 </script>
 
 <style scoped>
+.hero h1 {
+  text-shadow: 0px 0px 1rem #000000;
+}
 .img-slider .slide {
-  @apply absolute z-[1] w-full h-screen bg-cover;
+  @apply absolute z-[1] w-full h-full bg-cover p-page;
   clip-path: polygon(50% 0%, 50% 100%, 50% 100%, 50% 0%);
   transition: clip-path 2000ms;
 }
@@ -328,20 +343,10 @@ onMounted(() => {
   transition: clip-path 2000ms;
 }
 .img-slider .navigation {
-  z-index: 2;
-  position: absolute;
-  display: flex;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
+  @apply absolute z-[2] flex flex-row bottom-8 left-1/2 -translate-x-1/2 gap-x-4;
 }
 .img-slider .navigation .btn {
-  background: rgba(255, 255, 255, 0.5);
-  width: 12px;
-  height: 12px;
-  margin: 10px;
-  border-radius: 50%;
-  cursor: pointer;
+  @apply w-4 h-4 mobile:w-5 mobile:h-5 bg-[#ffffff55] rounded-full cursor-pointer;
 }
 .img-slider .navigation .btn.active {
   background: #2696e9;
