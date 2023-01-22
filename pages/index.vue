@@ -5,20 +5,23 @@
         <div
           class="slide active bg-[linear-gradient(black,transparent,black),url('/images/gallery/hero.webp')] flex flex-col justify-center items-center text-center"
         >
-          <h1 class="text-8xl font-black text-secondary">
+          <h1 class="text-8xl font-black text-secondary mobile:text-5xl">
             Plan Less <br />
             Travel More
           </h1>
           <NuxtLink class="btn-primary" to="/contact"
             >Let's Plan Something</NuxtLink
           >
-          <p class="text-secondary absolute bottom-20 font-light text-xl">
+          <p
+            class="text-secondary absolute bottom-20 font-light text-xl widescreen-only"
+          >
             With curated and seamless travel experiences, we are taking the task
             out of travel — one booking at a time.
           </p>
         </div>
         <div
-          class="slide bg-[linear-gradient(black,transparent,black),url('/promotional.webp')]"
+          class="slide cursor-pointer bg-[linear-gradient(#00000077,transparent,black),url('/promotional.webp')]"
+          v-on:click="navigateTo('/trips/healing-touch')"
         ></div>
         <div class="navigation">
           <div class="btn active"></div>
@@ -346,7 +349,7 @@ onMounted(() => {
   @apply absolute z-[2] flex flex-row bottom-8 left-1/2 -translate-x-1/2 gap-x-4;
 }
 .img-slider .navigation .btn {
-  @apply w-4 h-4 mobile:w-5 mobile:h-5 bg-[#ffffff55] rounded-full cursor-pointer;
+  @apply w-4 h-4 bg-[#ffffff55] rounded-full cursor-pointer;
 }
 .img-slider .navigation .btn.active {
   background: #2696e9;
