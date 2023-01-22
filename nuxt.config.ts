@@ -39,18 +39,7 @@ export default defineNuxtConfig({
         {
           href: "https://fonts.googleapis.com/icon?family=Material+Icons",
           rel: "stylesheet",
-        },
-        {
-          href: "https://unpkg.com/flickity@2/dist/flickity.min.css",
-          rel: "stylesheet",
-        },
-      ],
-      script: [
-        {
-          hid: "flickity",
-          src: "https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js",
-          defer: true,
-        },
+        }
       ],
     },
   },

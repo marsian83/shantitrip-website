@@ -1,54 +1,14 @@
 <template>
   <div>
-    <section
-      class="top h-screen bg-cover flex flex-col mobile:h-[30vh]"
-      data-flickity='{ "wrapAround": true , "autoPlay": true }'
-    >
-      <div
-        class="hero-1 relative w-screen h-full flex flex-col justify-center m-auto bg-cover"
-      >
-        <div class="hero-text-top">
-          <div class="hero-text-item" id="tl">Plan</div>
-          <div class="hero-text-item" id="tr">Less</div>
+    <section class="hero relative h-screen w-full">
+      <div class="img-slider">
+        <div class="slide active bg-[linear-gradient(black,transparent,black),url('/images/gallery/hero.webp')]">
         </div>
-        <div class="hero-text-bottom">
-          <div class="hero-text-item" id="bl">Travel</div>
-          <div class="hero-text-item" id="br">More</div>
+        <div class="slide bg-[linear-gradient(black,transparent,black),url('/promotional.webp')]">
         </div>
-        <NuxtLink
-          to="/contact"
-          class="btn-secondary self-center hover:scale-105"
-        >
-          Let's plan something
-        </NuxtLink>
-        <div
-          class="text-secondary absolute bottom-10 opacity-80 text-lg text-center w-full mobile:hidden"
-        >
-          With curated and seamless travel experiences, we are taking the task
-          out of travel — one booking at a time.
-        </div>
-      </div>
-      <div class="hero-2 w-screen h-full flex flex-col m-auto bg-cover">
-        <div class="hero flex flex-col m-auto">
-          <p class="text-secondary text-center text-2xl font-medium mobile:text-lg">
-            This summer
-            <span class="text-yellow-300"> gift your parents </span> an
-            Unforgettable trip to
-          </p>
-          <div class="hero-text-top">
-            <div class="hero-text-item">Himachal</div>
-          </div>
-          <NuxtLink
-            to="/trips/healing-touch"
-            class="btn-primary self-center hover:scale-105"
-          >
-            Gift Now!
-          </NuxtLink>
-        </div>
-        <div
-          class="text-secondary self-center mb-16 opacity-80 text-lg font-semibold bg-[#00000088] p-4 rounded-2xl mobile:hidden"
-        >
-          Starting at just Rs.8499/- per person
+        <div class="navigation">
+          <div class="btn active"></div>
+          <div class="btn"></div>
         </div>
       </div>
     </section>
@@ -301,20 +261,91 @@ const { data: adventureTrips } = useFetch("/api/trips/search", {
   query: { query: "adventure" },
 });
 
-onMounted(() => {});
+onMounted(() => {
+  var slides = document.querySelectorAll(".slide");
+  var btns = document.querySelectorAll(".btn");
+  let currentSlide = 1;
+
+  // Javascript for image slider manual navigation
+  var manualNav = function (manual) {
+    slides.forEach((slide) => {
+      slide.classList.remove("active");
+
+      btns.forEach((btn) => {
+        btn.classList.remove("active");
+      });
+    });
+
+    slides[manual].classList.add("active");
+    btns[manual].classList.add("active");
+  };
+
+  btns.forEach((btn, i) => {
+    btn.addEventListener("click", () => {
+      manualNav(i);
+      currentSlide = i;
+    });
+  });
+
+  // Javascript for image slider autoplay navigation
+  var repeat = function (activeClass) {
+    let active = document.getElementsByClassName("active");
+    let i = 1;
+
+    var repeater = () => {
+      setTimeout(function () {
+        [...active].forEach((activeSlide) => {
+          activeSlide.classList.remove("active");
+        });
+
+        slides[i].classList.add("active");
+        btns[i].classList.add("active");
+        i++;
+
+        if (slides.length == i) {
+          i = 0;
+        }
+        if (i >= slides.length) {
+          return;
+        }
+        repeater();
+      }, 10000);
+    };
+    repeater();
+  };
+  repeat();
+});
 </script>
 
 <style scoped>
-.hero-1 {
-  background-position: center;
-  background-image: linear-gradient(to bottom, #0a0a0abc, #0a0a0a55, #0a0a0abc),
-    url("/images/gallery/hero.webp");
+.img-slider .slide {
+  @apply absolute z-[1] w-full h-screen bg-cover;
+  clip-path: polygon(50% 0%, 50% 100%, 50% 100%, 50% 0%);
+  transition: clip-path 2000ms;
 }
-.hero-2 {
-  background-position: left;
-  background-size: 100%;
-  background-image: linear-gradient(to bottom, #0a0a0abc, #0a0a0a55, #0a0a0abc),
-    url("/promotional.jpg");
+.img-slider .slide.active {
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
+  transition: clip-path 2000ms;
+}
+.img-slider .navigation {
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.img-slider .navigation .btn {
+  background: rgba(255, 255, 255, 0.5);
+  width: 12px;
+  height: 12px;
+  margin: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.img-slider .navigation .btn.active {
+  background: #2696e9;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 .hero-text-top,
 .hero-text-bottom {
@@ -388,5 +419,152 @@ onMounted(() => {});
 }
 .carousel-card {
   scroll-snap-align: start;
+}
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #444;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.slider {
+  position: relative;
+  width: 9999px;
+  height: 100%;
+}
+.slider:before,
+.slider:after {
+  display: table;
+  content: " ";
+}
+.slider:after {
+  clear: both;
+}
+.slider__item {
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.slider__item img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.slider__switch span {
+  color: #fff;
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+/* Arrows */
+.slider__switch {
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  padding: 10px 5px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  border-radius: 1px;
+  background: #000;
+  opacity: 0.3;
+  transition: opacity 0.15s ease;
+  fill: #fff;
+}
+.slider__switch--prev {
+  left: 10px;
+}
+.slider__switch--next {
+  right: 10px;
+}
+
+.slider__switch:hover {
+  opacity: 0.85;
+}
+.slider__switch[disabled] {
+  visibility: hidden;
+  opacity: 0;
+}
+.slider__caption {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  display: block;
+  max-width: 500px;
+  padding: 10px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 1px;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.4);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000'); /* ie8 */
+}
+.slider__caption[disabled] {
+  opacity: 0;
+  visibility: hidden;
+}
+.slider-nav {
+  line-height: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  z-index: 99999;
+  filter: alpha(opacity=90); /* ie8 */
+}
+.slider-nav__control {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 3px;
+  -webkit-transition: background 0.5s ease;
+  -moz-transition: background 0.5s ease;
+  -o-transition: background 0.5s ease;
+  transition: background 0.5s ease;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.slider-nav__control.is-active {
+  width: 12px;
+  height: 12px;
+  background: #fff;
+}
+.slider.has-touch {
+  cursor: move;
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+}
+@media (max-width: 580px) {
+  .slider__switch {
+    display: none;
+  }
+  .slider__caption {
+    display: none;
+  }
+}
+
+/* Background image example */
+.slider-container--hero {
+  height: 100vh;
+}
+.slider-container--hero .slider__item {
+  background-size: cover;
 }
 </style>
