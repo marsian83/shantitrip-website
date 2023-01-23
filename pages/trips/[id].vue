@@ -45,40 +45,52 @@
     <!-- <button class="btn-secondary mb-[-3rem] text-xl">Customize Trip</button> -->
     <ScrollHint class="absolute bottom-4 text-shadow-xl" />
   </section>
-  <section class="schedule p-page">
-    <div class="relative flex flex-row gap-3 p-2 items-center">
+  <section
+    class="schedule p-page"
+    v-if="trip.schedule && trip.schedule.length > 0"
+  >
+    <div class="relative flex flex-row flex-wrap gap-3 p-2 items-center">
       <button
         v-for="day of trip.schedule"
-        :class="day.label === showingDay ? 'color-primary' : 'text-primary'"
+        :class="
+          day.label === showingDay
+            ? 'text-secondary bg-primary'
+            : 'text-primary'
+        "
         @click="
           () => {
             showingDay = day.label;
           }
         "
-        class="font-medium text-lg px-3 py-1 ml-4 bg-background rounded-full transition-300 hover:bg-[#ffffff88]"
+        onclick="
+              document
+                .querySelector('.schedule-carousel')
+                .scrollTo({left:0});"
+        class="font-medium text-lg px-3 py-1 ml-4 bg-background rounded-full transition-300"
       >
         {{ day.label }}
       </button>
-      <div class="schedule-carousel-navigation absolute right-6">
+      <div class="schedule-carousel-navigation widescreen:absolute right-6">
         <button
           class="rounded-l-full"
           onclick="document.querySelector('.schedule-carousel').scrollBy({left:-500,behaviour:'smooth'})"
         >
           {{ "<" }}
         </button>
-        <button class="rounded-r-full"
-        onclick="document.querySelector('.schedule-carousel').scrollBy({left:500,behaviour:'smooth'})"
-        >{{ ">" }}</button>
+        <button
+          class="rounded-r-full"
+          onclick="document.querySelector('.schedule-carousel').scrollBy({left:500,behaviour:'smooth'})"
+        >
+          {{ ">" }}
+        </button>
       </div>
     </div>
     <div
-      class="schedule-carousel mx-3 auto-cols-[30%] h-[35vh] scroll-smooth snap-x snap-mandatory relative grid grid-flow-col overflow-x-auto gap-x-4 py-4"
+      class="schedule-carousel mx-3 auto-cols-[30%] mobile:auto-cols-[100%] h-[35vh] scroll-smooth snap-x snap-mandatory relative grid grid-flow-col overflow-x-auto gap-x-4 py-4"
     >
-      <div class="w-4"></div>
       <div
         class="schedule-carousel-card group relative transition-300 hover:saturate-150 cursor-pointer bg-cover rounded-lg overflow-hidden"
         loading="lazy"
-        v-bind:key="showingDay"
         v-for="item in trip.schedule.filter((d) => d.label === showingDay)[0]
           .items"
         :style="`background-image:url('${item.imageUrl}')`"

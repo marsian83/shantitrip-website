@@ -2364,7 +2364,7 @@ let trips = [
             description:
               "Visit Kuffri for horse riding and indoor park actiivites  ",
             imageUrl:
-              "https://media.istockphoto.com/id/1148232572/video/two-female-riders-talking-on-a-horseback-ride-in-forest.jpg?s=640x640&k=20&c=BkZzR-LSFMASIudHsYsfJmnp6CuulxWBaYTqG26O6cM=https://wp.scoopwhoop.com/wp-content/uploads/2021/05/efb2ec09-c270-4d8d-a526-5d3f5c60a9e4.jpg",
+              "https://images.pexels.com/photos/1559388/pexels-photo-1559388.jpeg",
           },
           {
             theme: "Adventure",
