@@ -2485,28 +2485,7 @@ let trips = [
     ],
     features: [
       {
-        title: "Rest and Relaxation",
-        items: [
-          "Spend lazy afternoons sitting by the Parvati River bank in Kasol",
-          "Chill in cafes in Kasol and Bir. Enjoy Israeli and Tibetan cuisine or local Himachali delicacies like Siddu and Makke Di Roti and Sarso Da Saag",
-          "Enjoy a hot water bath at Manikaran — along with some leisurely shopping for handicrafts, paintings, and other artwork",
-          "Spend a quiet winter night around the bonfire in Kutla",
-        ],
-      },
-      {
-        title: "Shopping",
-        items: [
-          "Buy handicrafts and souvenirs like Kullvi Shawls, caps, and home decor items in Kasol and Manikaran",
-          "Buy trekking equipment in Tosh",
-        ],
-      },
-      {
-        title: "Adventure",
-        items: [
-          "Relish a snow and music-filled gypsy ride from Kasol to Tosh, with plenty of photoshoot opportunities along the way",
-          "Trek 3 km to Kutla from Tosh, amidst spectacular views of the Himalayan mountain ranges and gushing waterfalls",
-          "Test your ice-skating skills in Buddhaban",
-        ],
+        title: "Bird Watching",
       },
     ],
     seasonalHighlights: [

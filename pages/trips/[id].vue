@@ -545,8 +545,6 @@ const { data: similarTrips } = await useFetch(
   `/api/trips/search?query=${trip._rawValue.themes.join(" ")}`
 );
 
-let f = reactive({ count: 1 });
-
 let showingDay = ref(
   trip._rawValue.schedule && trip._rawValue.schedule.length > 0
     ? trip._rawValue.schedule[0].label
