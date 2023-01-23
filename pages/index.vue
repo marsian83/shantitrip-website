@@ -36,6 +36,7 @@
         class="hero-slide cursor-pointer bg-[linear-gradient(#00000077,transparent,black),url('/images/promotional/parents-banner.webp')]"
         v-on:click="navigateTo('/trips/22')"
       ></div>
+      <div class="w-[50vw]"></div>
     </section>
     <section class="destinations p-page">
       <h2 class="heading">
@@ -288,7 +289,13 @@ const { data: adventureTrips } = useFetch("/api/trips/search", {
   query: { query: "adventure" },
 });
 
-onMounted(() => {});
+onMounted(() => {
+  setTimeout(() => {
+    document
+      .querySelector(".hero")
+      .scrollBy({ left: window.innerWidth, behavior: "smooth" });
+  }, 5000);
+});
 </script>
 
 <style scoped>

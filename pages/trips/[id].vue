@@ -45,7 +45,65 @@
     <!-- <button class="btn-secondary mb-[-3rem] text-xl">Customize Trip</button> -->
     <ScrollHint class="absolute bottom-4 text-shadow-xl" />
   </section>
-  <section v-if="isEscapade">
+  <section class="schedule p-page">
+    <div class="relative flex flex-row gap-3 p-2 items-center">
+      <button
+        v-for="day of trip.schedule"
+        :class="day.label === showingDay ? 'color-primary' : 'text-primary'"
+        @click="
+          () => {
+            showingDay = day.label;
+          }
+        "
+        class="font-medium text-lg px-3 py-1 ml-4 bg-background rounded-full transition-300 hover:bg-[#ffffff88]"
+      >
+        {{ day.label }}
+      </button>
+      <div class="schedule-carousel-navigation absolute right-6">
+        <button
+          class="rounded-l-full"
+          onclick="document.querySelector('.schedule-carousel').scrollBy({left:-500,behaviour:'smooth'})"
+        >
+          {{ "<" }}
+        </button>
+        <button class="rounded-r-full"
+        onclick="document.querySelector('.schedule-carousel').scrollBy({left:500,behaviour:'smooth'})"
+        >{{ ">" }}</button>
+      </div>
+    </div>
+    <div
+      class="schedule-carousel mx-3 auto-cols-[30%] h-[35vh] scroll-smooth snap-x snap-mandatory relative grid grid-flow-col overflow-x-auto gap-x-4 py-4"
+    >
+      <div class="w-4"></div>
+      <div
+        class="schedule-carousel-card group relative transition-300 hover:saturate-150 cursor-pointer bg-cover rounded-lg overflow-hidden"
+        loading="lazy"
+        v-bind:key="showingDay"
+        v-for="item in trip.schedule.filter((d) => d.label === showingDay)[0]
+          .items"
+        :style="`background-image:url('${item.imageUrl}')`"
+        @click="showImage(item.imageUrl)"
+      >
+        <p
+          class="color-primary w-full text-center text-3xl font-semibold absolute top-1/2 -translate-y-1/2"
+          v-if="item.type === 'OR'"
+        >
+          OR
+        </p>
+        <h1 class="text-center text-secondary font-light text-xl mt-2">
+          {{ item.theme }}
+        </h1>
+        <p
+          class="absolute bottom-0 py-2 text-secondary w-full text-center group-hover:opacity-0 transition-300 bg-[rgba(var(--foreground),0.7)]"
+          :class="item.type === 'OR' ? 'hidden' : ''"
+        >
+          {{ item.description }}
+        </p>
+      </div>
+      <div class="w-4"></div>
+    </div>
+  </section>
+  <section v-if="false">
     <section id="day1" class="day p-page flex flex-col gap-y-10">
       <h1 class="heading">Day 1</h1>
       <div class="flex flex-row">
@@ -406,7 +464,7 @@
       </div>
     </div>
   </section>
-  <section class="faq p-page">
+  <section class="contact p-page">
     <hr class="my-14" />
     <h2 class="text-center text-3xl text-primary font-bold mb-8">
       Still <span class="color-primary">Confused?</span>
@@ -472,9 +530,15 @@
 const { id } = useRoute().params;
 const { data: trip } = await useFetch(`/api/trips/${id}`);
 const { data: similarTrips } = await useFetch(
-  `/api/trips/search?query=${
-    trip._rawValue.places.join(" ") + trip._rawValue.themes.join(" ")
-  }`
+  `/api/trips/search?query=${trip._rawValue.themes.join(" ")}`
+);
+
+let f = reactive({ count: 1 });
+
+let showingDay = ref(
+  trip._rawValue.schedule && trip._rawValue.schedule.length > 0
+    ? trip._rawValue.schedule[0].label
+    : ""
 );
 
 if (!trip.value) {
@@ -484,8 +548,6 @@ if (!trip.value) {
 let modalImage = ref(trip._rawValue.gallery[0]);
 let showImage = () => {},
   hideImage = () => {};
-
-const isEscapade = trip._rawValue.id == 22;
 
 onMounted(() => {
   const imageModal = document.querySelector(".modal");
@@ -530,6 +592,20 @@ onMounted(() => {
 .hero-title {
   text-shadow: 0px 0px 13px rgba(var(--text-primary), 0.69);
 }
+.schedule-carousel::-webkit-scrollbar {
+  display: none;
+}
+.schedule-carousel-card {
+  scroll-snap-align: start;
+}
+.schedule-carousel-card h1 {
+  text-shadow: 0px -1px 3px rgb(var(--text-primary)),
+    -1px 0px 3px rgb(var(--text-primary)), 1px 0px 3px rgb(var(--text-primary)),
+    0px 1px 3px rgb(var(--text-primary));
+}
+.schedule-carousel-navigation button {
+  @apply bg-background border border-black px-6 color-primary text-2xl transition-300 hover:bg-primary hover:text-secondary active:opacity-30;
+}
 .faq-accordion {
   background-color: #eee;
   color: #444;
@@ -554,29 +630,5 @@ onMounted(() => {
 }
 .modal img {
   box-shadow: 0px 0px 1rem rgba(var(--text-secondary), 0.3);
-}
-</style>
-
-<style scoped>
-.heading {
-  @apply color-primary text-5xl font-bold my-5 text-center;
-}
-.day img {
-  @apply max-h-[50vh] rounded-xl shadow-2xl;
-}
-.day p {
-  @apply p-4;
-}
-.stay-images img {
-  @apply max-h-[40vh] min-w-[33%] object-cover;
-}
-.day div.flex-row {
-  @apply mobile:flex-col;
-}
-.day div.flex-row-reverse {
-  @apply mobile:flex-col;
-}
-.day .absolute {
-  @apply static;
 }
 </style>
