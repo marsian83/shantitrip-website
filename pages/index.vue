@@ -306,7 +306,7 @@ useSeoMeta({
     "Travelling shouldn't be a task. We are a young startup based in Himachal Pradesh, passionate about designing personalized trips and curating niche experiences",
   ogDescription:
     "Travelling shouldn't be a task. We are a young startup based in Himachal Pradesh, passionate about designing personalized trips and curating niche experiences",
-  ogImage: "/header.webp",
+  ogImage: "/shantitrip-holidays.jpg",
   twitterCard: "summary_large_image",
 });
 </script>
