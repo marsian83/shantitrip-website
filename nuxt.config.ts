@@ -1,3 +1,18 @@
+var currentDate = new Date();
+var dateTime =
+  currentDate.getFullYear() +
+  "-" +
+  (currentDate.getMonth() + 1) +
+  "-" +
+  (currentDate.getDate() - 2) +
+  "T" +
+  "00" +
+  ":" +
+  "00" +
+  ":" +
+  "00" +
+  "+05:30";
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
@@ -20,6 +35,17 @@ export default defineNuxtConfig({
           name: "google-site-verification",
           content: "Hw5LE2K-QrpSDYoC2u6Hxnol2p5ycVxrKfYDFj1RFn0",
         },
+        {
+          hid: "og:site_name",
+          name: "og:site_name",
+          content: "ShantiTrip Holidays",
+        },
+        { hid: "og:locale", name: "og:locale", content: "en_US" },
+        {
+          hid: "article:modified_time",
+          name: "article:modified_time",
+          content: dateTime,
+        },
       ],
       link: [
         { rel: "icon", type: "image/ico", href: "/favicon.ico" }, //favicon
@@ -39,7 +65,7 @@ export default defineNuxtConfig({
         {
           href: "https://fonts.googleapis.com/icon?family=Material+Icons",
           rel: "stylesheet",
-        }
+        },
       ],
     },
   },

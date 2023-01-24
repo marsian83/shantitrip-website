@@ -503,6 +503,14 @@
 </template>
 
 <script setup>
+useSeoMeta({
+  title: "Privacy Policy - ShantiTrip Holidays",
+  ogTitle: "Privacy Policy - ShantiTrip Holidays",
+  description:
+    "Privacy Policy",
+  ogDescription:
+    "Privacy Policy",
+});
 </script>
 
 <style scoped></style>

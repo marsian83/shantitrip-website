@@ -96,7 +96,18 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+useSeoMeta({
+  title: "Contact - ShantiTrip Holidays",
+  ogTitle: "Contact - ShantiTrip Holidays",
+  description:
+    "Contact Us at ShantiTrip. 511, Main Manikaran Road, Suma Ropa, Kasol, District Kullu, Himachal Pradesh - 175105 +91 9459668084 travel@shantitrip.in",
+  ogDescription:
+    "Contact Us at ShantiTrip. 511, Main Manikaran Road, Suma Ropa, Kasol, District Kullu, Himachal Pradesh - 175105 +91 9459668084 travel@shantitrip.in",
+  ogImage: "/shantitrip-holidays.jpg",
+  twitterCard: "summary_large_image",
+});
+</script>
 
 <style scoped>
 .hero {

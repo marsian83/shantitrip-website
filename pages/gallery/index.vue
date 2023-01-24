@@ -83,6 +83,17 @@ const images3 = images.slice(thirdImages * 2, thirdImages * 3);
 const secondImages = images.length / 2;
 const mobileImages1 = images.slice(secondImages * 0, secondImages * 1);
 const mobileImages2 = images.slice(secondImages * 1, secondImages * 2);
+
+useSeoMeta({
+  title: "Home - ShantiTrip Holidays",
+  ogTitle: "Home - ShantiTrip Holidays",
+  description:
+    "Travelling shouldn't be a task. We are a young startup based in Himachal Pradesh, passionate about designing personalized trips and curating niche experiences",
+  ogDescription:
+    "Travelling shouldn't be a task. We are a young startup based in Himachal Pradesh, passionate about designing personalized trips and curating niche experiences",
+  ogImage: ()=>`https://www.shantitrip.in/${images[0]}`,
+  twitterCard: "summary_large_image",
+});
 </script>
 
 <style scoped>

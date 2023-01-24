@@ -88,6 +88,15 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+useSeoMeta({
+  title: "Terms and Conditions - ShantiTrip Holidays",
+  ogTitle: "Terms and Conditions - ShantiTrip Holidays",
+  description:
+    "Terms and Conditions",
+  ogDescription:
+    "Terms and Conditions",
+});
+</script>
 
 <style scoped></style>

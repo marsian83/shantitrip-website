@@ -596,6 +596,16 @@ onMounted(() => {
   }
   startGalleryAutoScroll();
 });
+
+useSeoMeta({
+  title: ()=>`${trip.value.name} - ShantiTrip Holidays`,
+  ogTitle: ()=>`${trip.value.name} - ShantiTrip Holidays`,
+  description:
+  ()=>`${trip.value.description}`,
+  ogDescription:()=>`${trip.value.description} - ShantiTrip Holidays`,
+  ogImage: ()=>`${trip.value.thumbnailUrl}`,
+  twitterCard: "summary_large_image",
+});
 </script>
 
 <style scoped>

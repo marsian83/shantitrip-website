@@ -204,6 +204,15 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+useSeoMeta({
+  title: "Cookie Policy - ShantiTrip Holidays",
+  ogTitle: "Cookie Policy - ShantiTrip Holidays",
+  description:
+    "Cookie Policy",
+  ogDescription:
+    "Cookie Policy",
+});
+</script>
 
 <style scoped></style>

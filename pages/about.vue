@@ -99,7 +99,19 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+
+useSeoMeta({
+  title: "About - ShantiTrip Holidays",
+  ogTitle: "About - ShantiTrip Holidays",
+  description:
+    "We founded ShantiTrip Holidays on one clear premise: use our local expertise and smarts to curate unique, stress-free travel experiences that travelers do not get from conventional tour operators.",
+  ogDescription:
+    "We founded ShantiTrip Holidays on one clear premise: use our local expertise and smarts to curate unique, stress-free travel experiences that travelers do not get from conventional tour operators.",
+  ogImage: "/shantitrip-holidays.jpg",
+  twitterCard: "summary_large_image",
+});
+</script>
 
 <style scoped>
 .hero {

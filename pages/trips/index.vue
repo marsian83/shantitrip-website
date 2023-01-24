@@ -39,6 +39,8 @@
 </template>
 
 <script setup>
+import { useSeoMeta } from '@unhead/vue';
+
 const { data: tripsData } = await useFetch("/api/trips");
 let trips = ref(tripsData._rawValue);
 async function renderSearchResults(query) {
@@ -69,6 +71,17 @@ onMounted(() => {
       renderSearchResults(searchbar.value);
     }, 800);
   });
+});
+
+useSeoMeta({
+  title: "Trips - ShantiTrip Holidays",
+  ogTitle: "Trips - ShantiTrip Holidays",
+  description:
+    "Even with our pre-made trips, there's plenty of space to play around. We try to accommodate all your wishes to the best of our capacity and know-how.",
+  ogDescription:
+    "Even with our pre-made trips, there's plenty of space to play around. We try to accommodate all your wishes to the best of our capacity and know-how.",
+  ogImage: "https://cdn.pixabay.com/photo/2018/04/27/08/56/water-3354063_1280.jpg",
+  twitterCard: "summary_large_image",
 });
 </script>
 
