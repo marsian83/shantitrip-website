@@ -539,6 +539,8 @@
 </template>
 
 <script setup>
+import { useSeoMeta } from '@unhead/vue';
+
 const { id } = useRoute().params;
 const { data: trip } = await useFetch(`/api/trips/${id}`);
 const { data: similarTrips } = await useFetch(

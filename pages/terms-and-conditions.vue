@@ -89,6 +89,8 @@
 </template>
 
 <script setup>
+import { useSeoMeta } from '@unhead/vue';
+
 useSeoMeta({
   title: "Terms and Conditions - ShantiTrip Holidays",
   ogTitle: "Terms and Conditions - ShantiTrip Holidays",

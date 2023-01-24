@@ -55,6 +55,8 @@
 </template>
 
 <script setup>
+import { useSeoMeta } from '@unhead/vue';
+
 useSeoMeta({
   title: "Collaborate with ShantiTrip Holidays",
   ogTitle: "Collaborate with ShantiTrip Holidays",

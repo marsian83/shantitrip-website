@@ -74,6 +74,8 @@
 </template>
 
 <script setup>
+import { useSeoMeta } from '@unhead/vue';
+
 const { data } = await useFetch("/api/images");
 const images = data.value;
 const thirdImages = images.length / 3;

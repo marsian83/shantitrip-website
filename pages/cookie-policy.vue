@@ -205,6 +205,8 @@
 </template>
 
 <script setup>
+import { useSeoMeta } from '@unhead/vue';
+
 useSeoMeta({
   title: "Cookie Policy - ShantiTrip Holidays",
   ogTitle: "Cookie Policy - ShantiTrip Holidays",

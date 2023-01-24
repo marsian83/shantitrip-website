@@ -503,6 +503,8 @@
 </template>
 
 <script setup>
+import { useSeoMeta } from '@unhead/vue';
+
 useSeoMeta({
   title: "Privacy Policy - ShantiTrip Holidays",
   ogTitle: "Privacy Policy - ShantiTrip Holidays",

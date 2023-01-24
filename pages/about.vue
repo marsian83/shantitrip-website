@@ -100,6 +100,8 @@
 </template>
 
 <script setup>
+import { useSeoMeta } from '@unhead/vue';
+
 
 useSeoMeta({
   title: "About - ShantiTrip Holidays",
