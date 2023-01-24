@@ -76,12 +76,6 @@
 <script setup>
 definePageMeta({ layout: "immersive-no-footer" });
 const { data: destinations } = await useFetch("/api/destinations");
-for await (const destination of destinations.value) {
-  const { data: destinationTrips } = await useFetch(
-    `/api/destinations/trips/${destination.id}`
-  );
-  destination["trips"] = destinationTrips.value;
-}
 
 const {
   query: { destination },
@@ -100,6 +94,17 @@ onMounted(() => {
       .querySelector(".all-destinations")
       .scrollTo({ top: Number(destination) * 1000, behavior: "auto" });
   }
+});
+
+useSeoMeta({
+  title: "Home - ShantiTrip Holidays",
+  ogTitle: "Home - ShantiTrip Holidays",
+  description:
+    "Travelling shouldn't be a task. We are a young startup based in Himachal Pradesh, passionate about designing personalized trips and curating niche experiences",
+  ogDescription:
+    "Travelling shouldn't be a task. We are a young startup based in Himachal Pradesh, passionate about designing personalized trips and curating niche experiences",
+  ogImage: ()=>`${destination ? destinations[Number(destination)].imageUrl : destinations[0].imageUrl}`,
+  twitterCard: "summary_large_image",
 });
 </script>
 
