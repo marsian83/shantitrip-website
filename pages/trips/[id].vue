@@ -106,7 +106,7 @@
           {{ item.theme }}
         </h1>
         <p
-          class="absolute bottom-0 py-2 text-secondary w-full text-center group-hover:opacity-0 transition-300 bg-[rgba(var(--foreground),0.7)]"
+          class="absolute bottom-0 py-2 text-secondary w-full text-center group-hover:widescreen:opacity-0 transition-300 bg-[rgba(var(--foreground),0.7)]"
           :class="item.type === 'OR' ? 'hidden' : ''"
         >
           {{ item.description }}
