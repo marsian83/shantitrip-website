@@ -103,7 +103,7 @@ useSeoMeta({
     "Travelling shouldn't be a task. We are a young startup based in Himachal Pradesh, passionate about designing personalized trips and curating niche experiences",
   ogDescription:
     "Travelling shouldn't be a task. We are a young startup based in Himachal Pradesh, passionate about designing personalized trips and curating niche experiences",
-  ogImage: ()=>`${destination ? destinations[Number(destination)].imageUrl : destinations[0].imageUrl}`,
+  ogImage: ()=>`${destination ? destinations.value[Number(destination)].imageUrl : destinations.value[0].imageUrl}`,
   twitterCard: "summary_large_image",
 });
 </script>
