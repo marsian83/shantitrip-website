@@ -271,6 +271,8 @@
 </template>
 
 <script setup>
+import { useSeoMeta } from "@unhead/vue";
+
 const trending = [0, 1, 2, 3, 4];
 
 let seasonalTrips = [];
@@ -295,6 +297,17 @@ onMounted(() => {
       .querySelector(".hero")
       .scrollBy({ left: window.innerWidth, behavior: "smooth" });
   }, 5000);
+});
+
+useSeoMeta({
+  title: "Home - ShantiTrip Holidays",
+  ogTitle: "Home - ShantiTrip Holidays",
+  description:
+    "Travelling shouldn't be a task. We are a young startup based in Himachal Pradesh, passionate about designing personalized trips and curating niche experiences",
+  ogDescription:
+    "Travelling shouldn't be a task. We are a young startup based in Himachal Pradesh, passionate about designing personalized trips and curating niche experiences",
+  ogImage: "/header.webp",
+  twitterCard: "summary_large_image",
 });
 </script>
 
