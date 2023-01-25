@@ -16,7 +16,7 @@
     </div>
     <section class="hero h-screen w-full mobile:h-[32vh] bg-black">
       <div
-        class="hero-slide bg-[linear-gradient(black,transparent,black),url('/images/gallery/hero.webp')] flex flex-col justify-center items-center text-center"
+        class="hero-slide bg-[linear-gradient(black,transparent,black),url('https://www.euttaranchal.com/tourism/photos/valley-of-flowers-5353172.jpg')] flex flex-col justify-center items-center text-center"
       >
         <h1 class="text-8xl font-black text-secondary mobile:text-5xl">
           Plan Less <br />
