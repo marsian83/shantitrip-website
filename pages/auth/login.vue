@@ -68,7 +68,6 @@ onMounted(() => {
       },
     });
     data = data.value;
-    console.log(data);
     if (data.error && data.error.code == 11000) {
       return alert("User already exists");
     }
@@ -76,7 +75,7 @@ onMounted(() => {
       return alert("WRONG PASSWORD");
     }
     if (data.code == 0) {
-      navigateTo("/");
+      window.location = "/";
     }
   });
 });

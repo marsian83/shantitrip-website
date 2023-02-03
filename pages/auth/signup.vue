@@ -89,7 +89,7 @@ onMounted(() => {
       return alert("User already exists");
     }
     if (data.code == 0) {
-      navigateTo("/");
+      window.location = "/";
     }
   });
 });
