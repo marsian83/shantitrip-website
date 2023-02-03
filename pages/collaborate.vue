@@ -24,8 +24,6 @@
         >
           <form
             class="flex flex-col gap-6"
-            action="https://formspree.io/f/mqkoawae"
-            method="POST"
           >
             <div class="flex flex-row items-center">
               <label class="basis-2/12 text-secondary mobile:basis-4/12"

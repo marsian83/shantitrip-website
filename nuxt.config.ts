@@ -71,9 +71,14 @@ export default defineNuxtConfig({
   },
   css: ["@/assets/css/index.css", "@/assets/css/globals.css"],
   runtimeConfig: {
+    public: {
+      FIREBASE_API_KEY: process.env.FIREBASE_API_KEY,
+    },
+    FIREBASE_API_KEY: process.env.FIREBASE_API_KEY,
     adminCredentials: {
       username: process.env.ADMIN_USERNAME,
       password: process.env.ADMIN_PASSWORD,
     },
+    DB_CONNECTION_URI: process.env.DATABASE_URL,
   },
 });

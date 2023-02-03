@@ -99,8 +99,8 @@ useSeoMeta({
       transparent,
       rgba(var(--text-primary), 0.83)
     ),
-    /* url("https://cdn.pixabay.com/photo/2018/04/27/08/56/water-3354063_1280.jpg"); */
-    url("/images/gallery/trip.webp")
+    url("https://cdn.pixabay.com/photo/2020/02/21/11/12/mountain-landscape-4867262_1280.jpg");
+    /* url("/images/gallery/trip.webp") */
 }
 .hero {
   text-shadow: 0px 0px 13px rgba(var(--text-primary), 0.91);

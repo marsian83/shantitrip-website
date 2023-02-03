@@ -36,6 +36,17 @@
           </h4>
         </div>
       </div>
+      <button
+        class="bg-[#128C7E] flex flex-row gap-x-2 items-center rounded-full p-4 mt-4 text-white font-semibold text-xl border-2 border-white"
+        onclick="window.open(`https:\/\/api.whatsapp.com/send?phone=91${Math.random() < 0.5 ? '9653594353' : '9459668084'}&text=Hi%20I%20wanted%20to%20travel%20with%20ShantiTrip`)"
+      >
+        <img
+          class="w-8 h-8"
+          src="https://cdn.usbrandcolors.com/images/logos/whatsapp-logo.svg"
+          alt="whatsapp-icon"
+        />
+        Contact us on whatsapp
+      </button>
       <ScrollHint class="absolute bottom-4" />
     </section>
     <section
@@ -55,22 +66,26 @@
       <div class="basis-1/2">
         <form
           class="flex flex-col items-center gap-5"
-          action="https://formspree.io/f/xayznann"
-          method="POST"
+          id="contact-request-form"
         >
           <input
+            name="name"
             type="text"
             autocomplete="name"
             placeholder="Enter your full name"
             class="px-5 py-2 w-10/12 text-lg"
+            required
           />
           <input
-            type="text"
+            name="email"
+            type="email"
             autocomplete="email"
             placeholder="Enter your email"
             class="px-5 py-2 w-10/12 text-lg"
+            required
           />
           <textarea
+            name="message"
             rows="8"
             class="px-4 py-1 w-10/12 resize-none"
             placeholder="Your message"
@@ -97,7 +112,25 @@
 </template>
 
 <script setup>
-import { useSeoMeta } from '@unhead/vue';
+import { useSeoMeta } from "@unhead/vue";
+
+onMounted(() => {
+  const contactForm = document.getElementById("contact-request-form");
+  let fields = {};
+
+  contactForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    contactForm.querySelectorAll("input,textarea").forEach((e) => {
+      fields[e.name] = e.value;
+      e.value = "";
+    });
+    await useFetch("/api/forms/contact", {
+      method: "POST",
+      body: fields,
+    });
+    alert("Request registered");
+  });
+});
 
 useSeoMeta({
   title: "Contact - ShantiTrip Holidays",

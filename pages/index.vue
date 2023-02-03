@@ -16,7 +16,7 @@
     </div>
     <section class="hero h-screen w-full mobile:h-[32vh] bg-black">
       <div
-        class="hero-slide bg-[linear-gradient(black,transparent,black),url('https://www.euttaranchal.com/tourism/photos/valley-of-flowers-5353172.jpg')] flex flex-col justify-center items-center text-center"
+        class="hero-slide bg-[linear-gradient(#00000077,transparent,#00000077),url('https://cdn.pixabay.com/photo/2017/03/15/20/40/nature-2147400_1280.jpg')] bg-bottom flex flex-col justify-center items-center text-center"
       >
         <h1 class="text-8xl font-black text-secondary mobile:text-5xl">
           Plan Less <br />
@@ -33,7 +33,7 @@
         </p>
       </div>
       <div
-        class="hero-slide cursor-pointer bg-[linear-gradient(#00000077,transparent,black),url('/images/promotional/parents-banner.webp')]"
+        class="hero-slide cursor-pointer bg-[linear-gradient(#00000077,transparent,#00000033),url('/images/promotional/parents-banner.webp')]"
         v-on:click="navigateTo('/trips/22')"
       ></div>
       <div class="w-[50vw]"></div>
@@ -273,7 +273,7 @@
 <script setup>
 import { useSeoMeta } from "@unhead/vue";
 
-const trending = [0, 1, 2, 3, 4];
+const trending = [0, 0, 0, 0, 0];
 
 let seasonalTrips = [];
 
@@ -326,7 +326,7 @@ useSeoMeta({
   text-shadow: 0px 0px 1rem #000000;
 }
 .hero-slider-navigation button {
-  @apply p-4 mobile:p-2 text-3xl bg-[rgba(var(--foreground),0.69)] pointer-events-auto;
+  @apply p-4 mobile:p-2 text-3xl bg-[rgba(var(--foreground),0.8)] pointer-events-auto;
 }
 .heading {
   @apply pb-10 pt-20 text-3xl font-bold mobile:text-2xl mobile:font-semibold mobile:py-7 mobile:text-center;

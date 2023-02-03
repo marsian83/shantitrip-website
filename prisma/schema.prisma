@@ -30,3 +30,11 @@ model collabRequest {
   website String?
   message String  @default("No message was provided")
 }
+
+model user {
+  id       String @id @default(auto()) @map("_id") @db.ObjectId
+  type     String
+  name     String
+  email    String
+  password String
+}

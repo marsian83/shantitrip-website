@@ -13,6 +13,10 @@
   },
   "dependencies": {
     "@prisma/client": "^4.9.0",
-    "@vercel/analytics": "^0.1.8"
+    "@vercel/analytics": "^0.1.8",
+    "firebase": "^9.16.0",
+    "h3": "^1.1.0",
+    "mongoose": "^6.9.0",
+    "sha256": "^0.2.0"
   }
 }

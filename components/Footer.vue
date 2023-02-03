@@ -11,13 +11,13 @@
         best in travel. Subscribe to never miss out.
       </p>
       <form
+        id="footer-newsletter-form"
         class="flex flex-row justify-evenly h-10 mobile:flex-col mobile:items-center"
-        action="https://formspree.io/f/xdovkyko"
-        method="POST"
       >
         <input
           name="email"
           type="email"
+          id="newsleter-subscription-email"
           class="border-2 border-solid border-[rgb(var(--foreground))] rounded-md px-2 basis-[73%]"
           placeholder="Enter your email"
           autocomplete="email"
@@ -71,7 +71,38 @@
   </footer>
 </template>
 
-<script setup></script>
+<script setup>
+function ValidateEmail(mail) {
+  if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail)) {
+    return true;
+  }
+  alert("You have entered an invalid email address!");
+  return false;
+}
+
+async function subscribe() {
+  const email = document.getElementById("newsleter-subscription-email");
+  if (ValidateEmail(email.value)) {
+    await useFetch("/api/forms/newsletter", {
+      method: "POST",
+      body: {
+        email: email.value.toLowerCase(),
+      },
+    });
+    alert("Your subscription is successful");
+    email.value = "";
+  }
+}
+
+onMounted(() => {
+  document
+    .getElementById("footer-newsletter-form")
+    .addEventListener("submit", (event) => {
+      event.preventDefault();
+      subscribe();
+    });
+});
+</script>
 
 <style scoped>
 .CTA-block {

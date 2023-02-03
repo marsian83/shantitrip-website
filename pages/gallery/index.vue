@@ -101,10 +101,10 @@ useSeoMeta({
 <style scoped>
 .hero {
   @apply bg-cover bg-center bg-fixed;
-  background-image: linear-gradient(to left, #00000066, transparent, #00000066),
-    linear-gradient(to bottom, black, transparent, black),
-    url("/images/gallery/gallery.webp");
-  text-shadow: 0px 8px 1rem black;
+  background-image: linear-gradient(to left, #00000033, transparent, #00000033),
+    linear-gradient(to bottom, #00000066, transparent, #00000088),
+    url("https://cdn.pixabay.com/photo/2018/10/19/12/14/train-3758523_1280.jpg");
+  text-shadow: 0px 8px 0.8rem black;
 }
 .gallery img {
   @apply rounded-xl shadow-lg;

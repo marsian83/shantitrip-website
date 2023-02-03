@@ -19,9 +19,6 @@
             <NuxtLink to="/">Home</NuxtLink>
           </li>
           <li class="navbar-item">
-            <NuxtLink to="/about">About</NuxtLink>
-          </li>
-          <li class="navbar-item">
             <NuxtLink to="/trips">Trips</NuxtLink>
           </li>
           <li class="navbar-item">
@@ -32,6 +29,30 @@
           </li>
           <li class="navbar-item">
             <NuxtLink to="/collaborate">Collaborate</NuxtLink>
+          </li>
+          <li class="navbar-item cursor-pointer">
+            <a
+              class="text-secondary"
+              @click="
+                () => {
+                  logout();
+                }
+              "
+              v-if="auth"
+            >
+              {{ auth }}
+            </a>
+            <p
+              @click="
+                () => {
+                  navigateTo('/auth/login');
+                }
+              "
+              v-if="!auth"
+              class="bg-primary rounded-md px-2 py-1 hover:bg-white text-white hover:color-primary"
+            >
+              Login
+            </p>
           </li>
         </ul>
       </div>
@@ -69,7 +90,6 @@
         </ul>
       </div>
     </nav>
-    <nav class="mobile-only mobile-navbar"></nav>
   </header>
 </template>
 
@@ -90,6 +110,15 @@ onMounted(() => {
   };
   window.addEventListener("scroll", fixNavbar);
 });
+
+async function logout() {
+  if (confirm("Are you sure you want to logout?")) {
+    await useFetch("/api/auth/logout");
+    window.location.reload();
+  }
+}
+
+const auth = useCookie("STH-auth");
 </script>
 
 <style scoped>
