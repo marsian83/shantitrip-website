@@ -16,7 +16,7 @@
     </div>
     <section class="hero h-screen w-full mobile:h-[32vh] bg-black">
       <div
-        class="hero-slide bg-[linear-gradient(#00000077,transparent,#00000077),url('https://cdn.pixabay.com/photo/2017/03/15/20/40/nature-2147400_1280.jpg')] bg-bottom flex flex-col justify-center items-center text-center"
+        class="hero-slide bg-[linear-gradient(#00000077,transparent,#00000077),url('/images/hero.jpg')] bg-bottom flex flex-col justify-center items-center text-center"
       >
         <h1 class="text-8xl font-black text-secondary mobile:text-5xl">
           Plan Less <br />
