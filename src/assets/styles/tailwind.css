@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .p-page {
+    @apply px-[8vw] mobile:px-[3vw];
+  }
+
+  .absolute-center {
+    @apply absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2;
+  }
+}
+
+@layer components {
+  .btn-1 {
+    @apply px-4 py-2 bg-primary text-back flex gap-x-2 items-center rounded-full;
+  }
+
+  .btn-2 {
+    @apply py-2 px-6 border-2 border-primary text-primary flex gap-x-2 items-center rounded-full duration-500 hover:text-back
+     hover:bg-primary hover:border-transparent;
+  }
+}
