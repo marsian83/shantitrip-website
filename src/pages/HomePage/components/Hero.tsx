@@ -6,7 +6,7 @@ const slides = [
     className="w-screen h-screen bg-[url('/images/bg-banner1.jpg')] bg-bottom bg-cover bg-fixed flex flex-col justify-center 
   items-center relative"
   >
-    <div className="w-full h-full absolute top-0 left-0 bg-[#00000045]"></div>
+    <div className="w-full h-full absolute top-0 left-0 bg-[#00000055]"></div>
     <div className="text-center z-[2] flex flex-col gap-y-6">
       <Link to="/it" className="self-end duration-500 hover:-rotate-full">
         <img
@@ -18,7 +18,7 @@ const slides = [
       <h1 className="font-allura text-4xl text-back">
         Explore The Incredible India With Us
       </h1>
-      <h2 className="font-light text-6xl mb-64 text-back bg-background bg-opacity-30 px-10 py-2">
+      <h2 className="font-light text-6xl mb-56 text-back bg-background bg-opacity-30 px-10 py-6">
         The Beauty of Manali
       </h2>
     </div>

@@ -60,7 +60,7 @@ export default function Trending() {
               }}
             >
               <div />
-              <div className="flex flex-col bottom-0 pl-2 py-2">
+              <div className="flex flex-col items-start pl-4 py-3">
                 <h4 className="text-3xl font-medium text-white">
                   {trend.name}
                 </h4>
