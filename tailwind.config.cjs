@@ -29,6 +29,9 @@ module.exports = {
         poppins: "'Poppins', sans-serif",
         allura: "'Allura', sans-serif",
       },
+      rotate: {
+        full: "360deg",
+      },
     },
   },
   plugins: [],

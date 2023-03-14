@@ -40,6 +40,37 @@ const usefulLinks = [
 export default function Footer() {
   return (
     <>
+      <div className="p-page relative">
+        <div
+          className="flex flex-col items-center translate-y-32 bg-background rounded-lg"
+          style={{ boxShadow: "8px 5px 16px #00000038" }}
+        >
+          <img
+            src="/images/paper-plane-with-dotted-line.png"
+            alt="paper plane"
+            draggable={false}
+          />
+          <div className="flex flex-col gap-y-5 text-center">
+            <h2 className="text-4xl font-light text-primary">
+              Feeling Left Out?
+            </h2>
+            <p className="text-sm">
+              Every once in a while, we send out a newsletter featuring the
+              latest and best in travel. Subscribe to never miss out.
+            </p>
+          </div>
+          <div className="w-1/2 relative flex">
+            <input
+              type="text"
+              placeholder="Enter your email"
+              className="p-3 my-6 w-full border border-front rounded-full border-opacity-60 text-opacity-50"
+            />
+            <button className="absolute right-1 top-1/2 -translate-y-1/2 btn-1">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
       <footer className="pt-44 pb-6 p-page bg-primary flex text-back justify-between">
         <div className="flex flex-col gap-y-5 items-baseline basis-2/5">
           <Link to="/" draggable={false}>

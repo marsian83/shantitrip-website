@@ -14,7 +14,8 @@
 
 @layer components {
   .btn-1 {
-    @apply px-4 py-2 bg-primary text-back flex gap-x-2 items-center rounded-full;
+    @apply px-4 py-2 bg-primary text-back flex gap-x-2 items-center rounded-full duration-500 outline outline-transparent 
+    hover:text-primary hover:bg-back hover:outline-primary;
   }
 
   .btn-2 {

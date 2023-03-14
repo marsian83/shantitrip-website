@@ -2,7 +2,7 @@ import WhatsappLink from "../../../common/WhatsappLink";
 
 export default function GetInTouch() {
   return (
-    <section className="p-page text-center flex flex-col items-center py-24">
+    <section className="p-page text-center flex flex-col items-center pt-24">
       <h1 className="text-4xl font-light text-primary">Let's Get In Touch</h1>
       <h2 className="font-allura text-2xl my-4 w-2/3">
         Being travelers and explorers ourselves, we are always excited to talk
