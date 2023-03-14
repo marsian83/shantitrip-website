@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import V0Link from "./V0Link";
 
 const navbarLinks = [
   {
     title: "Destinations",
-    to: "/destinations",
+    to: "/trips",
   },
   {
     title: "Gallery",
@@ -40,8 +41,12 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className={`fixed top-0 left-0 w-screen p-page py-7 flex justify-between items-center z-[100] duration-500 border-b
-      ${isNavFixed ? 'bg-background border-front' : 'bg-transparent border-back'}`}>
+      <nav
+        className={`fixed top-0 left-0 w-screen p-page py-7 flex justify-between items-center z-[100] duration-500 border-b
+      ${
+        isNavFixed ? "bg-background border-front" : "bg-transparent border-back"
+      }`}
+      >
         <Link to="/">
           <img
             src="/header.webp"
@@ -53,20 +58,28 @@ export default function Navbar() {
         </Link>
         <div className="flex gap-x-8 items-center">
           {navbarLinks.map((item) => (
-            <NavLink
+            // <NavLink
+            //   to={item.to}
+            //   className={({ isActive, isPending }) =>
+            //     `duration-500 ${isNavFixed ? "text-front" : "text-back"} ${
+            //       isPending
+            //         ? "cursor-not-allowed text-opacity-40"
+            //         : isActive
+            //         ? "text-primary"
+            //         : "hover:text-primary hover:saturate-200"
+            //     }`
+            //   }
+            // >
+            //   {item.title}
+            // </NavLink>
+            <V0Link
               to={item.to}
-              className={({ isActive, isPending }) =>
-                `duration-500 ${isNavFixed ? "text-front" : "text-back"} ${
-                  isPending
-                    ? "cursor-not-allowed text-opacity-40"
-                    : isActive
-                    ? "text-primary"
-                    : "hover:text-primary hover:saturate-200"
-                }`
-              }
+              className={`duration-500 ${
+                isNavFixed ? "text-front" : "text-back"
+              } ${"hover:text-primary hover:saturate-200"}`}
             >
               {item.title}
-            </NavLink>
+            </V0Link>
           ))}
           <button className="btn-1">
             Login
