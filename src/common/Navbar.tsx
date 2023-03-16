@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import V0Link from "./V0Link";
+import { V0_BASE_URL } from "../constants";
 
 const navbarLinks = [
   {
@@ -9,11 +9,11 @@ const navbarLinks = [
   },
   {
     title: "Gallery",
-    to: "/gallery",
+    to: `${V0_BASE_URL}/gallery`,
   },
   {
     title: "Contact Us",
-    to: "/contact",
+    to: `${V0_BASE_URL}/contact`,
   },
   {
     title: "Collaborate",
@@ -58,28 +58,20 @@ export default function Navbar() {
         </Link>
         <div className="flex gap-x-8 items-center">
           {navbarLinks.map((item) => (
-            // <NavLink
-            //   to={item.to}
-            //   className={({ isActive, isPending }) =>
-            //     `duration-500 ${isNavFixed ? "text-front" : "text-back"} ${
-            //       isPending
-            //         ? "cursor-not-allowed text-opacity-40"
-            //         : isActive
-            //         ? "text-primary"
-            //         : "hover:text-primary hover:saturate-200"
-            //     }`
-            //   }
-            // >
-            //   {item.title}
-            // </NavLink>
-            <V0Link
+            <NavLink
               to={item.to}
-              className={`duration-500 ${
-                isNavFixed ? "text-front" : "text-back"
-              } ${"hover:text-primary hover:saturate-200"}`}
+              className={({ isActive, isPending }) =>
+                `duration-500 ${isNavFixed ? "text-front" : "text-back"} ${
+                  isPending
+                    ? "cursor-not-allowed text-opacity-40"
+                    : isActive
+                    ? "text-primary brightness-150 pointer-events-none"
+                    : "hover:text-primary hover:saturate-200"
+                }`
+              }
             >
               {item.title}
-            </V0Link>
+            </NavLink>
           ))}
           <button className="btn-1">
             Login

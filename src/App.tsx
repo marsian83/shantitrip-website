@@ -16,7 +16,7 @@ export default function App() {
     createRoutesFromElements(
       <Route path="/" element={<Root />}>
         <Route index element={<HomePage />} />
-        <Route path="/gallery" element={<ItineraryPage />} />
+        <Route path="/trips" element={<ItineraryPage />} />
       </Route>
     )
   );

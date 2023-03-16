@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Manali",
+    "imageUrl": "/images/thumbnails/manali.jpg",
+    "rating": 4.5,
+    "images": [
+      "/images/thumbnails/manali.jpg",
+      "/images/thumbnails/kasol.jpg",
+      "/images/thumbnails/sissu.jpg"
+    ],
+    "description": "A picturesque hill station in Himachal Pradesh known for its scenic beauty, adventure activities, and vibrant culture."
+  },
+  {
+    "name": "Kasol",
+    "imageUrl": "/images/thumbnails/kasol.jpg",
+    "rating": 4.5,
+    "images": [
+      "/images/thumbnails/manali.jpg",
+      "/images/thumbnails/kasol.jpg",
+      "/images/thumbnails/sissu.jpg"
+    ],
+    "description": "A serene village nestled in the Parvati Valley, popular among backpackers and nature lovers for its stunning landscapes and peaceful atmosphere."
+  },
+  {
+    "name": "Spiti",
+    "imageUrl": "/images/thumbnails/spiti.jpg",
+    "rating": 4.5,
+    "images": [
+      "/images/thumbnails/manali.jpg",
+      "/images/thumbnails/kasol.jpg",
+      "/images/thumbnails/sissu.jpg"
+    ],
+    "description": "A high-altitude desert valley located in Himachal Pradesh, known for its breathtaking scenery, ancient monasteries, and unique cultural heritage."
+  }
+]

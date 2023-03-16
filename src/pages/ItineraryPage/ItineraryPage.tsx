@@ -1,80 +1,13 @@
+import useFetch from "../../hooks/useFetch";
+import { Destination } from "../../interfaces/Data";
 import Hero from "./components/Hero";
-const destinations = [
-  {
-    name: "Manali",
-    imageUrl: "/images/thumbnails/manali.jpg",
-    rating: 4.5,
-    images: [
-      "/images/thumbnails/manali.jpg",
-      "/images/thumbnails/kasol.jpg",
-      "/images/thumbnails/sissu.jpg",
-    ],
-    description:
-      "A picturesque hill station in Himachal Pradesh known for its scenic beauty, adventure activities, and vibrant culture.",
-  },
-  {
-    name: "Kasol",
-    imageUrl: "/images/thumbnails/kasol.jpg",
-    rating: 4.5,
-    images: [
-      "/images/thumbnails/manali.jpg",
-      "/images/thumbnails/kasol.jpg",
-      "/images/thumbnails/sissu.jpg",
-    ],
-    description:
-      "A serene village nestled in the Parvati Valley, popular among backpackers and nature lovers for its stunning landscapes and peaceful atmosphere.",
-  },
-  {
-    name: "Spiti",
-    imageUrl: "/images/thumbnails/spiti.jpg",
-    rating: 4.5,
-    images: [
-      "/images/thumbnails/manali.jpg",
-      "/images/thumbnails/kasol.jpg",
-      "/images/thumbnails/sissu.jpg",
-    ],
-    description:
-      "A high-altitude desert valley located in Himachal Pradesh, known for its breathtaking scenery, ancient monasteries, and unique cultural heritage.",
-  },
-  {
-    name: "Manali",
-    imageUrl: "/images/thumbnails/manali.jpg",
-    rating: 4.5,
-    images: [
-      "/images/thumbnails/manali.jpg",
-      "/images/thumbnails/kasol.jpg",
-      "/images/thumbnails/sissu.jpg",
-    ],
-    description:
-      "A picturesque hill station in Himachal Pradesh known for its scenic beauty, adventure activities, and vibrant culture.",
-  },
-  {
-    name: "Kasol",
-    imageUrl: "/images/thumbnails/kasol.jpg",
-    rating: 4.5,
-    images: [
-      "/images/thumbnails/manali.jpg",
-      "/images/thumbnails/kasol.jpg",
-      "/images/thumbnails/sissu.jpg",
-    ],
-    description:
-      "A serene village nestled in the Parvati Valley, popular among backpackers and nature lovers for its stunning landscapes and peaceful atmosphere.",
-  },
-  {
-    name: "Spiti",
-    imageUrl: "/images/thumbnails/spiti.jpg",
-    rating: 4.5,
-    images: [
-      "/images/thumbnails/manali.jpg",
-      "/images/thumbnails/kasol.jpg",
-      "/images/thumbnails/sissu.jpg",
-    ],
-    description:
-      "A high-altitude desert valley located in Himachal Pradesh, known for its breathtaking scenery, ancient monasteries, and unique cultural heritage.",
-  },
-];
 
 export default function ItineraryPage() {
+  const [destinations, destinationsLoading] = useFetch<Destination[]>(
+    "/destinations.json",
+    []
+  );
+
   return (
     <div>
       <Hero />
@@ -86,7 +19,12 @@ export default function ItineraryPage() {
           Explore with us
         </h3>
 
-        <div className="flex justify-around items-stretch py-6 flex-wrap gap-y-8">
+        <div className="flex justify-around items-stretch py-6 flex-wrap gap-y-14">
+          {destinationsLoading && (
+            <p className="py-48 text-center italic text-primary text-3xl">
+              Loading...
+            </p>
+          )}
           {destinations.map((destination) => (
             <div
               className="flex flex-col justify-between items-center w-[32%] bg-background pb-4 rounded-lg overflow-hidden"
@@ -108,20 +46,25 @@ export default function ItineraryPage() {
                   </div>
                 </div>
               </div>
-              <div className="bg-white flex flex-col items-center justify-between flex-1">
+              <div className="bg-white flex flex-col items-center gap-y-4 justify-between flex-1">
                 <p className="text-sm px-8 pt-8 basis-1/3">
                   {destination.description}
                 </p>
                 <h6 className="text-primary font-bold">Places to explore</h6>
-                <div className="flex flex-row gap-x-5 justify-center">
+                <div className="flex flex-row items-center w-full px-5 justify-between text-primary">
+                  <span className="material-icons text-3xl">&#xe5de;</span>
                   {destination.images.map((image) => (
-                    <img
-                      src={image}
-                      className="w-20 rounded-full aspect-square"
-                    />
+                    <div className="flex flex-col gap-y-3">
+                      <img
+                        src={image}
+                        className="w-20 rounded-full aspect-square"
+                      />
+                      <p className="text-mute text-xs">Sissu Lake</p>
+                    </div>
                   ))}
+                  <span className="material-icons text-3xl">&#xe5df;</span>
                 </div>
-                <button className="py-2 px-4 btn-2 text-sm font-semibold ">
+                <button className="py-2 my-2 px-4 btn-2 text-sm font-semibold ">
                   View All
                 </button>
               </div>

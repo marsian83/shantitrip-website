@@ -10,7 +10,7 @@ module.exports = {
         foreground: "#000000",
         front: "#000000",
         back: "#ffffff",
-        mute: "#7e7e7e",
+        mute: "#3d3e48",
       },
       transitionDuration: {
         inherit: "inherit",
