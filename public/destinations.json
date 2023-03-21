@@ -1,35 +1,349 @@
 [
   {
-    "name": "Manali",
-    "imageUrl": "/images/thumbnails/manali.jpg",
-    "rating": 4.5,
-    "images": [
-      "/images/thumbnails/manali.jpg",
-      "/images/thumbnails/kasol.jpg",
-      "/images/thumbnails/sissu.jpg"
-    ],
-    "description": "A picturesque hill station in Himachal Pradesh known for its scenic beauty, adventure activities, and vibrant culture."
-  },
-  {
+    "id": 1,
     "name": "Kasol",
     "imageUrl": "/images/thumbnails/kasol.jpg",
+    "headline": "Experience the serene beauty of Kasol",
     "rating": 4.5,
+    "days": 5,
+    "people": "Solo, Couple, Family",
+    "date": "May - June",
+    "budget": {
+      "total": 15000,
+      "perPerson": 5000
+    },
     "images": [
-      "/images/thumbnails/manali.jpg",
       "/images/thumbnails/kasol.jpg",
-      "/images/thumbnails/sissu.jpg"
+      "/images/thumbnails/kasol.jpg",
+      "/images/thumbnails/kasol.jpg"
     ],
-    "description": "A serene village nestled in the Parvati Valley, popular among backpackers and nature lovers for its stunning landscapes and peaceful atmosphere."
+    "description": "Kasol is a small village in Himachal Pradesh, situated along the banks of the Parvati River. The scenic beauty of this place is mesmerizing. It is a popular destination for backpackers and trekkers, and is also known for its vibrant hippie culture.",
+    "places": [
+      {
+        "imageUrl": "/images/thumbnails/kasol-place.jpg",
+        "thumbnail": "/images/thumbnails/kasol-place-thumb.jpg",
+        "day": "Day 1",
+        "title": "Explore the Village",
+        "description": "Take a stroll around the village and soak in the local culture. Visit the Manikaran"
+      },
+      {
+        "imageUrl": "/images/thumbnails/kasol-place.jpg",
+        "thumbnail": "/images/thumbnails/kasol-place-thumb.jpg",
+        "day": "Day 2",
+        "title": "Hike to Kheerganga",
+        "description": "Take a day hike to the scenic Kheerganga, and enjoy a relaxing dip in the natural hot springs there."
+      },
+      {
+        "imageUrl": "/images/thumbnails/kasol-place.jpg",
+        "thumbnail": "/images/thumbnails/kasol-place-thumb.jpg",
+        "day": "Day 3",
+        "title": "Visit Tosh Village",
+        "description": "Visit the beautiful village of Tosh, and explore its picturesque surroundings."
+      }
+    ],
+    "geolocation": {
+      "longitude": 77.3167,
+      "latitude": 32.009
+    }
   },
   {
-    "name": "Spiti",
-    "imageUrl": "/images/thumbnails/spiti.jpg",
-    "rating": 4.5,
+    "id": 2,
+    "name": "Manali",
+    "imageUrl": "/images/thumbnails/manali.jpg",
+    "headline": "Experience the beauty of Manali",
+    "rating": 4.8,
+    "days": 5,
+    "people": "2 Adults",
+    "date": "202365",
+    "budget": {
+      "total": 25000,
+      "perPerson": 12500
+    },
     "images": [
       "/images/thumbnails/manali.jpg",
-      "/images/thumbnails/kasol.jpg",
+      "/images/thumbnails/manali.jpg",
+      "/images/thumbnails/manali.jpg"
+    ],
+    "description": "Manali is a beautiful hill station located in the Indian state of Himachal Pradesh. It is known for its scenic beauty and adventure sports. The town is situated at an altitude of 2050 meters above sea level and is surrounded by snow-capped peaks and dense forests. Manali is also famous for its ancient temples and hot springs.",
+    "places": [
+      {
+        "imageUrl": "/images/manali/places/1.jpg",
+        "thumbnail": "/images/manali/places/1-thumb.jpg",
+        "day": "Day 1",
+        "title": "Hadimba Temple",
+        "description": "Hadimba Temple is an ancient cave temple dedicated to Hidimba Devi, wife of Bhima and mother of Ghatothkach. The temple is surrounded by a cedar forest at the foot of the Himalayas. The temple is built in a pagoda style and is believed to be over 500 years old."
+      },
+      {
+        "imageUrl": "/images/manali/places/2.jpg",
+        "thumbnail": "/images/manali/places/2-thumb.jpg",
+        "day": "Day 2",
+        "title": "Solang Valley",
+        "description": "Solang Valley is a picturesque valley located 14 km from Manali. It is famous for its adventure sports like paragliding, skiing, and zorbing. The valley is surrounded by snow-capped mountains and offers panoramic views of the surrounding landscape."
+      },
+      {
+        "imageUrl": "/images/manali/places/3.jpg",
+        "thumbnail": "/images/manali/places/3-thumb.jpg",
+        "day": "Day 3",
+        "title": "Rohtang Pass",
+        "description": "Rohtang Pass is a high mountain pass located at an altitude of 3978 meters above sea level. It connects the Kullu Valley with the Lahaul and Spiti Valleys. The pass is open from May to November and offers breathtaking views of the surrounding mountains."
+      },
+      {
+        "imageUrl": "/images/manali/places/4.jpg",
+        "thumbnail": "/images/manali/places/4-thumb.jpg",
+        "day": "Day 4",
+        "title": "Manikaran",
+        "description": "Manikaran is a small town located 45 km from Manali. It is famous for its hot springs and ancient temples. The town is located on the banks of the Parvati River and is surrounded by lush green forests."
+      }
+    ],
+    "geolocation": {
+      "longitude": 77.1734,
+      "latitude": 32.2396
+    }
+  },
+  {
+    "id": 3,
+    "name": "Spiti",
+    "imageUrl": "/images/thumbnails/spiti.jpg",
+    "headline": "Explore the rugged beauty of Spiti",
+    "rating": 4.5,
+    "days": 7,
+    "people": "solo travelers, couples, families",
+    "date": "April - June",
+    "budget": {
+      "total": 35000,
+      "perPerson": 12000
+    },
+    "images": [
+      "/images/thumbnails/spiti.jpg",
+      "/images/thumbnails/spiti.jpg",
+      "/images/thumbnails/spiti.jpg"
+    ],
+    "description": "Located in the high Himalayas of Himachal Pradesh, Spiti is a remote and rugged valley known for its stark landscapes, ancient monasteries, and unique culture. Visitors can explore the breathtaking scenery, trek through high-altitude mountain passes, and visit traditional Tibetan villages.",
+    "places": [
+      {
+        "imageUrl": "/images/photos/spiti-monastery.jpg",
+        "thumbnail": "/images/thumbnails/spiti-monastery.jpg",
+        "title": "Key Monastery",
+        "description": "One of the most iconic landmarks of Spiti, Key Monastery is an ancient Tibetan Buddhist monastery situated atop a hill overlooking the valley. Visitors can explore the monastery's prayer halls, meditation rooms, and Buddhist scriptures.",
+        "alias": "Key Gompa"
+      },
+      {
+        "imageUrl": "/images/photos/spiti-kaza.jpg",
+        "thumbnail": "/images/thumbnails/spiti-kaza.jpg",
+        "title": "Kaza",
+        "description": "Kaza is the administrative center of Spiti Valley, and the largest town in the region. Visitors can explore the local market, which sells traditional handicrafts and souvenirs, as well as the nearby Sakya Tangyud Monastery, known for its stunning murals and frescoes.",
+        "alias": "Kaza Town"
+      },
+      {
+        "imageUrl": "/images/photos/spiti-chandratal.jpg",
+        "thumbnail": "/images/thumbnails/spiti-chandratal.jpg",
+        "title": "Chandratal Lake",
+        "description": "Located at an altitude of over 14,000 feet, Chandratal Lake is a high-altitude lake known for its crystal-clear waters and stunning natural beauty. Visitors can take a short trek to the lake, and enjoy a picnic on its shores.",
+        "alias": "Moon Lake"
+      }
+    ],
+    "geolocation": {
+      "longitude": 77.582,
+      "latitude": 32.251
+    }
+  },
+  {
+    "id": 4,
+    "name": "Sissu",
+    "imageUrl": "/images/thumbnails/sissu.jpg",
+    "headline": "Experience the breathtaking beauty of Sissu",
+    "rating": 4.5,
+    "days": 6,
+    "people": "Solo or group",
+    "date": "Flexible",
+    "budget": {
+      "total": 15000,
+      "perPerson": 7500
+    },
+    "images": [
+      "/images/thumbnails/sissu.jpg",
+      "/images/thumbnails/sissu.jpg",
       "/images/thumbnails/sissu.jpg"
     ],
-    "description": "A high-altitude desert valley located in Himachal Pradesh, known for its breathtaking scenery, ancient monasteries, and unique cultural heritage."
+    "description": "Sissu is a small village in the Lahaul Valley of Himachal Pradesh. It is situated at an altitude of 3120 meters and is surrounded by snow-capped mountains, lush green forests, and crystal-clear streams. The place is ideal for trekking and camping, and offers some of the most spectacular views of the Himalayas.",
+    "places": [
+      {
+        "imageUrl": "/images/thumbnails/sissu.jpg",
+        "thumbnail": "/images/thumbnails/sissu.jpg",
+        "day": "Day 1",
+        "title": "Arrival at Sissu",
+        "description": "Arrive at Sissu and check-in to your hotel. Spend the rest of the day at leisure and explore the scenic surroundings."
+      },
+      {
+        "imageUrl": "/images/thumbnails/sissu.jpg",
+        "thumbnail": "/images/thumbnails/sissu.jpg",
+        "day": "Day 2",
+        "title": "Trek to Tatta Pani",
+        "description": "Embark on a scenic trek to Tatta Pani, which is known for its hot springs. Enjoy the beautiful views along the way."
+      },
+      {
+        "imageUrl": "/images/thumbnails/sissu.jpg",
+        "thumbnail": "/images/thumbnails/sissu.jpg",
+        "day": "Day 3",
+        "title": "Visit to Udaipur",
+        "description": "Take a trip to the picturesque town of Udaipur and visit its famous temples and monasteries. Enjoy the local cuisine and culture."
+      },
+      {
+        "imageUrl": "/images/thumbnails/sissu.jpg",
+        "thumbnail": "/images/thumbnails/sissu.jpg",
+        "day": "Day 4",
+        "title": "Trek to Miyar Valley",
+        "description": "Embark on a trek to the Miyar Valley and witness the stunning views of the Himalayan range. Camp overnight in the valley."
+      },
+      {
+        "imageUrl": "/images/thumbnails/sissu.jpg",
+        "thumbnail": "/images/thumbnails/sissu.jpg",
+        "day": "Day 5",
+        "title": "Trek back to Sissu",
+        "description": "Return to Sissu after your trek and spend the rest of the day at leisure. Explore the local markets and indulge in some souvenir shopping."
+      },
+      {
+        "imageUrl": "/images/thumbnails/sissu.jpg",
+        "thumbnail": "/images/thumbnails/sissu.jpg",
+        "day": "Day 6",
+        "title": "Departure",
+        "description": "Check-out of your hotel and depart from Sissu. Bid adieu to this beautiful place with memories to cherish for a lifetime."
+      }
+    ],
+    "geolocation": {
+      "longitude": 77.2484,
+      "latitude": 32.4544
+    }
+  },
+  {
+    "id": 5,
+    "name": "Jibhi",
+    "imageUrl": "/images/thumbnails/jibhi.jpg",
+    "headline": "A Hidden Gem in Himachal Pradesh",
+    "rating": 4.8,
+    "days": 5,
+    "people": "Solo, Couples, Families",
+    "date": "202365",
+    "budget": {
+      "total": 15000,
+      "perPerson": 5000
+    },
+    "images": [
+      "/images/thumbnails/jibhi.jpg",
+      "/images/thumbnails/jibhi.jpg",
+      "/images/thumbnails/jibhi.jpg"
+    ],
+    "description": "Jibhi is a serene and picturesque hill station located in the Tirthan Valley of Himachal Pradesh.",
+    "places": [
+      {
+        "imageUrl": "https://www.example.com/images/jibhi-valley.jpg",
+        "thumbnail": "/images/thumbnails/jibhi-valley.jpg",
+        "day": "Day 1",
+        "title": "Arrival in Jibhi",
+        "description": "Arrive in Jibhi and check-in to your hotel. Spend the day relaxing and exploring the nearby areas."
+      },
+      {
+        "imageUrl": "https://www.example.com/images/jalori-pass.jpg",
+        "thumbnail": "/images/thumbnails/jalori-pass.jpg",
+        "day": "Day 2",
+        "title": "Jalori Pass Trek",
+        "description": "Embark on a trek to Jalori Pass and enjoy the stunning views of the Himalayan range."
+      },
+      {
+        "imageUrl": "https://www.example.com/images/great-himalayan-national-park.jpg",
+        "thumbnail": "/images/thumbnails/great-himalayan-national-park.jpg",
+        "day": "Day 3",
+        "title": "Visit to Great Himalayan National Park",
+        "description": "Explore the beautiful Great Himalayan National Park, a UNESCO World Heritage Site."
+      },
+      {
+        "imageUrl": "https://www.example.com/images/jibhi-waterfall.jpg",
+        "thumbnail": "/images/thumbnails/jibhi-waterfall.jpg",
+        "day": "Day 4",
+        "title": "Visit to Jibhi Waterfall",
+        "description": "Spend the day at Jibhi Waterfall, one of the most beautiful attractions in the area."
+      },
+      {
+        "imageUrl": "https://www.example.com/images/jibhi-village.jpg",
+        "thumbnail": "/images/thumbnails/jibhi-village.jpg",
+        "day": "Day 5",
+        "title": "Departure",
+        "description": "Check-out from your hotel and depart from Jibhi with beautiful memories."
+      }
+    ],
+    "geolocation": {
+      "latitude": 31.6769,
+      "longitude": 77.2656
+    }
+  },
+  {
+    "id": 6,
+    "name": "Leh",
+    "imageUrl": "/images/leh.jpg",
+    "headline": "Experience the beauty of the Himalayas in Leh",
+    "rating": 4.8,
+    "days": 6,
+    "people": "2",
+    "date": "May - September",
+    "budget": {
+      "total": 15000,
+      "perPerson": 7500
+    },
+    "images": [
+      "/images/leh.jpg",
+      "/images/leh2.jpg",
+      "/images/leh3.jpg",
+      "/images/leh4.jpg",
+      "/images/leh5.jpg"
+    ],
+    "description": "Leh is a town in the Ladakh region of the Indian state of Jammu and Kashmir. Located at an altitude of 3,524 metres (11,562 ft), it is one of the highest towns in the world. The town is surrounded by snow-capped mountains, and is known for its beautiful Buddhist monasteries, colourful markets, and stunning landscapes.",
+    "places": [
+      {
+        "imageUrl": "/images/thumbnails/leh1.jpg",
+        "thumbnail": "/images/thumbnails/leh1.jpg",
+        "day": "Day 1",
+        "title": "Arrive in Leh",
+        "description": "Arrive in Leh and check in to your hotel. Spend the day acclimatizing to the altitude."
+      },
+      {
+        "imageUrl": "/images/thumbnails/leh2.jpg",
+        "thumbnail": "/images/thumbnails/leh2.jpg",
+        "day": "Day 2",
+        "title": "Leh Palace and Shanti Stupa",
+        "description": "Visit the Leh Palace, a former royal palace that has been converted into a museum, and the Shanti Stupa, a Buddhist white-domed stupa on a hilltop."
+      },
+      {
+        "imageUrl": "/images/thumbnails/leh3.jpg",
+        "thumbnail": "/images/thumbnails/leh3.jpg",
+        "day": "Day 3",
+        "title": "Monasteries and Magnetic Hill",
+        "description": "Visit the Hemis Monastery, Thiksey Monastery, and Shey Palace. Also see the Magnetic Hill, a gravity hill where cars appear to roll uphill."
+      },
+      {
+        "imageUrl": "/images/thumbnails/leh4.jpg",
+        "thumbnail": "/images/thumbnails/leh4.jpg",
+        "day": "Day 4",
+        "title": "Nubra Valley",
+        "description": "Drive to the Nubra Valley and visit the Diskit Monastery and the Hunder sand dunes. You can also ride a Bactrian camel here."
+      },
+      {
+        "imageUrl": "/images/thumbnails/leh5.jpg",
+        "thumbnail": "/images/thumbnails/leh5.jpg",
+        "day": "Day 5",
+        "title": "Pangong Tso",
+        "description": "Drive to Pangong Tso, a high-altitude lake that is famous for its scenic beauty. The lake is situated on the border between India and China."
+      },
+      {
+        "imageUrl": "/images/thumbnails/leh6.jpg",
+        "thumbnail": "/images/thumbnails/leh6.jpg",
+        "day": "Day 6",
+        "title": "Depart from Leh",
+        "description": "Depart from Leh for your next destination."
+      }
+    ],
+    "geolocation": {
+      "longitude": 77.5770491,
+      "latitude": 34.1525866
+    }
   }
 ]
