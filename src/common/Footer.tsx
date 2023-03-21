@@ -90,7 +90,10 @@ export default function Footer() {
           <div className="flex text-lg font-light gap-x-3 items-center  ">
             Follow us on
             {socials.map((social) => (
-              <div className="rounded-full bg-background flex justify-center items-center w-14 h-14">
+              <div
+                key={social.name}
+                className="rounded-full bg-background flex justify-center items-center w-14 h-14"
+              >
                 <img src={social.icon} alt={social.name} />
               </div>
             ))}
@@ -100,9 +103,16 @@ export default function Footer() {
           <h2 className="text-2xl font-light py-4">Useful Links</h2>
           <div className="flex justify-between">
             {usefulLinks.map((sect) => (
-              <div className="flex flex-col gap-y-2">
+              <div
+                key={usefulLinks.indexOf(sect)}
+                className="flex flex-col gap-y-2"
+              >
                 {sect.map((link) => (
-                  <Link className="font-semibold text-sm" to={link.link}>
+                  <Link
+                    key={link.title}
+                    className="font-semibold text-sm"
+                    to={link.link}
+                  >
                     {link.title}
                   </Link>
                 ))}

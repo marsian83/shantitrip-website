@@ -1,13 +1,14 @@
+import { useEffect } from "react";
 import DestinationCard from "../../common/DestinationCard";
+import useCache from "../../contexts/cacheContext";
 import useFetch from "../../hooks/useFetch";
 import { Destination } from "../../interfaces/Data";
 import Hero from "./components/Hero";
 
 export default function ItineraryPage() {
-  const [destinations, destinationsLoading] = useFetch<Destination[]>(
-    "/destinations.json",
-    []
-  );
+  const cache = useCache();
+
+  const destinations = cache.getDestinations();
 
   return (
     <div>
@@ -20,17 +21,21 @@ export default function ItineraryPage() {
           Explore with us
         </h3>
 
-        <div className="flex justify-around items-stretch py-6 flex-wrap gap-y-14">
-          {destinationsLoading ? (
-            <p className="py-48 text-center italic text-primary text-3xl">
-              Loading...
-            </p>
-          ) : (
-            destinations.map((destination) => (
-              <DestinationCard destination={destination} />
-            ))
-          )}
-        </div>
+        {cache.destinationsLoading ? (
+          <div className="flex justify-center mt-24">
+            <div className="border-[5px] border-[#00000033] border-r-primary w-48 h-48 rounded-full animate-spin" />
+          </div>
+        ) : (
+          <div className="flex justify-around items-stretch py-6 flex-wrap gap-y-14">
+            {destinations &&
+              destinations.map((destination) => (
+                <DestinationCard
+                  key={destination.id}
+                  destination={destination}
+                />
+              ))}
+          </div>
+        )}
       </section>
     </div>
   );

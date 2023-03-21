@@ -19,7 +19,10 @@ export default function Testimonials() {
       </div>
       <div className="flex justify-center my-7">
         {testimonials.map((testimonial) => (
-          <div className="h-56 rounded-full w-[46%] p-8 flex gap-x-3 bg-background">
+          <div
+            key={testimonials.indexOf(testimonial)}
+            className="h-56 rounded-full w-[46%] p-8 flex gap-x-3 bg-background"
+          >
             <img
               src={testimonial.imageUrl}
               alt={testimonial.name}

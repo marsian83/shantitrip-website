@@ -52,7 +52,10 @@ export default function Trending() {
       />
       <div className="flex justify-around items-stretch py-6">
         {trending.map((trend) => (
-          <div className="flex flex-col justify-between items-center w-1/4 bg-background pb-4 rounded-lg overflow-hidden">
+          <div
+            key={trend.id}
+            className="flex flex-col justify-between items-center w-1/4 bg-background pb-4 rounded-lg overflow-hidden"
+          >
             <div
               className="relative flex flex-col justify-between gap-y-4 bg-center bg-cover w-full aspect-[16/9]"
               style={{

@@ -19,7 +19,10 @@ export default function OurPartners() {
         </div>
         <div className="flex mt-16 justify-evenly">
           {partners.map((partner) => (
-            <div className="p-9 flex justify-center items-center bg-background rounded-full">
+            <div
+              key={partner.name}
+              className="p-9 flex justify-center items-center bg-background rounded-full"
+            >
               <img
                 src={partner.imageUrl}
                 alt={partner.name}

@@ -59,6 +59,7 @@ export default function Navbar() {
         <div className="flex gap-x-8 items-center">
           {navbarLinks.map((item) => (
             <NavLink
+              key={item.title}
               to={item.to}
               className={({ isActive, isPending }) =>
                 `duration-500 ${isNavFixed ? "text-front" : "text-back"} ${

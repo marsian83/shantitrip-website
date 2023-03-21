@@ -25,7 +25,10 @@ export default function WhyChooseUs() {
       <h1 className="font-light text-3xl text-primary">Why Choose Us?</h1>
       <div className="flex w-full justify-evenly py-8">
         {WhyChooseUsItems.map((item) => (
-          <div className="flex flex-col w-[27%] items-center gap-y-6">
+          <div
+            key={WhyChooseUsItems.indexOf(item)}
+            className="flex flex-col w-[27%] items-center gap-y-6"
+          >
             <div className="p-5 rounded-full bg-primary">
               <img
                 src={item.icon}

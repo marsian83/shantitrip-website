@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 export default function useFetch<T>(url: string, initial?: T) {
   const [data, setData] = useState<T | null>(initial || null);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState<boolean>(false);
 
   async function loadData() {
     setLoading(true);
@@ -16,5 +16,5 @@ export default function useFetch<T>(url: string, initial?: T) {
     loadData();
   }, []);
 
-  return [data as T, loading] as const;
+  return [data as T, loading as boolean] as const;
 }

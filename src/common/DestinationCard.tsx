@@ -68,7 +68,10 @@ export default function DestinationCard({
               {destination.places
                 .slice(0 + placesCarouselPosition, 3 + placesCarouselPosition)
                 .map((place) => (
-                  <div className="flex flex-col gap-y-3 items-center">
+                  <div
+                    className="flex flex-col gap-y-3 items-center"
+                    key={place.title}
+                  >
                     <img
                       src={place.thumbnail || place.imageUrl}
                       className="w-20 rounded-full aspect-square bg-gray-300"

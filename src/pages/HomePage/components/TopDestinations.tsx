@@ -30,7 +30,10 @@ export default function TopDestinations() {
       </h3>
       <div className="flex gap-x-24 justify-center my-10">
         {topDestinations.map((destination) => (
-          <div className="flex flex-col items-center w-72 gap-y-4 justify-between">
+          <div
+            key={destination.name}
+            className="flex flex-col items-center w-72 gap-y-4 justify-between"
+          >
             <div className="flex flex-col gap-y-4 justify-between items-center">
               <img
                 src={destination.imageUrl}
