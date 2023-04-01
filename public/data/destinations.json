@@ -1,0 +1,50 @@
+[
+  {
+    "id": 0,
+    "name": "Kasol",
+    "imageUrl": "https://imgs.search.brave.com/aR9Bnbu3zSs43kgYSmgc5P6F7ugBumtRGatAmQUilMs/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC52/Qm5wWUQ1d213djVu/RG1UYjNYTlhnSGFF/OCZwaWQ9QXBp",
+    "description": "Kasol is a small village in Himachal Pradesh, situated along the banks of the Parvati River. The scenic beauty of this place is mesmerizing. It is a popular destination for backpackers and trekkers, and is also known for its vibrant hippie culture.",
+    "places": [0, 1, 2, 3],
+    "trips": [],
+    "geolocation": {
+      "longitude": 77.3167,
+      "latitude": 32.009
+    }
+  },
+  {
+    "id": 1,
+    "name": "Manali",
+    "imageUrl": "https://imgs.search.brave.com/4wmMpZfdRE-nvSVaQo51CxK4-ONJDYi-6oFMPzTEFSA/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC52/RG94cnoyd2VyMEV4/R0thSHItUVhRSGFI/YSZwaWQ9QXBp",
+    "description": "Manali is a beautiful hill station located in the Indian state of Himachal Pradesh. It is known for its scenic beauty and adventure sports. The town is situated at an altitude of 2050 meters above sea level and is surrounded by snow-capped peaks and dense forests. Manali is also famous for its ancient temples and hot springs.",
+    "places": [0, 1, 2, 3],
+    "trips": [],
+    "geolocation": {
+      "longitude": 77.1734,
+      "latitude": 32.2396
+    }
+  },
+  {
+    "id": 2,
+    "name": "Spiti",
+    "imageUrl": "https://imgs.search.brave.com/N1loCVp74fzNhZ1wpBAer_SQ7KzblVHNbEcOwPBCbzA/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5t/R3pnUnEwWm5GWkVG/bEhYTU8wcl9BSGFF/OCZwaWQ9QXBp",
+    "description": "Located in the high Himalayas of Himachal Pradesh, Spiti is a remote and rugged valley known for its stark landscapes, ancient monasteries, and unique culture. Visitors can explore the breathtaking scenery, trek through high-altitude mountain passes, and visit traditional Tibetan villages.",
+    "places": [0, 1, 2, 3],
+    "trips": [],
+    "geolocation": {
+      "longitude": 77.582,
+      "latitude": 32.251
+    }
+  },
+  {
+    "id": 3,
+    "name": "Sissu",
+    "imageUrl": "https://imgs.search.brave.com/LkmrEY8-mTd8r1Kp3EZD9n3bVStCEjCOcgLJO1qH6Bw/rs:fit:632:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5C/RlJnV3NXbGFjZ04y/X3Btb0xVeEZ3SGFG/aiZwaWQ9QXBp",
+    "description": "Sissu is a small village in the Lahaul Valley of Himachal Pradesh. It is situated at an altitude of 3120 meters and is surrounded by snow-capped mountains, lush green forests, and crystal-clear streams. The place is ideal for trekking and camping, and offers some of the most spectacular views of the Himalayas.",
+    "places": [1, 2, 3],
+    "trips": [],
+    "geolocation": {
+      "longitude": 77.582,
+      "latitude": 32.251
+    }
+  }
+]

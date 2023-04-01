@@ -3,7 +3,7 @@ export default function Hero() {
     <section className="h-screen relative bg-cover overflow-hidden">
       <div
         className="w-screen h-screen bg-[url('/images/backgrounds/5.jpg')] bg-bottom bg-cover bg-fixed flex flex-col justify-center 
-    items-center relative"
+      items-center relative"
       >
         <div className="w-full h-full absolute top-0 left-0 bg-[#00000070]"></div>
         <div className="text-center z-[2] flex flex-col gap-y-6">

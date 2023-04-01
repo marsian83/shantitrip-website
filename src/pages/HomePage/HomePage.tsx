@@ -1,3 +1,4 @@
+import useCache from "../../contexts/cacheContext";
 import CustomizeYourTrip from "./components/CustomizeYourTrip";
 import GetInTouch from "./components/GetInTouch";
 import Hero from "./components/Hero";
@@ -8,6 +9,8 @@ import Trending from "./components/Trending";
 import WhyChooseUs from "./components/WhyChooseUs";
 
 export default function HomePage() {
+  const cache = useCache();
+
   return (
     <>
       <Hero />

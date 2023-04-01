@@ -53,7 +53,9 @@ export default function Hero() {
           width: `${slides.length * 100}%`,
         }}
       >
-        {slides.map((slideItem) => slideItem)}
+        {slides.map((slideItem) => (
+          <div key={slides.indexOf(slideItem)}>{slideItem}</div>
+        ))}
       </div>
       <div className="p-page absolute w-full top-1/3 left-0 flex justify-between font-bold text-back z-[2]">
         <button

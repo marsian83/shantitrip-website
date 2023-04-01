@@ -1,0 +1,34 @@
+[
+  {
+    "id": 0,
+    "name": "Parvati Valley",
+    "alias": "Valley",
+    "description": "Parvati Valley is situated in the northern Indian state of Himachal Pradesh. From the confluence of the Parvati River with the River Beas, the Parvati Valley runs eastwards, through a steep-sided valley from the town of Bhuntar, in the Kullu district of Himachal Pradesh in Northern India.",
+    "imageUrl": "https://imgs.search.brave.com/AVvwLQkaAZXoBXGO4gp7uA7-AuPo3486rH9sHHcUVtc/rs:fit:706:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5I/cjh4OW83cHhZdGZr/SENuNEl4RWp3SGFF/LSZwaWQ9QXBp",
+    "thumbnail": "https://imgs.search.brave.com/D8b7jwDjmOIRSdnSWV329RvGcpjKnjneBzU2NHJrhyA/rs:fit:766:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Y/YTFhS2V6VmdKNi1X/Z0xTcURkLVpRSGFF/bCZwaWQ9QXBp"
+  },
+  {
+    "id": 1,
+    "name": "Spiti valley",
+    "alias": "Spiti",
+    "description": "Spiti Valley is located in Himachal Pradesh at an altitude of 12,500 feet above sea level and is bordered on all sides by the Himalayas.1 Its name means, i.e. the land between Tibet and India, incorporating mainly the valley of the Spiti River as well as side-valleys such as Pin valley and Lingti valley.",
+    "imageUrl": "https://imgs.search.brave.com/AVvwLQkaAZXoBXGO4gp7uA7-AuPo3486rH9sHHcUVtc/rs:fit:706:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5I/cjh4OW83cHhZdGZr/SENuNEl4RWp3SGFF/LSZwaWQ9QXBp",
+    "thumbnail": "https://imgs.search.brave.com/D8b7jwDjmOIRSdnSWV329RvGcpjKnjneBzU2NHJrhyA/rs:fit:766:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Y/YTFhS2V6VmdKNi1X/Z0xTcURkLVpRSGFF/bCZwaWQ9QXBp"
+  },
+  {
+    "id": 2,
+    "name": "Manala",
+    "alias": "Manal",
+    "description": "Malana is an ancient Indian village in the state of Himachal Pradesh. The only village in the Malana Nala, a side valley of the Parvati Valley northeast of the Kullu Valley, it is isolated from the rest of the world. The peaks of Chanderkhani and Deo Tibba shadow the village.",
+    "imageUrl": "https://imgs.search.brave.com/AVvwLQkaAZXoBXGO4gp7uA7-AuPo3486rH9sHHcUVtc/rs:fit:706:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5I/cjh4OW83cHhZdGZr/SENuNEl4RWp3SGFF/LSZwaWQ9QXBp",
+    "thumbnail": "https://imgs.search.brave.com/D8b7jwDjmOIRSdnSWV329RvGcpjKnjneBzU2NHJrhyA/rs:fit:766:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Y/YTFhS2V6VmdKNi1X/Z0xTcURkLVpRSGFF/bCZwaWQ9QXBp"
+  },
+  {
+    "id": 3,
+    "name": "Kaza Kibber",
+    "alias": "Kibber",
+    "description": "Kibber is a village in Spiti, Himachal Pradesh situated at altitude of 4200 m, approx. 20 km from Kaza and a few km from Ki Monastery.1 It provides shelter to as less as 80 houses made of stones and bricks and is the highest motorable village in the world.0 One must stay here overnight to experience village life such as drive to Gette and Tashigong (recommended).",
+    "imageUrl": "https://imgs.search.brave.com/AVvwLQkaAZXoBXGO4gp7uA7-AuPo3486rH9sHHcUVtc/rs:fit:706:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5I/cjh4OW83cHhZdGZr/SENuNEl4RWp3SGFF/LSZwaWQ9QXBp",
+    "thumbnail": "https://imgs.search.brave.com/D8b7jwDjmOIRSdnSWV329RvGcpjKnjneBzU2NHJrhyA/rs:fit:766:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Y/YTFhS2V6VmdKNi1X/Z0xTcURkLVpRSGFF/bCZwaWQ9QXBp"
+  }
+]

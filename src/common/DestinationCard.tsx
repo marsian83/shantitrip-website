@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import useCache from "../contexts/cacheContext";
 import { Destination } from "../interfaces/Data";
 
 interface DestinationCardProps {
@@ -30,6 +31,8 @@ export default function DestinationCard({
     scrollNeeded: destination.places.length > 3,
   };
 
+  const cache = useCache();
+
   return (
     <div
       className="flex flex-col justify-between items-center w-[32%] bg-background pb-4 rounded-lg overflow-hidden"
@@ -43,12 +46,12 @@ export default function DestinationCard({
       >
         <div />
         <div className="flex flex-col items-start pl-4 py-3">
-          <h4 className="text-3xl font-medium text-white">
+          <h4 className="text-3xl font-medium text-white text-center">
             {destination.name}
           </h4>
-          <div className="text-xs text-white">
+          {/* <div className="text-xs text-white">
             (<span>{destination.rating} Rating )</span>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="bg-white flex flex-col items-center gap-y-4 justify-between flex-1">
@@ -67,20 +70,23 @@ export default function DestinationCard({
             <div className="flex flex-1 justify-between px-2">
               {destination.places
                 .slice(0 + placesCarouselPosition, 3 + placesCarouselPosition)
-                .map((place) => (
-                  <div
-                    className="flex flex-col gap-y-3 items-center"
-                    key={place.title}
-                  >
-                    <img
-                      src={place.thumbnail || place.imageUrl}
-                      className="w-20 rounded-full aspect-square bg-gray-300"
-                    />
-                    <p className="text-mute text-xs truncate w-16">
-                      {place.alias || place.title}
-                    </p>
-                  </div>
-                ))}
+                .map((placeId) => {
+                  const place = cache.getPlace(placeId);
+                  return (
+                    <div
+                      className="flex flex-col gap-y-3 items-center"
+                      key={place.id}
+                    >
+                      <img
+                        src={place.thumbnail || place.imageUrl}
+                        className="w-20 rounded-full aspect-square bg-gray-300"
+                      />
+                      <p className="text-mute text-xs truncate w-16">
+                        {place.alias || place.name}
+                      </p>
+                    </div>
+                  );
+                })}
             </div>
 
             {placesCarousel.scrollNeeded && (

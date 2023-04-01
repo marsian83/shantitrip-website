@@ -1,28 +1,41 @@
-export type Destination = {
+export interface Destination {
   id: number;
   name: string;
   imageUrl: string;
-  headline: string;
-  rating: number;
-  days: number;
-  people: string;
-  date: string;
-  budget: {
-    total?: number;
-    perPerson?: number;
-  } & ({ total: number } | { perPerson: number });
-  images: string[];
   description: string;
-  places: {
-    imageUrl: string;
-    thumbnail: string;
-    day?: string;
-    title: string;
-    description: string;
-    alias?: string;
-  }[];
+  places: number[];
+  trips: number[];
   geolocation?: {
     longitude: number;
     latitude: number;
   };
-};
+}
+
+export interface Place {
+  id: number;
+  name: string;
+  alias?: string;
+  description: string;
+  imageUrl: string;
+  thumbnail: string;
+}
+
+export interface Trip {
+  id: number;
+  name: string;
+  imageUrl: string;
+  decsription: string;
+  days: number;
+  people: string;
+  date: string;
+  budget: string;
+  images: string[];
+  itinerary: {
+    day: string;
+    places: number[];
+  }[];
+  itemsToCarry: { tile: string; description: string }[];
+  inclusions: string[];
+  exclusions: string[];
+  sthSpecials: string[];
+}
