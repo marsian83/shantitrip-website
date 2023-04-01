@@ -19,6 +19,10 @@ const navbarLinks = [
     title: "Collaborate",
     to: "/collaborate",
   },
+  {
+    title: "About Us",
+    to: "/about"
+  }
 ];
 
 export default function Navbar() {
@@ -43,17 +47,15 @@ export default function Navbar() {
     <>
       <nav
         className={`fixed top-0 left-0 w-screen p-page py-7 flex justify-between items-center z-[100] duration-500 border-b
-      ${
-        isNavFixed ? "bg-background border-front" : "bg-transparent border-back"
-      }`}
+      ${isNavFixed ? "bg-background border-front" : "bg-transparent border-back"
+          }`}
       >
         <Link to="/">
           <img
             src="/header.webp"
             alt="shantitrip logo"
-            className={`h-14 duration-500 ${
-              isNavFixed ? "" : "brightness-0 invert"
-            }`}
+            className={`h-14 duration-500 ${isNavFixed ? "" : "brightness-0 invert"
+              }`}
           />
         </Link>
         <div className="flex gap-x-8 items-center">
@@ -62,10 +64,9 @@ export default function Navbar() {
               key={item.title}
               to={item.to}
               className={({ isActive, isPending }) =>
-                `duration-500 ${isNavFixed ? "text-front" : "text-back"} ${
-                  isPending
-                    ? "cursor-not-allowed text-opacity-40"
-                    : isActive
+                `duration-500 ${isNavFixed ? "text-front" : "text-back"} ${isPending
+                  ? "cursor-not-allowed text-opacity-40"
+                  : isActive
                     ? "text-primary brightness-150 pointer-events-none"
                     : "hover:text-primary hover:saturate-200"
                 }`

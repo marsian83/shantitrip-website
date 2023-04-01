@@ -10,6 +10,7 @@ import Footer from "./common/Footer";
 import Navbar from "./common/Navbar";
 import HomePage from "./pages/HomePage/HomePage";
 import ItineraryPage from "./pages/ItineraryPage/ItineraryPage";
+import AboutUs from "./pages/AboutUsPage/AboutUs";
 
 export default function App() {
   const router = createBrowserRouter(
@@ -17,6 +18,8 @@ export default function App() {
       <Route path="/" element={<Root />}>
         <Route index element={<HomePage />} />
         <Route path="/trips" element={<ItineraryPage />} />
+        <Route path="/about" element={<AboutUs />} />
+
       </Route>
     )
   );
