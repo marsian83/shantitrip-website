@@ -4,6 +4,7 @@ import useCache from "../../contexts/cacheContext";
 import Hero from "./components/Hero";
 import Itinerary from "./components/Itinerary";
 import Map from "./components/Map";
+import Pictures from "./components/Pictures";
 
 export default function TripPage() {
   const { id } = useParams();
@@ -27,7 +28,7 @@ export default function TripPage() {
     {
       id: 2,
       title: "Pictures",
-      element: <div> lolpuppu</div>,
+      element: <Pictures pictures={trip.images} />,
     },
   ];
 

@@ -5,7 +5,6 @@ import {
   useEffect,
   useState,
 } from "react";
-import useFetch from "../hooks/useFetch";
 import { Destination, Place, Trip } from "../interfaces/Data";
 import { fetchJson } from "../utils";
 
