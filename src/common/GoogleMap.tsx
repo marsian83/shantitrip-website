@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 
 interface GoogleMapProps {
-  longitude: string;
-  latitude: string;
+  longitude: number | string;
+  latitude: number | string;
   className?: string;
 }
 

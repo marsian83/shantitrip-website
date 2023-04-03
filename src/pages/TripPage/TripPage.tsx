@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import useCache from "../../contexts/cacheContext";
 import Hero from "./components/Hero";
 import Itinerary from "./components/Itinerary";
+import Map from "./components/Map";
 
 export default function TripPage() {
   const { id } = useParams();
@@ -21,7 +22,7 @@ export default function TripPage() {
     {
       id: 1,
       title: "Map",
-      element: <div> lolmap</div>,
+      element: <Map latitude={32.1024} longitude={77.5619} />,
     },
     {
       id: 2,

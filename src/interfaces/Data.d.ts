@@ -34,7 +34,7 @@ export interface Trip {
     day: string;
     places: number[];
   }[];
-  itemsToCarry: { tile: string; description: string }[];
+  itemsToCarry: { title: string; description: string }[];
   inclusions: string[];
   exclusions: string[];
   sthSpecials: string[];
