@@ -14,6 +14,7 @@ import HomePage from "./pages/HomePage/HomePage";
 import ItineraryPage from "./pages/ItineraryPage/ItineraryPage";
 import TripPage from "./pages/TripPage/TripPage";
 import AboutUs from "./pages/AboutUsPage/AboutUs";
+import Collaborate from "./pages/Collaborate/Collaborate";
 
 export default function App() {
   const router = createBrowserRouter(
@@ -24,6 +25,7 @@ export default function App() {
         <Route path="/trips" element={<ItineraryPage />} />
         <Route path="/trips/:id" element={<TripPage />} />
         <Route path="/about" element={<AboutUs />} />
+        <Route path="/collaborate" element={<Collaborate />} />
       </Route>
     )
   );
