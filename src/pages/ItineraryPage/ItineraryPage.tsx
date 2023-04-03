@@ -21,7 +21,7 @@ export default function ItineraryPage() {
           Explore with us
         </h3>
 
-        {cache.destinationsLoading ? (
+        {false ? (
           <div className="flex justify-center mt-24">
             <div className="border-[5px] border-[#00000033] border-r-primary w-48 h-48 rounded-full animate-spin" />
           </div>
