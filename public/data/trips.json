@@ -35,7 +35,20 @@
         "day": "day5",
         "places": [0, 1, 2, 3]
       }
-    ]
+    ],
+    "itemsToCarry": [
+      {
+        "title": "safety bag",
+        "description": "Carry for safety as it would be important and you will need it"
+      },
+      {
+        "title": "Umbrella",
+        "description": "It might rain in mountains so to avoid madness please carry along an umbreall"
+      }
+    ],
+    "inclusions": ["asd", "asd"],
+    "exclusions": ["", ""],
+    "sthSpecial": ["", ""]
   },
   {
     "id": 1,
@@ -59,21 +72,34 @@
       },
       {
         "day": "day2",
-        "places": [2, 3]
+        "places": [0, 1, 2, 3]
       },
       {
         "day": "day3",
-        "places": [3]
+        "places": [0, 1, 2, 3]
       },
       {
         "day": "day4",
-        "places": [2, 3]
+        "places": [0, 1, 2, 3]
       },
       {
         "day": "day5",
-        "places": [0, 1]
+        "places": [0, 1, 2, 3]
       }
-    ]
+    ],
+    "itemsToCarry": [
+      {
+        "title": "safety bag",
+        "description": "Carry for safety as it would be important and you will need it"
+      },
+      {
+        "title": "Umbrella",
+        "description": "It might rain in mountains so to avoid madness please carry along an umbreall"
+      }
+    ],
+    "inclusions": ["asd", "asd"],
+    "exclusions": ["", ""],
+    "sthSpecial": ["", ""]
   },
   {
     "id": 2,
@@ -93,7 +119,7 @@
     "itinerary": [
       {
         "day": "day1",
-        "places": [0, 1, 2, 3]
+        "places": [0]
       },
       {
         "day": "day2",
@@ -111,44 +137,19 @@
         "day": "day5",
         "places": [0, 1, 2, 3]
       }
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Mountain Madness",
-    "imageUrl": "https://imgs.search.brave.com/kPI80y1hLkwsZsmxItNeW_HkSHiOl9dInlK8Wgko1-s/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC52/UzBobnZnMDVybXp6/S2Nqb01BYWZBSGFF/OCZwaWQ9QXBp",
-    "decsription": "Welcome to the ultimate adventure getaway to Manali and Tirthan Valley! This trip, designed for 7 people, is aptly titled Mountain Madness. We will take you to two destinations nestled in the lap of the Himalayas offering an unparalleled blend of scenic beauty, adventure, and cultural experiences that will leave you spellbound.",
-    "days": 8,
-    "people": "7-8 people",
-    "date": "June-July",
-    "budget": "12000 /-",
-    "images": [
-      "https://imgs.search.brave.com/XnZUrBPEpaI1isoO1xgT2vNRFbbGh4Ixu0zrnf9BH6s/rs:fit:713:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5G/X1NTVkpSMHJyek9T/MWRVRkF0VzNBSGFF/NyZwaWQ9QXBp",
-      "https://imgs.search.brave.com/rKxesebrwh8rfgnbIJwwvZZOO5TLY3Skmkx-AiRi9-Q/rs:fit:948:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5s/VE9lMnc1Q0J2Yk92/WVlHREp4R0tRSGFE/dCZwaWQ9QXBp",
-      "https://imgs.search.brave.com/6LOANmc2obeMcn8McREaNxCFxw15eUwbWniPPRhiHoE/rs:fit:759:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC54/Qkl5QlhlV3k5dVpE/dFEzcjNTYldBSGFF/byZwaWQ9QXBp",
-      "https://imgs.search.brave.com/BU6K6XJz_rryEy9aURy04bX4yvvek-_9g6YeV-DMK3M/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5i/Zk5oVmpld0FMcE10/ZjY2c2VWRjhBSGFF/SyZwaWQ9QXBp"
     ],
-    "itinerary": [
+    "itemsToCarry": [
       {
-        "day": "day1",
-        "places": [0, 1, 2, 3]
+        "title": "safety bag",
+        "description": "Carry for safety as it would be important and you will need it"
       },
       {
-        "day": "day2",
-        "places": [0, 1, 2, 3]
-      },
-      {
-        "day": "day3",
-        "places": [0, 1, 2, 3]
-      },
-      {
-        "day": "day4",
-        "places": [0, 1, 2, 3]
-      },
-      {
-        "day": "day5",
-        "places": [0, 1, 2, 3]
+        "title": "Umbrella",
+        "description": "It might rain in mountains so to avoid madness please carry along an umbreall"
       }
-    ]
+    ],
+    "inclusions": ["asd", "asd"],
+    "exclusions": ["", ""],
+    "sthSpecial": ["", ""]
   }
 ]
