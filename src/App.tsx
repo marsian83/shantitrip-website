@@ -14,11 +14,8 @@ import DestinationsPage from "./pages/DestinationsPage/DestinationsPage";
 import HomePage from "./pages/HomePage/HomePage";
 import TripPage from "./pages/TripPage/TripPage";
 import AboutUs from "./pages/AboutUsPage/AboutUs";
-<<<<<<< HEAD
 import ContactPage from "./pages/ContactPage/ContactPage";
-=======
 import Collaborate from "./pages/Collaborate/Collaborate";
->>>>>>> 3c155a9256c3c4e42d2e597d8646b8d091ba5e59
 
 export default function App() {
   const router = createBrowserRouter(
@@ -29,11 +26,8 @@ export default function App() {
         <Route path="/trips" element={<div />} />
         <Route path="/trips/:id" element={<TripPage />} />
         <Route path="/about" element={<AboutUs />} />
-<<<<<<< HEAD
         <Route path="/contact" element={<ContactPage />} />
-=======
         <Route path="/collaborate" element={<Collaborate />} />
->>>>>>> 3c155a9256c3c4e42d2e597d8646b8d091ba5e59
       </Route>
     )
   );

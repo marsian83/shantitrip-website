@@ -69,19 +69,46 @@ export default function Info() {
         referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
       <div
-        className={`absolute w-1/2 right-0 top-0 h-full bg-background z-[2] duration-700 flex flex-col p-10 justify-evenly ${
+        className={`absolute w-1/2 right-0 top-0 h-full bg-background z-[2] duration-700 flex flex-col p-10 justify-evenly items-center ${
           showingForm ? "" : "translate-x-full"
         }`}
       >
         <button
-          className="w-max self-end"
+          className="w-max self-end absolute top-0"
           onClick={() => {
             setShowingForm(false);
           }}
         >
-          <span className="material-icons text-6xl text-primary">&#xe5cd;</span>
+          <span className="material-icons text-6xl text-primary rounded-full duration-300 hover:bg-primary hover:text-back">
+            &#xe5cd;
+          </span>
         </button>
-        <form className="bg-front bg-opacity-50" action=""></form>
+        <form
+          className="bg-front rounded-xl bg-opacity-[15%] py-8 px-6 w-3/4 flex flex-col gap-y-5 items-center"
+          action=""
+        >
+          <input
+            type="text"
+            name="name"
+            className="border-0 outline-none bg-transparent text-front border-b border-front placeholder:text-front py-2 w-full"
+            placeholder="Enter Your Name"
+          />
+          <input
+            type="text"
+            name="email"
+            className="border-0 outline-none bg-transparent text-front border-b border-front placeholder:text-front py-2 w-full"
+            placeholder="Enter Your Email"
+          />
+          <textarea
+            name="message"
+            rows={4}
+            className="border-0 outline-none bg-transparent text-front border-b border-front placeholder:text-front py-2 w-full"
+          ></textarea>
+          <button className="btn-1 w-max flex items-center">
+            Send Message
+            <span className="material-icons">&#xe163;</span>
+          </button>
+        </form>
       </div>
     </section>
   );
