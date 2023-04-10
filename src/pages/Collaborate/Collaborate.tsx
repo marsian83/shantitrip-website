@@ -17,12 +17,12 @@ function Collaborate() {
       <section className="p-page flex flex-row justify-around items-center mb-20">
         <div className="flex flex-row gap-x-6">
           <div className="flex flex-col gap-y-6 mt-20">
-            <img src="/public/images/collaborate/1.png" alt="1.png" />
-            <img src="/public/images/collaborate/2.png" alt="2.png" />
+            <img src="/images/collaborate/1.png" alt="1.png" />
+            <img src="/images/collaborate/2.png" alt="2.png" />
           </div>
           <div className="flex flex-col gap-y-6">
-            <img src="/public/images/collaborate/3.png" alt="3.png" />
-            <img src="/public/images/collaborate/4.png" alt="4.png" />
+            <img src="/images/collaborate/3.png" alt="3.png" />
+            <img src="/images/collaborate/4.png" alt="4.png" />
           </div>
         </div>
         <div className="flex flex-col gap-y-4 basis-[40%]">
