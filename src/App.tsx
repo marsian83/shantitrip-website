@@ -32,9 +32,17 @@ export default function App() {
     )
   );
 
+  const cache = useCache();
+
   return (
     <div className="App">
-      <RouterProvider router={router} />
+      {!cache.loading ? (
+        <RouterProvider router={router} />
+      ) : (
+        <div className="flex h-screen justify-center items-center italic text-5xl font-medium font-raleway">
+          Loading...
+        </div>
+      )}
     </div>
   );
 }
