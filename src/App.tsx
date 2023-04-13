@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 import Footer from "./common/Footer";
 import Navbar from "./common/Navbar";
-import useCache from "./contexts/cacheContext";
+import useCache, { CacheProvider } from "./contexts/cacheContext";
 import DestinationsPage from "./pages/DestinationsPage/DestinationsPage";
 import HomePage from "./pages/HomePage/HomePage";
 import TripPage from "./pages/TripPage/TripPage";
@@ -45,15 +45,17 @@ function Root() {
   return (
     <main className="relative">
       <div className="App">
-        <Navbar />
-        {!cache.loading ? (
-          <Outlet />
-        ) : (
-          <div className="flex h-screen justify-center items-center italic text-5xl font-medium font-raleway">
-            Loading...
-          </div>
-        )}
-        <Footer />
+        <CacheProvider>
+          <Navbar />
+          {!cache.loading ? (
+            <Outlet />
+          ) : (
+            <div className="flex h-screen justify-center items-center italic text-5xl font-medium font-raleway">
+              Loading...
+            </div>
+          )}
+          <Footer />
+        </CacheProvider>
       </div>
     </main>
   );
