@@ -45,17 +45,15 @@ function Root() {
   return (
     <main className="relative">
       <div className="App">
+        <Navbar />
         {!cache.loading ? (
-          <>
-            <Navbar />
-            <Outlet />
-            <Footer />
-          </>
+          <Outlet />
         ) : (
           <div className="flex h-screen justify-center items-center italic text-5xl font-medium font-raleway">
             Loading...
           </div>
         )}
+        <Footer />
       </div>
     </main>
   );
