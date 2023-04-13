@@ -32,19 +32,7 @@ export default function App() {
     )
   );
 
-  const cache = useCache();
-
-  return (
-    <div className="App">
-      {!cache.loading ? (
-        <RouterProvider router={router} />
-      ) : (
-        <div className="flex h-screen justify-center items-center italic text-5xl font-medium font-raleway">
-          Loading...
-        </div>
-      )}
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 function Root() {
@@ -52,11 +40,23 @@ function Root() {
     window.scrollTo({ top: 0 });
   }, [useParams()]);
 
+  const cache = useCache();
+
   return (
     <main className="relative">
-      <Navbar />
-      <Outlet />
-      <Footer />
+      <div className="App">
+        {!cache.loading ? (
+          <>
+            <Navbar />
+            <Outlet />
+            <Footer />
+          </>
+        ) : (
+          <div className="flex h-screen justify-center items-center italic text-5xl font-medium font-raleway">
+            Loading...
+          </div>
+        )}
+      </div>
     </main>
   );
 }
