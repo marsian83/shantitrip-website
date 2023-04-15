@@ -4,8 +4,8 @@
     "name": "Kasol",
     "imageUrl": "https://imgs.search.brave.com/aR9Bnbu3zSs43kgYSmgc5P6F7ugBumtRGatAmQUilMs/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC52/Qm5wWUQ1d213djVu/RG1UYjNYTlhnSGFF/OCZwaWQ9QXBp",
     "description": "Kasol is a small village in Himachal Pradesh, situated along the banks of the Parvati River. The scenic beauty of this place is mesmerizing. It is a popular destination for backpackers and trekkers, and is also known for its vibrant hippie culture.",
-    "places": [0, 1, 2, 3],
-    "trips": [],
+    "places": [0, 4, 60, 61, 62],
+    "trips": [0, 3],
     "geolocation": {
       "longitude": 77.3167,
       "latitude": 32.009
@@ -13,33 +13,69 @@
   },
   {
     "id": 1,
-    "name": "Manali",
-    "imageUrl": "https://imgs.search.brave.com/4wmMpZfdRE-nvSVaQo51CxK4-ONJDYi-6oFMPzTEFSA/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC52/RG94cnoyd2VyMEV4/R0thSHItUVhRSGFI/YSZwaWQ9QXBp",
-    "description": "Manali is a beautiful hill station located in the Indian state of Himachal Pradesh. It is known for its scenic beauty and adventure sports. The town is situated at an altitude of 2050 meters above sea level and is surrounded by snow-capped peaks and dense forests. Manali is also famous for its ancient temples and hot springs.",
-    "places": [0, 1, 2, 3],
-    "trips": [],
+    "name": "Kheerganga",
+    "imageUrl": "https://campgangavatika.com/blog/wp-content/uploads/2022/01/kheerganga.jpg",
+    "description": "Kheerganga is a pristine and picturesque destination nestled in the Parvati Valley of Himachal Pradesh, India. It's famous for its natural hot springs that are believed to have therapeutic properties. The trek to Kheerganga takes you through dense forests, scenic landscapes, and gushing streams, offering an adventure-filled experience. Once you reach the top, you can soak in the warm, healing waters of the hot springs and revel in the breathtaking views of the Himalayas, making it a popular destination among trekkers and nature enthusiasts alike.",
+    "places": [1, 2, 3],
+    "trips": [0],
     "geolocation": {
-      "longitude": 77.1734,
-      "latitude": 32.2396
+      "longitude": 77.4163,
+      "latitude": 32.0148
     }
   },
   {
     "id": 2,
     "name": "Spiti",
-    "imageUrl": "https://imgs.search.brave.com/N1loCVp74fzNhZ1wpBAer_SQ7KzblVHNbEcOwPBCbzA/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5t/R3pnUnEwWm5GWkVG/bEhYTU8wcl9BSGFF/OCZwaWQ9QXBp",
-    "description": "Located in the high Himalayas of Himachal Pradesh, Spiti is a remote and rugged valley known for its stark landscapes, ancient monasteries, and unique culture. Visitors can explore the breathtaking scenery, trek through high-altitude mountain passes, and visit traditional Tibetan villages.",
-    "places": [0, 1, 2, 3],
-    "trips": [],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Spiti_River_Kaza_Himachal_Jun18_D72_7232.jpg/1200px-Spiti_River_Kaza_Himachal_Jun18_D72_7232.jpg",
+    "description": "Spiti Valley is a remote high-altitude desert nestled in the Himalayas of northern India. It's known for its stark mountains, pristine rivers, and ancient Buddhist monasteries, offering awe-inspiring landscapes and a unique cultural heritage. With its rugged terrain and serene aura, Spiti Valley is a destination that leaves travelers captivated by its breathtaking beauty and authentic charm.",
+    "places": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46],
+    "trips": [1],
     "geolocation": {
-      "longitude": 77.582,
-      "latitude": 32.251
+      "longitude": 78.0176,
+      "latitude": 32.3228
     }
   },
   {
     "id": 3,
-    "name": "Sissu",
-    "imageUrl": "https://imgs.search.brave.com/LkmrEY8-mTd8r1Kp3EZD9n3bVStCEjCOcgLJO1qH6Bw/rs:fit:632:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5C/RlJnV3NXbGFjZ04y/X3Btb0xVeEZ3SGFG/aiZwaWQ9QXBp",
-    "description": "Sissu is a small village in the Lahaul Valley of Himachal Pradesh. It is situated at an altitude of 3120 meters and is surrounded by snow-capped mountains, lush green forests, and crystal-clear streams. The place is ideal for trekking and camping, and offers some of the most spectacular views of the Himalayas.",
+    "name": "Sar Pass",
+    "imageUrl": "https://admin.banbanjara.com/public/frontend/uploads/product/1583487125495-familytrekkingsarpass.jpg",
+    "description": "Sar Pass Trek is an exhilarating mountain journey located in the Kullu district of Himachal Pradesh, India. This trek is known for its stunning views of the Himalayas, and its challenging terrain. Visitors come to Sar Pass Trek to appreciate its natural beauty, explore its rich culture, and take part in its thrilling adventures.",
+    "places": [0, 47, 48, 49, 50, 51, 52, 53, 54, 55],
+    "trips": [2],
+    "geolocation": {
+      "longitude": 77.3825,
+      "latitude": 32.0081
+    }
+  },
+  {
+    "id": 4,
+    "name": "Tirthan",
+    "imageUrl": "https://en-media.thebetterindia.com/uploads/2016/06/454282226Kullu_Tirthan_Valley_Main.jpg",
+    "description": "Tirthan is a picturesque valley located in the Himachal Pradesh region of India. It is known for its pristine river, lush green forests, and serene surroundings, making it a popular destination for nature lovers and adventure enthusiasts alike. The valley is dotted with charming villages, apple orchards, and trekking trails, making it an ideal getaway for those seeking peace and tranquility in the lap of nature.",
+    "places": [56, 57, 58],
+    "trips": [3],
+    "geolocation": {
+      "longitude": 77.4747,
+      "latitude": 31.5917
+    }
+  },
+  {
+    "id": 5,
+    "name": "Manali",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Manali_Mountains.jpg/1200px-Manali_Mountains.jpg",
+    "description": "Manali is a popular hill station nestled in the Kullu Valley of Himachal Pradesh. It is known for its scenic beauty, pleasant weather, and adventurous activities, making it a favored tourist destination throughout the year. The town offers a mix of natural beauty, cultural attractions, and adventure sports like paragliding, river rafting, and skiing. With its vibrant atmosphere and stunning surroundings, Manali has something to offer for every type of traveler.",
+    "places": [63, 64, 65],
+    "trips": [3],
+    "geolocation": {
+      "longitude": 77.1887,
+      "latitude": 32.2396
+    }
+  },
+  {
+    "id": 6,
+    "name": "",
+    "imageUrl": "",
+    "description": "",
     "places": [1, 2, 3],
     "trips": [],
     "geolocation": {

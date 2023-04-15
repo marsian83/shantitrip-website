@@ -1,13 +1,13 @@
 [
   {
     "id": 0,
-    "name": "Mountain Madness",
-    "imageUrl": "https://imgs.search.brave.com/kPI80y1hLkwsZsmxItNeW_HkSHiOl9dInlK8Wgko1-s/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC52/UzBobnZnMDVybXp6/S2Nqb01BYWZBSGFF/OCZwaWQ9QXBp",
-    "decsription": "Welcome to the ultimate adventure getaway to Manali and Tirthan Valley! This trip, designed for 7 people, is aptly titled Mountain Madness. We will take you to two destinations nestled in the lap of the Himalayas offering an unparalleled blend of scenic beauty, adventure, and cultural experiences that will leave you spellbound.",
-    "days": 8,
-    "people": "7-8 people",
+    "name": "Trailblazers",
+    "imageUrl": "https://imgcld.yatra.com/ytimages/image/upload/t_ann_trip_banner_xlarge/v1517481022/AdvNation/ANN_TRP637/kasol-to-kheerganga-trek_1476339728_ldi6EW.jpg",
+    "decsription": "Sitting gracefully in the heavenly Parvati Valley of Himachal Pradesh, lie many hidden gems that promise to rejuvenate your soul and soothe your senses. This 2 Night/3 Day package, beautifully designed by ShantiTrip Holidays, welcomes you to Kasol and Kheerganga. These destinations are perfect for those seeking an escape from the chaos, loud hustle and bustle of city life. With its breathtaking views of snow-capped mountains, glistening rivers, and lush green forests, these splendid destinations are a paradise for nature lovers and adventure enthusiasts alike. Camping in the Parvati Valley will bring you closer to nature, and help you unwind amidst the breathtaking views. Kasol and Kheerganga offer an unforgettable experience that will leave you feeling refreshed and reinvigorated, and we are sure you will come back for more! So, pack your bags, and get ready for the Himalayan Peace Expedition to calm your mind & heart.",
+    "days": 3,
+    "people": "Group",
     "date": "June-July",
-    "budget": "12000 /-",
+    "budget": "3,300/- per person",
     "images": [
       "https://imgs.search.brave.com/XnZUrBPEpaI1isoO1xgT2vNRFbbGh4Ixu0zrnf9BH6s/rs:fit:713:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5G/X1NTVkpSMHJyek9T/MWRVRkF0VzNBSGFF/NyZwaWQ9QXBp",
       "https://imgs.search.brave.com/rKxesebrwh8rfgnbIJwwvZZOO5TLY3Skmkx-AiRi9-Q/rs:fit:948:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5s/VE9lMnc1Q0J2Yk92/WVlHREp4R0tRSGFE/dCZwaWQ9QXBp",
@@ -16,74 +16,378 @@
     ],
     "itinerary": [
       {
-        "day": "day1",
+        "day": "Day 1",
         "places": [0]
       },
       {
-        "day": "day2",
-        "places": [0, 1, 2, 3]
+        "day": "Day 2",
+        "places": [1, 2]
       },
       {
-        "day": "day3",
-        "places": [0, 1, 2, 3]
-      },
-      {
-        "day": "day4",
-        "places": [0, 1, 2, 3]
-      },
-      {
-        "day": "day5",
-        "places": [0, 1, 2, 3]
+        "day": "Day 3",
+        "places": [3, 4]
       }
     ],
     "itemsToCarry": [
       {
-        "title": "safety bag",
-        "description": "Carry for safety as it would be important and you will need it"
+        "title": "Warm Clothes",
+        "description": "Himachal Pradesh can get quite chilly, even in the summer months, so make sure to pack warm clothes such as jackets, sweaters, and thermal wear."
       },
       {
-        "title": "Umbrella",
-        "description": "It might rain in mountains so to avoid madness please carry along an umbreall"
+        "title": "Comfortable Shoes",
+        "description": "Because you’ll be doing a lot of walking and hiking, bring a comfortable pair of shoes that will provide good support."
+      },
+      {
+        "title": "Sunscreen",
+        "description": "Even though it may be cold, the sun can still be strong in the mountains, so don't forget to pack sunscreen."
+      },
+      {
+        "title": "Camera",
+        "description": "The natural beauty of Himachal Pradesh is truly breathtaking, so make sure to capture those moments with a good camera."
+      },
+      {
+        "title": "Power Bank",
+        "description": "Don't let your phone run out of battery when you need it most, bring a power bank to keep it charged."
+      },
+      {
+        "title": "Medicines",
+        "description": "Bring any necessary medications and a basic first aid kit just in case of emergencies."
+      },
+      {
+        "title": "Cash",
+        "description": "While there are ATMs in the major towns and cities, it's always a good idea to have some cash on hand for smaller purchases."
+      },
+      {
+        "title": "Map or GPS",
+        "description": "If you plan on doing some driving, bring a map or GPS device to help you navigate the winding mountain roads."
+      },
+      {
+        "title": "Water Bottle:",
+        "description": "Staying hydrated is important, especially at high altitudes, so bring a reusable water bottle."
+      },
+      {
+        "title": "Books or E-Reader",
+        "description": "If you enjoy reading while relaxing and taking in the scenery, bring a book or e-reader."
       }
     ],
-    "inclusions": ["asd", "asd"],
-    "exclusions": ["", ""],
-    "sthSpecial": ["", ""]
+    "inclusions": ["Stay arrangements : Camps at both locations", "Food arrangements : MAP meal plan (Breakfast & Dinner)"],
+    "exclusions": ["Please note that any expenses incurred due to factors beyond our control, such as flight cancellations, natural calamities, etc., will be borne by the guests.", "Any costs in case of an emergency.","Any personal expenses.","Any costs not mentioned in the Inclusions."],
+    "sthSpecial": []
   },
   {
     "id": 1,
-    "name": "Mountain Madness",
-    "imageUrl": "https://imgs.search.brave.com/kPI80y1hLkwsZsmxItNeW_HkSHiOl9dInlK8Wgko1-s/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC52/UzBobnZnMDVybXp6/S2Nqb01BYWZBSGFF/OCZwaWQ9QXBp",
-    "decsription": "Welcome to the ultimate adventure getaway to Manali and Tirthan Valley! This trip, designed for 7 people, is aptly titled Mountain Madness. We will take you to two destinations nestled in the lap of the Himalayas offering an unparalleled blend of scenic beauty, adventure, and cultural experiences that will leave you spellbound.",
-    "days": 8,
-    "people": "7-8 people",
+    "name": "An Expedition",
+    "imageUrl": "https://static.toiimg.com/photo/msid-86611008,width-96,height-65.cms",
+    "decsription": "Are you in search of a breathtaking adventure that takes you through some of the most stunning landscapes in India? If yes, then look no further! ShantiTrip Holidays has designed the perfect package “Himalayan Heights - A Spiti Expedition” that will take you through Shimla, Kaza, Chandra Taal, Spiti, Manali. This 6 Nights, 7 Day journey specially designed for 5 people will shower you with unforgettable memories of these breathtaking destinations in the Himalayas. The stay at each of these destinations will give you a taste of the unique charm and appeal of these places. During this trip, you will get to explore the colonial charm of Shimla, full of awe-inspiring architecture and stunning views. From there, we'll head to Kaza, nestled in the heart of the Spiti Valley, where we'll discover a world of ancient monasteries, rugged landscapes, and vibrant culture of the locals. Chandra Taal, also called the Lake of the Moon, and aptly so, will be your next destination on this journey. This shimmering lake sits gracefully in the heart of the Himalayas, and it is surrounded by snow-capped peaks and untouched wilderness. Here, you will truly feel closer to nature, and be a part of some truly unforgettable experiences. The last destination of this trip, Manali, is a charming town located in the Kullu District. Known for its winding streets, cosy cafes, and stunning scenery, Manali is the perfect place to unwind and drown in the incredible experiences you will have had on this journey. So, pack your bags and get ready for this once in a lifetime adventure!",
+    "days": 7,
+    "people": "Group of 5",
     "date": "June-July",
-    "budget": "12000 /-",
+    "budget": "19,500/- per person",
     "images": [
-      "https://imgs.search.brave.com/XnZUrBPEpaI1isoO1xgT2vNRFbbGh4Ixu0zrnf9BH6s/rs:fit:713:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5G/X1NTVkpSMHJyek9T/MWRVRkF0VzNBSGFF/NyZwaWQ9QXBp",
-      "https://imgs.search.brave.com/rKxesebrwh8rfgnbIJwwvZZOO5TLY3Skmkx-AiRi9-Q/rs:fit:948:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5s/VE9lMnc1Q0J2Yk92/WVlHREp4R0tRSGFE/dCZwaWQ9QXBp",
-      "https://imgs.search.brave.com/6LOANmc2obeMcn8McREaNxCFxw15eUwbWniPPRhiHoE/rs:fit:759:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC54/Qkl5QlhlV3k5dVpE/dFEzcjNTYldBSGFF/byZwaWQ9QXBp",
-      "https://imgs.search.brave.com/BU6K6XJz_rryEy9aURy04bX4yvvek-_9g6YeV-DMK3M/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5i/Zk5oVmpld0FMcE10/ZjY2c2VWRjhBSGFF/SyZwaWQ9QXBp"
+      "https://im.indiatimes.in/content/2022/Feb/toy-train_6200ebad65d3e.jpg?w=1200&h=900&cc=1",
+      "https://s3.india.com/travel/wp-content/uploads/2017/12/Kaza-monastery-photo.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Chandratal_1.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/0/03/Manali_City.jpg"
     ],
     "itinerary": [
       {
-        "day": "day1",
+        "day": "Day 1",
+        "places": [4, 5, 6, 7, 8, 9, 10, 11]
+      },
+      {
+        "day": "Day 2",
+        "places": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+      },
+      {
+        "day": "Day 3",
+        "places": [22, 23, 24, 25, 26]
+      },
+      {
+        "day": "Day 4",
+        "places": [27, 28, 29, 30, 31, 32]
+      },
+      {
+        "day": "Day 5",
+        "places": [33, 34]
+      },
+      {
+        "day": "Day 6",
+        "places": [35, 36, 37, 38, 39, 40, 41]
+      },
+      {
+        "day": "Day 7",
+        "places": [42, 43, 44, 45, 46]
+      }
+    ],
+    "itemsToCarry": [
+      {
+        "title": "Warm clothing:",
+        "description": "The weather in these areas can be quite cold, so make sure to pack warm clothes like jackets, gloves, and hats."
+      },
+      {
+        "title": "Trekking shoes",
+        "description": "You will need comfortable and sturdy shoes for trekking or hiking in these areas."
+      },
+      {
+        "title": "Sunscreen and sunglasses",
+        "description": "The sun can be intense at high altitudes, so it's important to protect your skin and eyes."
+      },
+      {
+        "title": "Water bottle",
+        "description": "Staying hydrated is crucial, so bring a refillable water bottle"
+      },
+      {
+        "title": "First aid kit:",
+        "description": "Carry a small first aid kit with essentials like painkillers, band-aids, and antiseptic cream."
+      },
+      {
+        "title": "Portable charger",
+        "description": "To keep your phone and other electronic devices charged on the go, bring a portable charger."
+      },
+      {
+        "title": "Camera",
+        "description": "The landscapes in these areas are stunning, so bring a camera to capture memories."
+      },
+      {
+        "title": "Snacks",
+        "description": "While there are plenty of food options available, it's always a good idea to carry some snacks like energy bars or dry fruits."
+      },
+      {
+        "title": "Cash",
+        "description": "There might not be many ATMs or card payment options available in remote areas, so carry enough cash."
+      },
+      {
+        "title": "Maps and guidebooks",
+        "description": "It's always useful to have a map or guidebook handy to navigate and explore the areas."
+      }
+    ],
+    "inclusions": ["Pickup & Drop (Chandigarh, Chandigarh)", "Welcome Drink on Arrival","All sightseeing by car","Transfers: Destination-Hotel-Destination","Sight-seeing as per tour itinerary","All toll taxes, parking fees and driver's allowance","Taxes, excluding GST"],
+    "exclusions": ["Charges for early Check-In & late Check-Out at Hotel", "Rohtang Pass Charges", "Lunch & Snacks", "Air fare/ train fare", "Monuments Entrance fees during sightseeing", "Camera Charges/Rides etc.", "Any other item not specified in the Package Inclusions", "5% Goods And Services Tax(GST)"],
+    "sthSpecial": []
+  },
+  {
+    "id": 2,
+    "name": "The Trek",
+    "imageUrl": "https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,q_auto/v1/filestore/65243qo4qtvoy32pn1cd8wtonr9d_shutterstock_1844223580.jpg",
+    "decsription": "SAR means Lake in the local language, this trek designed by ShantiTrip Holidays, and this trek will take you to Sar Pass, which lies at an altitude of 13,816 feet is named Sar Pass because you have to PASS by a glacial Lake “Sar”. It lies in Parvati valley of Himachal Pradesh and the starting point of this trek is Kasol/Pulga village. This trek is a classic choice for those who want to explore a variety of terrain all in one trek. This trail provides trekkers with a range of experiences, including navigating through forests, meadows, quaint villages, and taking in the beauty of snow-covered mountai ",
+    "days": 5,
+    "people": "Minimum 30",
+    "date": "June-July",
+    "budget": "5299/- per person",
+    "images": [
+      "https://www.kashmirnewsobserver.com/userfiles/image/s_637632303479616586_3EBA2A35-9AA6-49F4-9AB1-02B8EA996145.jpeg",
+      "https://www.tripsavvy.com/thmb/leZ1_SIT6R_7DS38pBLEWVtDOpQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/colorful-local-houses-in-manikaran--india-1279673359-de430befbb0947d3b76d3c0c95916d6b.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3f/Manikaran.jpg",
+      "https://rgyan-flutter200503-dev.s3.ap-south-1.amazonaws.com/public/pg-content/uploads/2018-02/manikaran-temple.jpg"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "places": [0, 47]
+      },
+      {
+        "day": "Day 2",
+        "places": [48, 49]
+      },
+      {
+        "day": "Day 3",
+        "places": [50]
+      },
+      {
+        "day": "Day 4",
+        "places": [51]
+      },
+      {
+        "day": "Day 5",
+        "places": [52, 53, 54, 55]
+      }
+    ],
+    "itemsToCarry": [
+      {
+        "title": "Trekking shoes",
+        "description": "Carry waterproof trekking shoes with good grip and ankle support. Do not carry sports shoes."
+      },
+      {
+        "title": "Three layers of warm clothes",
+        "description": "Carry two or three-layer jackets, fleece jackets and a padded jacket."
+      },
+      {
+        "title": "Two/Three trek pants",
+        "description": "Carry light cotton trek pants. Denim/jeans and shorts are not suitable for trekking. "
+      },
+      {
+        "title": "Three t-shirts (collared/dryfit)",
+        "description": ": Full sleeved t-shirts that prevent sun burns on the neck and arms. Carry one or two dry-fit t-shirts. "
+      },
+      {
+        "title": "Thermals",
+        "description": "Carry thermals (top and bottom). "
+      },
+      {
+        "title": "Sunglasses",
+        "description": "Sunglasses are mandatory. There will be a lot of snow on the trek and sunlight reflecting from the snow can make it very difficult to see."
+      },
+      {
+        "title": "Cap",
+        "description": "At high altitude, the sun is extra harsh so carry a cap to protect yourself."
+      },
+      {
+        "title": "Water proof hand gloves",
+        "description": "Carry water proof gloves and avoid woollen gloves as they will get wet if you touch snow. "
+      },
+      {
+        "title": "Socks (3-4 pairs) and a pair of woollen socks",
+        "description": "Apart from two sports socks, you can take a pair of woollen socks for the night. "
+      },
+      {
+        "title": "Headlamp/LED torch",
+        "description": "Mandatory"
+      },
+      {
+        "title": "Raincoat/Ponchos",
+        "description": "At high altitudes, snowfall and rain are quite common and it’s mandatory to carry a poncho so that you don’t get wet. The trek will continue as planned even during rainfall. "
+      },
+      {
+        "title": "Lunch box and water bottle",
+        "description": "Every participant should have their personal lunch box and a water bottle [insulated t "
+      }
+    ],
+    "inclusions": ["A professional photographer who will accompany you throughout the trip with arrangements for camera recordings of your trek activities, individual photo-shoots at 14000 ft, personal video and photo data for reels and social media posts after the trek. ", "Herbal drinks and cookies to give you that boost of energy for the trek.", "It is important to eat light energising food during the trek. The food served will include bread sandwiches, Poha, and special homemade chutneys that will give your taste buds a refreshing sting to keep you active throughout the whole trek. ", "There are 6 different coloured lakes beyond the Sar Pass top, if weather permits, a visit to see the different shades of water can be made. But, going beyond the Sar Pass top demands extra precautions and care- which is why most trek companies do not allow going beyond the t "],
+    "exclusions": ["Transportation and food to and from the base camp.", "Backpack offloading charges.", "Any personal expenses.", "Costs in case of emergency."],
+    "sthSpecial": []
+  },
+  {
+    "id": 3,
+    "name": "The Mountain Escapade",
+    "imageUrl": "https://en-media.thebetterindia.com/uploads/2016/06/454282226Kullu_Tirthan_Valley_Main.jpg",
+    "decsription": "Are you ready to escape the mundane and experience the ultimate mountain adventure? If yes then this trip designed for 5 people is made for you, so, pack your bags and get ready to explore the breathtaking beauty of Himachal Pradesh - the land of snow-capped mountains, lush green valleys, and serene landscapes. As you embark on this thrilling journey, be prepared to get awestruck by the natural beauty that surrounds you at every turn. Whether you're an adventure seeker looking for an adrenaline rush or a nature lover seeking serenity, Himachal has something to offer for everyone. From experiencing the heavenly view of Tirthan Valley, relaxing & basking near the Parvati River in Kasol, to exploring the rich cultural heritage of Manali and indulging in mouth-watering Himachali cuisine, this mountain escapade promises to be an unforgettable experience. So, get ready to breathe in the fresh mountain air, soak in the stunning scenery, and make memories that will last a lifetime on this fun-filled adventure to Himachal Pradesh! ",
+    "days": 7,
+    "people": "5 people",
+    "date": "June-July",
+    "budget": "17,500/- per person",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/de/The_Moonlit_Parvati_River_flowing_beside_the_Kasol_Town%2C_Himachal_Pradesh.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/03/Manali_City.jpg",
+      "https://himalayansaga.com/wp-content/uploads/2022/03/tirthan.jpg",
+      "https://hblimg.mmtcdn.com/content/hubble/img/kasol/mmt/destination/m_destination-kasol-landscape_l_400_640.jpg"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "places": [56]
+      },
+      {
+        "day": "Day 2",
+        "places": [57, 58]
+      },
+      {
+        "day": "Day 3",
+        "places": [0, 59]
+      },
+      {
+        "day": "Day 4",
+        "places": [60, 61, 62]
+      },
+      {
+        "day": "Day 5",
+        "places": [63, 53]
+      },
+      {
+        "day": "Day 6",
+        "places": [64, 65]
+      },
+      {
+        "day": "Day 7",
+        "places": [66]
+      }],
+    "itemsToCarry": [
+      {
+        "title": "Warm Clothes",
+        "description": "Himachal Pradesh can get quite chilly, even in the summer months, so make sure to pack warm clothes such as jackets, sweaters, and thermal wear."
+      },
+      {
+        "title": "Comfortable Shoes",
+        "description": "You'll likely be doing a lot of walking and hiking, bring a comfortable pair of shoes that will provide good support. "
+      },
+      {
+        "title": "Sunscreen",
+        "description": "Even though it may be cold, the sun can still be strong in the mountains, so don't forget to pack sunscreen. "
+      },
+      {
+        "title": "Camera",
+        "description": "The natural beauty of Himachal Pradesh is truly breathtaking, so make sure to capture those moments with a good camera."
+      },
+      {
+        "title": "Power Bank",
+        "description": "Don't let your phone run out of battery when you need it most, bring a power bank to keep it charged. "
+      },
+      {
+        "title": "Medicines",
+        "description": "Bring any necessary medications and a basic first aid kit just in case of emergencies. 7. Cash: While there are ATMs in the major towns and cities, it's always a good idea to have some cash on hand for smaller purchases."
+      },
+      {
+        "title": "Map or GPS",
+        "description": "If you plan on doing some driving, bring a map or GPS device to help you navigate the winding mountain roads."
+      },
+      {
+        "title": "Water Bottle",
+        "description": "Staying hydrated is important, especially at high altitudes, so bring a reusable water bottle. "
+      },
+      {
+        "title": "Books or E-Reader",
+        "description": ": If you plan on relaxing and taking in the scenery, bring a book or e-reader to pass the time."
+      },
+      {
+        "title": "Cash",
+        "description": "While there are ATMs in the major towns and cities, it's always a good idea to have some cash on hand for smaller purchases."
+      }
+    ],
+    "inclusions": ["GST 5%", "Stay arrangements (Guest house/Home stay)", "Travel arrangements (Chandigarh to Chandigarh by Innova car)", "Food @booked places"],
+    "exclusions": ["A professional photographer to accompany you with arrangements for camera recordings of your trip activities, individual photo-shoots, personal video and photo data for reels and social media posts after the trip.", "Any personal expenses.", "Costs in case of any emerge "],
+    "sthSpecial": []
+   },
+  {
+    "id": 4,
+    "name": "The Divine Expedition",
+    "imageUrl": "https://assets.gqindia.com/photos/616d2712c93aeaf2a32d61fe/16:9/pass/top-image%20(1).jpg",
+    "decsription": "Our trip package “Divine Expedition” designed for a group of 10 people, will let you experience the magic of the Indian subcontinent. Jammu, the winter capital of the state of Jammu and Kashmir, is the gateway to the holy shrine of Vaishno Devi in Katra, a popular pilgrimage site. And then there's Kashmir, known for its breathtaking natural beauty, which will leave you spellbound. In Jammu, you will get to explore the city's rich cultural heritage, its ancient temples, and bustling markets. The city is famous for its mouth-watering cuisine, and you will have the opportunity to indulge in some of the most delectable dishes during your stay. Katra, located at the foothills of the Trikuta Mountains, is the starting point of the Vaishno Devi Yatra. This journey, considered to be one of the holiest pilgrimages in India, is a test of one's faith and endurance. You can either trek or take a helicopter ride to the Vaishno Devi temple, which is perched on top of a hill, and offers breathtaking views of the surrounding mountains. Kashmir, also known as Paradise on Earth, is a land of unparalleled natural beauty. You will get to explore its snow-capped peaks, serene lakes, and verdant valleys. Srinagar, the summer capital of Jammu and Kashmir, is known for its Mughal gardens, shimmering Dal Lake, and houseboats. You will also get to visit Gulmarg, a popular ski resort, and Pahalgam, a picturesque valley. This Divine Expedition to Jammu, Katra, and Kashmir offers a perfect blend of spiritual, cultural, and natural experiences, making it a journey of a lifetim",
+    "days": 10,
+    "people": "Group",
+    "date": "June-July",
+    "budget": "26,000/- per person",
+    "images": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
         "places": [0]
       },
       {
-        "day": "day2",
+        "day": "Day 2",
         "places": [0, 1, 2, 3]
       },
       {
-        "day": "day3",
+        "day": "Day 3",
         "places": [0, 1, 2, 3]
       },
       {
-        "day": "day4",
+        "day": "Day 4",
         "places": [0, 1, 2, 3]
       },
       {
-        "day": "day5",
+        "day": "Day 5",
+        "places": [0, 1, 2, 3]
+      },
+      {
+        "day": "Day 6",
+        "places": [0, 1, 2, 3]
+      },
+      {
+        "day": "Day 7",
         "places": [0, 1, 2, 3]
       }
     ],
@@ -99,42 +403,42 @@
     ],
     "inclusions": ["asd", "asd"],
     "exclusions": ["", ""],
-    "sthSpecial": ["", ""]
+    "sthSpecial": []
   },
   {
-    "id": 2,
-    "name": "Mountain Madness",
-    "imageUrl": "https://imgs.search.brave.com/kPI80y1hLkwsZsmxItNeW_HkSHiOl9dInlK8Wgko1-s/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC52/UzBobnZnMDVybXp6/S2Nqb01BYWZBSGFF/OCZwaWQ9QXBp",
-    "decsription": "Welcome to the ultimate adventure getaway to Manali and Tirthan Valley! This trip, designed for 7 people, is aptly titled Mountain Madness. We will take you to two destinations nestled in the lap of the Himalayas offering an unparalleled blend of scenic beauty, adventure, and cultural experiences that will leave you spellbound.",
+    "id": 5,
+    "name": "",
+    "imageUrl": "",
+    "decsription": "",
     "days": 8,
     "people": "7-8 people",
     "date": "June-July",
     "budget": "12000 /-",
     "images": [
-      "https://imgs.search.brave.com/XnZUrBPEpaI1isoO1xgT2vNRFbbGh4Ixu0zrnf9BH6s/rs:fit:713:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5G/X1NTVkpSMHJyek9T/MWRVRkF0VzNBSGFF/NyZwaWQ9QXBp",
-      "https://imgs.search.brave.com/rKxesebrwh8rfgnbIJwwvZZOO5TLY3Skmkx-AiRi9-Q/rs:fit:948:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5s/VE9lMnc1Q0J2Yk92/WVlHREp4R0tRSGFE/dCZwaWQ9QXBp",
-      "https://imgs.search.brave.com/6LOANmc2obeMcn8McREaNxCFxw15eUwbWniPPRhiHoE/rs:fit:759:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC54/Qkl5QlhlV3k5dVpE/dFEzcjNTYldBSGFF/byZwaWQ9QXBp",
-      "https://imgs.search.brave.com/BU6K6XJz_rryEy9aURy04bX4yvvek-_9g6YeV-DMK3M/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5i/Zk5oVmpld0FMcE10/ZjY2c2VWRjhBSGFF/SyZwaWQ9QXBp"
+      "",
+      "",
+      "",
+      ""
     ],
     "itinerary": [
       {
-        "day": "day1",
+        "day": "Day 1",
         "places": [0]
       },
       {
-        "day": "day2",
+        "day": "Day 2",
         "places": [0, 1, 2, 3]
       },
       {
-        "day": "day3",
+        "day": "Day 3",
         "places": [0, 1, 2, 3]
       },
       {
-        "day": "day4",
+        "day": "Day 4",
         "places": [0, 1, 2, 3]
       },
       {
-        "day": "day5",
+        "day": "Day 5",
         "places": [0, 1, 2, 3]
       }
     ],

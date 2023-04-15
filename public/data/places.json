@@ -1,34 +1,571 @@
 [
   {
     "id": 0,
-    "name": "Parvati Valley",
-    "alias": "Valley",
-    "description": "Parvati Valley is situated in the northern Indian state of Himachal Pradesh. From the confluence of the Parvati River with the River Beas, the Parvati Valley runs eastwards, through a steep-sided valley from the town of Bhuntar, in the Kullu district of Himachal Pradesh in Northern India.",
-    "imageUrl": "https://imgs.search.brave.com/AVvwLQkaAZXoBXGO4gp7uA7-AuPo3486rH9sHHcUVtc/rs:fit:706:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5I/cjh4OW83cHhZdGZr/SENuNEl4RWp3SGFF/LSZwaWQ9QXBp",
-    "thumbnail": "https://imgs.search.brave.com/D8b7jwDjmOIRSdnSWV329RvGcpjKnjneBzU2NHJrhyA/rs:fit:766:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Y/YTFhS2V6VmdKNi1X/Z0xTcURkLVpRSGFF/bCZwaWQ9QXBp"
+    "name": "Kasol Riverside",
+    "alias": "Riverside",
+    "description": "Kasol river side is a serene paradise nestled in the Parvati Valley of Himachal Pradesh, India. The crystal-clear waters of the Parvati River flow gently, surrounded by lush green forests and towering mountains, creating a picturesque setting. The river side offers a perfect spot for relaxation, meditation, and soaking in the natural beauty of the Himalayas.",
+    "imageUrl": "https://r1imghtlak.mmtcdn.com/062d3000699211ea981f0242ac110002.jpeg?&output-quality=75&downsize=910:612&crop=910:612;0,35&output-format=jpg",
+    "thumbnail": "https://www.sotc.in/blog/wp-content/uploads/2022/11/kasol.jpg"
   },
   {
     "id": 1,
-    "name": "Spiti valley",
-    "alias": "Spiti",
-    "description": "Spiti Valley is located in Himachal Pradesh at an altitude of 12,500 feet above sea level and is bordered on all sides by the Himalayas.1 Its name means, i.e. the land between Tibet and India, incorporating mainly the valley of the Spiti River as well as side-valleys such as Pin valley and Lingti valley.",
-    "imageUrl": "https://imgs.search.brave.com/AVvwLQkaAZXoBXGO4gp7uA7-AuPo3486rH9sHHcUVtc/rs:fit:706:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5I/cjh4OW83cHhZdGZr/SENuNEl4RWp3SGFF/LSZwaWQ9QXBp",
-    "thumbnail": "https://imgs.search.brave.com/D8b7jwDjmOIRSdnSWV329RvGcpjKnjneBzU2NHJrhyA/rs:fit:766:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Y/YTFhS2V6VmdKNi1X/Z0xTcURkLVpRSGFF/bCZwaWQ9QXBp"
+    "name": "Barshaini",
+    "alias": "Barshaini",
+    "description": "The Barshaini Kheerganga trek is a popular and scenic trekking route in Himachal Pradesh, India. The trek starts from the picturesque village of Barshaini, located in the Parvati Valley, and takes you through dense forests, stunning landscapes, and gushing streams. The highlight of the trek is reaching the Kheerganga hot springs, which are believed to have healing properties and offer a rejuvenating experience after the trek. The trek is moderately difficult and takes approximately 5-6 hours to complete, making it a favorite among adventure enthusiasts and nature lovers alike.",
+    "imageUrl": "https://www.thegreatnext.com/uploads/trip_media/stayfood_2-217.jpg",
+    "thumbnail": "https://admin.banbanjara.com/public/frontend/uploads/product/1577702715316-kheergangatrekkingBanBanjara.jpg"
   },
   {
     "id": 2,
-    "name": "Manala",
-    "alias": "Manal",
-    "description": "Malana is an ancient Indian village in the state of Himachal Pradesh. The only village in the Malana Nala, a side valley of the Parvati Valley northeast of the Kullu Valley, it is isolated from the rest of the world. The peaks of Chanderkhani and Deo Tibba shadow the village.",
-    "imageUrl": "https://imgs.search.brave.com/AVvwLQkaAZXoBXGO4gp7uA7-AuPo3486rH9sHHcUVtc/rs:fit:706:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5I/cjh4OW83cHhZdGZr/SENuNEl4RWp3SGFF/LSZwaWQ9QXBp",
-    "thumbnail": "https://imgs.search.brave.com/D8b7jwDjmOIRSdnSWV329RvGcpjKnjneBzU2NHJrhyA/rs:fit:766:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Y/YTFhS2V6VmdKNi1X/Z0xTcURkLVpRSGFF/bCZwaWQ9QXBp"
+    "name": "Kheerganga Trek",
+    "alias": "Trekking",
+    "description": "Trekking back to Barshaini from Kheerganga is a thrilling experience as you retrace your steps through the beautiful Parvati Valley in Himachal Pradesh, India. The descent from Kheerganga to Barshaini takes about 4-5 hours, depending on your pace. You'll pass through the same scenic landscapes, dense forests, and picturesque villages that you encountered during the ascent. The downhill trek can be challenging on the knees and requires caution, but it offers stunning panoramic views of the Himalayas and a sense of accomplishment as you make your way back to Barshaini, marking the end of your trekking adventure.",
+    "imageUrl": "https://www.lazymonkadventure.com/wp-content/uploads/2021/10/Kasol-Kheerganga-Trek-3-scaled.jpg",
+    "thumbnail": "https://www.himalayanadrenaline.com/wp-content/uploads/2020/10/kasol_kheerganga-trek-image-1.jpg"
   },
   {
     "id": 3,
-    "name": "Kaza Kibber",
-    "alias": "Kibber",
-    "description": "Kibber is a village in Spiti, Himachal Pradesh situated at altitude of 4200 m, approx. 20 km from Kaza and a few km from Ki Monastery.1 It provides shelter to as less as 80 houses made of stones and bricks and is the highest motorable village in the world.0 One must stay here overnight to experience village life such as drive to Gette and Tashigong (recommended).",
-    "imageUrl": "https://imgs.search.brave.com/AVvwLQkaAZXoBXGO4gp7uA7-AuPo3486rH9sHHcUVtc/rs:fit:706:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5I/cjh4OW83cHhZdGZr/SENuNEl4RWp3SGFF/LSZwaWQ9QXBp",
-    "thumbnail": "https://imgs.search.brave.com/D8b7jwDjmOIRSdnSWV329RvGcpjKnjneBzU2NHJrhyA/rs:fit:766:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Y/YTFhS2V6VmdKNi1X/Z0xTcURkLVpRSGFF/bCZwaWQ9QXBp"
+    "name": "Kheerganga Hot Spring",
+    "alias": "Hot Spring",
+    "description": "Indulge in a blissful hot spring shower at Kheerganga during your trek, as you soak in the warm, therapeutic waters amidst the serene Himalayan surroundings. It's a rejuvenating experience that soothes your muscles and offers a moment of relaxation amidst nature's beauty.",
+    "imageUrl": "https://www.trawell.in/admin/images/upload/454282746Kullu_Kheer_Ganga_Main.jpg",
+    "thumbnail": "https://static2.tripoto.com/media/filter/tst/img/12403/TripDocument/1502882652_1495083584_kheerganga_trek_6.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Narkanda",
+    "alias": "Scenic drive through Himalayas.",
+    "description": "When you arrive at Chandigarh, a driver from our company will meet you at the Chandigarh Railway Station or Airport to begin your tour. We will go to Pinjore Garden, Timbertrail, Solan, and Shimla between Chandigarh and Narkanda and take in some magnificent locations. Many other fascinating locations are accessible for exploration and relaxation stops, including Theog, Fagu, Matiana, Narkanda Apple orchard etc. Then you spend the night in a hotel after arriving at your destination.",
+    "imageUrl": "https://en-media.thebetterindia.com/uploads/2017/09/Untitled-design-32.jpg",
+    "thumbnail": "https://static.langimg.com/thumb/91937482/-how-to-reach-solan-91937482.jpg?width=540&resizemode=3"
+  },
+  {
+    "id": 5,
+    "name": "Pinjore garden",
+    "alias": "Picturesque garden near Chandigarh.",
+    "description": "Pinjore Garden, located near Chandigarh in Haryana, is a historic Mughal-style garden known for its terraced lawns, waterfalls, and pavilions. Spread over 100 acres, it offers a serene escape with its lush greenery, stunning vistas, and architectural marvels. Perfect for a leisurely stroll, picnic, or photography, Pinjore Garden is a popular destination for locals and tourists alike, providing a refreshing retreat in the lap of nature.",
+    "imageUrl": "https://www.trawell.in/admin/images/upload/472763167Chandigarh_Pinjore_Garden_Main.jpg",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Pinjore_Mughal_Gardens.jpg/220px-Pinjore_Mughal_Gardens.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Timbertrail",
+    "alias": "Scenic cable car ride to mesmerizing views.",
+    "description": "Timber Trail in Parwanoo, Himachal Pradesh, is a popular destination offering a thrilling cable car ride and stunning panoramic views. The scenic journey takes visitors high above the verdant hills, providing a mesmerizing perspective of the surrounding natural beauty. The top station features well-maintained gardens, a kids' park, and a restaurant, making it a serene spot to unwind and soak in the breathtaking vistas. Timber Trail is a must-visit for those seeking an exhilarating adventure and a unique perspective of the picturesque landscape of Himachal Pradesh.",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/8f/ef/f0/timber-trail.jpg?w=1200&h=-1&s=1",
+    "thumbnail": "https://www.timbertrail.in/assets/images/cable.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Solan",
+    "alias": "Scenic hill town in Himachal Pradesh.",
+    "description": "Solan is a picturesque hill town located in the Indian state of Himachal Pradesh. It is known for its scenic beauty, pleasant weather, and abundant greenery. Solan is often referred to as the Mushroom Capital of India due to its extensive mushroom cultivation. The town is surrounded by lush forests, terraced fields, and scenic valleys, offering a serene and peaceful ambiance. Solan is also famous for its educational institutions, including the renowned Dr. Yashwant Singh Parmar University of Horticulture and Forestry. With its scenic charm, pleasant climate, and educational opportunities, Solan is a popular destination for tourists, nature lovers, and students alike.",
+    "imageUrl": "https://shimlatourism.co.in/images/places-to-visit/headers/solan-in-shimla-tourism-entry-fee-timings-holidays-reviews-header.jpg",
+    "thumbnail": "https://img.traveltriangle.com/blog/wp-content/uploads/2019/11/Resorts-Near-Solan-cover_12th-Nov.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Shimla",
+    "alias": "Scenic hill station, colonial charm.",
+    "description": "Nestled in the pristine Himalayas, Shimla is a picturesque hill station in northern India known for its colonial charm, snow-capped peaks, and lush green landscapes. Its serene weather, panoramic vistas, and quaint colonial architecture make it a popular tourist destination, offering a tranquil retreat amidst the majestic mountains.",
+    "imageUrl": "https://assets-news.housing.com/news/wp-content/uploads/2022/07/18131039/shimla-feature-compressed.jpg",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-73332843,width-400,resizemode-4/73332843.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Theog",
+    "alias": "Serene village, Himachali charm, Theog's tranquility.",
+    "description": "Theog is a serene village located in the Shimla district of Himachal Pradesh, India. Known for its tranquil ambiance, picturesque landscapes, and rustic charm, Theog offers a peaceful escape from the hustle and bustle of city life. With pleasant weather and panoramic vistas of the Himalayas, Theog is a popular destination for nature lovers and those seeking a peaceful retreat in the lap of nature.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Theog_Town_View_from_Kanag_Tibba.jpg",
+    "thumbnail": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/29/24/3d/adventure-resorts-new.jpg?w=400&h=300&s=1 "
+  },
+  {
+    "id": 10,
+    "name": "Fagu",
+    "alias": "Blissful hamlet, scenic vistas, Fagu's charm.",
+    "description": "Fagu is a scenic village located in Himachal Pradesh, India, known for its picturesque landscapes and tranquil ambiance. Surrounded by verdant forests, Fagu offers stunning views of the Himalayas and is a popular destination for nature lovers and those seeking a peaceful retreat in the lap of nature.",
+    "imageUrl": "https://www.holidify.com/images/cmsuploads/compressed/Fagu_20180928004213.jpg",
+    "thumbnail": "https://static.toiimg.com/thumb/83777264.cms?resizemode=4&width=400"
+  },
+  {
+    "id": 11,
+    "name": "Matiana",
+    "alias": "Quaint village, scenic vistas.",
+    "description": "Matiana is a quaint village located in Himachal Pradesh, India, known for its scenic beauty and serene ambiance. Surrounded by the majestic Himalayas, Matiana offers a peaceful retreat amidst picturesque landscapes, making it a popular destination for nature lovers and those seeking a tranquil escape in the lap of nature.",
+    "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/19/ab/1f/c0/krish-rauni.jpg",
+    "thumbnail": "https://image.pixstory.com/optimized/Pixstory-image-166048629031353.png"
+  },
+  {
+    "id": 12,
+    "name": "Bhimakali Temple",
+    "alias": "Sacred Himachali Shrine.",
+    "description": "Bhimakali Temple is a revered Hindu temple located in Sarahan, Himachal Pradesh, India. It is known for its ancient architecture, cultural significance, and spiritual ambiance, drawing pilgrims and tourists alike to its sacred grounds.",
+    "imageUrl": "https://epuja.co.in/upload/Sri-Maa-Bhimakali-Temple-SarahanShimlaHimachalPradesh.jpg",
+    "thumbnail": "https://im.hunt.in/cg/shimla/City-Guide/Bhimakali_Temple1.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Hawa Mahal",
+    "alias": "Himachal's heritage jewel.",
+    "description": "Hawa Mahal, located in Rampur, Himachal Pradesh, India, is a historical structure known for its unique architecture and cultural significance. This Palace of Winds features intricate lattice work, stunning views of the surrounding valley, and serves as a testament to the rich heritage of Himachal Pradesh.",
+    "imageUrl": "https://static.toiimg.com/photo/66220607.cms",
+    "thumbnail": "https://img.traveltriangle.com/blog/wp-content/uploads/2019/05/Hawa-Mahal-cover.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Cricket ground",
+    "alias": "Scenic Cricket Venue.",
+    "description": "Himachal Pradesh Cricket Ground, also known as the HPCA Stadium, is a picturesque cricket stadium located in Dharamshala, Himachal Pradesh, India. Set against the backdrop of the stunning Dhauladhar mountain range, this stadium is known for its breathtaking views, pleasant weather, and modern facilities. It has hosted numerous domestic and international cricket matches and is a popular destination for cricket enthusiasts seeking a unique and scenic cricketing experience.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Dharamshala_stadium%2Chimachal_pradesh.jpg",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-57767491,width-400,resizemode-4/57767491.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Oldest mahal of Himachal",
+    "alias": "Heritage Himachali Palace.",
+    "description": "The oldest Mahal in Himachal Pradesh, known as Rang Mahal, is a historic palace located in Chamba, India. Dating back to the 18th century, Rang Mahal is known for its exquisite architecture, intricate carvings, and beautiful frescoes. It serves as a significant cultural and architectural landmark, offering a glimpse into the rich history and heritage of Himachal Pradesh.",
+    "imageUrl": "https://hpgeneralstudies.com/wp-content/uploads/2016/11/Rampur-Bushahr-Freedom-Movement-Himachal-Pradesh-General-Studies.jpg",
+    "thumbnail": "https://www.omastrology.com/indian-monuments/images/rang-mahal-chamba.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Ancient Goddess Kali Temple",
+    "alias": "Sacred Kali Shrine.",
+    "description": "The Ancient Goddess Kali Temple is a revered Hindu temple located in Himachal Pradesh, India. Believed to be centuries old, this temple is dedicated to the fierce Hindu goddess Kali, known for her power and protection. It is a popular place of worship for devotees seeking blessings, and is known for its spiritual significance and cultural heritage in the region.",
+    "imageUrl": "https://www.templepurohit.com/wp-content/uploads/2016/01/Khajuraho_Devi_Jagadambi_Temple_2010.jpg",
+    "thumbnail": "https://media-cdn.tripadvisor.com/media/photo-s/15/d1/00/fa/shimla-kali-bari.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Kinnaur Kailash's valley",
+    "alias": "Serene Mountain Landscape.",
+    "description": "The Kinnaur Kailash Valley is a picturesque mountain landscape located in Kinnaur district of Himachal Pradesh, India. Surrounded by snow-capped peaks, lush green valleys, and gushing rivers, this serene valley is known for its breathtaking natural beauty, pristine landscapes, and spiritual significance. It is a popular destination for nature lovers, adventure enthusiasts, and pilgrims seeking a peaceful and awe-inspiring experience amidst the Himalayan mountains.",
+    "imageUrl": "https://static.toiimg.com/photo/65200540.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/93424908.cms?resizemode=4&width=400"
+  },
+  {
+    "id": 18,
+    "name": "Suicide point",
+    "alias": "Scenic Yet Tragic.",
+    "description": "Suicide Point in Himachal Pradesh, India, is a scenic spot that unfortunately holds a tragic history. Known for its stunning vistas and panoramic views of the valleys, this location has also witnessed unfortunate incidents of suicides, leading to its name. While the scenic beauty of the place can be mesmerizing, it is important to remember the gravity of the situation and to approach such locations with sensitivity and caution.",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/a8/de/76/suicide-point-view.jpg?w=1200&h=-1&s=1",
+    "thumbnail": "https://www.holidify.com/images/compressed/5950.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Roghi village",
+    "alias": "Picturesque Himalayan Hamlet",
+    "description": "Roghi Village, located in Himachal Pradesh, India, is a picturesque Himalayan hamlet nestled amidst lush greenery and stunning landscapes. Surrounded by the mighty Himalayas, Roghi offers a tranquil escape with its serene ambiance, rustic charm, and traditional village life. It is a popular destination for nature lovers, trekkers, and those seeking an offbeat experience in the lap of nature.",
+    "imageUrl": "https://www.hlimg.com/images/things2do/738X538/r_1523703583t.jpg",
+    "thumbnail": "https://www.holidify.com/images/attr_square/4820.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Chini Village",
+    "alias": "Traditional Kinnauri Hamlet.",
+    "description": "Chini Village, located in Kinnaur district of Himachal Pradesh, India, is a traditional hamlet known for its unique Kinnauri architecture, cultural heritage, and breathtaking views of the Himalayas. With its traditional wooden houses, terraced fields, and apple orchards, Chini Village offers a glimpse into the traditional Kinnauri way of life. It is a popular destination for tourists seeking an authentic cultural experience and a serene retreat amidst the mountains of Himachal Pradesh.",
+    "imageUrl": "https://cdn1.tripoto.com/media/filter/tst/img/12403/Image/1664955572_untitled.png",
+    "thumbnail": "https://media-cdn.tripadvisor.com/media/photo-s/06/45/f6/f3/kalpa.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Kalpa Valley",
+    "alias": "Serenity in Himalayas.",
+    "description": "Kalpa Valley, located in Himachal Pradesh, India, is a serene Himalayan valley known for its pristine beauty, tranquility, and breathtaking vistas. Set against the backdrop of snow-capped peaks, lush greenery, and terraced fields, Kalpa Valley offers a picturesque escape from the hustle and bustle of city life. It is a popular destination for nature lovers, trekkers, and those seeking a peaceful retreat in the lap of nature.",
+    "imageUrl": "https://static.toiimg.com/photo/93246451.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/93424933.cms?resizemode=4&width=400"
+  },
+  {
+    "id": 22,
+    "name": "Tabo",
+    "alias": "Traditional, Filipino, Hygiene",
+    "description": "Tabo is a traditional Filipino hygiene tool, consisting of a small container with a handle. It is commonly used for washing oneself after using the toilet, bathing, or cleaning. Tabo is a practical and versatile item, deeply embedded in Filipino culture as a symbol of cleanliness and resourcefulness.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Tabo_Gompa%2C_Spiti.jpg",
+    "thumbnail": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/7d/3b/e7/the-stupa-near-the-new.jpg?w=400&h=300&s=1"
+  },
+  {
+    "id": 23,
+    "name": "Nako",
+    "alias": "Nako : Energetic Talent",
+    "description": "Nako is a small village in Himachal Pradesh, India. It is most famous for its picturesque views of the Himalayan Mountains, making it a great destination for trekking and mountaineering. It is also home to the Nako Monastery, a Buddhist temple that has been a pilgrimage site for centuries.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Nako_Village.jpg",
+    "thumbnail": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/6b/6a/db/nako-lake-one-of-the.jpg?w=400&h=300&s=1"
+  },
+  {
+    "id": 24,
+    "name": "Dhankar Village",
+    "alias": "Dhankar Village : Beautiful, Historic, Spiritual.",
+    "description": "Dhankar Village is a small settlement located in the Spiti valley of Himachal Pradesh, India. It is renowned for its centuries-old Buddhist monastery, Dhankar Gompa, which overlooks the village from a high cliff. It is also home to many traditional mud-brick homes, providing a glimpse into the area's traditional way of life.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Dhankar_Village.jpg",
+    "thumbnail": "https://static.toiimg.com/thumb/82449305.cms?resizemode=4&width=400"
+  },
+  {
+    "id": 25,
+    "name": "Dhankar Fort",
+    "alias": "Ancient Himalayan Stronghold.",
+    "description": "Dhankar Fort is an ancient Himalayan stronghold located in the Spiti valley of Himachal Pradesh, India. Built in the 17th century, the fort was once the capital of the Nono kingdom and has since served as a defensive stronghold against invading forces. It is now a popular tourist destination, with its iconic red-stone walls and stunning views of the valley below.",
+    "imageUrl": "https://static.toiimg.com/photo/msid-49537809,width-96,height-65.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/82449305.cms?resizemode=4&width=400"
+  },
+  {
+    "id": 26,
+    "name": "Gue",
+    "alias": "Mysterious Mountain Village.",
+    "description": "Gue is a small village located in the Spiti Valley of Himachal Pradesh, India. It is known for its mysterious cave complex, which is said to have been used by Buddhist monks for meditation in the 8th century. It is also home to many traditional mud-brick homes, providing a glimpse into the area's traditional way of life.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Gue_Village_Monastery.jpg",
+    "thumbnail": "https://www.nativeplanet.com/img/2017/07/01-04-1499167711.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Langza",
+    "alias": "Stunning Himalayas.",
+    "description": "Langza is a picturesque village located in the Lahaul valley of Himachal Pradesh, India. This village is surrounded by breathtaking views of the Himalayas and is home to an ancient monastery. Visitors come to Langza to enjoy its natural beauty, explore its rich culture and learn about its history.",
+    "imageUrl": "https://devilonwheels.com/wp-content/uploads/2018/12/Langza-Village.jpg",
+    "thumbnail": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/11/63/58/view.jpg?w=400&h=300&s=1"
+  },
+  {
+    "id": 28,
+    "name": "Chicham Bridge",
+    "alias": "Asia's Highest Bridge",
+    "description": "The Chicham Bridge is a stunning bridge located in the Lahaul valley in Himachal Pradesh, India. It is a traditional stone bridge dating back to the 19th century and is considered to be an engineering marvel. The bridge provides easy access to the villages of Langza, Komic and Hikkim, and is a favorite spot for tourists and local travelers alike.",
+    "imageUrl": "https://awalkintheworld.com/wp-content/uploads/2020/08/chicham-bridge-highest-bridge-asia-1024x576.jpg",
+    "thumbnail": "https://live-core-api.travalour.com/common/v1/thumbnail/b50b6fe6-32e1-11ea-a2af-0ec82d6f8976?format=webp&width=360"
+  }
+  ,
+  {
+    "id": 29,
+    "name": "Kee Monastery",
+    "alias": "Ancient spiritual site.",
+    "description": "Kee Monastery is an ancient spiritual site located in the Lahaul valley in Himachal Pradesh, India. This monastery, believed to have been built by the great Buddhist teacher Padmasambhava in the 8th century, is a beautiful structure made up of different temples and shrines. Visitors come to this sacred site to experience its meditative atmosphere and to take part in its religious ceremonies.",
+    "imageUrl": "https://www.dsource.in/sites/default/files/resource/monasteries-spiti-valley/kee-monastery/minigallery/10965/3.jpg",
+    "thumbnail": "https://static.india.com/wp-content/uploads/2014/09/Key-Monastery.jpg?impolicy=Medium_Resize&w=500&h=500"
+  },
+  {
+    "id": 30,
+    "name": "Hikkim",
+    "alias": "Traditional mountain village.",
+    "description": "Hikkim is a traditional mountain village located in the Lahaul valley of Himachal Pradesh, India. This small village is known for its stunning views of the Himalayas and its serene atmosphere. Visitors come to Hikkim to enjoy its natural beauty, explore its rich culture, and experience its traditional lifestyle.",
+    "imageUrl": "https://curlytales.com/wp-content/uploads/2020/08/dunyanin-en-yuksek-postanesi-12278395_amp-1-1170x614.jpg",
+    "thumbnail": "https://www.holidify.com/images/attr_square/4961.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Komic Settlement",
+    "alias": "World's Highest Village",
+    "description": "Komic is a picturesque settlement located in the Lahaul valley of Himachal Pradesh, India. This small village is home to a spectacular view of the Himalayas, as well as an ancient monastery. Visitors come to Komic to appreciate its natural beauty, learn more about the local culture, and explore its many historical sites.",
+    "imageUrl": "https://i0.wp.com/travelshoebum.com/wp-content/uploads/2018/04/dsc_0592.jpg?fit=4288%2C2848&ssl=1",
+    "thumbnail": "https://static.toiimg.com/thumb/82624689.cms?resizemode=4&width=400"
+  },
+  {
+    "id": 32,
+    "name": "Kibber village",
+    "alias": "High altitude village.",
+    "description": "Kibber is a high altitude village situated in the Lahaul valley of Himachal Pradesh, India. This village is well known for its spectacular views of the Himalayas and its traditional lifestyle. Visitors come to Kibber to enjoy its natural beauty, explore its rich culture, and experience the unique mountain life.",
+    "imageUrl": "https://static.toiimg.com/photo/msid-82566144,width-96,height-65.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/82566153.cms?resizemode=4&width=400"
+  },
+  {
+    "id": 33,
+    "name": "Battal",
+    "alias": "Historic hill station.",
+    "description": "Battal is an historic hill station located in the Lahaul valley of Himachal Pradesh, India. This peaceful village is surrounded by breathtaking views of the Himalayas and is home to an old temple. Visitors come to Battal to appreciate its natural beauty, explore its rich culture, and experience its unique mountain life.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Battal%2C_mansehra_%2C_KPK%2C_Pakistan.JPG",
+    "thumbnail": "https://www.outlookindia.com/outlooktraveller/resizer.php?src=https://www.outlookindia.com/outlooktraveller/public/uploads/files/2014/12/FS_071556102A10054051-trek1.jpg&w=500&h=400"
+  },
+  {
+    "id": 34,
+    "name": "Chandratal lake",
+    "alias": "Spectacular mountain lake.",
+    "description": "Chandratal Lake is a spectacular mountain lake situated in the Lahaul valley of Himachal Pradesh, India. This lake is known for its breathtaking views of the Himalayas, and its crystal clear waters. Visitors come to this lake to enjoy its natural beauty, and to take part in the various activities available.",
+    "imageUrl": "https://www.euttaranchal.com/tourism/photos/chandratal-lake-trek-1619660.jpg",
+    "thumbnail": "https://www.euttaranchal.com/tourism/timthumb.php?src=https://www.euttaranchal.com/tourism/photos/chandratal-lake-trek-2296505.jpg&w=460&h=460&q=70"
+  },
+  {
+    "id": 35,
+    "name": "Koksar",
+    "alias": "Rustic mountain town.",
+    "description": "Koksar is a rustic mountain town located in the Lahaul valley of Himachal Pradesh, India. This small village is known for its stunning views of the Himalayas and its traditional lifestyle. Visitors come to Koksar to appreciate its natural beauty, explore its rich culture, and experience its unique mountain life.",
+    "imageUrl": "https://gotraveldiscoverer.files.wordpress.com/2015/09/koksarvillagepanaromio.jpg",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-91775813,width-400,resizemode-4/91775813.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Sissu",
+    "alias": "Beautiful mountain village.",
+    "description": "Sissu is a beautiful mountain village located in the Lahaul valley of Himachal Pradesh, India. This small village is surrounded by breathtaking views of the Himalayas and is home to an ancient monastery. Visitors come to Sissu to enjoy its natural beauty, explore its rich culture, and experience its traditional lifestyle.",
+    "imageUrl": "https://img.cdn.zostel.com/blog_photo/094_Sissu_29.jpg",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-58994639,width-400,resizemode-4/58994639.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Atal Tunnel",
+    "alias": "Engineering wonderland.",
+    "description": "Atal Tunnel is an engineering wonderland situated in the Lahaul valley of Himachal Pradesh, India. This 9 km long tunnel is a marvel of engineering, and is the longest tunnel in the world above an altitude of 3,000 metres. Visitors come to Atal Tunnel to experience its grandeur and marvel at its construction.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/PM_Modi_in_Atal_Tunnel_2020.jpg/1200px-PM_Modi_in_Atal_Tunnel_2020.jpg",
+    "thumbnail": "https://imgk.timesnownews.com/story/Eh_XQyMXYAAUNsC.jpg?tr=w-400,h-300,fo-auto"
+  },
+  {
+    "id": 38,
+    "name": "Solang valley",
+    "alias": "Lush mountain scenery.",
+    "description": "Solan Valley is a stunning area located in Himachal Pradesh, India. This lush mountain scenery is known for its breathtaking views of the Himalayas and is home to many traditional villages and towns. Visitors come to Solan Valley to appreciate its natural beauty, explore its rich culture, and experience its unique mountain life.",
+    "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/15/fc/a8/25/solang-valley.jpg",
+    "thumbnail": "https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_300,q_auto,w_400/v1/filestore/0holfs301cvpt9btbhmfs391x3km_shutterstock_1145788208.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Beas Kund",
+    "alias": "Mystic mountain lake.",
+    "description": "Beas Kund is a mystical mountain lake situated in the Kullu district of Himachal Pradesh, India. This lake is surrounded by stunning views of the Himalayas, and is a popular destination for trekkers and nature lovers. Visitors come to Beas Kund to enjoy its natural beauty, take part in various activities, and experience its spiritual atmosphere.",
+    "imageUrl": "https://www.trawell.in/admin/images/upload/129084137Manali_Beas_Kund_Main.jpg",
+    "thumbnail": "https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_300,q_auto,w_400/v1/filestore/ohi8xgcb9q3r33qbmkhuudue84ok_Beas%20Kund%2002.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Gulaba",
+    "alias": "Majestic mountain meadow.",
+    "description": "Gulaba is a majestic mountain meadow located in the Kullu district of Himachal Pradesh, India. This area is known for its stunning views of the snow-capped Himalayas and its lush greenery. Visitors come to Gulaba to appreciate its natural beauty, explore its rich culture, and experience its unique mountain life.",
+    "imageUrl": "https://pyt-blogs.imgix.net/2020/11/vicky-bhusara-kQ5q1Z4_A_o-unsplash.jpg?auto=format&ixlib=php-3.3.0",
+    "thumbnail": "https://im.hunt.in/cg/Manali/City-Guide/Gulaba-Snow-Point.JPG"
+  },
+  {
+    "id": 41,
+    "name": "Nehru Kund",
+    "alias": "Mystical mountain spring.",
+    "description": "Nehru Kund is a mystical mountain spring situated in the Kullu district of Himachal Pradesh, India. This spring is said to have healing properties, and its crystal clear waters are believed to have originated from the sacred rivers of the Himalayas. Visitors come to Nehru Kund to take part in its spiritual atmosphere and to appreciate its natural beauty.",
+    "imageUrl": "https://d3gw4aml0lneeh.cloudfront.net/assets/locations/mSMA4jJqOgZR.jpg",
+    "thumbnail": "https://www.indianvisit.com/pictures/travelguide/attractions/nehru-kund-manali-4704.jpeg"
+  },
+  {
+    "id": 42,
+    "name": "Hanogi Devi Temple",
+    "alias": "Sacred Hindu shrine.",
+    "description": "Hanogi Devi Temple is a sacred Hindu shrine located in the Kullu district of Himachal Pradesh, India. This temple is dedicated to the goddess Durga, and is a popular destination for devotees who come to seek blessings and experience its spiritual atmosphere. Visitors come to Hanogi Devi Temple to take part in its rituals and ceremonies, and to appreciate its natural beauty.",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/9b/a0/f5/hanogi-mata-temple.jpg?w=1200&h=-1&s=1",
+    "thumbnail": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/67/ae/82/dechen-choekhor-mahavihara.jpg?w=300&h=300&s=1"
+  },
+  {
+    "id": 43,
+    "name": "Pandoh Dam",
+    "alias": "Man-made engineering marvel.",
+    "description": "Pandoh Dam is a man-made engineering marvel located in the Kullu district of Himachal Pradesh, India. This dam is a popular destination for tourists and local travelers, and is known for its spectacular views of the surrounding mountains. Visitors come to Pandoh Dam to appreciate its natural beauty, explore its rich culture, and take part in various activities.",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/3a/99/61/pandoh-dam.jpg?w=1200&h=-1&s=1",
+    "thumbnail": "https://3.imimg.com/data3/EQ/CS/MY-4291518/pandoh-dam-500x500.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Mandi",
+    "alias": "Lively hill station.",
+    "description": "Mandi is a lively hill station situated in the Kullu district of Himachal Pradesh, India. This vibrant city is known for its stunning views of the Himalayas, and its bustling marketplaces. Visitors come to Mandi to enjoy its natural beauty, explore its rich culture, and experience its unique mountain life.",
+    "imageUrl": "https://assets.traveltriangle.com/blog/wp-content/uploads/2018/07/Natural_Treasures_of_India_-_Prashar_Lake.jpg",
+    "thumbnail": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/92/39/c4/rewalsar-lake.jpg?w=400&h=300&s=1"
+  },
+  {
+    "id": 45,
+    "name": "Sundernagar lake",
+    "alias": "Sparkling mountain lake.",
+    "description": "Sundarnagar Lake is a sparkling mountain lake located in the Kullu district of Himachal Pradesh, India. This lake is known for its breathtaking views of the Himalayas, and its crystal clear waters. Visitors come to Sundarnagar Lake to appreciate its natural beauty, take part in various activities, and experience its serene atmosphere.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Sunder_Nagar_Lake_-_Manali-Chandigarh_Highway_-_NH-21_-_Sundarnagar_-_Mandi_2014-05-09_2141.JPG/2560px-Sunder_Nagar_Lake_-_Manali-Chandigarh_Highway_-_NH-21_-_Sundarnagar_-_Mandi_2014-05-09_2141.JPG",
+    "thumbnail": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/c2/81/e8/kunt-bhayog-lake.jpg?w=400&h=-1&s=1"
+  },
+  {
+    "id": 46,
+    "name": "Bilaspur lake",
+    "alias": "Refreshing mountain lake.",
+    "description": "Bilapur Lake is a refreshing mountain lake situated in the Kullu district of Himachal Pradesh, India. This lake is known for its stunning views of the Himalayas and its tranquil atmosphere. Visitors come to Bilapur Lake to enjoy its natural beauty, take part in various activities, and experience its peaceful environment.",
+    "imageUrl": "https://www.holidify.com/images/cmsuploads/compressed/Gobind_Sagar_Reservoir_Himacha_Pradesh_20171226202324.jpg",
+    "thumbnail": "https://www.gosahin.com/go/p/g/t/1550932756_Gobind-Sagar-Lake1.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Trek from Kasol to Bandhak Thach",
+    "alias": "Spectacular Himalayan trek.",
+    "description": "The trek from Kasol to Bandhank Thach is a spectacular Himalayan trek located in the Kullu district of Himachal Pradesh, India. This trek is known for its stunning views of the Himalayas, and its challenging terrain. Visitors come to this trek to appreciate its natural beauty, explore its rich culture, and take part in its thrilling adventures.",
+    "imageUrl": "https://static2.tripoto.com/media/filter/tst/img/1784/TripDocument/10414379_10152483558166913_5208535057042902353_n.jpg",
+    "thumbnail": "https://www.outlookindia.com/outlooktraveller/resizer.php?src=https://www.outlookindia.com/outlooktraveller/public/uploads/files/2015/03/110815142233-kasol-and-manikaran1.jpg&w=500&h=400"
+  },
+  {
+    "id": 48,
+    "name": "Trek from Bandhak Thach to Biskeri Thach",
+    "alias": "Exciting mountain adventure.",
+    "description": "The trek from Bandhak Thach to Biskeri Thach is an exciting mountain adventure located in the Kullu district of Himachal Pradesh, India. This trek is known for its stunning views of the Himalayas, and its challenging terrain. Visitors come to this trek to appreciate its natural beauty, explore its rich culture, and take part in its thrilling adventures.",
+    "imageUrl": "https://i.pinimg.com/originals/db/8a/30/db8a307162bdc7526b8b1630174b83ad.jpg",
+    "thumbnail": "https://www.rockyfeet.com/wp-content/uploads/2018/04/18581735_1464089876999816_6398946420088759708_n-600x400.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Gujjar spot",
+    "alias": "Stunning mountain vista.",
+    "description": "Gujjar Spot is a stunning mountain vista located in the Kullu district of Himachal Pradesh, India. This spot is known for its breathtaking views of the Himalayas, and its lush greenery. Visitors come to Gujjar Spot to appreciate its natural beauty, explore its rich culture, and take part in various activities.",
+    "imageUrl": "https://www.kashmirnewsobserver.com/userfiles/image/s_637632303479616586_3EBA2A35-9AA6-49F4-9AB1-02B8EA996145.jpeg",
+    "thumbnail": "https://i0.wp.com/searchkashmir.org/wp-content/uploads/2010/06/unique_gujjar_house_gulmarg.jpg?fit=400%2C300&ssl=1"
+  },
+  {
+    "id": 50,
+    "name": "Sar Pass Top",
+    "alias": "Majestic mountain peak.",
+    "description": "Sar Pass Top is a majestic mountain peak located in the Kullu district of Himachal Pradesh, India. This peak is known for its stunning views of the Himalayas, and its challenging terrain. Visitors come to Sar Pass Top to appreciate its natural beauty, explore its rich culture, and take part in its thrilling adventures.",
+    "imageUrl": "https://trekthehimalayas.com/wp-content/uploads/2023/01/Sar-Pass-Pritish-Bhanushali-2.jpg",
+    "thumbnail": "https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_300,q_auto,w_400/v1/filestore/v7unqechwzgu5gt4oplmxukqsoiz_trekker_at_sar_pass_d849e8cb83.jpg"
+  },
+  {
+    "id": 51,
+    "name": "Trek down to Barshaini via Pulga",
+    "alias": "Breathtaking mountain descent.",
+    "description": "The trek down to Barshaini via Pulga is a breathtaking mountain descent located in the Kullu district of Himachal Pradesh, India. This trek is known for its stunning views of the Himalayas, and its challenging terrain. Visitors come to this trek to appreciate its natural beauty, explore its rich culture, and take part in its thrilling adventures.",
+    "imageUrl": "https://s2.wklcdn.com/image_262/7876187/107826735/69683720.700x525.jpg",
+    "thumbnail": "https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_300,q_auto,w_400/v1/filestore/j0ldw0mlleszd21jpdivhlweh0gt_1588092269_221561557.png"
+  },
+  {
+    "id": 52,
+    "name": "Parvati Valley",
+    "alias": "Picturesque mountain valley.",
+    "description": "Parvati Valley is a picturesque mountain valley located in the Kullu district of Himachal Pradesh, India. This valley is known for its stunning views of the Himalayas, and its lush greenery. Visitors come to Parvati Valley to appreciate its natural beauty, explore its rich culture, and experience its unique mountain life.",
+    "imageUrl": "https://www.himalayanhikers.in/wp-content/uploads/2020/03/Parvati-Valley-Trek.jpg",
+    "thumbnail": "https://static.toiimg.com/thumb/85302703.cms?resizemode=4&width=400"
+  },
+  {
+    "id": 53,
+    "name": "Manikaran Gurudwara",
+    "alias": "Sacred Sikh shrine.",
+    "description": "Manikaran Gurudwara is a sacred Sikh shrine located in the Kullu district of Himachal Pradesh, India. This shrine is known for its stunning views of the Himalayas and its spiritual atmosphere. Visitors come to Manikaran Gurudwara to take part in its religious ceremonies, and to appreciate its natural beauty.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Manikaran.jpg",
+    "thumbnail": "https://4.bp.blogspot.com/_Gv_zwUmRhME/R9lW2zS9vZI/AAAAAAAAAUU/q4j54FdGdrk/s400/View+from+Gurudwara+Sahib.JPG"
+  },
+  {
+    "id": 54,
+    "name": "Old Shiva Temple",
+    "alias": "Historic Hindu temple.",
+    "description": "The Old Shiva Temple is a historic Hindu temple situated in the Kullu district of Himachal Pradesh, India. This temple is known for its stunning views of the Himalayas and its spiritual atmosphere. Visitors come to this temple to take part in its religious ceremonies, and to appreciate its natural beauty.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Shiva_temple_baijnath_HP.jpg",
+    "thumbnail": "https://www.tourmyindia.com/images/shiva-temple-palampur1.jpg"
+  },
+  {
+    "id": 55,
+    "name": "Kasol Market",
+    "alias": "Vibrant mountain bazaar.",
+    "description": "Kasol Market is a vibrant mountain bazaar located in the Kullu district of Himachal Pradesh, India. This market is known for its bustling atmosphere, and its variety of items for sale. Visitors come to Kasol Market to experience its unique culture, explore its rich history, and take part in its lively atmosphere.",
+    "imageUrl": "https://thelandofwanderlust.com/wp-content/uploads/2018/10/DC015470-4622-47E1-BA0F-18216E1EC47E-1024x894.jpeg",
+    "thumbnail": "https://vagabondholidays.com/wp-content/uploads/2022/07/KASOL-MARKET-300x216.jpeg"
+  },
+  {
+    "id": 56,
+    "name": "Tirthan Valley",
+    "alias": "Beautiful mountain valley.",
+    "description": "Tirthan Valley is a beautiful mountain valley located in the Kullu district of Himachal Pradesh, India. This valley is known for its stunning views of the Himalayas, and its lush greenery. Visitors come to Tirthan Valley to appreciate its natural beauty, explore its rich culture, and experience its unique mountain life.",
+    "imageUrl": "https://en-media.thebetterindia.com/uploads/2016/06/454282226Kullu_Tirthan_Valley_Main.jpg",
+    "thumbnail": "https://triphawker.com/wp-content/uploads/2021/06/tirthan-valley-1024x678-1-400x300.jpg"
+  },
+  {
+    "id": 57,
+    "name": "Trek to the Great Himalayan National Park",
+    "alias": "Stunning nature expedition.",
+    "description": "The trek to the Great Himalayan National Park is a stunning nature expedition located in the Kullu district of Himachal Pradesh, India. This trek is known for its stunning views of the Himalayas, and its rich biodiversity. Visitors come to this trek to appreciate its natural beauty, explore its rich culture, and take part in its thrilling adventures.",
+    "imageUrl": "https://imgcld.yatra.com/ytimages/image/upload/v1517482567/AdvNation/ANN_TRP587/Great-Himalayan-National-Park-Trek_1464267110_8TUbTq.jpg",
+    "thumbnail": "https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_300,q_auto,w_400/v1/filestore/tegpp74wwjdm19zjd3uqsi6kqj60_1467202859_10561709_10152850977896447_3753054927918128204_n.jpg"
+  },
+  {
+    "id": 58,
+    "name": "Tirthan river",
+    "alias": "Spectacular mountain river.",
+    "description": "The Tirthan River is a spectacular mountain river located in the Kullu district of Himachal Pradesh, India. This river is known for its stunning views of the Himalayas, and its crystal clear waters. Visitors come to the Tirthan River to appreciate its natural beauty, take part in various activities, and experience its serene atmosphere.",
+    "imageUrl": "https://www.outlookindia.com/outlooktraveller/public/uploads/articles/explore/tirthan.jpg",
+    "thumbnail": "https://triphawker.com/wp-content/uploads/2021/06/tirthan-valley-1024x678-1-400x300.jpg"
+  },
+  {
+    "id": 59,
+    "name": "Bhuntar market",
+    "alias": "Lively mountain bazaar.",
+    "description": "Bhuntar Market is a lively mountain bazaar located in the Kullu district of Himachal Pradesh, India. This market is known for its bustling atmosphere, and its variety of items for sale. Visitors come to Bhuntar Market to experience its unique culture, explore its rich history, and take part in its lively atmosphere.",
+    "imageUrl": "https://i0.wp.com/farbound.net/wp-content/uploads/2019/10/Farbound.Net-Bhuntar-Shops-Himachal-Pradesh-India.jpg?resize=1920%2C1440&ssl=1",
+    "thumbnail": "https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_300,q_auto,w_400/v1/filestore/onqq2c3v0s8y3xubj3lrsgtjgz6u_manalishoproad.jpg"
+  },
+  {
+    "id": 60,
+    "name": "Chalal",
+    "alias": "Thrilling mountain journey.",
+    "description": "Chalal Trek is a thrilling mountain journey located in the Kullu district of Himachal Pradesh, India. This trek is known for its stunning views of the Himalayas, and its challenging terrain. Visitors come to Chalal Trek to appreciate its natural beauty, explore its rich culture, and take part in its thrilling adventures.",
+    "imageUrl": "https://static.toiimg.com/photo/62836507.cms",
+    "thumbnail": "https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_300,q_auto,w_400/v1/filestore/2814w7fi0705rd5j9sxts62wmase_1600345806_trek_6.png"
+  },
+  {
+    "id": 61,
+    "name": "Malana",
+    "alias": "Traditional mountain village.",
+    "description": "Malana Village is a traditional mountain village located in the Kullu district of Himachal Pradesh, India. This village is known for its stunning views of the Himalayas, and its serene atmosphere. Visitors come to Malana Village to enjoy its natural beauty, explore its rich culture, and experience its unique mountain life.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Malana_Village_during_sunset.jpg",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-82699922,imgsize-1851200,width-400,resizemode-4/82699922.jpg"
+  },
+  {
+    "id": 62,
+    "name": "Parvati River",
+    "alias": "Majestic mountain river.",
+    "description": "The Parvati River is a majestic mountain river located in the Kullu district of Himachal Pradesh, India. This river is known for its stunning views of the Himalayas, and its crystal clear waters. Visitors come to the Parvati River to appreciate its natural beauty, take part in various activities, and experience its serene atmosphere.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/The_Moonlit_Parvati_River_flowing_beside_the_Kasol_Town%2C_Himachal_Pradesh.jpg",
+    "thumbnail": "https://static.toiimg.com/thumb/85302703.cms?resizemode=4&width=400"
+  },
+  {
+    "id": 63,
+    "name": "Manali",
+    "alias": "Lively hill station.",
+    "description": "Manali is a lively hill station situated in the Kullu district of Himachal Pradesh, India. This vibrant city is known for its stunning views of the Himalayas, and its bustling marketplaces. Visitors come to Manali to enjoy its natural beauty, explore its rich culture, and experience its unique mountain life.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Manali_Mountains.jpg/1200px-Manali_Mountains.jpg",
+    "thumbnail": "https://www.rajputholidays.in/wp-content/uploads/2020/02/Mnaali-destinatioj-400x300.jpg"
+  },
+  {
+    "id": 64,
+    "name": "Hadimba Temple",
+    "alias": "Sacred Hindu temple.",
+    "description": "Hadimba Temple is a sacred Hindu temple located in the Kullu district of Himachal Pradesh, India. This temple is dedicated to the goddess Hadimba, and is a popular destination for devotees who come to seek blessings and experience its spiritual atmosphere. Visitors come to Hadimba Temple to take part in its rituals and ceremonies, and to appreciate its natural beauty.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Hidimba_Devi_Temple_-_North-east_View_-_Manali_2014-05-11_2648-2649.TIF/lossy-page1-1200px-Hidimba_Devi_Temple_-_North-east_View_-_Manali_2014-05-11_2648-2649.TIF.jpg",
+    "thumbnail": "https://3.bp.blogspot.com/-3wx_gf2bnZ8/TvNFlLgDteI/AAAAAAAAFEk/5cH_qDNXHNI/s1600/hidimba-devi-hadimba-temple-himachal-pradesh.jpg"
+  },
+  {
+    "id": 65,
+    "name": "Vashisht Temple",
+    "alias": "Historic Hindu shrine.",
+    "description": "Vashisht Temple is a historic Hindu shrine located in the Kullu district of Himachal Pradesh, India. This temple is known for its stunning views of the Himalayas and its spiritual atmosphere. Visitors come to Vashisht Temple to take part in its religious ceremonies, and to appreciate its natural beauty.",
+    "imageUrl": "https://www.trawell.in/admin/images/upload/129084435Manali_Vashisht_Temple_Main.jpg",
+    "thumbnail": "https://media-cdn.tripadvisor.com/media/photo-s/12/7a/02/b1/temple.jpg"
+  },
+  {
+    "id": 66,
+    "name": "Kullu Market",
+    "alias": "Vibrant mountain bazaar.",
+    "description": "Kullu Market is a vibrant mountain bazaar located in the Kullu district of Himachal Pradesh, India. This market is known for its bustling atmosphere, and its variety of items for sale. Visitors come to Kullu Market to experience its unique culture, explore its rich history, and take part in its lively atmosphere.",
+    "imageUrl": "https://img.etimg.com/thumb/msid-83138189,width-640,resizemode-4,imgsize-240259/a-crowded-market-in-kullu.jpg",
+    "thumbnail": "https://img.traveltriangle.com/blog/wp-content/uploads/2020/06/shopping-market-in-kullu-400x229.jpg"
+  },
+  {
+    "id": 67,
+    "name": "",
+    "alias": "",
+    "description": "",
+    "imageUrl": "",
+    "thumbnail": ""
+  },
+  {
+    "id": 68,
+    "name": "",
+    "alias": "",
+    "description": "",
+    "imageUrl": "",
+    "thumbnail": ""
+  },
+  {
+    "id": 69,
+    "name": "",
+    "alias": "",
+    "description": "",
+    "imageUrl": "",
+    "thumbnail": ""
+  },
+  {
+    "id": 70,
+    "name": "",
+    "alias": "",
+    "description": "",
+    "imageUrl": "",
+    "thumbnail": ""
   }
 ]
