@@ -538,22 +538,198 @@
   },
   {
     "id": 67,
-    "name": "",
-    "alias": "",
-    "description": "",
-    "imageUrl": "",
-    "thumbnail": ""
+    "name": "Chandigarh",
+    "alias": "Chandigarh City Beautiful",
+    "description": "Chandigarh is the capital of the Indian state of Punjab and is one of the most popular tourist destinations in India. It is known as the 'City Beautiful' because of its well-planned infrastructure. This city is well known for its architectural marvels and lush green gardens, which attract tourists from all over the world.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Open_Hand_monument%2C_Chandigarh.jpg",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-90521349,width-400,resizemode-4/90521349.jpg"
   },
   {
     "id": 68,
-    "name": "",
-    "alias": "",
-    "description": "",
-    "imageUrl": "",
-    "thumbnail": ""
+    "name": "Rock Garden",
+    "alias": "Rock Garden Wonderland",
+    "description": "The Rock Garden of Chandigarh is a remarkable creation that showcases the artistic vision of Nek Chand. This garden is filled with amazing sculptures made from discarded materials and offers a unique experience for visitors. The garden is filled with lush greenery and features several pathways for visitors to explore. It is a great place to spend an afternoon, where visitors can marvel at the creative sculptures and enjoy the peaceful surroundings",
+    "imageUrl": "https://img.veenaworld.com/wp-content/uploads/2021/03/Rock-Garden-Chandigarh-scaled.jpg",
+    "thumbnail": "https://i.pinimg.com/550x/c7/06/94/c7069455624395ec4aab07bb533d9b9e.jpg"
   },
   {
     "id": 69,
+    "name": "Sukhna Lake",
+    "alias": "Serene Sukhna Lake",
+    "description": "Sukhna Lake is a beautiful man-made lake located in Chandigarh. It is a popular destination for locals and tourists alike and provides a peaceful setting for visitors to relax and enjoy the scenery. This lake is an important part of the city and is a great place to go for a walk or a picnic. Sukhna Lake is the perfect spot for a day out with family and friends and provides a spectacular view of the surrounding area.",
+    "imageUrl": "https://www.wowchandigarh.com/wp-content/uploads/2020/11/2-e1617889548555.png",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-76455499,width-400,resizemode-4/76455499.jpg"
+  },
+  {
+    "id": 70,
+    "name": "Rose Garden",
+    "alias": "Rose Garden Paradise",
+    "description": "The Rose Garden of Chandigarh is a spectacular place to visit. This garden is spread over 30 acres and is home to a variety of colorful roses. Visitors can explore the different varieties of roses and enjoy the sweet smell of the flowers. The garden also features several pathways and fountains, making it a great place to spend an afternoon. The Rose Garden of Chandigarh is a beautiful oasis in the city and a must-visit destination.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Rose_Garden_%2CChandigarh%2CIndia.jpg",
+    "thumbnail": "https://www.gosahin.com/go/p/d/t/1521760571_Rose-Garden1.jpg"
+  },
+  {
+    "id": 71,
+    "name": "Raghunath temple",
+    "alias": "Raghunath Temple Grandeur",
+    "description": "The Raghunath Temple of Chandigarh is a beautiful Hindu temple that was built in the year 1763. This temple is dedicated to Lord Rama and is one of the most popular religious places in the city. The temple is intricately decorated with beautiful carvings and colorful paintings. Visitors from all over the world come to this temple to seek blessings from Lord Rama and admire the grandeur of this temple. The Raghunath Temple is an important part of the city and a must-visit destination.",
+    "imageUrl": "https://www.tourmyindia.com/states/jammu-kashmir/image/raghunath-temple.jpg",
+    "thumbnail": "https://3.imimg.com/data3/RK/JD/MY-13624604/raghunath-temple-500x500.jpg"
+  },
+  {
+    "id": 72,
+    "name": "Local market Jammu",
+    "alias": "Vibrant Jammu Market",
+    "description": "The Local Market of Jammu is a vibrant shopping destination that is a great place to explore the culture of the city. This bustling market is filled with shops, stalls, and vendors offering all kinds of goods. Visitors can find everything from traditional handicrafts to modern gadgets. The market is a great place to interact with the locals and get a taste of the local culture. The Local Market of Jammu is a must-visit destination for anyone looking for an authentic shopping experience.",
+    "imageUrl": "https://assets.traveltriangle.com/blog/wp-content/uploads/2018/04/hari-market.jpg",
+    "thumbnail": "https://www.holidify.com/images/attr_square/2156.jpg"
+  },
+  {
+    "id": 73,
+    "name": "Katra",
+    "alias": "Katra Pilgrimage Site",
+    "description": "Katra is a small town located in the state of Jammu and Kashmir, India. It is a popular pilgrimage site for Hindus as it is the base camp for the shrine of Vaishno Devi. The town is known for its stunning natural beauty and spiritual aura. Visitors from all over the world come to Katra to seek blessings from the goddess and explore the many temples and shrines in the area. Katra is a must-visit destination for those looking for a spiritual and serene experience.",
+    "imageUrl": "https://www.tourmyindia.com/states/jammu-kashmir/image/katra-banner.jpg",
+    "thumbnail": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/9f/4e/27/bhawan-to-bhairo-baba.jpg?w=400&h=-1&s=1"
+  },
+  {
+    "id": 74,
+    "name": "Vaishno Devi Yatra",
+    "alias": "Spiritual Vaishno Devi",
+    "description": "The Vaishno Devi Yatra is an important pilgrimage journey for Hindus in India. This journey takes devotees to the holy shrine of Vaishno Devi, which is located in the small town of Katra in Jammu and Kashmir. The journey is full of spiritual significance and is said to bring good luck and blessings to those who undertake it. People from all over the world come to Katra to embark on this journey and seek blessings from the goddess. The Vaishno Devi Yatra is a must-visit destination for anyone looking for a spiritual experience.",
+    "imageUrl": "https://www.maavaishnodevi.org/images/track_big.jpg",
+    "thumbnail": "https://i.timesnowhindi.com/stories/Vaishno_Devi_1.jpg?tr=w-400,h-300,fo-auto"
+  },
+  {
+    "id": 75,
+    "name": "Trek to the Shrine",
+    "alias": "Trek to Devotion",
+    "description": "The Trek to the Shrine is a popular pilgrimage route for devotees of Vaishno Devi. This trek takes pilgrims to the holy shrine of Vaishno Devi, which is located in the small town of Katra in Jammu and Kashmir. The trek is known for its breathtaking views and spiritual significance. It is said to bring good luck and blessings to those who undertake it. People from all over the world come to Katra to embark on this trek and seek blessings from the goddess. The Trek to the Shrine is a must-visit destination for anyone looking for a spiritual journey.",
+    "imageUrl": "https://www.geobrugg.com/portal/projektdb/pics/berechnet/49690/slider_detail_GBE-3000A-Trek-route-to-Shri-Mata-Vaishno-Devi-Shrine-1-2016-0050365.jpg",
+    "thumbnail": "https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,q_auto/v1/filestore/iuzjkyy3zlvjy5jf7n53m2lyhqmx_d3.jpg"
+  },
+  {
+    "id": 76,
+    "name": "Srinagar",
+    "alias": "Serene Srinagar",
+    "description": "Srinagar is the summer capital of the Indian state of Jammu and Kashmir. It is known for its natural beauty and is a popular tourist destination. This city is filled with stunning lakes, gardens, and houseboats that offer visitors an unforgettable experience. Visitors can explore the city's many attractions, such as the Dal Lake, the Mughal Gardens, and the Shankaracharya Temple. Srinagar is a great place to spend an afternoon and offers a peaceful and serene atmosphere.",
+    "imageUrl": "https://www.tripsavvy.com/thmb/-AzEW7DpVfnzFwXRy0LISt5RH8c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1432005421-5c0bc8d84cedfd0001fa5acb.jpg",
+    "thumbnail": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/af/0b/0c/main-image-of-houseboat.jpg?w=400&h=300&s=1"
+  },
+  {
+    "id": 77,
+    "name": "Dal Lake",
+    "alias": "Dal Lake Splendor",
+    "description": "The Dal Lake is a beautiful lake located in Srinagar, India. It is one of the most popular tourist destinations in the city and provides visitors with stunning views of the surrounding area. The lake is filled with houseboats and shikaras offering visitors a unique experience. Visitors can explore the lake by taking a boat ride or simply admiring the beauty of the lake from the shore. The Dal Lake is a must-see destination in Srinagar and is a great place to spend an afternoon.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Dal_Lake_Hazratbal_Srinagar.jpg/640px-Dal_Lake_Hazratbal_Srinagar.jpg",
+    "thumbnail": "https://www.localguidesconnect.com/t5/image/serverpage/image-id/1461110iA5342B2875F893FB/image-size/medium?v=v2&px=400"
+  },
+  {
+    "id": 78,
+    "name": "Mughal Gardens",
+    "alias": "Mughal Garden Splendour",
+    "description": "The Mughal Gardens of Srinagar are a must-visit destination for anyone looking to explore the city's rich culture and heritage. These gardens are filled with lush greenery and feature several pathways and fountains. Visitors can explore the various gardens and admire the intricate carvings and paintings. The Mughal Gardens are a great place to spend an afternoon and offer a peaceful and tranquil atmosphere. It is a great place to take in the beauty of Srinagar and enjoy the splendour of these gardens.",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/68/f4/db/chasme-sahi.jpg?w=1200&h=-1&s=1",
+    "thumbnail": "https://static.toiimg.com/thumb/99294105.cms?resizemode=4&width=400"
+  },
+  {
+    "id": 79,
+    "name": "Nishat Bagh",
+    "alias": "Majestic, picturesque, serene.",
+    "description": "Nishat Bagh is a majestic and picturesque Mughal garden located in the city of Srinagar in the Indian Union Territory of Jammu and Kashmir. The garden is set against the stunning backdrop of the Himalayan Mountains and overlooks the tranquil waters of Dal Lake. With its lush green lawns and terraced flower beds, the garden provides a serene and peaceful atmosphere that is perfect for relaxation and reflection. The whole scene is one of natural beauty and grandeur, with the shimmering lake and the distant snow-capped mountains adding to the picturesque beauty of the garden.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Nishat_Bagh.JPG",
+    "thumbnail": "https://static.toiimg.com/thumb/99294105.cms?resizemode=4&width=400"
+  },
+  {
+    "id": 80,
+    "name": "Shalimar Bagh",
+    "alias": "Enchanting, lush, vibrant.",
+    "description": "Shalimar Bagh is an enchanting Mughal garden located in the city of Srinagar in the Indian Union Territory of Jammu and Kashmir. The garden is set against the stunning backdrop of the Himalayan Mountains, and is full of lush greenery and vibrant flowers. The winding pathways and intricate patterns of colorful tiles make for a mesmerizing experience, and the cool breeze from the lake adds to the charm of this magical place. Shalimar Bagh provides a peaceful and tranquil atmosphere that is perfect for relaxation and contemplation.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Shalimar_Bagh_1.jpg",
+    "thumbnail": "https://i0.wp.com/searchkashmir.org//wp-content/uploads/2009/04/queen27s_Pavilion_ShalimarBagh_kashmir.jpg?w=525&ssl=1"
+  },
+  {
+    "id": 81,
+    "name": "Chashme Shahi gardens",
+    "alias": "Tranquil, verdant, splendid.",
+    "description": "Chashme Shahi Gardens is a tranquil and verdant Mughal garden located in the city of Srinagar in the Indian Union Territory of Jammu and Kashmir. The garden is set against the stunning backdrop of the Himalayan Mountains and overlooks the placid waters of Dal Lake. The lush greenery of the garden is full of colorful flowers and fragrant trees, and the winding pathways are lined with marble fountains and pavilions. Chashme Shahi Gardens provides a peaceful and tranquil atmosphere that is perfect for relaxation and contemplation, and its splendid beauty will take your breath away.",
+    "imageUrl": "https://www.tourmyindia.com/states/jammu-kashmir/image/chashme-shahi-srinagar.jpg",
+    "thumbnail": "https://www.tourmyindia.com/states/jammu-kashmir/image/chashme-shahi-srinagar.jpg"
+  },
+  {
+    "id": 82,
+    "name": "Shankaracharya Temple",
+    "alias": "Ancient, sacred, majestic.",
+    "description": "Shankaracharya Temple is an ancient and sacred temple located in the city of Srinagar in the Indian Union Territory of Jammu and Kashmir. The temple is perched atop a hill overlooking the city, and its majestic white marble structure is a sight to behold. Inside, the intricately carved pillars and walls are adorned with intricate sculptures and symbols, providing a glimpse into the ancient history of the temple. Shankaracharya Temple is a sacred place of worship and meditation, and its ancient beauty is sure to captivate visitors with its majestic grandeur.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Salomon4_%28cropped%29.jpg",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/The_Ancient_Shankaracharya_Temple_%28Srinagar%2C_Jammu_and_Kashmir%29_%28cropped%29.jpg/160px-The_Ancient_Shankaracharya_Temple_%28Srinagar%2C_Jammu_and_Kashmir%29_%28cropped%29.jpg"
+  },
+  {
+    "id": 83,
+    "name": "Hazratbal Shrine",
+    "alias": "Sacred, serene, beautiful.",
+    "description": "Hazratbal Shrine is a sacred and serene shrine located in the city of Srinagar in the Indian Union Territory of Jammu and Kashmir. The stunning white marble structure is set on the banks of the tranquil waters of Dal Lake, and its intricate design and beautiful silver domes make it a sight to behold. Inside, the shrine is adorned with intricate carvings and paintings, and the peaceful atmosphere provides an ideal setting for prayer and meditation. Hazratbal Shrine is a sacred place of worship and its serene beauty is sure to captivate visitors with its beauty.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/HAZRATBAL_SHRINE_01.JPG/1200px-HAZRATBAL_SHRINE_01.JPG",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-71994879,width-400,resizemode-4/71994879.jpg"
+  },
+  {
+    "id": 84,
+    "name": "Jama Masjid Srinagar",
+    "alias": "Grand, impressive, awe-inspiring.",
+    "description": "Jama Masjid Srinagar is a grand and impressive mosque located in the city of Srinagar in the Indian Union Territory of Jammu and Kashmir. The majestic structure is made of white marble, and its impressive domes and minarets rise up against the stunning backdrop of the Himalayan Mountains. Inside, the mosque is adorned with intricate carvings and paintings, and the grandeur of the space is sure to leave visitors in awe. Jama Masjid Srinagar is a sacred place of worship and its awe-inspiring beauty is sure to captivate visitors with its grandeur.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Jama_Masjid%2C_Srinagar_%2814363005587%29.jpg",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Jami_Masjid_courtyard_%286133553291%29.jpg/400px-Jami_Masjid_courtyard_%286133553291%29.jpg"
+  },
+  {
+    "id": 85,
+    "name": "Gulmarg",
+    "alias": "Picturesque, breathtaking, peaceful.",
+    "description": "Gulmarg is a picturesque mountain town located in the Indian Union Territory of Jammu and Kashmir. The town is situated amidst the stunning backdrop of the snow-capped Himalayan Mountains, and its breathtaking views of the majestic peaks are sure to leave visitors in awe. The town is full of lush greenery and winding pathways, and the air is filled with the sound of birdsong and the sweet scent of pine trees. Gulmarg is a peaceful and tranquil place, perfect for relaxation and contemplation, and its stunning beauty is sure to captivate visitors with its peaceful charm.",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/1a/2b/ed/gulmarg.jpg?w=700&h=500&s=1",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-79975078,width-400,resizemode-4/79975078.jpg"
+  },
+  {
+    "id": 86,
+    "name": "Gondola ride",
+    "alias": "Spectacular, thrilling, adventurous.",
+    "description": "A Gondola ride is a spectacular and thrilling experience that offers breathtaking views of the stunning landscape of Gulmarg in the Indian Union Territory of Jammu and Kashmir. The aerial cable car takes you up to the top of the mountain, and the views of the snow-capped peaks and lush greenery below are truly spectacular. The ride is also adventurous, as it takes you through the winding mountain passes and across narrow ravines. A Gondola ride is a thrilling and unforgettable experience, and its spectacular beauty is sure to captivate visitors with its adventurous charm.",
+    "imageUrl": "https://www.tourmyindia.com/states/jammu-kashmir/image/gulmarg-gondola-jamm-kashmir2.jpg",
+    "thumbnail": "https://hblimg.mmtcdn.com/content/hubble/img/gulmarg/mmt/activities/m_activities_gulmarg_gulmarg_gondola_l_400_640.jpg"
+  },
+  {
+    "id": 87,
+    "name": "Pahalgam",
+    "alias": "Idyllic, peaceful, serene.",
+    "description": "Pahalgam is an idyllic mountain town located in the Indian Union Territory of Jammu and Kashmir. The town is surrounded by spectacular snow-capped peaks, and its peaceful atmosphere is perfect for relaxation and contemplation. The winding pathways are lined with quaint shops and cafes, and the air is filled with the sound of birdsong and the sweet scent of pine trees. Pahalgam is a serene and tranquil place, and its idyllic beauty is sure to captivate visitors with its peaceful charm.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pahalgam_Valley.jpg/640px-Pahalgam_Valley.jpg",
+    "thumbnail": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/71/3f/53/betaab-valley.jpg?w=400&h=300&s=1"
+  },
+  {
+    "id": 88,
+    "name": "Betaab Valley",
+    "alias": "Majestic, secluded, verdant.",
+    "description": "Betaab Valley is a majestic and secluded valley located in the Indian Union Territory of Jammu and Kashmir. The valley is surrounded by towering snow-capped peaks, and its lush greenery and verdant meadows are a sight to behold. The winding pathways are lined with wildflowers and fragrant trees, and the air is filled with the sound of birdsong and the sweet scent of pine trees. Betaab Valley is a serene and tranquil place, and its majestic beauty is sure to captivate visitors with its secluded charm.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Betaab_Valley.jpg",
+    "thumbnail": "https://cimages1.touristlink.com/data/cache/BE/TA/AB/VA/LL/EY/betaab-valley-_-_from-_top_400_300.jpg"
+  },
+  {
+    "id": 89,
+    "name": "Aru Valley",
+    "alias": "Picturesque, tranquil, breathtaking.",
+    "description": "Aru Valley is a picturesque mountain valley located in the Indian Union Territory of Jammu and Kashmir. The valley is surrounded by towering snow-capped peaks, and its tranquil atmosphere is perfect for relaxation and contemplation. The winding pathways are lined with wildflowers and fragrant trees, and the air is filled with the sound of birdsong and the sweet scent of pine trees. Aru Valley is a breathtaking place, and its picturesque beauty is sure to captivate visitors with its tranquil charm.",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/ec/dc/15/aru-city.jpg?w=1200&h=-1&s=1",
+    "thumbnail": "https://cimages1.touristlink.com/data/cache/AR/UV/AL/LE/YS/aru-valley_400_300.jpg"
+  },
+  {
+    "id": 90,
+    "name": "Chandanwari",
+    "alias": "Majestic, pristine, invigorating.",
+    "description": "Chandanwari is a majestic mountain peak located in the Indian Union Territory of Jammu and Kashmir. The peak is surrounded by towering snow-capped peaks, and its pristine beauty is a sight to behold. The winding pathways are lined with wildflowers and fragrant trees, and the air is filled with the sound of birdsong and the sweet scent of pine trees. Chandanwari is an invigorating and refreshing place, and its majestic beauty is sure to captivate visitors with its pristine charm.",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/9c/ad/66/chandanwari.jpg?w=1200&h=1200&s=1",
+    "thumbnail": "https://www.holidify.com/images/cmsuploads/square/800px-Betaab_Valley_Pahalgam_Anantnag_20220902134014.jpg"
+  },
+  {
+    "id": 91,
     "name": "",
     "alias": "",
     "description": "",
@@ -561,7 +737,71 @@
     "thumbnail": ""
   },
   {
-    "id": 70,
+    "id": 92,
+    "name": "",
+    "alias": "",
+    "description": "",
+    "imageUrl": "",
+    "thumbnail": ""
+  },
+  {
+    "id": 93,
+    "name": "",
+    "alias": "",
+    "description": "",
+    "imageUrl": "",
+    "thumbnail": ""
+  },
+  {
+    "id": 94,
+    "name": "",
+    "alias": "",
+    "description": "",
+    "imageUrl": "",
+    "thumbnail": ""
+  },
+  {
+    "id": 95,
+    "name": "",
+    "alias": "",
+    "description": "",
+    "imageUrl": "",
+    "thumbnail": ""
+  },
+  {
+    "id": 96,
+    "name": "",
+    "alias": "",
+    "description": "",
+    "imageUrl": "",
+    "thumbnail": ""
+  },
+  {
+    "id": 97,
+    "name": "",
+    "alias": "",
+    "description": "",
+    "imageUrl": "",
+    "thumbnail": ""
+  },
+  {
+    "id": 98,
+    "name": "",
+    "alias": "",
+    "description": "",
+    "imageUrl": "",
+    "thumbnail": ""
+  },
+  {
+    "id": 99,
+    "name": "",
+    "alias": "",
+    "description": "",
+    "imageUrl": "",
+    "thumbnail": ""
+  },
+  {
+    "id": 100,
     "name": "",
     "alias": "",
     "description": "",

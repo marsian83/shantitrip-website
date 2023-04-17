@@ -73,6 +73,42 @@
   },
   {
     "id": 6,
+    "name": "Jammu",
+    "imageUrl": "https://static.toiimg.com/photo/95150047.cms",
+    "description": "Jammu is a city in northern India, known for its historic temples and palaces. It is a popular destination for pilgrims and tourists alike, offering a blend of cultural heritage and natural beauty.",
+    "places": [71, 72],
+    "trips": [4],
+    "geolocation": {
+      "longitude": 74.8691,
+      "latitude": 32.7357
+    }
+  },
+  {
+    "id": 7,
+    "name": "Katra",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/96/e9/df/kashmir-tour-packages.jpg?w=500&h=300&s=1",
+    "description": "Katra is a small town in Jammu and Kashmir, serving as the base camp for the renowned Vaishno Devi shrine. It is a significant pilgrimage site for Hindus and attracts millions of devotees every year.",
+    "places": [73, 74, 75],
+    "trips": [4],
+    "geolocation": {
+      "longitude": 74.9320,
+      "latitude": 32.9900
+    }
+  },
+  {
+    "id": 8,
+    "name": "Kashmir",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pahalgam_Valley.jpg/800px-Pahalgam_Valley.jpg",
+    "description": "Kashmir is a picturesque region in northern India and eastern Pakistan, famous for its stunning landscapes, including snow-capped mountains, serene lakes, and lush valleys. It is a popular tourist destination, offering a unique blend of natural beauty and rich cultural experiences.",
+    "places": [76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90],
+    "trips": [4],
+    "geolocation": {
+      "longitude": 76.5762,
+      "latitude": 33.7782
+    }
+  },
+  {
+    "id": 9,
     "name": "",
     "imageUrl": "",
     "description": "",

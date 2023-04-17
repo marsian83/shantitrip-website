@@ -356,53 +356,97 @@
     "date": "June-July",
     "budget": "26,000/- per person",
     "images": [
-      "",
-      "",
-      "",
-      ""
+      "https://images.thrillophilia.com/image/upload/s--PUZOUEPE--/c_fill,g_auto,h_600,q_auto,w_975/f_auto,fl_strip_profile/v1/images/photos/000/004/169/original/1585291919_1280px-Dal_Lake_Hazratbal_Srinagar.jpg.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b4/Salomon4_%28cropped%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pahalgam_Valley.jpg/640px-Pahalgam_Valley.jpg",
+      "https://static.toiimg.com/photo/95150047.cms"
     ],
     "itinerary": [
       {
         "day": "Day 1",
-        "places": [0]
+        "places": [67, 68, 69, 70]
       },
       {
         "day": "Day 2",
-        "places": [0, 1, 2, 3]
+        "places": [71, 72]
       },
       {
         "day": "Day 3",
-        "places": [0, 1, 2, 3]
+        "places": [73]
       },
       {
         "day": "Day 4",
-        "places": [0, 1, 2, 3]
+        "places": [74, 75]
       },
       {
         "day": "Day 5",
-        "places": [0, 1, 2, 3]
+        "places": [76, 77]
       },
       {
         "day": "Day 6",
-        "places": [0, 1, 2, 3]
+        "places": [78, 79, 80, 81, 82, 83, 84]
       },
       {
         "day": "Day 7",
-        "places": [0, 1, 2, 3]
+        "places": [85, 86]
+      },
+      {
+        "day": "Day 8",
+        "places": [87]
+      },
+      {
+        "day": "Day 9",
+        "places": [88, 89, 90]
+      },
+      {
+        "day": "Day 10",
+        "places": [67]
       }
     ],
     "itemsToCarry": [
       {
-        "title": "safety bag",
-        "description": "Carry for safety as it would be important and you will need it"
+        "title": "Comfortable walking shoes",
+        "description": "As you will be walking a lot during the Vaishno Devi Yatra and exploring the beautiful places in Kashmir, it's essential to have comfortable and sturdy walking shoes. "
       },
       {
-        "title": "Umbrella",
-        "description": "It might rain in mountains so to avoid madness please carry along an umbreall"
+        "title": "Warm clothes",
+        "description": "Kashmir can get quite chilly, especially during the winter months. So, make sure you carry warm clothes such as jackets, sweaters, and shawls."
+      },
+      {
+        "title": "Rain gear",
+        "description": "Jammu, Katra, and Kashmir receive occasional rainfall, so carrying a raincoat or umbrella is a good idea. "
+      },
+      {
+        "title": "Medicines",
+        "description": "It's always a good idea to carry basic medicines for fever, headaches, allergies, etc. Also, carry any prescription medications you may need."
+      },
+      {
+        "title": "Sunscreen and sunglasse",
+        "description": "The sun can be quite harsh, especially during the summer months, so carry sunscreen and sunglasses to protect your skin and eyes."
+      },
+      {
+        "title": "Camera",
+        "description": "Jammu, Katra, and Kashmir offer stunning landscapes and picturesque scenery, so don't forget to carry a camera to capture those memories."
+      },
+      {
+        "title": "Power bank",
+        "description": "With all the picture-taking and exploring, your phone's battery is bound to drain quickly. So, carry a power bank to keep your devices charged. "
+      },
+      {
+        "title": "Water bottle",
+        "description": "Staying hydrated is crucial during the Vaishno Devi Yatra and while exploring the beautiful places in Jammu and Kashmir. Carry a refillable water bottle to avoid buying plastic water bottles. "
+      },
+      {
+        "title": "Snacks",
+        "description": "Carry some energy bars, nuts, or fruits to keep you energised during the long walks."
+      },
+      {
+        "title": "ID proof",
+        "description": "Lastly, carry a valid ID proof, such as a passport or Aadhar card, as it might be required at various checkpoints during the Vaishno Devi Yatra. "
       }
     ],
-    "inclusions": ["asd", "asd"],
-    "exclusions": ["", ""],
+    "inclusions": ["Stay arrangements at each destination - 4 rooms booked at Homestay/Guest House/Hotel", "Food arrangements", "Travel arrangements for the duration of the trip (Chandigarh to Chandigarh) via Traveller"],
+    "exclusions": ["Please note that any expenses incurred due to factors beyond our control, such as flight cancellations, natural calamities, etc., will be borne by the guests.", "Any costs in case of an emergency.", "A professional photographer to accompany you with arrangements for camera recordings of your trip activities, individual photo-shoots, personal video and photo data for reels and social media posts after the trip.", "Any personal expenses."],
     "sthSpecial": []
   },
   {
