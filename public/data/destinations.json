@@ -52,8 +52,8 @@
     "name": "Tirthan",
     "imageUrl": "https://en-media.thebetterindia.com/uploads/2016/06/454282226Kullu_Tirthan_Valley_Main.jpg",
     "description": "Tirthan is a picturesque valley located in the Himachal Pradesh region of India. It is known for its pristine river, lush green forests, and serene surroundings, making it a popular destination for nature lovers and adventure enthusiasts alike. The valley is dotted with charming villages, apple orchards, and trekking trails, making it an ideal getaway for those seeking peace and tranquility in the lap of nature.",
-    "places": [56, 57, 58],
-    "trips": [3],
+    "places": [56, 57, 58, 98, 113],
+    "trips": [3, 6],
     "geolocation": {
       "longitude": 77.4747,
       "latitude": 31.5917
@@ -64,8 +64,8 @@
     "name": "Manali",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Manali_Mountains.jpg/1200px-Manali_Mountains.jpg",
     "description": "Manali is a popular hill station nestled in the Kullu Valley of Himachal Pradesh. It is known for its scenic beauty, pleasant weather, and adventurous activities, making it a favored tourist destination throughout the year. The town offers a mix of natural beauty, cultural attractions, and adventure sports like paragliding, river rafting, and skiing. With its vibrant atmosphere and stunning surroundings, Manali has something to offer for every type of traveler.",
-    "places": [63, 64, 65],
-    "trips": [3],
+    "places": [63, 64, 65, 109, 110, 111, 112, 37, 36, 58],
+    "trips": [3, 6],
     "geolocation": {
       "longitude": 77.1887,
       "latitude": 32.2396
@@ -109,6 +109,42 @@
   },
   {
     "id": 9,
+    "name": "Shimla",
+    "imageUrl": "https://www.clubmahindra.com/blog/media/section_images/shuttersto-026b0fa609daf35.jpg",
+    "description": "Shimla, located in the northern Indian state of Himachal Pradesh, is a picturesque hill station known for its stunning natural beauty, pleasant climate, and colonial-era architecture. With its snow-capped peaks, lush green valleys, and charming British-era buildings, Shimla has been a popular tourist destination for centuries, offering visitors a serene and rejuvenating getaway amidst the Himalayan foothills. The town's unique blend of scenic landscapes, cultural heritage, and vibrant local markets make it a must-visit destination for travelers seeking a peaceful retreat in the lap of nature.",
+    "places": [91, 92, 93, 94, 95, 96, 97],
+    "trips": [5],
+    "geolocation": {
+      "longitude": 77.1734,
+      "latitude": 31.1048
+    }
+  },
+  {
+    "id": 10,
+    "name": "Kasol",
+    "imageUrl": "https://hblimg.mmtcdn.com/content/hubble/img/kasol/mmt/destination/m_destination-kasol-landscape_l_400_640.jpg",
+    "description": "Nestled in the Parvati Valley of Himachal Pradesh, India, Kasol is a quaint and serene village renowned for its scenic beauty and hippie culture. Surrounded by lush green mountains, gushing Parvati River, and dense pine forests, Kasol offers a perfect retreat for nature lovers, adventure seekers, and backpackers. The village is also known for its vibrant Israeli cafes, alternative music scene, and vibrant flea markets, making it a popular destination for travelers looking for a unique and offbeat experience in the Himalayas.",
+    "places": [0, 52, 98, 59, 2, 99, 61, 53, 100],
+    "trips": [5],
+    "geolocation": {
+      "longitude": 77.3150,
+      "latitude": 32.0099
+    }
+  },
+  {
+    "id": 11,
+    "name": "Dalhousie",
+    "imageUrl": "https://assets-news.housing.com/news/wp-content/uploads/2022/09/12010206/DALHOUSIE-FEATURE-compressed.jpg",
+    "description": "Dalhousie, located in the Indian state of Himachal Pradesh, is a picturesque hill station known for its colonial charm and panoramic views of the Himalayan ranges. Named after Lord Dalhousie, a British Governor-General, the town is characterized by its old-world architecture, lush green valleys, and pine-clad hills. Popular attractions in Dalhousie include scenic spots like Khajjiar, known as the Mini Switzerland of India, and Dalhousie Cantonment, which offers stunning vistas of the surrounding mountains. Dalhousie is a popular destination for honeymooners, nature lovers, and adventure enthusiasts seeking a tranquil getaway in the lap of nature.",
+    "places": [101, 102, 103, 104, 105, 106, 107, 108],
+    "trips": [5],
+    "geolocation": {
+      "longitude": 75.9797,
+      "latitude": 32.5387
+    }
+  },
+  {
+    "id": 12,
     "name": "",
     "imageUrl": "",
     "description": "",

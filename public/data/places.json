@@ -730,70 +730,190 @@
   },
   {
     "id": 91,
-    "name": "",
-    "alias": "",
-    "description": "",
-    "imageUrl": "",
-    "thumbnail": ""
+    "name": "Mall Road - Shimla",
+    "alias": "Majestic, Picturesque, Busy",
+    "description": "Mall Road Shimla is a majestic and picturesque road that is always bustling with activity. It is lined with shops, restaurants, and cafes on both sides, making it a great place to explore and shop. The road is also surrounded by the beautiful Himalayan range, making it a perfect spot for sightseeing. With its unique blend of activities, Mall Road Shimla is a must-visit destination for anyone looking for a memorable experience.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/The_mall_road_shimla.JPG",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-84515569,imgsize-1694703,width-400,resizemode-4/84515569.jpg"
   },
   {
     "id": 92,
-    "name": "",
-    "alias": "",
-    "description": "",
-    "imageUrl": "",
-    "thumbnail": ""
+    "name": "Ridge area of Shimla",
+    "alias": "Enchanting, Serene, Panoramic",
+    "description": "The ridge area of Shimla is an enchanting and serene part of the city that offers panoramic views of the Himalayas. It is surrounded by a peaceful atmosphere and lush greenery, making it a great spot for relaxation. The ridge is also home to various tourist attractions such as the Christ Church and the Gaiety Theatre, making it a great place to get a taste of Shimla's culture and history. Overall, the ridge area of Shimla is an ideal destination for anyone looking for a tranquil and unforgettable experience.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Ridge%2C_Shimla.JPG",
+    "thumbnail": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/3f/89/e2/church-at-ridge.jpg?w=400&h=300&s=1"
   },
   {
     "id": 93,
-    "name": "",
-    "alias": "",
-    "description": "",
-    "imageUrl": "",
-    "thumbnail": ""
+    "name": "Jakhu temple",
+    "alias": "Historic, Spiritual, Sacred",
+    "description": "Jakhu Temple is a historic and spiritual temple situated on the highest peak of Shimla. It is a sacred site for Hindus, who come here to pay their respects to Lord Hanuman and seek his blessings. The temple is also surrounded by breathtaking views of the Himalayan range, making it a great spot for sightseeing. With its unique combination of spiritual and natural beauty, Jakhu Temple is an unforgettable destination for anyone looking for a spiritual and calming experience.",
+    "imageUrl": "https://shimlatourism.co.in/images/places-to-visit/headers/jakhu-temple-shimla-tourism-entry-fee-timings-holidays-reviews-header.jpg",
+    "thumbnail": "https://www.gosahin.com/go/p/g/t/1549136485_Jakhu-Temple1.jpg"
   },
   {
     "id": 94,
-    "name": "",
-    "alias": "",
-    "description": "",
-    "imageUrl": "",
-    "thumbnail": ""
+    "name": "Christ Church - Shimla",
+    "alias": "Elegant, Grand, Iconic",
+    "description": "Christ Church in Shimla is an elegant and grand building that is an iconic landmark of the city. It is the second oldest church in India and is known for its beautiful architecture and picturesque surroundings. Inside the church, visitors can admire the stunning stained-glass windows and intricate woodwork. With its unique blend of history and beauty, Christ Church is a must-visit destination for anyone looking for a memorable experience.",
+    "imageUrl": "https://shimlatourism.co.in/images/places-to-visit/headers/christ-church-shimla-tourism-tourism-entry-fee-timings-holidays-reviews-header.jpg",
+    "thumbnail": "https://ak-d.tripcdn.com/images/100rhk14387ec3phc8702_W_400_10000_R5_Q90.jpg"
   },
   {
     "id": 95,
-    "name": "",
-    "alias": "",
-    "description": "",
-    "imageUrl": "",
-    "thumbnail": ""
+    "name": "Viceregal Lodge",
+    "alias": "Majestic, Monumental, Majestic",
+    "description": "The Viceregal Lodge in Shimla is a majestic and monumental building that is a symbol of the city's rich history. It was once the residence of the Viceroy of India and is now a museum showcasing the British Raj era. The building is full of grandeur and grand architecture, making it an impressive sight to behold. With its unique blend of history and grandeur, the Viceregal Lodge is a must-visit destination for anyone looking for a memorable and unforgettable experience.",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/ff/a4/24/viceregal-lodge-turned.jpg?w=1200&h=1200&s=1",
+    "thumbnail": "https://www.gosahin.com/go/p/h/t/1564917808_viceregal-lodge-shimla5.jpg"
   },
   {
     "id": 96,
-    "name": "",
-    "alias": "",
-    "description": "",
-    "imageUrl": "",
-    "thumbnail": ""
+    "name": "State Museum Shimla",
+    "alias": "Educational, Engaging, Captivating",
+    "description": "State Museum Shimla is an educational and engaging museum that is full of captivating artifacts from the region's past. It houses an impressive collection of antiques, paintings, and sculptures, as well as a library of rare books and  scripts. The museum also offers interactive displays and lectures, making it a great place to learn more about the region's history. With its unique blend of education and entertainment, State Museum Shimla is a must-visit destination for anyone looking for a memorable and informative experience.",
+    "imageUrl": "https://cdn1.goibibo.com/voy_ing/t_fs/shimla-state-museum-147614282788o.jpeg",
+    "thumbnail": "https://static.india.com/wp-content/uploads/2014/09/Capture-14.jpg?impolicy=Medium_Resize&w=500&h=500"
   },
   {
     "id": 97,
-    "name": "",
-    "alias": "",
-    "description": "",
-    "imageUrl": "",
-    "thumbnail": ""
+    "name": "Shimla Heritage Walk",
+    "alias": "Informative, Interesting, Fascinating",
+    "description": "The Shimla Heritage Walk is an informative and interesting tour that takes visitors through the city's rich past. It is a fascinating journey that takes guests through historic buildings, monuments, and temples, allowing them to explore the city's unique culture and history. The tour is also accompanied by knowledgeable guides, making it a great way to learn more about the region. With its unique blend of education and exploration, the Shimla Heritage Walk is a must-visit destination for anyone looking for a memorable and informative experience.",
+    "imageUrl": "https://images.thrillophilia.com/image/upload/s--8Q4WNTCM--/c_fill,h_600,q_auto,w_975/f_auto,fl_strip_profile/v1/images/photos/000/206/606/original/1585575595_shutterstock_1407709916.jpg.jpg?1585575595",
+    "thumbnail": "https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_300,q_auto,w_400/v1/filestore/jvj7jwlngyvpnfl4fwftr9m3wpq0_1465027395_Shimla_India_Ridge.JPG"
   },
   {
     "id": 98,
-    "name": "",
-    "alias": "",
-    "description": "",
-    "imageUrl": "",
-    "thumbnail": ""
+    "name": "Kullu Shawl Factory",
+    "alias": "Authentic, Colorful, Fascinating",
+    "description": "The Kullu Shawl Factory is an authentic and colorful shop that offers fascinating insights into the traditional art of shawl-making. Visitors can watch skilled artisans at work, creating beautiful and intricate designs from natural fibers. The shop also offers a wide range of shawls in various colors and patterns, making it a great place to find unique and authentic souvenirs. With its unique blend of culture and products, the Kullu Shawl Factory is a must-visit destination for anyone looking for a memorable and unique experience.",
+    "imageUrl": "https://content.jdmagicbox.com/comp/kullu/k3/9999p1902.1902.181027160022.e8k3/catalogue/namdhari-shawl-industries-kullu-zryrhpuhkj.jpg",
+    "thumbnail": "https://content.jdmagicbox.com/comp/kullu/f2/9999p1902.1902.210320161252.i8f2/catalogue/-3rpe4b1sym-250.jpg"
   },
   {
     "id": 99,
+    "name": "Tosh",
+    "alias": "Scenic, Majestic, Peaceful",
+    "description": "Tosh Valley is a scenic and majestic destination that offers a peaceful escape from the hustle and bustle of city life. It is surrounded by lush greenery, majestic mountains, and clear blue skies, making it a great spot for relaxation. The valley is also home to a variety of wildlife, making it a great place to observe nature in its natural habitat. With its unique combination of beauty and tranquility, Tosh Valley is a must-visit destination for anyone looking for an unforgettable experience.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/The_village_of_Tosh_in_Himachal_Pradesh%2C_India_%28photo_by_Jim_Ankan_Deka%29.jpg",
+    "thumbnail": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fa/d4/13/parvati-valley.jpg?w=400&h=300&s=1"
+  },
+  {
+    "id": 100,
+    "name": "Local Market Kasol",
+    "alias": "Varied, Vibrant, Bustling",
+    "description": "The Local Market in Kasol is a varied and vibrant destination that is always bustling with activity. It is full of stalls selling a range of items from fresh produce to handmade crafts, making it a great spot for shopping and exploration. The market is also surrounded by friendly locals, making it a great place to get a taste of the local culture. With its unique blend of activities, the Local Market in Kasol is a must-visit destination for anyone looking for a memorable and unique experience.",
+    "imageUrl": "https://res.cloudinary.com/purnesh/image/upload/f_auto/v1517305279/shopping196.jpg",
+    "thumbnail": "https://hblimg.mmtcdn.com/content/hubble/img/kasol/mmt/activities/m_Kasol%20Market_2_l_383_510.jpg"
+  },
+  {
+    "id": 101,
+    "name": "Dalhousie",
+    "alias": "Historic, Picturesque, Charming",
+    "description": "Dalhousie is a historic and picturesque town that is full of charming old-world charm. It is surrounded by lush greenery, majestic mountains, and a variety of wildlife, making it a great spot for sightseeing and exploration. The town is also home to a number of historic buildings and monuments, making it a great place to learn more about the region's past. With its unique combination of history and beauty, Dalhousie is a must-visit destination for anyone looking for a memorable and unforgettable experience.",
+    "imageUrl": "https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,q_auto/v1/filestore/707cqcse5av94nde0b0l29ihhhpu_1600316182_1587991355_1.Khajjiar-Mini-Switzerland-of-India-3.jpg.jpg",
+    "thumbnail": "https://2.bp.blogspot.com/-_cDUfSQoaR0/Tkygd7wksRI/AAAAAAAAAUk/PbyN9gH2hco/s1600/348895.jpg"
+  },
+  {
+    "id": 102,
+    "name": "Chamera Lake",
+    "alias": "Stunning, Serene, Tranquil",
+    "description": "Chamera Lake is a stunning and serene lake that offers a tranquil escape from the hustle and bustle of city life. It is surrounded by lush greenery and majestic mountains, making it a great spot for sightseeing and relaxation. The lake also offers a variety of activities, such as boating, fishing, and camping, making it a great place to get away from it all. With its unique blend of nature and activities, Chamera Lake is a must-visit destination for anyone looking for a memorable and unforgettable experience.",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/9f/79/82/chamera-lake-also-known.jpg?w=1200&h=-1&s=1",
+    "thumbnail": "https://www.gosahin.com/go/p/h/t/1559378947_chamera-lake-1.jpg"
+  },
+  {
+    "id": 103,
+    "name": "Khajjiar Lake",
+    "alias": "Spectacular, Refreshing, Enchanting",
+    "description": "Khajjiar Lake is a spectacular and refreshing lake that is full of enchanting beauty. It is surrounded by lush greenery and majestic mountains, making it a great spot for sightseeing and relaxation. The lake also offers a variety of activities, such as boating, fishing, and camping, making it a great place to get away from it all. With its unique blend of nature and activities, Khajjiar Lake is a must-visit destination for anyone looking for a memorable and unforgettable experience.",
+    "imageUrl": "https://chamba.hptours.org/sites/default/files/styles/large/public/images/Khajjiar%20lake%20-%20Chamba%20-%20Himachal%20Pradesh%20-%20Winter.jpg?itok=JXZTOYbg",
+    "thumbnail": "https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_300,q_auto,w_400/v1/filestore/tiexloq16d312jw4jhez8pk06qln_1584994022_shutterstock_1113124739.jpg"
+  },
+  {
+    "id": 104,
+    "name": "Dainkund Peak",
+    "alias": "Breathtaking, Majestic, Panoramic",
+    "description": "Dainkund Peak is a breathtaking and majestic peak that offers panoramic views of the Himalayas. It is surrounded by lush greenery and fresh air, making it a great spot for sightseeing and relaxation. The peak is also home to a variety of wildlife, making it a great place to observe nature in its natural habitat. With its unique blend of beauty and wildlife, Dainkund Peak is a must-visit destination for anyone looking for a memorable and unforgettable experience.",
+    "imageUrl": "https://cdn1.goibibo.com/voy_ing/t_fs/dalhousie-dainkund-peak-147624514051o.jpeg",
+    "thumbnail": "https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_300,q_auto,w_400/v1/filestore/49li7g81djg7gisuymuondc1qt9n_shutterstock_2080874461.jpg"
+  },
+  {
+    "id": 105,
+    "name": "Satdhara Falls",
+    "alias": "Spectacular, Refreshing, Enchanting",
+    "description": "Satdhara Falls is a spectacular and refreshing waterfall that is full of enchanting beauty. It is surrounded by lush greenery and majestic mountains, making it a great spot for sightseeing and relaxation. The waterfall also offers a variety of activities, such as boating, fishing, and camping, making it a great place to get away from it all. With its unique blend of nature and activities, Satdhara Falls is a must-visit destination for anyone looking for a memorable and unforgettable experience.",
+    "imageUrl": "https://www.holidify.com/images/cmsuploads/compressed/image.thumbnail_medium.8981a8b5a9c7c510.64622e696d6167652e323436355f36303070782e6a706567_20171201204329.jpeg",
+    "thumbnail": "https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_300,q_auto,w_400/v1/filestore/jaednapqsvejmh8jgu2zvsikakw4_dalhousie%20satdhara%20falls.jpg"
+  },
+  {
+    "id": 106,
+    "name": "Panchpula Waterfall",
+    "alias": "Majestic, Serene, Picturesque",
+    "description": "Panchpula Waterfall is a majestic and serene waterfall that offers picturesque views of the Himalayas. It is surrounded by lush greenery and fresh air, making it a great spot for sightseeing and relaxation. The waterfall also offers a variety of activities, such as boating, fishing, and camping, making it a great place to get away from it all. With its unique blend of nature and activities, Panchpula Waterfall is a must-visit destination for anyone looking for a memorable and unforgettable experience.",
+    "imageUrl": "https://myholidayhappiness.com/uploads/e49ca8d9a953e22650e0ab04afb873d8.jpg",
+    "thumbnail": "https://www.indianvisit.com/pictures/travelguide/attractions/panchpula-4775.jpeg"
+  },
+  {
+    "id": 107,
+    "name": "Local Market Dalhousie",
+    "alias": "Varied, Vibrant, Bustling",
+    "description": "The Local Market in Dalhousie is a varied and vibrant destination that is always bustling with activity. It is full of stalls selling a range of items from fresh produce to handmade crafts, making it a great spot for shopping and exploration. The market is also surrounded by friendly locals, making it a great place to get a taste of the local culture. With its unique blend of activities, the Local Market in Dalhousie is a must-visit destination for anyone looking for a memorable and unique experience.",
+    "imageUrl": "https://img.traveltriangle.com/blog/wp-content/uploads/2020/01/cover-shopping-in-dalhousie.jpg",
+    "thumbnail": "https://www.ftd.travel/upload/shopping_image/2012-10-22-08-00-40tibetian-market-dalhousie.jpg"
+  },
+  {
+    "id": 108,
+    "name": "Subhash Baoli",
+    "alias": "Serene, Spectacular, Idyllic",
+    "description": "Subhash Baoli is a serene and spectacular spot that is full of idyllic beauty. It is surrounded by lush greenery and majestic mountains, making it a great spot for sightseeing and relaxation. The baoli also offers a variety of activities, such as boating, fishing, and camping, making it a great place to get away from it all. With its unique blend of nature and activities, Subhash Baoli is a must-visit destination for anyone looking for a memorable and unforgettable experience.",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/00/39/c1/20161123-121050-largejpg.jpg?w=1200&h=-1&s=1",
+    "thumbnail": "https://content.jdmagicbox.com/comp/dalhousie/e2/9999p1899.1899.141220160931.c6e2/catalogue/subhash-baoli-dalhousie-ho-dalhousie-tourist-attraction-2hx6bpm.jpg"
+  },
+  {
+    "id": 109,
+    "name": "Manu Temple",
+    "alias": "Ancient, Spiritual, Sacred",
+    "description": "Manu Temple is an ancient and spiritual temple that is a sacred site for Hindus. It is a peaceful and tranquil spot that offers visitors a chance to seek blessings and pay their respects to Lord Manu. Inside the temple, visitors can admire the intricate carvings and ancient architecture, making it a great spot for sightseeing. With its unique blend of spirituality and history, Manu Temple is a must-visit destination for anyone looking for a memorable and unforgettable experience.",
+    "imageUrl": "https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/uvmu66pijbizlfd9xn2bt78wgfdi_1577359509_shutterstock_1382576963.jpg",
+    "thumbnail": "https://www.gosahin.com/go/p/g/t/1547966819_Manu-Temple-Manali4.jpg"
+  },
+  {
+    "id": 110,
+    "name": "Vashisht Hot Springs",
+    "alias": "Invigorating, Refreshing, Relaxing",
+    "description": "Vashisht Hot Springs is an invigorating and refreshing spot that offers visitors a chance to relax and unwind. It is surrounded by lush greenery and majestic mountains, making it a great spot for sightseeing and relaxation. The hot springs also offer a variety of therapeutic treatments, making it a great place to get away from it all. With its unique blend of nature and activities, Vashisht Hot Springs is a must-visit destination for anyone looking for a memorable and unforgettable experience.",
+    "imageUrl": "https://static.toiimg.com/photo/msid-97856397.cms",
+    "thumbnail": "https://3.imimg.com/data3/MT/UY/MY-10658448/vashisht-hot-water-springs-500x500.jpg"
+  },
+  {
+    "id": 111,
+    "name": "Tibetan Monastery",
+    "alias": "Spiritual, Historic, Peaceful",
+    "description": "The Tibetan Monastery in Shimla is a spiritual and historic destination that is full of peaceful tranquility. It is surrounded by lush greenery and majestic mountains, making it a great spot for sightseeing and relaxation. The monastery also offers a variety of spiritual activities, such as meditation and prayer, making it a great place to get away from it all. With its unique blend of spirituality and history, the Tibetan Monastery is a must-visit destination for anyone looking for a memorable and unforgettable experience.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Potala_-_panoramio_-_Matthew_Summerton_cropped.jpg",
+    "thumbnail": "https://cdn.galaxy.tf/unit-media/tc-default/uploads/images/poi_photo/001/585/712/buddhist-monastery-manali-bmyraahi-edited-120190524080541406-1-standard.jpg"
+  },
+  {
+    "id": 112,
+    "name": "Mall Road - Manali",
+    "alias": "Bustling, Charming, Colorful",
+    "description": "Mall Road in Manali is a bustling and charming road that is full of colorful shops and restaurants. It is lined with a variety of stores and cafes on both sides, making it a great place to explore and shop. The road is also surrounded by the beautiful Himalayan range, making it a perfect spot for sightseeing. With its unique blend of activities, Mall Road in Manali is a must-visit destination for anyone looking for a memorable experience.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Mall_Road%2C_Manali.jpg",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-78161341,width-400,resizemode-4/78161341.jpg"
+  },
+  {
+    "id": 113,
+    "name": "Jalori Pass",
+    "alias": "Majestic, Picturesque, Panoramic",
+    "description": "Jalori Pass is a breathtaking and majestic mountain pass that offers magnificent views of the Himalayas. It is surrounded by lush greenery and fresh air, making it a great spot for sightseeing and relaxation. The pass also offers a variety of activities, such as trekking and camping, making it a great place to get away from it all. With its unique blend of nature and activities, Jalori Pass is a must-visit destination for anyone looking for a memorable and unforgettable experience.",
+    "imageUrl": "https://www.trawell.in/admin/images/upload/454282803Kullu_Jalori_Pass_Main.jpg",
+    "thumbnail": "https://www.deodarcottage.com/wp-content/uploads/2016/06/kaza-400x300-1.jpg"
+  },
+  {
+    "id": 114,
     "name": "",
     "alias": "",
     "description": "",
@@ -801,7 +921,47 @@
     "thumbnail": ""
   },
   {
-    "id": 100,
+    "id": 115,
+    "name": "",
+    "alias": "",
+    "description": "",
+    "imageUrl": "",
+    "thumbnail": ""
+  },
+  {
+    "id": 116,
+    "name": "",
+    "alias": "",
+    "description": "",
+    "imageUrl": "",
+    "thumbnail": ""
+  },
+  {
+    "id": 117,
+    "name": "",
+    "alias": "",
+    "description": "",
+    "imageUrl": "",
+    "thumbnail": ""
+  },
+  {
+    "id": 118,
+    "name": "",
+    "alias": "",
+    "description": "",
+    "imageUrl": "",
+    "thumbnail": ""
+  },
+  {
+    "id": 119,
+    "name": "",
+    "alias": "",
+    "description": "",
+    "imageUrl": "",
+    "thumbnail": ""
+  },
+  {
+    "id": 120,
     "name": "",
     "alias": "",
     "description": "",

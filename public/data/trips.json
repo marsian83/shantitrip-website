@@ -451,6 +451,193 @@
   },
   {
     "id": 5,
+    "name": "Hills and Thrills",
+    "imageUrl": "https://assets-news.housing.com/news/wp-content/uploads/2022/09/12010206/DALHOUSIE-FEATURE-compressed.jpg",
+    "decsription": "Welcome to the ultimate adventure package (8 nights/9days) designed by ShantiTrip Holidays, that will take you to three of the most breathtaking destinations in the Indian state of Himachal Pradesh – Shimla, Kasol, and Dalhousie! This trip package offers the perfect blend of natural beauty, adventure, and culture, making it a must-visit for any avid traveller. Explore the colonial charm of Shimla, trek through the picturesque landscapes of Kasol, and indulge in the serenity of the lush green valleys of Dalhousie. Whether you're an adrenaline junkie seeking thrilling activities or a peace seeker looking for a relaxing vacation, this trip has something for everyone. From skiing and paragliding to trekking and sightseeing, get ready for an experience of a lifetime!",
+    "days": 9,
+    "people": "Group",
+    "date": "June-July",
+    "budget": "",
+    "images": [
+      "https://assets-news.housing.com/news/wp-content/uploads/2022/07/18131039/shimla-feature-compressed.jpg",
+      "https://static.toiimg.com/photo/msid-85302703,width-96,height-65.cms",
+      "https://img.traveltriangle.com/blog/wp-content/uploads/2019/11/Places-To-Visit-In-Malana-26_nov.jpg",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/9f/79/82/chamera-lake-also-known.jpg?w=1200&h=1200&s=1"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "places": [91, 92]
+      },
+      {
+        "day": "Day 2",
+        "places": [93, 94, 95, 96, 97]
+      },
+      {
+        "day": "Day 3",
+        "places": [0, 52, 98, 59]
+      },
+      {
+        "day": "Day 4",
+        "places": [2, 99, 61]
+      },
+      {
+        "day": "Day 5",
+        "places": [53, 100]
+      },
+      {
+        "day": "Day 6",
+        "places": [101, 102]
+      },
+      {
+        "day": "Day 7",
+        "places": [103, 104]
+      },
+      {
+        "day": "Day 8",
+        "places": [105, 106, 107]
+      },
+      {
+        "day": "Day 9",
+        "places": [108]
+      }
+    ],
+    "itemsToCarry": [
+      {
+        "title": "Warm Clothes",
+        "description": "Himachal Pradesh can get quite chilly, even in the summer months, so make sure to pack warm clothes such as jackets, sweaters, and thermal wear. "
+      },
+      {
+        "title": "Comfortable Shoes",
+        "description": "You'll likely be doing a lot of walking and hiking, bring a comfortable pair of shoes that will provide good support. "
+      },
+      {
+        "title": "Sunscreen",
+        "description": "Even though it may be cold, the sun can still be strong in the mountains, so don't forget to pack sunscreen."
+      },
+      {
+        "title": "Camera",
+        "description": "The natural beauty of Himachal Pradesh is truly breathtaking, so make sure to capture those moments with a good camera"
+      },
+      {
+        "title": "Power Bank",
+        "description": "Don't let your phone run out of battery when you need it most, bring a power bank to keep it charged. "
+      },
+      {
+        "title": "Medicines",
+        "description": "Bring any necessary medications and a basic first aid kit just in case of emergencies"
+      },
+      {
+        "title": "Cash",
+        "description": "While there are ATMs in the major towns and cities, it's always a good idea to have some cash on hand for smaller purchases."
+      },
+      {
+        "title": "Map or GPS",
+        "description": "If you plan on doing some driving, bring a map or GPS device to help you navigate the winding mountain roads."
+      },
+      {
+        "title": "Water Bottle",
+        "description": "Staying hydrated is important, especially at high altitudes, so bring a reusable water bottle. "
+      },
+      {
+        "title": "Books or E-Reader",
+        "description": "If you plan on relaxing and taking in the scenery, bring a book or e-reader to pass the time."
+      }
+    ],
+    "inclusions": ["GST 5%", "Stay arrangements (Guest house/Home stay)", "Travel arrangements (Chandigarh to Chandigarh)", "Food @booked places"],
+    "exclusions": ["Airfare/Train fare", "Any meals other than those specified in the itinerary.", "Any expenses of personal nature such as tips, laundry, telephone calls, etc.", "Any other item not mentioned in the package inclusions."],
+    "sthSpecial": []
+  },
+  {
+    "id": 6,
+    "name": "Himalayan Love Escape",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Manali_Mountains.jpg/1200px-Manali_Mountains.jpg",
+    "decsription": "We are thrilled that you have chosen our honeymoon tour package “Himalayan Love Escape” to celebrate your love and create unforgettable memories with your partner. We understand that this is a special occasion for you and we want to ensure that every aspect of your trip is nothing short of magical. Our team has carefully curated this itinerary to showcase the best of Himachal's natural beauty, culture, and cuisine. From the breathtaking hills to the romantic streets of Manali, and the serene ambiance of Tirthan, every destination is designed to make your honeymoon an unforgettable experience. We encourage you to take a moment to breathe in the fresh mountain air, savour the local delicacies, and indulge in the cosy ambiance of each destination. Let the stunning views, the tranquil atmosphere, and the warm hospitality of the people of Himachal Pradesh captivate your hearts and nourish your souls. ",
+    "days": 6,
+    "people": "Couple",
+    "date": "June-July",
+    "budget": "59,000/-",
+    "images": [
+      "https://www.euttaranchal.com/tourism/photos/manali-9202425.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/49/Potala_-_panoramio_-_Matthew_Summerton_cropped.jpg",
+      "https://himalayansaga.com/wp-content/uploads/2022/03/tirthan.jpg",
+      "https://en-media.thebetterindia.com/uploads/2016/06/454282226Kullu_Tirthan_Valley_Main.jpg"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "places": [63]
+      },
+      {
+        "day": "Day 2",
+        "places": [64, 109, 110, 111, 112]
+      },
+      {
+        "day": "Day 3",
+        "places": [37, 36, 58]
+      },
+      {
+        "day": "Day 4",
+        "places": [56, 98]
+      },
+      {
+        "day": "Day 5",
+        "places": [113, 57, 58]
+      },
+      {
+        "day": "Day 6",
+        "places": []
+      }
+    ],
+    "itemsToCarry": [
+      {
+        "title": "Warm Clothes",
+        "description": "Himachal Pradesh can get quite chilly, even in the summer months, so make sure to pack warm clothes such as jackets, sweaters, and thermal wear. "
+      },
+      {
+        "title": "Comfortable Shoes",
+        "description": "You'll likely be doing a lot of walking and hiking, bring a comfortable pair of shoes that will provide good support. "
+      },
+      {
+        "title": "Sunscreen",
+        "description": "Even though it may be cold, the sun can still be strong in the mountains, so don't forget to pack sunscreen."
+      },
+      {
+        "title": "Camera",
+        "description": "The natural beauty of Himachal Pradesh is truly breathtaking, so make sure to capture those moments with a good camera"
+      },
+      {
+        "title": "Power Bank",
+        "description": "Don't let your phone run out of battery when you need it most, bring a power bank to keep it charged. "
+      },
+      {
+        "title": "Medicines",
+        "description": "Bring any necessary medications and a basic first aid kit just in case of emergencies"
+      },
+      {
+        "title": "Cash",
+        "description": "While there are ATMs in the major towns and cities, it's always a good idea to have some cash on hand for smaller purchases."
+      },
+      {
+        "title": "Map or GPS",
+        "description": "If you plan on doing some driving, bring a map or GPS device to help you navigate the winding mountain roads."
+      },
+      {
+        "title": "Water Bottle",
+        "description": "Staying hydrated is important, especially at high altitudes, so bring a reusable water bottle. "
+      },
+      {
+        "title": "Books or E-Reader",
+        "description": "If you plan on relaxing and taking in the scenery, bring a book or e-reader to pass the time."
+      }
+    ],
+    "inclusions": ["Accommodation in 3-star hotels", "Daily breakfast", "All transfers and sightseeing by private Sedan car", "Taxes"],
+    "exclusions": ["Please note that any expenses incurred due to factors beyond our control, such as flight cancellations, natural calamities, etc., will be borne by the guests.", "Any costs in case of an emergency.", "A professional photographer to accompany you with arrangements for camera recordings of your trip activities, individual photo-shoots, personal video and photo data for reels and social media posts after the trip.", "Any personal expenses."],
+    "sthSpecial": ["Herbal drinks and cookies to add freshness and sweetness to your journey.", "As a welcome gift, ShantiTrip Holidays will provide you with a honeymoon cake and flower bed decoration in your hotel room on the first night."]
+  }
+  ,
+  {
+    "id": 7,
     "name": "",
     "imageUrl": "",
     "decsription": "",
