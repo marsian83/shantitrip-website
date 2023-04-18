@@ -55,5 +55,11 @@ https://www.shantitrip.in
   <p>Spandan Barve</p>
 </a> 
 </div>
+<div class="photo">
+<a href="https://www.github.com/jriyyya"> 
+  <img src="https://avatars.githubusercontent.com/u/96080203?v=4" width=80> 
+  <p>Riya Jain</p>
+</a> 
+</div>
 </div>
 
